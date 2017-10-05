@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<GameItemTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DispName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <GameItemType InternalName="QuestMap">
+        <HideInHiergamenon>1</HideInHiergamenon>
+    </GameItemType>
+    <GameItemType InternalName="GildenLogs">
+        <DisplayName>Gilden Merchant Logs</DisplayName>
+        <Description>This should prove to Markin that he can not avoid this war.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>0</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Rare</RarityDisplay>
+        <IsQuestItem>1</IsQuestItem>
+        <IsUsable>0</IsUsable>
+        <ArtDef>GildenLogs_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="GildenLogs_ArtDef">
+            <GameItemTypeModelPack InternalName="GildenLogs_Default">
+                <IconFile>RegularBook2.png</IconFile>
+                <TintR>36</TintR>
+                <TintG>60</TintG>
+                <TintB>42</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_JeweledFly">
+        <DisplayName>Jeweled Fly</DisplayName>
+        <Description>This small figurine is nearly the size of a man's fist.  You wonder if the nearby Brood Hunters wanted to gift it to their queen.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>750</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Rare</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_JeweledFly_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_JeweledFly_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_JeweledFly_Default">
+                <IconFile>JeweledFly_Icon.png</IconFile>
+                <TintR>36</TintR>
+                <TintG>60</TintG>
+                <TintB>42</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+ </GameItemTypes>

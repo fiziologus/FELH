@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Campaigns>
+    <DataChecksum NoParse="1">
+        <Ignore>Description, DisplayName, Icon, EyeTextureFilename, SupportedUnitModelType, Image_Wide, Image_Square</Ignore>
+        <Translate>DisplayName, Description</Translate>
+    </DataChecksum>
+    <!--****************************************************************************************************************************************-->
+    <!--****************************************************************************************************************************************-->
+    <!-- Tutorial -->
+    <!--****************************************************************************************************************************************-->
+    <!--****************************************************************************************************************************************-->
+    <Campaign InternalName="LegendaryHeroesTutorial1">
+        <AutoSaveName>LegendaryHeroesTutorial</AutoSaveName>
+        <ScenarioSubDirectoryName>LHTutorial</ScenarioSubDirectoryName>
+        <DisplayName>Tutorial</DisplayName>
+        <IsTutorial>1</IsTutorial>
+        <Description>Walk through basic concepts of Elemental in this simple, guided map.</Description>
+        <Image_Wide>EvilScenery.png</Image_Wide>
+        <Image_Square>Gfx\Medallions\Tech_Arcane_Apparel.png</Image_Square>
+        <OutroMovie>DOESNTEXIST.bik</OutroMovie>
+        <Map>tutorial</Map>
+        <PlayerFaction>KingdomOfPariden_Tutorial</PlayerFaction>
+        <PlayerSovereign>Sovereign_Procipinee_Tutorial</PlayerSovereign>
+        <AIPlayerSettings>
+            <!--<Sovereign>Sovereign_Karavox</Sovereign>
+		  <Faction>EmpireOfKraxis</Faction>
+		  <AIDifficulty>AIDiffLvl_Normal</AIDifficulty>-->
+        </AIPlayerSettings>
+        <!-- rules -->
+        <AllowAIBuildAndTraining>1</AllowAIBuildAndTraining>
+        <AllowNormalVictories>FALSE</AllowNormalVictories>
+        <IsResearchAllowed>TRUE</IsResearchAllowed>
+        <PlayersGetSpellbooks>TRUE</PlayersGetSpellbooks>
+        <AutoTurn>TRUE</AutoTurn>
+        <IgnoreRulesOfPassage>TRUE</IgnoreRulesOfPassage>
+        <ReviveLandEssenceOverride>3</ReviveLandEssenceOverride>
+        <ForceAIWonderingRadius>2</ForceAIWonderingRadius>
+        <AICanRecruit>FALSE</AICanRecruit>
+        <HunterRange>25</HunterRange>
+        <CreatureAttackDecisionMultiplier>1.0</CreatureAttackDecisionMultiplier>
+        <CreaturesFormArmies>FALSE</CreaturesFormArmies>
+        <YouLoseText>Try again.</YouLoseText>
+        <YouWinText>Thanks for playing the Tutorial!</YouWinText>
+        <StartingYear>200</StartingYear>
+        <CanBuildPioneers>TRUE</CanBuildPioneers>
+    </Campaign>
+</Campaigns>

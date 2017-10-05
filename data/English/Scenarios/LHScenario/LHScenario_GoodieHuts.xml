@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<GoodieHutTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DispName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <GoodieHutType InternalName="Lair_FireShrill_Minor">
+        <Name>Fire Shrill Lair</Name>
+        <Description>Fire Shrills dwell here... demonic creatures bred for no purpose other than the Titans' amusement.</Description>
+        <Rarity>40</Rarity>
+        <MinDistanceFromStartingPoints>8</MinDistanceFromStartingPoints>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <SupportedResourceType>FireShard</SupportedResourceType>
+        <SpawnRating>0</SpawnRating>
+        <UpgradesToGoodieHut>Lair_FireShrill</UpgradesToGoodieHut>
+        <UpgradesToGoodieHutInTurns>60</UpgradesToGoodieHutInTurns>
+        <TileDesign>L_Fire_Shrill_01</TileDesign>
+        <TileDesignForTerrain>CurgensTomb:P_Curgens_Tomb_01</TileDesignForTerrain>
+        <DrawnIcon>Lair_Shrill.png</DrawnIcon>
+        <OnSelectSFX>Click_Fire_Elemental_Lair</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>L_Fire_Shrill_01.png</All>
+        </Medallions>
+        <Treasure>
+            <Title>Lair Cleared</Title>
+            <Desc>Hidden amongst the stones you find an item. (+1 Fame)</Desc>
+            <Liklihood>100</Liklihood>
+            <SFX>Goodie_Stones_01</SFX>
+            <GameModifier>
+                <ModType>GiveItem</ModType>
+                <StrVal>Common</StrVal>
+            </GameModifier>
+            <GameModifier>
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>1</Value>
+            </GameModifier>
+        </Treasure>
+        <Encounter>
+            <Liklihood>100</Liklihood>
+            <WillRespawn>0</WillRespawn>
+            <WanderingRadius>0</WanderingRadius>
+            <UnitInstance>
+                <UnitType>FireShrill</UnitType>
+                <Level>2</Level>
+            </UnitInstance>
+        </Encounter>
+    </GoodieHutType>
+    <GoodieHutType InternalName="Lair_GuardianStatueTrap">
+        <Name>Scrap Pile</Name>
+        <Description>The site of a long-forgotten battle from the time before this one, or perhaps a more recent struggle. Bits of bone dot the ground, though whether that bone belonged to man or fallen is difficult to tell.</Description>
+        <Rarity>-1</Rarity>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <SpawnRating>0</SpawnRating>
+        <TileDesign>G_Scrapyard_Scrap_4</TileDesign>
+        <DrawnIcon>Artifact_Bones1_ClothIcon.dds</DrawnIcon>
+        <OnSelectSFX>Click_Wood_Metal_Rustle</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>G_Ancient_Battlefield_01.png</All>
+        </Medallions>
+        <Encounter>
+            <Liklihood>100</Liklihood>
+			<SpawnOnClear>1</SpawnOnClear>
+            <WillRespawn>0</WillRespawn>
+            <WanderingRadius>0</WanderingRadius>
+            <UnitInstance>
+                <UnitType>LivingStatue_Empire</UnitType>
+                <Level>15</Level>
+            </UnitInstance>
+            <UnitInstance>
+                <UnitType>LivingStatue_Kingdom</UnitType>
+                <Level>15</Level>
+            </UnitInstance>
+        </Encounter>
+    </GoodieHutType>
+    <GoodieHutType InternalName="Lair_DesertPass">
+        <Name>Bones picked clean</Name>
+        <Description>There is nothing left here but bones worn clean by the constant sandstorm of the pass. But these travlers did not die to dehydration or the storm, their bones are shattered and chewed.</Description>
+        <Rarity>-1</Rarity>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <SpawnRating>0</SpawnRating>
+        <TileDesign>G_BearAmbush_01</TileDesign>
+        <DrawnIcon>Treasure_TreasureChest.png</DrawnIcon>
+        <OnSelectSFX>Click_Treasure</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>L_Black_Widow_01.png</All>
+        </Medallions>
+        <Encounter>
+            <Liklihood>100</Liklihood>
+			<SpawnOnClear>1</SpawnOnClear>
+            <WillRespawn>0</WillRespawn>
+            <WanderingRadius>0</WanderingRadius>
+            <UnitInstance>
+                <UnitType>CaveBear</UnitType>
+                <Level>6</Level>
+            </UnitInstance>
+            <UnitInstance>
+                <UnitType>CaveBear</UnitType>
+                <Level>6</Level>
+            </UnitInstance>
+            <UnitInstance>
+                <UnitType>CaveBear</UnitType>
+                <Level>6</Level>
+            </UnitInstance>
+            <UnitInstance>
+                <UnitType>CaveBear</UnitType>
+                <Level>6</Level>
+            </UnitInstance>
+            <UnitInstance>
+                <UnitType>CaveBear</UnitType>
+                <Level>6</Level>
+            </UnitInstance>
+            <UnitInstance>
+                <UnitType>CaveBear</UnitType>
+                <Level>6</Level>
+            </UnitInstance>
+        </Encounter>
+	</GoodieHutType>
+    <GoodieHutType InternalName="Treasure_RareChest">
+        <Name>Treasure Chest</Name>
+        <Description>Here lies a crate of polished hardwood, a crate stamped in red ink with the seal of the Merchants Guild... a crate whose treasures wait to be revealed.</Description>
+        <Rarity>-1</Rarity>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <SpawnRating>0</SpawnRating>
+        <TileDesign>G_TreasureMountain_01</TileDesign>
+        <DrawnIcon>Treasure_TreasureChest.png</DrawnIcon>
+        <OnSelectSFX>Click_Treasure</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>G_Treasure_Chest_01.png</All>
+        </Medallions>
+        <Treasure>
+            <Title>Found Item</Title>
+            <Desc>Inside the chest you find an item.</Desc>
+            <Liklihood>100</Liklihood>
+            <SFX>Goodie_Crate_01</SFX>
+            <GameModifier>
+                <ModType>GiveItem</ModType>
+                <StrVal>Rare</StrVal>
+            </GameModifier>
+        </Treasure>
+    </GoodieHutType>
+    <GoodieHutType InternalName="Treasure_SwampTree_JeweledFly">
+        <Name>Skeletons in the Swamp</Name>
+        <Description>Here, amid the fetid decay of a grove of cypra trees, lie bones and broken stones... signposts to buried treasure... an explorer's graveyard... or perhaps, both.</Description>
+        <Rarity>100</Rarity>
+        <MinDistanceFromStartingPoints>6</MinDistanceFromStartingPoints>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>SwampTerrain</PreferredTerrain>
+        <SpawnRating>0</SpawnRating>
+        <TileDesign>G_Great_Swamp_Tree_WithChest_01</TileDesign>
+        <DrawnIcon>Treasure_GreatSwampTree.png</DrawnIcon>
+        <OnSelectSFX>Click_Swamp</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>G_Great_Swamp_Tree_01.png</All>
+        </Medallions>
+        <Treasure>
+            <Title>Found Item</Title>
+            <Desc>One of the explorers was carrying a backpack.  Inside you find an item.</Desc>
+            <Liklihood>100</Liklihood>
+            <SFX>Goodie_Butcherman_01</SFX>
+            <GameModifier>
+                <ModType>GiveItem</ModType>
+                <Attribute>Loot_JeweledFly</Attribute>
+            </GameModifier>
+        </Treasure>
+    </GoodieHutType>
+ </GoodieHutTypes>

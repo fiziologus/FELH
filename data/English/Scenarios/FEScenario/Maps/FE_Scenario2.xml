@@ -1,0 +1,2828 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<ElementalMap>
+	<DisplayName>FE_Scenario2</DisplayName>
+	<MapVersion>1</MapVersion>
+	<MapTileWidth>64</MapTileWidth>
+	<MapTileHeight>80</MapTileHeight>
+	<MapSectorWidth>4</MapSectorWidth>
+	<MapSectorHeight>5</MapSectorHeight>
+	<SectorTileWidth>16</SectorTileWidth>
+	<SectorTileHeight>16</SectorTileHeight>
+	<SpecialMap>1</SpecialMap>
+	<RandomizeStartLocations>0</RandomizeStartLocations>
+	
+	<!--ASSIGNED STARTING LOCATIONS-->
+	
+	<StartLoc>38,54,0</StartLoc>
+	<StartLoc>1,1,1</StartLoc>
+	
+	<!--TERRAIN TYPES-->
+	
+	<TerrainTypeInfo>0,Land</TerrainTypeInfo>
+	<TerrainTypeInfo>1,Rugged_Land</TerrainTypeInfo>
+	<TerrainTypeInfo>2,Fertile_Land</TerrainTypeInfo>
+	<TerrainTypeInfo>3,Chasm</TerrainTypeInfo>
+	<TerrainTypeInfo>4,ChasmEdge</TerrainTypeInfo>
+	<TerrainTypeInfo>5,DesertTerrain</TerrainTypeInfo>
+	<TerrainTypeInfo>6,HillsTerrain</TerrainTypeInfo>
+	<TerrainTypeInfo>7,SwampTerrain</TerrainTypeInfo>
+	<TerrainTypeInfo>8,ArcticTerrain</TerrainTypeInfo>
+	<TerrainTypeInfo>9,MountainRange</TerrainTypeInfo>
+	<TerrainTypeInfo>10,MountainSide</TerrainTypeInfo>
+	<TerrainTypeInfo>11,Forest</TerrainTypeInfo>
+	<TerrainTypeInfo>12,Beach</TerrainTypeInfo>
+	<TerrainTypeInfo>13,Cliff</TerrainTypeInfo>
+	<TerrainTypeInfo>14,River</TerrainTypeInfo>
+	<TerrainTypeInfo>15,City</TerrainTypeInfo>
+	<TerrainTypeInfo>16,Submerged</TerrainTypeInfo>
+	<TerrainTypeInfo>17,BurningLands</TerrainTypeInfo>
+	<TerrainTypeInfo>18,Fissure</TerrainTypeInfo>
+	<TerrainTypeInfo>19,CurgensTomb</TerrainTypeInfo>
+	<TerrainTypeInfo>20,Imperium</TerrainTypeInfo>
+	<TerrainTypeInfo>21,Scrapyard</TerrainTypeInfo>
+	<TerrainTypeInfo>22,CaveWall</TerrainTypeInfo>
+	<TerrainTypeInfo>23,Unknown</TerrainTypeInfo>
+	<TerrainTypeInfo>24,Tomb</TerrainTypeInfo>
+	
+	<!--TERRAIN TILE DATA-->
+	
+	<TileData>293,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>52,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>5,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,1,2,0.000000,0,16,-1</TileData>
+	<TileData>3,5,2,0.000000,0,13,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>46,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>3,5,2,0.000000,0,13,-1</TileData>
+	<TileData>6,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,50.010071,0,7,-1</TileData>
+	<TileData>1,0,0,61.664173,0,7,-1</TileData>
+	<TileData>1,0,0,57.562027,0,7,-1</TileData>
+	<TileData>5,5,0,0.000000,0,13,-1</TileData>
+	<TileData>37,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>3,5,2,0.000000,0,13,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,55.443588,0,0,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>3,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,51.122013,0,7,-1</TileData>
+	<TileData>1,0,0,51.240578,0,7,-1</TileData>
+	<TileData>1,0,0,57.734154,0,7,-1</TileData>
+	<TileData>1,0,0,57.027802,0,7,-1</TileData>
+	<TileData>1,0,0,62.895596,0,7,-1</TileData>
+	<TileData>1,0,0,51.515244,0,7,-1</TileData>
+	<TileData>1,0,0,57.529526,0,7,-1</TileData>
+	<TileData>1,0,0,58.281502,0,0,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>30,1,0,0.000000,0,16,-1</TileData>
+	<TileData>4,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,64.744102,0,7,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,56.639912,0,0,-1</TileData>
+	<TileData>1,0,2,53.274025,0,0,-1</TileData>
+	<TileData>1,0,2,55.738396,0,0,-1</TileData>
+	<TileData>5,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,57.135838,0,7,-1</TileData>
+	<TileData>1,0,2,60.229042,0,7,-1</TileData>
+	<TileData>1,0,2,62.240059,0,7,-1</TileData>
+	<TileData>1,0,2,57.810146,0,7,-1</TileData>
+	<TileData>1,0,0,50.073551,0,0,-1</TileData>
+	<TileData>1,0,0,57.863400,0,0,0</TileData>
+	<TileData>1,0,0,61.323589,0,7,0</TileData>
+	<TileData>1,0,0,51.239662,0,7,0</TileData>
+	<TileData>1,0,0,52.016052,0,7,0</TileData>
+	<TileData>1,0,0,59.198586,0,0,0</TileData>
+	<TileData>1,0,0,50.534683,1,0,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>28,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,62.058319,0,7,-1</TileData>
+	<TileData>1,0,2,54.505905,0,7,-1</TileData>
+	<TileData>4,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,59.115726,0,7,-1</TileData>
+	<TileData>1,0,2,57.741478,0,7,-1</TileData>
+	<TileData>1,0,2,64.169136,0,7,-1</TileData>
+	<TileData>3,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,54.783318,0,7,-1</TileData>
+	<TileData>1,0,2,58.421886,0,0,-1</TileData>
+	<TileData>1,0,2,53.785515,0,2,-1</TileData>
+	<TileData>1,0,2,67.025665,0,2,-1</TileData>
+	<TileData>1,0,0,54.281441,0,0,-1</TileData>
+	<TileData>1,0,2,52.292091,0,7,-1</TileData>
+	<TileData>2,0,2,59.064911,0,7,-1</TileData>
+	<TileData>1,0,2,59.166080,0,7,-1</TileData>
+	<TileData>1,0,2,52.042145,0,7,-1</TileData>
+	<TileData>1,0,2,55.285957,0,7,-1</TileData>
+	<TileData>1,0,2,50.147099,0,1,-1</TileData>
+	<TileData>1,0,0,53.431499,0,0,-1</TileData>
+	<TileData>1,0,0,56.043274,0,0,0</TileData>
+	<TileData>1,0,0,51.335491,0,1,0</TileData>
+	<TileData>1,0,0,53.467819,0,0,0</TileData>
+	<TileData>1,0,0,50.756859,0,2,0</TileData>
+	<TileData>1,0,0,59.804985,0,0,0</TileData>
+	<TileData>1,0,0,50.006104,0,0,0</TileData>
+	<TileData>1,0,0,58.281502,1,0,-1</TileData>
+	<TileData>1,0,0,53.230385,0,0,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>20,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>5,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,55.791801,0,7,-1</TileData>
+	<TileData>1,0,2,55.273598,0,7,-1</TileData>
+	<TileData>1,0,2,62.842953,0,7,-1</TileData>
+	<TileData>1,0,2,60.771049,0,7,-1</TileData>
+	<TileData>1,0,2,61.969971,0,7,-1</TileData>
+	<TileData>1,0,2,62.596668,0,7,-1</TileData>
+	<TileData>1,0,2,56.553085,0,7,-1</TileData>
+	<TileData>1,0,2,58.290810,0,7,-1</TileData>
+	<TileData>1,0,0,62.621845,0,7,-1</TileData>
+	<TileData>1,0,0,64.382919,0,7,-1</TileData>
+	<TileData>1,0,2,54.385052,0,7,-1</TileData>
+	<TileData>1,0,2,55.265816,0,7,-1</TileData>
+	<TileData>1,0,2,55.797752,0,7,-1</TileData>
+	<TileData>1,0,2,58.418072,0,7,-1</TileData>
+	<TileData>1,0,2,55.738396,0,0,-1</TileData>
+	<TileData>1,0,0,59.615772,0,0,-1</TileData>
+	<TileData>1,0,2,55.075840,0,1,-1</TileData>
+	<TileData>1,0,2,66.213264,0,1,-1</TileData>
+	<TileData>1,0,2,55.203712,0,0,-1</TileData>
+	<TileData>1,0,2,56.879940,0,7,-1</TileData>
+	<TileData>1,0,0,55.581684,0,7,-1</TileData>
+	<TileData>1,0,2,56.835079,0,7,-1</TileData>
+	<TileData>1,0,1,54.216133,0,7,-1</TileData>
+	<TileData>1,0,1,50.150150,0,0,-1</TileData>
+	<TileData>1,0,1,56.643574,0,0,-1</TileData>
+	<TileData>1,2,1,50.901516,0,10,0</TileData>
+	<TileData>1,2,1,55.073093,0,10,0</TileData>
+	<TileData>1,2,1,54.227425,0,10,0</TileData>
+	<TileData>1,2,0,52.849209,0,10,0</TileData>
+	<TileData>1,0,0,66.345100,0,1,0</TileData>
+	<TileData>1,0,0,51.860409,0,0,0</TileData>
+	<TileData>1,0,0,57.612232,0,0,0</TileData>
+	<TileData>1,0,0,51.338543,1,0,-1</TileData>
+	<TileData>1,0,0,52.176273,0,0,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>5,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,5,1,0.000000,0,13,-1</TileData>
+	<TileData>12,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,2,50.032654,0,10,-1</TileData>
+	<TileData>2,1,2,0.000000,0,16,-1</TileData>
+	<TileData>3,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,62.369610,0,7,1</TileData>
+	<TileData>1,0,2,58.970154,0,7,-1</TileData>
+	<TileData>1,0,2,63.895840,0,7,-1</TileData>
+	<TileData>1,0,2,54.017914,0,7,-1</TileData>
+	<TileData>1,0,2,61.795097,0,7,-1</TileData>
+	<TileData>1,0,2,61.846371,0,7,-1</TileData>
+	<TileData>1,0,2,54.114048,0,7,-1</TileData>
+	<TileData>1,0,0,58.616749,0,7,-1</TileData>
+	<TileData>1,0,2,51.693779,0,7,7</TileData>
+	<TileData>1,0,2,51.507462,0,7,-1</TileData>
+	<TileData>1,0,2,54.255043,0,7,-1</TileData>
+	<TileData>1,0,2,56.637775,0,7,-1</TileData>
+	<TileData>1,0,0,57.596668,0,0,-1</TileData>
+	<TileData>1,0,0,57.516708,0,1,-1</TileData>
+	<TileData>1,0,2,53.899044,0,1,-1</TileData>
+	<TileData>1,0,2,61.072723,0,7,-1</TileData>
+	<TileData>1,0,2,57.316204,0,0,-1</TileData>
+	<TileData>1,0,2,58.457901,0,1,-1</TileData>
+	<TileData>1,0,2,61.902828,0,1,-1</TileData>
+	<TileData>1,0,2,52.050385,0,7,-1</TileData>
+	<TileData>1,0,2,61.314888,0,7,-1</TileData>
+	<TileData>1,0,2,53.515121,0,1,-1</TileData>
+	<TileData>1,0,1,52.392956,0,0,-1</TileData>
+	<TileData>1,0,1,54.881741,0,2,0</TileData>
+	<TileData>1,0,1,63.758354,0,1,0</TileData>
+	<TileData>1,2,1,52.725304,0,10,0</TileData>
+	<TileData>1,2,1,193.237442,0,9,0</TileData>
+	<TileData>1,2,0,181.250000,0,9,0</TileData>
+	<TileData>1,2,1,50.824001,0,10,0</TileData>
+	<TileData>1,0,1,54.838406,0,2,0</TileData>
+	<TileData>1,0,0,109.262367,0,6,1</TileData>
+	<TileData>1,0,0,59.724419,0,1,-1</TileData>
+	<TileData>1,0,0,59.122593,1,0,-1</TileData>
+	<TileData>1,0,0,57.069611,0,0,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>2,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>2,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,62.341686,0,7,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>8,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,1,0,0.000000,0,16,0</TileData>
+	<TileData>1,2,2,50.760216,0,10,0</TileData>
+	<TileData>1,2,2,60.394299,0,9,0</TileData>
+	<TileData>1,2,2,107.500000,0,9,0</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>3,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,54.039429,0,7,2</TileData>
+	<TileData>1,0,2,55.215462,0,7,7</TileData>
+	<TileData>1,0,2,51.180149,0,7,-1</TileData>
+	<TileData>1,0,0,55.569321,0,7,-1</TileData>
+	<TileData>1,0,0,52.164829,0,7,-1</TileData>
+	<TileData>1,0,2,56.699120,0,7,-1</TileData>
+	<TileData>1,0,2,58.405254,0,7,-1</TileData>
+	<TileData>1,0,2,62.598042,0,7,-1</TileData>
+	<TileData>1,0,2,59.691612,0,7,-1</TileData>
+	<TileData>1,0,0,52.700890,0,7,-1</TileData>
+	<TileData>1,0,2,60.056458,0,7,-1</TileData>
+	<TileData>1,0,2,62.953735,0,7,-1</TileData>
+	<TileData>1,0,0,66.691185,0,1,-1</TileData>
+	<TileData>1,0,2,67.231972,0,1,-1</TileData>
+	<TileData>1,0,2,100.114746,0,6,7</TileData>
+	<TileData>1,0,2,50.110325,0,7,-1</TileData>
+	<TileData>1,0,2,100.114746,0,6,7</TileData>
+	<TileData>1,0,2,56.731163,0,7,-1</TileData>
+	<TileData>1,0,2,50.110325,0,7,7</TileData>
+	<TileData>1,0,0,53.446762,0,2,-1</TileData>
+	<TileData>1,0,2,50.073551,0,0,-1</TileData>
+	<TileData>1,0,1,55.028839,0,1,-1</TileData>
+	<TileData>1,0,1,60.956146,0,1,-1</TileData>
+	<TileData>1,0,1,51.601002,0,1,-1</TileData>
+	<TileData>1,0,1,64.723351,0,2,0</TileData>
+	<TileData>1,0,1,58.839382,0,2,0</TileData>
+	<TileData>1,2,1,58.868984,0,10,0</TileData>
+	<TileData>1,2,1,223.639526,0,9,0</TileData>
+	<TileData>1,2,1,54.307381,0,10,0</TileData>
+	<TileData>1,2,1,50.825832,0,10,0</TileData>
+	<TileData>1,0,1,104.493546,0,6,1</TileData>
+	<TileData>1,0,0,50.073551,0,0,-1</TileData>
+	<TileData>1,0,0,54.669636,0,0,-1</TileData>
+	<TileData>1,3,1,54.626911,0,11,0</TileData>
+	<TileData>1,3,1,56.277657,1,11,0</TileData>
+	<TileData>1,3,1,59.346905,0,11,0</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>2,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,55.309761,0,7,-1</TileData>
+	<TileData>1,0,1,63.413799,0,7,-1</TileData>
+	<TileData>1,0,1,52.572254,0,7,-1</TileData>
+	<TileData>2,5,1,0.000000,0,13,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>5,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,53.242897,0,10,0</TileData>
+	<TileData>1,2,0,90.807518,0,9,0</TileData>
+	<TileData>1,2,2,146.250000,0,9,0</TileData>
+	<TileData>1,2,2,207.894302,0,9,-1</TileData>
+	<TileData>1,2,2,50.057373,0,10,0</TileData>
+	<TileData>1,1,2,0.000000,0,16,0</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,1,2,0.000000,0,16,-1</TileData>
+	<TileData>1,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,5,2,0.000000,0,13,0</TileData>
+	<TileData>1,5,2,0.000000,0,13,7</TileData>
+	<TileData>1,4,2,57.635670,0,12,7</TileData>
+	<TileData>1,0,2,64.259315,0,7,0</TileData>
+	<TileData>1,2,2,56.043274,0,10,7</TileData>
+	<TileData>1,2,2,51.443222,0,10,7</TileData>
+	<TileData>1,2,2,50.073551,0,10,7</TileData>
+	<TileData>1,0,2,55.852688,0,7,7</TileData>
+	<TileData>1,0,2,59.253059,0,7,7</TileData>
+	<TileData>1,0,2,63.420208,0,7,7</TileData>
+	<TileData>1,0,2,53.151340,0,7,7</TileData>
+	<TileData>1,0,2,58.401134,0,7,7</TileData>
+	<TileData>1,0,2,57.463150,0,7,-1</TileData>
+	<TileData>1,0,0,65.432602,0,1,7</TileData>
+	<TileData>1,0,0,53.851742,0,0,0</TileData>
+	<TileData>1,0,2,61.248970,0,7,-1</TileData>
+	<TileData>1,0,2,52.250893,0,7,-1</TileData>
+	<TileData>1,0,2,57.278206,0,7,-1</TileData>
+	<TileData>1,0,2,50.110325,0,7,-1</TileData>
+	<TileData>1,0,2,59.431442,0,0,-1</TileData>
+	<TileData>1,0,0,50.073551,0,0,-1</TileData>
+	<TileData>1,0,0,61.759392,0,1,-1</TileData>
+	<TileData>1,0,0,62.088379,0,1,0</TileData>
+	<TileData>1,0,1,53.812370,0,0,0</TileData>
+	<TileData>1,0,1,52.549820,0,0,0</TileData>
+	<TileData>1,0,1,59.357281,0,0,0</TileData>
+	<TileData>1,0,1,51.962341,0,2,0</TileData>
+	<TileData>1,2,1,53.687553,0,10,0</TileData>
+	<TileData>1,2,1,53.841061,0,10,0</TileData>
+	<TileData>1,2,1,58.548843,0,10,0</TileData>
+	<TileData>1,0,1,57.543564,0,0,-1</TileData>
+	<TileData>1,0,1,56.640827,0,0,-1</TileData>
+	<TileData>1,0,0,50.089420,0,0,-1</TileData>
+	<TileData>1,3,1,53.139744,0,11,0</TileData>
+	<TileData>1,3,1,53.719597,0,11,0</TileData>
+	<TileData>1,3,1,54.868618,1,11,0</TileData>
+	<TileData>1,3,1,54.284492,0,11,0</TileData>
+	<TileData>1,3,1,51.092258,0,11,0</TileData>
+	<TileData>4,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,56.731163,0,7,-1</TileData>
+	<TileData>1,0,1,50.134129,0,7,-1</TileData>
+	<TileData>1,0,1,54.478439,0,7,-1</TileData>
+	<TileData>1,0,1,64.546799,0,7,-1</TileData>
+	<TileData>1,0,1,140.000000,0,23,-1</TileData>
+	<TileData>1,0,0,140.000000,0,23,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>4,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,141.193726,0,9,0</TileData>
+	<TileData>1,2,2,146.795059,0,9,0</TileData>
+	<TileData>1,2,2,220.000000,0,9,0</TileData>
+	<TileData>1,2,2,212.500000,0,9,0</TileData>
+	<TileData>1,2,2,155.000000,0,9,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,0</TileData>
+	<TileData>1,1,0,0.000000,0,16,0</TileData>
+	<TileData>1,1,2,0.000000,0,16,0</TileData>
+	<TileData>1,1,0,0.000000,0,16,0</TileData>
+	<TileData>1,2,2,50.073551,0,10,0</TileData>
+	<TileData>1,2,2,52.554092,0,10,2</TileData>
+	<TileData>1,2,0,172.164825,0,9,0</TileData>
+	<TileData>1,2,2,202.897583,0,9,0</TileData>
+	<TileData>1,2,0,187.949127,0,9,0</TileData>
+	<TileData>1,2,0,54.487442,0,10,7</TileData>
+	<TileData>1,0,2,61.155125,0,7,7</TileData>
+	<TileData>1,0,2,56.993469,0,7,7</TileData>
+	<TileData>1,0,2,63.943909,0,7,7</TileData>
+	<TileData>1,0,2,54.236732,0,7,7</TileData>
+	<TileData>1,0,2,63.612476,0,7,7</TileData>
+	<TileData>1,0,2,52.374035,0,0,-1</TileData>
+	<TileData>1,0,0,64.446854,0,1,-1</TileData>
+	<TileData>1,0,2,54.834743,0,0,-1</TileData>
+	<TileData>1,0,2,57.870113,0,0,-1</TileData>
+	<TileData>1,0,2,53.870968,0,0,-1</TileData>
+	<TileData>1,0,2,54.631489,0,0,-1</TileData>
+	<TileData>1,0,2,68.826256,0,1,-1</TileData>
+	<TileData>1,0,0,50.031128,0,1,-1</TileData>
+	<TileData>1,3,0,69.963379,0,11,1</TileData>
+	<TileData>1,3,0,50.073551,0,11,0</TileData>
+	<TileData>1,2,1,50.073551,0,10,0</TileData>
+	<TileData>1,2,1,57.179482,0,10,0</TileData>
+	<TileData>1,2,1,50.633564,0,10,2</TileData>
+	<TileData>1,0,1,63.832817,0,2,0</TileData>
+	<TileData>1,0,1,61.587269,0,2,0</TileData>
+	<TileData>1,0,1,51.168858,0,2,0</TileData>
+	<TileData>1,3,1,59.321266,0,11,0</TileData>
+	<TileData>1,3,1,57.543564,0,11,0</TileData>
+	<TileData>1,0,1,59.129307,0,2,-1</TileData>
+	<TileData>1,0,1,50.089420,0,0,-1</TileData>
+	<TileData>1,3,1,53.856319,0,11,2</TileData>
+	<TileData>1,3,1,58.413952,0,11,0</TileData>
+	<TileData>1,3,1,55.058441,0,11,0</TileData>
+	<TileData>1,3,1,50.974762,1,11,1</TileData>
+	<TileData>1,3,1,55.436264,0,11,0</TileData>
+	<TileData>1,3,1,52.975555,0,11,0</TileData>
+	<TileData>1,0,1,51.036407,0,0,-1</TileData>
+	<TileData>1,0,1,58.591877,0,0,-1</TileData>
+	<TileData>1,0,1,63.413799,0,7,-1</TileData>
+	<TileData>2,0,1,51.035034,0,7,-1</TileData>
+	<TileData>1,0,1,57.295601,0,7,-1</TileData>
+	<TileData>2,0,1,140.000000,0,23,-1</TileData>
+	<TileData>2,0,0,140.000000,0,23,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>3,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,177.500000,0,9,-1</TileData>
+	<TileData>1,2,0,63.750000,0,9,0</TileData>
+	<TileData>2,2,0,250.000000,0,9,0</TileData>
+	<TileData>1,2,2,60.545059,0,9,-1</TileData>
+	<TileData>1,2,2,58.546707,0,10,-1</TileData>
+	<TileData>2,1,2,0.000000,0,16,-1</TileData>
+	<TileData>1,2,2,50.057373,0,10,-1</TileData>
+	<TileData>1,2,2,180.742889,0,9,0</TileData>
+	<TileData>1,2,2,166.795059,0,9,0</TileData>
+	<TileData>1,2,2,155.545059,0,9,0</TileData>
+	<TileData>1,2,2,212.500000,0,9,0</TileData>
+	<TileData>1,2,2,222.630692,0,9,0</TileData>
+	<TileData>1,2,2,53.628345,0,10,2</TileData>
+	<TileData>1,2,2,198.198730,0,9,0</TileData>
+	<TileData>1,2,0,50.073551,0,10,0</TileData>
+	<TileData>1,2,2,50.057373,0,10,7</TileData>
+	<TileData>1,0,2,50.110325,0,7,7</TileData>
+	<TileData>1,0,2,53.227791,0,7,7</TileData>
+	<TileData>1,0,2,55.918148,0,7,0</TileData>
+	<TileData>1,0,2,61.250343,0,7,0</TileData>
+	<TileData>1,0,2,59.595936,0,7,7</TileData>
+	<TileData>1,0,2,59.572132,0,7,7</TileData>
+	<TileData>1,0,2,50.110325,0,7,-1</TileData>
+	<TileData>1,0,2,58.926056,0,0,-1</TileData>
+	<TileData>1,0,0,65.600449,0,1,-1</TileData>
+	<TileData>1,0,2,65.035248,0,1,-1</TileData>
+	<TileData>1,0,2,61.356548,0,1,-1</TileData>
+	<TileData>1,3,0,60.945160,0,11,1</TileData>
+	<TileData>1,3,0,68.387405,0,11,1</TileData>
+	<TileData>1,3,0,53.498032,0,11,0</TileData>
+	<TileData>1,3,0,53.873409,0,11,0</TileData>
+	<TileData>1,2,0,50.089420,0,10,0</TileData>
+	<TileData>1,2,0,59.226357,0,10,0</TileData>
+	<TileData>1,2,1,138.164001,0,9,0</TileData>
+	<TileData>1,2,1,54.287544,0,10,0</TileData>
+	<TileData>1,0,1,55.251320,0,0,0</TileData>
+	<TileData>1,0,1,53.942383,0,2,0</TileData>
+	<TileData>1,0,1,69.393295,0,2,0</TileData>
+	<TileData>1,3,1,57.656483,0,11,2</TileData>
+	<TileData>1,3,1,53.431499,0,11,0</TileData>
+	<TileData>1,0,1,68.245796,0,2,-1</TileData>
+	<TileData>1,0,1,60.817589,0,1,-1</TileData>
+	<TileData>1,0,1,57.287209,0,2,-1</TileData>
+	<TileData>1,0,1,55.630665,0,2,-1</TileData>
+	<TileData>1,3,1,58.818016,0,11,2</TileData>
+	<TileData>1,3,1,51.431927,1,11,2</TileData>
+	<TileData>1,3,1,50.105289,0,11,0</TileData>
+	<TileData>1,0,1,50.105289,0,0,-1</TileData>
+	<TileData>1,0,1,50.097660,0,2,-1</TileData>
+	<TileData>1,0,1,55.879391,0,0,-1</TileData>
+	<TileData>1,0,1,57.543564,0,0,-1</TileData>
+	<TileData>1,0,1,50.157932,0,7,-1</TileData>
+	<TileData>1,0,1,51.035034,0,7,-1</TileData>
+	<TileData>1,0,1,55.682854,0,7,-1</TileData>
+	<TileData>3,0,1,140.000000,0,23,-1</TileData>
+	<TileData>1,0,0,140.000000,0,23,-1</TileData>
+	<TileData>3,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,58.759727,0,10,-1</TileData>
+	<TileData>1,2,0,54.980316,0,10,-1</TileData>
+	<TileData>1,2,2,176.250000,0,9,0</TileData>
+	<TileData>1,2,2,60.545059,0,9,-1</TileData>
+	<TileData>1,2,2,166.250000,0,9,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>1,2,2,56.245918,0,10,-1</TileData>
+	<TileData>1,2,2,60.545059,0,9,0</TileData>
+	<TileData>1,2,2,51.829891,0,10,0</TileData>
+	<TileData>1,2,0,120.191498,0,9,0</TileData>
+	<TileData>1,1,2,0.000000,0,16,0</TileData>
+	<TileData>1,2,2,183.452301,0,9,0</TileData>
+	<TileData>1,2,2,54.497208,0,10,2</TileData>
+	<TileData>1,2,0,55.837582,0,10,0</TileData>
+	<TileData>1,2,2,181.846375,0,9,7</TileData>
+	<TileData>1,2,0,50.073551,0,10,7</TileData>
+	<TileData>1,0,2,61.156040,0,7,7</TileData>
+	<TileData>1,0,0,51.389355,0,7,-1</TileData>
+	<TileData>1,0,2,63.145542,0,7,7</TileData>
+	<TileData>1,0,0,56.201973,0,7,7</TileData>
+	<TileData>1,0,2,52.592396,0,7,7</TileData>
+	<TileData>1,0,2,59.544662,0,7,7</TileData>
+	<TileData>1,0,2,50.158390,0,7,7</TileData>
+	<TileData>1,0,2,61.587727,0,7,-1</TileData>
+	<TileData>1,0,2,63.775444,0,7,-1</TileData>
+	<TileData>1,0,2,52.783287,0,7,-1</TileData>
+	<TileData>1,0,0,54.515518,0,7,0</TileData>
+	<TileData>1,0,0,63.008820,0,1,0</TileData>
+	<TileData>1,3,0,56.386303,0,11,1</TileData>
+	<TileData>1,3,0,57.672352,0,11,0</TileData>
+	<TileData>1,3,0,50.089420,0,11,0</TileData>
+	<TileData>2,2,0,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,59.164097,0,10,0</TileData>
+	<TileData>1,2,1,229.599487,0,9,0</TileData>
+	<TileData>1,2,1,132.495956,0,9,0</TileData>
+	<TileData>1,2,1,56.461075,0,10,0</TileData>
+	<TileData>1,0,1,63.348797,0,2,0</TileData>
+	<TileData>1,3,1,53.396099,0,11,0</TileData>
+	<TileData>1,3,1,56.996674,0,11,2</TileData>
+	<TileData>1,3,1,53.888058,0,11,1</TileData>
+	<TileData>1,0,1,57.411724,0,2,-1</TileData>
+	<TileData>1,0,1,54.244514,0,2,-1</TileData>
+	<TileData>1,0,1,58.371227,0,2,-1</TileData>
+	<TileData>1,0,1,60.044861,0,2,-1</TileData>
+	<TileData>1,0,1,58.072754,0,1,-1</TileData>
+	<TileData>1,0,1,50.105595,1,2,-1</TileData>
+	<TileData>1,0,1,55.877254,0,1,-1</TileData>
+	<TileData>1,0,1,57.663197,0,1,-1</TileData>
+	<TileData>1,0,1,65.981323,0,2,0</TileData>
+	<TileData>1,0,1,61.362499,0,7,0</TileData>
+	<TileData>1,0,1,50.239876,0,7,0</TileData>
+	<TileData>1,0,1,50.157932,0,7,-1</TileData>
+	<TileData>1,0,1,51.035034,0,7,-1</TileData>
+	<TileData>1,0,1,57.259895,0,7,-1</TileData>
+	<TileData>2,0,1,140.000000,0,23,7</TileData>
+	<TileData>2,0,1,140.000000,0,23,-1</TileData>
+	<TileData>3,0,0,140.000000,0,23,-1</TileData>
+	<TileData>3,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,2,53.242897,0,10,-1</TileData>
+	<TileData>1,2,2,57.260353,0,10,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,1,2,0.000000,0,16,0</TileData>
+	<TileData>1,5,2,0.000000,0,13,0</TileData>
+	<TileData>1,5,0,0.000000,0,13,1</TileData>
+	<TileData>1,0,2,64.203011,0,7,2</TileData>
+	<TileData>1,0,2,64.177834,0,7,7</TileData>
+	<TileData>1,0,2,57.544174,0,7,7</TileData>
+	<TileData>1,0,2,52.399212,0,7,7</TileData>
+	<TileData>1,0,2,53.207191,0,7,-1</TileData>
+	<TileData>1,0,0,56.525620,0,7,-1</TileData>
+	<TileData>1,0,2,64.585709,0,7,-1</TileData>
+	<TileData>1,0,2,53.801994,0,0,-1</TileData>
+	<TileData>1,0,2,52.063049,0,0,-1</TileData>
+	<TileData>1,0,0,56.261787,0,1,-1</TileData>
+	<TileData>1,0,0,56.157566,0,7,-1</TileData>
+	<TileData>1,0,2,62.845242,0,7,-1</TileData>
+	<TileData>1,0,2,60.925323,0,7,-1</TileData>
+	<TileData>1,0,2,64.359566,0,7,0</TileData>
+	<TileData>1,0,2,68.065125,0,1,0</TileData>
+	<TileData>1,0,2,61.235695,0,1,0</TileData>
+	<TileData>1,3,0,56.640827,0,11,0</TileData>
+	<TileData>1,3,0,50.178837,0,11,1</TileData>
+	<TileData>2,2,0,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,172.289841,0,9,0</TileData>
+	<TileData>1,2,1,231.250000,0,9,0</TileData>
+	<TileData>1,2,0,192.243683,0,9,0</TileData>
+	<TileData>1,2,1,214.599487,0,9,0</TileData>
+	<TileData>1,2,1,58.544571,0,10,0</TileData>
+	<TileData>1,0,1,62.605366,0,2,0</TileData>
+	<TileData>1,3,1,50.089420,0,11,0</TileData>
+	<TileData>1,3,1,64.960175,0,11,1</TileData>
+	<TileData>1,0,1,64.716026,0,1,-1</TileData>
+	<TileData>1,0,1,64.195992,0,1,-1</TileData>
+	<TileData>1,0,1,57.744987,0,2,-1</TileData>
+	<TileData>1,0,1,64.674522,0,2,-1</TileData>
+	<TileData>1,0,1,56.301460,0,2,-1</TileData>
+	<TileData>1,0,1,58.072754,0,2,-1</TileData>
+	<TileData>1,0,1,52.121647,1,2,-1</TileData>
+	<TileData>2,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,0</TileData>
+	<TileData>1,0,1,50.595112,0,7,0</TileData>
+	<TileData>1,0,1,63.575851,0,7,0</TileData>
+	<TileData>1,0,1,59.254890,0,7,-1</TileData>
+	<TileData>1,0,1,56.270638,0,7,-1</TileData>
+	<TileData>1,0,1,55.746941,0,7,-1</TileData>
+	<TileData>2,0,1,140.000000,0,23,7</TileData>
+	<TileData>3,0,1,140.000000,0,23,-1</TileData>
+	<TileData>2,0,0,140.000000,0,23,-1</TileData>
+	<TileData>3,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,0</TileData>
+	<TileData>1,5,2,0.000000,0,13,1</TileData>
+	<TileData>1,0,2,53.014465,0,7,0</TileData>
+	<TileData>1,0,2,54.783775,0,7,0</TileData>
+	<TileData>1,0,0,58.569138,0,7,7</TileData>
+	<TileData>1,0,0,60.016632,0,7,-1</TileData>
+	<TileData>1,0,0,59.118931,0,7,-1</TileData>
+	<TileData>1,0,0,57.989594,0,7,-1</TileData>
+	<TileData>1,0,0,51.114689,0,7,-1</TileData>
+	<TileData>1,0,0,57.857296,0,7,-1</TileData>
+	<TileData>1,0,2,56.313667,0,0,-1</TileData>
+	<TileData>1,0,2,59.320351,0,2,-1</TileData>
+	<TileData>1,0,2,59.016998,0,0,-1</TileData>
+	<TileData>1,0,2,58.300728,0,0,-1</TileData>
+	<TileData>1,0,0,51.246986,0,7,-1</TileData>
+	<TileData>1,0,0,53.810081,0,7,-1</TileData>
+	<TileData>1,0,2,58.032471,0,1,-1</TileData>
+	<TileData>1,0,0,58.165531,0,1,0</TileData>
+	<TileData>1,0,2,100.147102,0,6,0</TileData>
+	<TileData>1,0,0,50.073551,0,0,0</TileData>
+	<TileData>1,2,0,51.714836,0,10,0</TileData>
+	<TileData>1,2,0,60.849483,0,9,0</TileData>
+	<TileData>1,2,0,177.763031,0,9,0</TileData>
+	<TileData>1,2,1,171.745392,0,9,0</TileData>
+	<TileData>1,2,1,113.379166,0,9,0</TileData>
+	<TileData>1,2,1,52.277901,0,10,0</TileData>
+	<TileData>1,2,1,54.491409,0,10,0</TileData>
+	<TileData>1,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,0,1,65.009613,0,2,0</TileData>
+	<TileData>1,0,1,69.308449,0,1,0</TileData>
+	<TileData>1,0,1,53.556015,0,1,-1</TileData>
+	<TileData>1,0,1,54.238411,0,2,-1</TileData>
+	<TileData>1,0,1,59.233070,0,2,-1</TileData>
+	<TileData>1,0,1,66.415909,0,1,-1</TileData>
+	<TileData>3,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,66.246834,1,2,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,0</TileData>
+	<TileData>1,0,1,63.803368,0,7,0</TileData>
+	<TileData>1,0,1,63.158360,0,7,0</TileData>
+	<TileData>1,0,1,59.366589,0,7,-1</TileData>
+	<TileData>1,0,1,52.757195,0,7,-1</TileData>
+	<TileData>1,0,1,56.257820,0,7,-1</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>2,0,1,140.000000,0,23,7</TileData>
+	<TileData>2,0,1,140.000000,0,23,-1</TileData>
+	<TileData>2,0,0,140.000000,0,23,-1</TileData>
+	<TileData>9,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>1,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,50.883053,0,7,1</TileData>
+	<TileData>1,0,2,62.225868,0,7,0</TileData>
+	<TileData>1,0,2,51.031830,0,7,2</TileData>
+	<TileData>1,0,2,55.322121,0,7,0</TileData>
+	<TileData>1,0,2,50.619373,0,7,-1</TileData>
+	<TileData>1,0,2,56.814934,0,7,-1</TileData>
+	<TileData>1,0,2,62.718895,0,7,-1</TileData>
+	<TileData>3,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,54.498428,0,0,-1</TileData>
+	<TileData>1,0,2,55.554977,0,2,-1</TileData>
+	<TileData>1,0,2,68.392288,0,2,7</TileData>
+	<TileData>1,0,2,55.353558,0,0,-1</TileData>
+	<TileData>1,0,2,53.801994,0,0,-1</TileData>
+	<TileData>1,0,0,66.740623,0,1,-1</TileData>
+	<TileData>1,0,0,50.769066,0,1,-1</TileData>
+	<TileData>1,0,2,64.825279,0,1,1</TileData>
+	<TileData>1,0,0,56.414989,0,1,0</TileData>
+	<TileData>1,0,0,56.454971,0,0,-1</TileData>
+	<TileData>1,2,0,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,176.339417,0,9,0</TileData>
+	<TileData>1,2,1,178.221115,0,9,0</TileData>
+	<TileData>2,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,53.949707,0,10,0</TileData>
+	<TileData>1,0,1,56.468399,0,0,0</TileData>
+	<TileData>1,0,1,55.193336,0,0,0</TileData>
+	<TileData>1,0,1,56.574299,0,1,0</TileData>
+	<TileData>1,0,1,50.302742,0,1,0</TileData>
+	<TileData>1,0,1,56.381420,0,0,-1</TileData>
+	<TileData>2,0,1,50.178837,0,1,-1</TileData>
+	<TileData>2,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,65.087128,1,2,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,0</TileData>
+	<TileData>1,0,1,57.332684,0,7,0</TileData>
+	<TileData>1,0,1,64.795830,0,7,0</TileData>
+	<TileData>2,0,0,50.157932,0,7,0</TileData>
+	<TileData>1,0,0,50.157932,0,7,-1</TileData>
+	<TileData>2,0,0,140.000000,0,23,7</TileData>
+	<TileData>1,0,1,140.000000,0,23,7</TileData>
+	<TileData>3,0,1,140.000000,0,23,-1</TileData>
+	<TileData>1,0,0,140.000000,0,23,-1</TileData>
+	<TileData>9,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,5,2,0.000000,0,13,0</TileData>
+	<TileData>1,0,2,58.169960,0,7,0</TileData>
+	<TileData>1,0,2,57.870113,0,7,0</TileData>
+	<TileData>4,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,54.836575,0,0,-1</TileData>
+	<TileData>1,0,0,55.862301,0,0,-1</TileData>
+	<TileData>1,0,2,53.506271,0,0,-1</TileData>
+	<TileData>1,0,2,64.546951,0,2,-1</TileData>
+	<TileData>1,0,2,50.073551,0,0,-1</TileData>
+	<TileData>1,0,0,68.234810,0,1,-1</TileData>
+	<TileData>1,0,0,114.094666,0,6,1</TileData>
+	<TileData>1,0,0,59.677418,0,0,-1</TileData>
+	<TileData>1,0,0,55.628529,0,0,-1</TileData>
+	<TileData>1,2,0,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,150.821136,0,9,0</TileData>
+	<TileData>2,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,3,1,57.851803,0,11,0</TileData>
+	<TileData>1,0,1,56.894741,0,1,0</TileData>
+	<TileData>1,3,1,54.536270,0,11,0</TileData>
+	<TileData>1,3,1,50.121159,0,11,0</TileData>
+	<TileData>3,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,3,1,50.178837,0,11,1</TileData>
+	<TileData>1,0,1,59.786674,0,2,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>2,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,54.970245,1,1,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,1,0.000000,0,13,0</TileData>
+	<TileData>1,0,1,63.432568,0,7,0</TileData>
+	<TileData>1,0,1,50.157932,0,7,0</TileData>
+	<TileData>1,0,0,54.338207,0,0,7</TileData>
+	<TileData>1,0,0,59.326763,0,0,7</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>4,0,1,140.000000,0,23,-1</TileData>
+	<TileData>11,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>4,5,2,0.000000,0,13,-1</TileData>
+	<TileData>5,1,2,0.000000,0,16,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,59.269386,0,0,-1</TileData>
+	<TileData>1,0,2,65.357521,0,2,-1</TileData>
+	<TileData>1,0,2,52.640461,0,1,-1</TileData>
+	<TileData>1,0,2,57.997681,0,1,-1</TileData>
+	<TileData>1,0,2,64.426102,0,1,-1</TileData>
+	<TileData>1,0,2,60.928680,0,1,-1</TileData>
+	<TileData>1,0,0,58.092899,0,1,-1</TileData>
+	<TileData>1,0,0,51.175571,0,1,0</TileData>
+	<TileData>1,2,2,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,212.099487,0,9,0</TileData>
+	<TileData>1,2,1,58.227791,0,10,0</TileData>
+	<TileData>2,3,1,50.089420,0,11,0</TileData>
+	<TileData>1,0,1,60.833458,0,2,0</TileData>
+	<TileData>1,3,1,58.207954,0,11,0</TileData>
+	<TileData>1,3,1,50.089420,0,11,0</TileData>
+	<TileData>1,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,178.349487,0,9,0</TileData>
+	<TileData>1,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,3,1,50.178837,0,11,1</TileData>
+	<TileData>1,0,1,66.415909,0,1,-1</TileData>
+	<TileData>2,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,52.442245,0,7,-1</TileData>
+	<TileData>1,0,1,60.231789,0,7,-1</TileData>
+	<TileData>1,0,0,51.082493,0,0,7</TileData>
+	<TileData>2,0,0,140.000000,0,23,1</TileData>
+	<TileData>1,0,1,140.000000,0,23,1</TileData>
+	<TileData>2,0,1,140.000000,0,23,0</TileData>
+	<TileData>3,0,1,140.000000,0,23,-1</TileData>
+	<TileData>11,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>7,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>3,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,55.824150,0,1,-1</TileData>
+	<TileData>1,0,2,50.524307,0,1,-1</TileData>
+	<TileData>1,0,2,51.105991,0,1,-1</TileData>
+	<TileData>1,0,0,51.008331,0,1,-1</TileData>
+	<TileData>1,0,0,55.157627,0,1,0</TileData>
+	<TileData>1,0,0,53.993042,0,1,0</TileData>
+	<TileData>1,0,0,50.089420,0,0,0</TileData>
+	<TileData>1,2,0,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,53.539841,0,10,0</TileData>
+	<TileData>2,0,1,50.089420,0,0,0</TileData>
+	<TileData>1,2,1,57.672047,0,10,1</TileData>
+	<TileData>1,2,1,57.892086,0,10,0</TileData>
+	<TileData>1,2,1,59.979248,0,10,0</TileData>
+	<TileData>1,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,202.589417,0,9,0</TileData>
+	<TileData>1,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,3,1,50.134129,0,11,7</TileData>
+	<TileData>1,3,1,66.415909,0,11,1</TileData>
+	<TileData>1,0,1,61.085545,0,2,-1</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>4,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>2,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,51.095921,0,7,-1</TileData>
+	<TileData>1,0,1,50.157932,0,7,-1</TileData>
+	<TileData>1,0,0,52.015747,0,0,7</TileData>
+	<TileData>2,0,0,140.000000,0,23,1</TileData>
+	<TileData>3,0,1,140.000000,0,23,1</TileData>
+	<TileData>1,0,0,140.000000,0,23,1</TileData>
+	<TileData>1,0,1,140.000000,0,23,1</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>21,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>3,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,59.710381,0,1,-1</TileData>
+	<TileData>1,0,0,60.783409,0,1,-1</TileData>
+	<TileData>1,0,0,58.188423,0,0,0</TileData>
+	<TileData>1,2,0,50.089420,0,10,0</TileData>
+	<TileData>1,2,0,50.073551,0,10,0</TileData>
+	<TileData>1,0,0,50.089420,1,0,0</TileData>
+	<TileData>1,0,1,50.089420,0,0,0</TileData>
+	<TileData>1,0,1,53.862423,0,1,0</TileData>
+	<TileData>1,0,1,55.013580,0,2,0</TileData>
+	<TileData>1,2,1,58.901638,0,10,0</TileData>
+	<TileData>1,2,1,75.644547,0,9,0</TileData>
+	<TileData>1,2,1,175.325287,0,9,0</TileData>
+	<TileData>1,2,1,197.500000,0,9,0</TileData>
+	<TileData>1,2,1,185.089417,0,9,0</TileData>
+	<TileData>1,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,55.094151,0,10,0</TileData>
+	<TileData>1,2,1,57.201454,0,10,1</TileData>
+	<TileData>1,0,1,65.862305,0,1,1</TileData>
+	<TileData>2,5,1,0.000000,0,13,0</TileData>
+	<TileData>1,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,53.655811,0,7,-1</TileData>
+	<TileData>1,0,1,55.111088,0,7,-1</TileData>
+	<TileData>1,0,1,100.210579,0,6,7</TileData>
+	<TileData>1,0,0,51.690117,0,0,7</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>2,0,1,140.000000,0,23,1</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>23,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,2,0.000000,0,16,-1</TileData>
+	<TileData>1,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,54.016541,0,0,-1</TileData>
+	<TileData>1,0,0,50.603657,0,0,1</TileData>
+	<TileData>1,2,1,192.589417,0,9,0</TileData>
+	<TileData>2,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,0,1,50.178837,1,1,0</TileData>
+	<TileData>1,0,1,57.503891,0,2,-1</TileData>
+	<TileData>1,0,1,62.048096,0,2,0</TileData>
+	<TileData>1,2,1,59.302040,0,10,0</TileData>
+	<TileData>1,2,1,161.196213,0,9,0</TileData>
+	<TileData>1,2,1,192.500000,0,9,0</TileData>
+	<TileData>1,2,1,52.384411,0,10,1</TileData>
+	<TileData>1,2,1,195.000000,0,9,0</TileData>
+	<TileData>1,2,1,118.750000,0,9,0</TileData>
+	<TileData>1,2,1,51.406902,0,10,0</TileData>
+	<TileData>1,0,1,54.361706,0,0,0</TileData>
+	<TileData>1,3,1,66.415909,0,11,1</TileData>
+	<TileData>1,0,1,64.488358,0,1,1</TileData>
+	<TileData>1,0,1,55.560471,0,2,0</TileData>
+	<TileData>4,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,52.072819,0,1,-1</TileData>
+	<TileData>1,0,1,53.172703,0,0,-1</TileData>
+	<TileData>1,0,0,62.887814,0,7,-1</TileData>
+	<TileData>1,0,0,52.757195,0,7,-1</TileData>
+	<TileData>1,9,0,50.000000,0,4,7</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	<TileData>2,0,1,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,1</TileData>
+	<TileData>1,0,0,140.000000,0,23,1</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>23,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,4,1,58.878078,0,12,0</TileData>
+	<TileData>1,2,1,179.214844,0,9,0</TileData>
+	<TileData>1,2,1,216.250000,0,9,0</TileData>
+	<TileData>1,2,1,51.714836,0,10,0</TileData>
+	<TileData>1,0,1,55.434738,0,0,0</TileData>
+	<TileData>1,0,1,51.830502,1,2,-1</TileData>
+	<TileData>1,0,1,58.179573,0,0,0</TileData>
+	<TileData>1,2,1,59.119541,0,10,0</TileData>
+	<TileData>1,2,1,52.959076,0,10,0</TileData>
+	<TileData>1,2,1,168.945663,0,9,0</TileData>
+	<TileData>1,2,1,210.000000,0,9,0</TileData>
+	<TileData>1,2,1,196.048233,0,9,0</TileData>
+	<TileData>1,2,1,168.675568,0,9,0</TileData>
+	<TileData>1,2,1,77.999817,0,9,0</TileData>
+	<TileData>1,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,2,1,54.103214,0,10,0</TileData>
+	<TileData>1,2,1,51.294899,0,10,1</TileData>
+	<TileData>1,0,1,50.890530,0,0,1</TileData>
+	<TileData>1,0,1,59.322792,0,0,1</TileData>
+	<TileData>1,0,1,51.675770,0,0,2</TileData>
+	<TileData>1,0,1,55.689873,0,0,2</TileData>
+	<TileData>1,0,1,67.885071,0,1,-1</TileData>
+	<TileData>1,0,1,51.380047,0,1,-1</TileData>
+	<TileData>1,0,1,55.670338,0,0,-1</TileData>
+	<TileData>1,0,0,58.819084,0,7,-1</TileData>
+	<TileData>1,0,0,52.757195,0,7,-1</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>2,0,1,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,1</TileData>
+	<TileData>4,0,0,140.000000,0,23,5</TileData>
+	<TileData>27,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,0</TileData>
+	<TileData>1,1,1,0.000000,0,16,0</TileData>
+	<TileData>1,2,1,198.750000,0,9,0</TileData>
+	<TileData>1,2,1,156.977783,0,9,0</TileData>
+	<TileData>1,2,1,107.082428,0,9,0</TileData>
+	<TileData>1,2,1,50.089420,0,10,0</TileData>
+	<TileData>1,0,1,50.178837,0,2,-1</TileData>
+	<TileData>1,0,1,63.115635,0,2,-1</TileData>
+	<TileData>1,0,1,59.706108,1,1,-1</TileData>
+	<TileData>1,3,1,50.089420,0,11,0</TileData>
+	<TileData>1,2,1,54.406872,0,10,0</TileData>
+	<TileData>1,2,1,54.048889,0,10,0</TileData>
+	<TileData>1,2,1,50.122074,0,10,0</TileData>
+	<TileData>1,2,1,210.000000,0,9,0</TileData>
+	<TileData>1,2,1,55.094761,0,10,0</TileData>
+	<TileData>1,2,1,53.632923,0,10,0</TileData>
+	<TileData>1,2,1,197.099487,0,9,0</TileData>
+	<TileData>1,2,1,170.089417,0,9,0</TileData>
+	<TileData>1,2,1,71.355286,0,9,0</TileData>
+	<TileData>1,2,1,50.105289,0,10,0</TileData>
+	<TileData>1,2,1,59.670399,0,10,1</TileData>
+	<TileData>1,2,1,81.826836,0,9,2</TileData>
+	<TileData>1,2,1,50.042419,0,10,1</TileData>
+	<TileData>1,2,1,53.234047,0,10,7</TileData>
+	<TileData>1,2,1,52.919094,0,10,0</TileData>
+	<TileData>1,0,1,59.865414,0,0,-1</TileData>
+	<TileData>1,0,0,112.204964,0,6,7</TileData>
+	<TileData>1,0,0,50.157932,0,7,7</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>2,0,1,140.000000,0,23,1</TileData>
+	<TileData>4,0,0,140.000000,0,23,5</TileData>
+	<TileData>27,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,2,1,50.073551,0,10,0</TileData>
+	<TileData>1,2,1,155.089417,0,9,0</TileData>
+	<TileData>1,2,1,71.343727,0,9,0</TileData>
+	<TileData>1,2,1,122.974182,0,9,0</TileData>
+	<TileData>1,2,1,51.789604,0,10,0</TileData>
+	<TileData>1,0,1,58.207954,0,0,-1</TileData>
+	<TileData>2,0,1,50.089420,0,0,-1</TileData>
+	<TileData>1,0,1,58.207954,1,0,-1</TileData>
+	<TileData>1,3,1,58.207954,0,11,0</TileData>
+	<TileData>1,0,1,58.209480,0,0,0</TileData>
+	<TileData>1,2,1,55.154270,0,10,0</TileData>
+	<TileData>1,2,1,58.742638,0,10,0</TileData>
+	<TileData>1,0,1,52.182987,0,0,0</TileData>
+	<TileData>1,2,1,53.224281,0,10,0</TileData>
+	<TileData>1,2,1,152.890976,0,9,0</TileData>
+	<TileData>1,2,1,215.000000,0,9,0</TileData>
+	<TileData>1,2,1,161.250000,0,9,0</TileData>
+	<TileData>1,2,1,154.915619,0,9,0</TileData>
+	<TileData>1,2,1,168.794678,0,9,0</TileData>
+	<TileData>1,2,1,192.948883,0,9,0</TileData>
+	<TileData>1,2,1,168.788376,0,9,0</TileData>
+	<TileData>1,2,1,119.014404,0,9,7</TileData>
+	<TileData>1,2,1,53.789177,0,10,7</TileData>
+	<TileData>1,0,0,50.157932,0,7,-1</TileData>
+	<TileData>2,0,0,50.157932,0,7,0</TileData>
+	<TileData>2,0,0,140.000000,0,23,7</TileData>
+	<TileData>1,0,1,140.000000,0,23,2</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,1</TileData>
+	<TileData>4,0,0,140.000000,0,23,5</TileData>
+	<TileData>27,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,2,1,171.975281,0,9,0</TileData>
+	<TileData>1,1,1,0.000000,0,16,0</TileData>
+	<TileData>2,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,59.850155,0,10,-1</TileData>
+	<TileData>4,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,50.690025,1,0,-1</TileData>
+	<TileData>1,0,1,56.822716,0,0,0</TileData>
+	<TileData>1,0,1,56.421093,0,1,0</TileData>
+	<TileData>1,0,1,52.689293,0,0,2</TileData>
+	<TileData>1,0,1,50.972015,0,0,0</TileData>
+	<TileData>1,0,1,78.304390,0,6,0</TileData>
+	<TileData>1,2,1,53.416241,0,10,2</TileData>
+	<TileData>1,2,1,55.081333,0,10,0</TileData>
+	<TileData>1,2,1,51.934261,0,10,0</TileData>
+	<TileData>1,2,1,57.535934,0,10,0</TileData>
+	<TileData>1,2,1,52.516556,0,10,0</TileData>
+	<TileData>1,2,1,50.121159,0,10,0</TileData>
+	<TileData>1,2,1,182.500000,0,9,0</TileData>
+	<TileData>1,2,1,123.656273,0,9,0</TileData>
+	<TileData>1,2,1,57.970825,0,10,7</TileData>
+	<TileData>1,0,0,61.496933,0,1,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,1</TileData>
+	<TileData>1,0,1,140.000000,0,23,7</TileData>
+	<TileData>1,0,1,140.000000,0,23,1</TileData>
+	<TileData>1,0,1,140.000000,0,23,7</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,2</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>4,0,0,140.000000,0,23,5</TileData>
+	<TileData>27,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,0</TileData>
+	<TileData>3,1,1,0.000000,0,16,-1</TileData>
+	<TileData>4,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,58.207954,1,0,-1</TileData>
+	<TileData>1,0,1,53.340557,0,0,2</TileData>
+	<TileData>1,0,1,91.042816,0,6,0</TileData>
+	<TileData>1,0,1,88.564713,0,6,0</TileData>
+	<TileData>1,0,1,54.142735,0,0,2</TileData>
+	<TileData>1,0,1,90.254677,0,6,2</TileData>
+	<TileData>1,3,1,53.934753,0,11,0</TileData>
+	<TileData>1,3,1,69.957275,0,11,2</TileData>
+	<TileData>1,0,1,58.470718,0,0,0</TileData>
+	<TileData>1,0,1,57.662281,0,0,0</TileData>
+	<TileData>1,2,1,54.672993,0,10,0</TileData>
+	<TileData>1,2,1,124.723465,0,9,0</TileData>
+	<TileData>1,2,1,189.142731,0,9,0</TileData>
+	<TileData>1,2,1,50.821560,0,10,1</TileData>
+	<TileData>1,0,0,55.404217,0,1,7</TileData>
+	<TileData>1,0,0,140.000000,0,23,1</TileData>
+	<TileData>2,0,1,140.000000,0,23,1</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>3,0,1,140.000000,0,23,2</TileData>
+	<TileData>4,0,0,140.000000,0,23,5</TileData>
+	<TileData>27,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,1,1,0.000000,0,16,-1</TileData>
+	<TileData>6,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,1,0.000000,0,16,-1</TileData>
+	<TileData>2,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,0,1,54.434647,1,0,-1</TileData>
+	<TileData>1,0,1,57.019867,1,0,0</TileData>
+	<TileData>1,0,1,56.302986,1,0,2</TileData>
+	<TileData>1,0,1,52.265999,1,0,1</TileData>
+	<TileData>1,3,1,50.210579,0,11,1</TileData>
+	<TileData>1,3,1,50.699486,0,11,2</TileData>
+	<TileData>1,3,1,58.876614,0,11,2</TileData>
+	<TileData>1,0,1,59.181190,0,0,0</TileData>
+	<TileData>1,0,1,52.164677,0,0,0</TileData>
+	<TileData>1,0,1,52.825100,0,0,0</TileData>
+	<TileData>1,2,1,51.600391,0,10,0</TileData>
+	<TileData>1,2,1,193.472290,0,9,0</TileData>
+	<TileData>1,2,1,56.519974,0,10,0</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,1</TileData>
+	<TileData>1,0,1,140.000000,0,23,2</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>5,0,0,140.000000,0,23,5</TileData>
+	<TileData>36,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,1,1,0.000000,0,16,-1</TileData>
+	<TileData>4,5,1,0.000000,0,13,-1</TileData>
+	<TileData>1,6,1,50.000000,0,15,-1</TileData>
+	<TileData>1,3,1,63.348797,1,11,1</TileData>
+	<TileData>1,3,1,51.944641,0,11,1</TileData>
+	<TileData>1,0,1,56.665241,0,2,0</TileData>
+	<TileData>1,0,1,59.322792,0,0,0</TileData>
+	<TileData>1,0,1,58.933685,0,0,0</TileData>
+	<TileData>1,2,1,51.300392,0,10,0</TileData>
+	<TileData>1,2,1,195.116058,0,9,0</TileData>
+	<TileData>1,2,1,198.750000,0,9,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>4,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,2</TileData>
+	<TileData>1,0,0,140.000000,0,23,1</TileData>
+	<TileData>6,0,0,140.000000,0,23,5</TileData>
+	<TileData>24,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,4,0,59.158787,0,12,-1</TileData>
+	<TileData>11,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,1,1,0.000000,0,16,-1</TileData>
+	<TileData>1,4,1,59.899105,0,12,-1</TileData>
+	<TileData>1,4,0,58.657612,0,12,-1</TileData>
+	<TileData>1,6,1,50.000000,1,15,-1</TileData>
+	<TileData>1,3,1,63.429821,0,11,5</TileData>
+	<TileData>1,0,1,58.636738,0,2,0</TileData>
+	<TileData>1,0,1,52.795494,0,2,0</TileData>
+	<TileData>1,2,1,54.001282,0,10,0</TileData>
+	<TileData>1,2,1,186.250000,0,9,0</TileData>
+	<TileData>1,2,1,210.000000,0,9,0</TileData>
+	<TileData>2,0,1,140.000000,0,23,7</TileData>
+	<TileData>2,0,1,140.000000,0,23,0</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,1</TileData>
+	<TileData>2,0,1,140.000000,0,23,5</TileData>
+	<TileData>5,0,0,140.000000,0,23,5</TileData>
+	<TileData>24,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,3,0,64.142273,0,11,1</TileData>
+	<TileData>1,0,0,50.613117,0,0,0</TileData>
+	<TileData>1,4,0,56.653461,0,12,-1</TileData>
+	<TileData>1,4,0,54.253426,0,12,-1</TileData>
+	<TileData>13,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,4,0,54.075809,0,12,-1</TileData>
+	<TileData>1,0,0,68.021179,0,2,-1</TileData>
+	<TileData>1,0,0,52.681969,1,2,-1</TileData>
+	<TileData>1,0,0,63.390911,0,5,-1</TileData>
+	<TileData>1,2,1,57.838680,0,10,0</TileData>
+	<TileData>1,2,1,126.842400,0,9,0</TileData>
+	<TileData>1,2,1,178.651001,0,9,0</TileData>
+	<TileData>1,2,1,127.525787,0,9,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>2,0,1,140.000000,0,23,7</TileData>
+	<TileData>2,0,1,140.000000,0,23,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,1</TileData>
+	<TileData>2,0,1,140.000000,0,23,5</TileData>
+	<TileData>5,0,0,140.000000,0,23,5</TileData>
+	<TileData>24,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,3,0,50.943329,0,11,0</TileData>
+	<TileData>1,3,0,55.699944,0,11,0</TileData>
+	<TileData>1,0,0,52.379833,0,0,5</TileData>
+	<TileData>1,4,0,58.052063,0,12,0</TileData>
+	<TileData>1,4,0,54.664509,0,12,-1</TileData>
+	<TileData>12,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,4,0,57.587147,0,12,-1</TileData>
+	<TileData>1,4,0,54.695457,0,12,-1</TileData>
+	<TileData>1,0,0,50.158695,0,1,-1</TileData>
+	<TileData>1,0,0,50.450912,1,5,-1</TileData>
+	<TileData>1,2,1,56.544388,0,10,0</TileData>
+	<TileData>1,2,1,170.000000,0,9,0</TileData>
+	<TileData>1,2,1,202.500000,0,9,0</TileData>
+	<TileData>3,0,1,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,7</TileData>
+	<TileData>2,0,1,140.000000,0,23,1</TileData>
+	<TileData>1,0,0,140.000000,0,23,1</TileData>
+	<TileData>3,0,1,140.000000,0,23,5</TileData>
+	<TileData>5,0,0,140.000000,0,23,5</TileData>
+	<TileData>23,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,53.460800,0,10,-1</TileData>
+	<TileData>1,2,0,53.539841,0,10,-1</TileData>
+	<TileData>1,2,0,51.714836,0,10,-1</TileData>
+	<TileData>1,2,0,54.523453,0,10,1</TileData>
+	<TileData>1,3,0,50.178837,0,11,1</TileData>
+	<TileData>1,0,0,51.714836,0,0,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>13,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,4,0,56.444901,0,12,-1</TileData>
+	<TileData>1,4,0,59.469711,0,12,-1</TileData>
+	<TileData>1,0,0,62.883694,1,5,-1</TileData>
+	<TileData>1,2,0,53.172703,0,10,0</TileData>
+	<TileData>1,2,0,173.651001,0,9,0</TileData>
+	<TileData>1,2,0,210.000000,0,9,0</TileData>
+	<TileData>3,0,1,140.000000,0,23,0</TileData>
+	<TileData>2,0,1,140.000000,0,23,1</TileData>
+	<TileData>1,0,1,140.000000,0,23,5</TileData>
+	<TileData>9,0,0,140.000000,0,23,5</TileData>
+	<TileData>22,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,57.601551,0,10,-1</TileData>
+	<TileData>1,2,0,157.486649,0,9,0</TileData>
+	<TileData>1,2,0,210.000000,0,9,0</TileData>
+	<TileData>1,2,0,197.500000,0,9,0</TileData>
+	<TileData>1,2,0,56.640827,0,10,0</TileData>
+	<TileData>1,3,0,53.429668,0,11,1</TileData>
+	<TileData>1,3,0,53.439438,0,11,1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>14,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,61.579941,0,1,-1</TileData>
+	<TileData>1,2,0,56.169926,0,10,0</TileData>
+	<TileData>1,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,184.816162,0,9,0</TileData>
+	<TileData>1,2,0,210.000000,0,9,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	<TileData>2,0,1,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,5</TileData>
+	<TileData>10,0,0,140.000000,0,23,5</TileData>
+	<TileData>24,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,183.709183,0,9,0</TileData>
+	<TileData>1,2,0,58.227791,0,10,-1</TileData>
+	<TileData>1,2,0,57.071136,0,10,-1</TileData>
+	<TileData>3,5,0,0.000000,0,13,-1</TileData>
+	<TileData>14,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,51.200752,0,5,-1</TileData>
+	<TileData>1,0,0,100.402847,0,6,5</TileData>
+	<TileData>1,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,126.842400,0,9,0</TileData>
+	<TileData>1,2,0,205.067444,0,9,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,0,1,140.000000,0,23,0</TileData>
+	<TileData>2,0,1,140.000000,0,23,5</TileData>
+	<TileData>10,0,0,140.000000,0,23,5</TileData>
+	<TileData>23,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,57.201454,0,10,-1</TileData>
+	<TileData>1,2,0,54.955292,0,10,-1</TileData>
+	<TileData>19,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,68.806114,0,2,-1</TileData>
+	<TileData>1,0,0,60.625019,0,5,0</TileData>
+	<TileData>1,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,189.285141,0,9,0</TileData>
+	<TileData>1,2,0,181.243622,0,9,0</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>9,0,0,140.000000,0,23,5</TileData>
+	<TileData>3,0,0,140.000000,0,23,0</TileData>
+	<TileData>43,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,63.599659,0,5,-1</TileData>
+	<TileData>2,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,208.651001,0,9,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,0</TileData>
+	<TileData>8,0,0,140.000000,0,23,5</TileData>
+	<TileData>4,0,0,140.000000,0,23,0</TileData>
+	<TileData>43,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,112.014526,0,6,1</TileData>
+	<TileData>1,0,0,51.035034,0,5,-1</TileData>
+	<TileData>1,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,221.250000,0,9,0</TileData>
+	<TileData>1,2,0,227.500000,0,9,0</TileData>
+	<TileData>5,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>7,0,0,140.000000,0,23,0</TileData>
+	<TileData>42,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,108.750267,0,6,5</TileData>
+	<TileData>1,0,0,50.157932,0,5,-1</TileData>
+	<TileData>2,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,205.067444,0,9,0</TileData>
+	<TileData>1,2,0,206.151001,0,9,0</TileData>
+	<TileData>1,2,0,187.500000,0,9,0</TileData>
+	<TileData>13,0,0,140.000000,0,23,0</TileData>
+	<TileData>42,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,65.997803,0,2,-1</TileData>
+	<TileData>1,0,0,51.035034,0,5,-1</TileData>
+	<TileData>1,0,0,60.441605,0,2,-1</TileData>
+	<TileData>1,0,0,50.157932,0,5,0</TileData>
+	<TileData>2,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,212.401001,0,9,0</TileData>
+	<TileData>1,2,0,250.000000,0,9,0</TileData>
+	<TileData>1,2,0,170.000000,0,9,0</TileData>
+	<TileData>1,2,0,187.500000,0,9,0</TileData>
+	<TileData>1,2,0,141.066162,0,9,0</TileData>
+	<TileData>10,0,0,140.000000,0,23,0</TileData>
+	<TileData>41,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,67.939392,0,2,-1</TileData>
+	<TileData>1,0,0,50.210579,0,1,-1</TileData>
+	<TileData>1,0,0,50.210579,0,1,1</TileData>
+	<TileData>1,0,0,50.181736,1,5,0</TileData>
+	<TileData>1,0,0,50.181736,0,5,0</TileData>
+	<TileData>2,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,204.901001,0,9,0</TileData>
+	<TileData>1,2,0,250.000000,0,9,0</TileData>
+	<TileData>1,2,0,176.151001,0,9,0</TileData>
+	<TileData>1,2,0,126.842400,0,9,0</TileData>
+	<TileData>5,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,2,0,145.081635,0,9,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,2,0,51.586048,0,10,0</TileData>
+	<TileData>41,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,3,0,51.554611,0,11,5</TileData>
+	<TileData>1,3,0,51.035034,0,11,5</TileData>
+	<TileData>1,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,53.172703,0,10,1</TileData>
+	<TileData>1,2,0,50.105289,0,10,0</TileData>
+	<TileData>1,0,0,50.181736,1,5,0</TileData>
+	<TileData>1,0,0,55.355999,0,2,0</TileData>
+	<TileData>2,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,2,0,250.000000,0,9,0</TileData>
+	<TileData>1,2,0,215.067444,0,9,0</TileData>
+	<TileData>1,2,0,248.750000,0,9,0</TileData>
+	<TileData>1,2,0,241.470535,0,9,0</TileData>
+	<TileData>1,2,0,189.604172,0,9,0</TileData>
+	<TileData>1,2,0,155.261124,0,9,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>41,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,3,0,50.121159,0,11,0</TileData>
+	<TileData>2,2,0,50.105289,0,10,1</TileData>
+	<TileData>1,2,0,192.577713,0,9,0</TileData>
+	<TileData>1,0,0,51.250648,0,0,0</TileData>
+	<TileData>1,0,0,56.844997,0,0,0</TileData>
+	<TileData>1,0,0,53.239540,1,0,5</TileData>
+	<TileData>1,0,0,55.971558,0,0,2</TileData>
+	<TileData>1,0,0,53.239540,0,0,5</TileData>
+	<TileData>1,0,0,58.884548,0,0,0</TileData>
+	<TileData>1,2,1,111.470535,0,9,0</TileData>
+	<TileData>1,2,0,230.592407,0,9,0</TileData>
+	<TileData>5,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,5</TileData>
+	<TileData>4,0,0,140.000000,0,23,0</TileData>
+	<TileData>39,1,0,0.000000,0,16,-1</TileData>
+	<TileData>3,2,0,50.121159,0,10,-1</TileData>
+	<TileData>1,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,50.105289,0,10,0</TileData>
+	<TileData>1,2,0,228.871155,0,9,0</TileData>
+	<TileData>1,2,0,159.901001,0,9,0</TileData>
+	<TileData>1,0,2,56.404308,0,0,0</TileData>
+	<TileData>2,9,0,50.000000,0,4,0</TileData>
+	<TileData>1,9,0,50.000000,1,4,2</TileData>
+	<TileData>1,9,0,50.000000,0,4,5</TileData>
+	<TileData>1,0,2,55.543991,0,0,0</TileData>
+	<TileData>1,2,0,237.238342,0,9,0</TileData>
+	<TileData>1,2,0,143.750000,0,9,0</TileData>
+	<TileData>5,0,0,140.000000,0,23,0</TileData>
+	<TileData>5,0,0,140.000000,0,23,5</TileData>
+	<TileData>38,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,50.121159,0,10,-1</TileData>
+	<TileData>1,2,0,166.922699,0,9,0</TileData>
+	<TileData>1,2,0,123.172699,0,9,0</TileData>
+	<TileData>1,2,0,196.250000,0,9,0</TileData>
+	<TileData>1,2,0,124.422699,0,9,0</TileData>
+	<TileData>1,2,0,171.371155,0,9,0</TileData>
+	<TileData>1,2,1,117.283554,0,9,0</TileData>
+	<TileData>1,2,1,148.540451,0,9,0</TileData>
+	<TileData>1,0,2,55.971558,0,0,0</TileData>
+	<TileData>1,9,0,50.000000,0,4,0</TileData>
+	<TileData>1,8,0,-17.938322,0,3,0</TileData>
+	<TileData>1,8,0,-5.192266,0,3,5</TileData>
+	<TileData>1,9,0,50.000000,0,4,0</TileData>
+	<TileData>1,0,2,55.200050,0,0,0</TileData>
+	<TileData>1,2,0,205.386093,0,9,0</TileData>
+	<TileData>1,2,0,167.500000,0,9,0</TileData>
+	<TileData>7,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>37,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,56.169926,0,10,-1</TileData>
+	<TileData>1,2,0,192.500000,0,9,-1</TileData>
+	<TileData>3,2,0,56.169926,0,10,-1</TileData>
+	<TileData>3,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,1,129.283569,0,9,0</TileData>
+	<TileData>1,0,2,56.123539,0,0,0</TileData>
+	<TileData>2,9,0,50.000000,0,4,0</TileData>
+	<TileData>1,9,0,50.000000,1,4,5</TileData>
+	<TileData>1,9,0,50.000000,0,4,0</TileData>
+	<TileData>1,0,2,58.156376,0,0,0</TileData>
+	<TileData>1,2,0,210.000000,0,9,0</TileData>
+	<TileData>1,2,0,187.500000,0,9,0</TileData>
+	<TileData>1,2,0,210.000000,0,9,0</TileData>
+	<TileData>1,2,0,140.188110,0,9,0</TileData>
+	<TileData>5,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>37,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,58.533279,0,10,-1</TileData>
+	<TileData>1,2,0,58.955963,0,10,-1</TileData>
+	<TileData>1,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,57.036041,0,0,-1</TileData>
+	<TileData>1,0,0,58.327278,0,2,-1</TileData>
+	<TileData>1,0,0,66.002686,0,2,0</TileData>
+	<TileData>1,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,0,0,57.482224,0,0,0</TileData>
+	<TileData>1,0,0,50.206001,1,5,0</TileData>
+	<TileData>1,0,0,64.404739,1,2,0</TileData>
+	<TileData>1,0,0,60.939056,0,2,0</TileData>
+	<TileData>1,0,0,52.587666,0,0,0</TileData>
+	<TileData>1,0,1,53.151035,0,0,0</TileData>
+	<TileData>1,2,0,225.000000,0,9,0</TileData>
+	<TileData>1,2,0,162.939926,0,9,0</TileData>
+	<TileData>7,0,0,140.000000,0,23,5</TileData>
+	<TileData>3,0,0,140.000000,0,23,0</TileData>
+	<TileData>40,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,63.774223,0,2,-1</TileData>
+	<TileData>1,0,0,58.255257,0,2,-1</TileData>
+	<TileData>1,0,0,62.432022,1,2,0</TileData>
+	<TileData>1,0,0,55.343182,1,2,0</TileData>
+	<TileData>1,0,0,55.925472,1,2,0</TileData>
+	<TileData>1,2,0,55.655079,0,10,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,2,0,53.397015,0,10,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,2,0,209.973267,0,9,0</TileData>
+	<TileData>1,2,0,143.804657,0,9,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	<TileData>10,0,0,140.000000,0,23,5</TileData>
+	<TileData>41,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,69.259621,0,2,-1</TileData>
+	<TileData>1,0,0,52.972504,1,2,0</TileData>
+	<TileData>4,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,206.029846,0,9,0</TileData>
+	<TileData>1,2,0,53.397015,0,10,0</TileData>
+	<TileData>1,2,0,189.783554,0,9,0</TileData>
+	<TileData>1,2,0,148.540451,0,9,0</TileData>
+	<TileData>1,2,0,103.619339,0,9,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	<TileData>10,0,0,140.000000,0,23,5</TileData>
+	<TileData>41,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,50.692772,1,2,-1</TileData>
+	<TileData>1,2,0,50.269173,0,10,0</TileData>
+	<TileData>1,2,0,61.304665,0,9,0</TileData>
+	<TileData>1,2,0,212.500000,0,9,0</TileData>
+	<TileData>1,2,0,92.271645,0,9,0</TileData>
+	<TileData>1,2,0,125.054657,0,9,0</TileData>
+	<TileData>1,2,0,246.223267,0,9,0</TileData>
+	<TileData>1,2,0,197.271637,0,9,0</TileData>
+	<TileData>1,2,0,160.054657,0,9,0</TileData>
+	<TileData>1,2,0,61.304665,0,9,0</TileData>
+	<TileData>1,2,0,136.905731,0,9,0</TileData>
+	<TileData>1,2,0,56.099125,0,10,0</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>8,0,0,140.000000,0,23,5</TileData>
+	<TileData>38,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,4,2,58.525589,0,12,-1</TileData>
+	<TileData>1,4,0,59.156223,0,12,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,68.644363,1,2,-1</TileData>
+	<TileData>1,2,0,51.636097,0,10,0</TileData>
+	<TileData>1,2,0,117.283554,0,9,0</TileData>
+	<TileData>1,2,2,148.540451,0,9,0</TileData>
+	<TileData>1,2,0,195.054657,0,9,0</TileData>
+	<TileData>1,2,0,191.304657,0,9,0</TileData>
+	<TileData>1,2,0,148.540451,0,9,0</TileData>
+	<TileData>1,2,0,211.119339,0,9,0</TileData>
+	<TileData>1,2,2,250.000000,0,9,0</TileData>
+	<TileData>1,2,2,201.545456,0,9,0</TileData>
+	<TileData>1,2,2,165.189331,0,9,0</TileData>
+	<TileData>1,2,2,153.903198,0,9,0</TileData>
+	<TileData>1,2,0,135.897018,0,9,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	<TileData>8,0,0,140.000000,0,23,5</TileData>
+	<TileData>36,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,4,0,55.938416,0,12,-1</TileData>
+	<TileData>1,4,0,55.264748,0,12,-1</TileData>
+	<TileData>1,4,0,57.992920,0,12,-1</TileData>
+	<TileData>1,0,0,54.070255,0,0,-1</TileData>
+	<TileData>1,0,0,63.753471,0,2,-1</TileData>
+	<TileData>1,0,2,50.211189,1,0,-1</TileData>
+	<TileData>1,0,2,50.093998,0,2,0</TileData>
+	<TileData>1,2,0,59.604176,0,10,0</TileData>
+	<TileData>1,2,0,81.216774,0,9,0</TileData>
+	<TileData>1,2,2,190.533569,0,9,0</TileData>
+	<TileData>1,2,0,197.401001,0,9,0</TileData>
+	<TileData>1,2,0,219.771637,0,9,0</TileData>
+	<TileData>2,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,2,0,55.655079,0,10,0</TileData>
+	<TileData>1,2,0,55.733513,0,10,0</TileData>
+	<TileData>1,2,0,109.508919,0,9,0</TileData>
+	<TileData>1,2,2,163.391296,0,9,0</TileData>
+	<TileData>1,2,2,181.304657,0,9,0</TileData>
+	<TileData>1,2,2,186.304657,0,9,0</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>6,0,0,140.000000,0,23,5</TileData>
+	<TileData>36,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,4,0,56.033997,0,12,-1</TileData>
+	<TileData>1,0,0,50.438248,0,0,-1</TileData>
+	<TileData>1,6,2,50.000000,0,15,0</TileData>
+	<TileData>1,0,2,62.506485,0,2,0</TileData>
+	<TileData>1,0,2,60.672321,1,2,-1</TileData>
+	<TileData>1,0,2,52.972504,0,2,0</TileData>
+	<TileData>1,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,0,61.151005,0,9,0</TileData>
+	<TileData>1,2,2,166.151001,0,9,0</TileData>
+	<TileData>1,2,2,208.750000,0,9,0</TileData>
+	<TileData>3,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,0,0,65.264748,0,2,2</TileData>
+	<TileData>1,0,0,50.985596,0,5,2</TileData>
+	<TileData>1,2,0,54.282051,0,10,0</TileData>
+	<TileData>1,2,0,50.195930,0,10,0</TileData>
+	<TileData>1,2,2,193.155075,0,9,0</TileData>
+	<TileData>1,2,2,152.554657,0,9,0</TileData>
+	<TileData>1,2,2,199.405075,0,9,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>5,0,0,140.000000,0,23,5</TileData>
+	<TileData>36,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,4,0,57.575428,0,12,-1</TileData>
+	<TileData>1,3,2,58.583023,0,11,1</TileData>
+	<TileData>1,3,2,58.955963,0,11,0</TileData>
+	<TileData>1,3,2,52.920773,1,11,0</TileData>
+	<TileData>1,0,2,61.070282,1,2,-1</TileData>
+	<TileData>1,0,2,63.774223,0,2,0</TileData>
+	<TileData>1,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,2,2,164.901001,0,9,0</TileData>
+	<TileData>1,2,0,223.750000,0,9,0</TileData>
+	<TileData>2,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,0,0,62.748192,0,2,2</TileData>
+	<TileData>1,0,0,56.314125,0,5,2</TileData>
+	<TileData>1,0,0,64.246651,0,2,2</TileData>
+	<TileData>1,0,0,60.379192,0,5,0</TileData>
+	<TileData>1,0,0,63.600574,0,5,-1</TileData>
+	<TileData>1,0,0,59.455246,0,0,0</TileData>
+	<TileData>1,2,0,53.895382,0,10,0</TileData>
+	<TileData>1,2,2,182.637329,0,9,0</TileData>
+	<TileData>1,2,2,214.405075,0,9,0</TileData>
+	<TileData>1,2,2,186.387329,0,9,0</TileData>
+	<TileData>4,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>36,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,3,2,51.346783,0,11,0</TileData>
+	<TileData>1,3,2,53.758965,0,11,0</TileData>
+	<TileData>1,3,2,50.121159,0,11,0</TileData>
+	<TileData>1,0,2,50.076908,1,2,-1</TileData>
+	<TileData>1,0,2,56.592609,0,2,0</TileData>
+	<TileData>1,2,0,50.068058,0,10,0</TileData>
+	<TileData>1,2,2,52.640461,0,10,0</TileData>
+	<TileData>1,2,0,61.151005,0,9,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,0,0,56.010162,0,5,1</TileData>
+	<TileData>1,0,0,65.848267,0,2,2</TileData>
+	<TileData>1,0,0,63.022247,0,2,2</TileData>
+	<TileData>1,0,0,55.551010,0,5,0</TileData>
+	<TileData>1,0,0,50.538345,0,2,-1</TileData>
+	<TileData>1,0,0,57.921997,0,14,2</TileData>
+	<TileData>1,0,0,58.664818,0,5,-1</TileData>
+	<TileData>1,2,0,56.153446,0,10,5</TileData>
+	<TileData>1,2,2,171.307983,0,9,0</TileData>
+	<TileData>1,2,2,112.001137,0,9,0</TileData>
+	<TileData>1,0,2,140.000000,0,23,0</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,2,0,56.511124,0,10,0</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>36,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>2,5,2,0.000000,0,13,-1</TileData>
+	<TileData>1,0,2,66.681419,1,2,-1</TileData>
+	<TileData>1,0,2,54.119999,0,2,-1</TileData>
+	<TileData>1,0,0,57.543869,0,0,0</TileData>
+	<TileData>1,0,0,57.162693,0,0,0</TileData>
+	<TileData>1,0,0,52.458572,0,0,0</TileData>
+	<TileData>1,0,0,63.433945,0,5,0</TileData>
+	<TileData>1,0,0,54.677113,0,5,0</TileData>
+	<TileData>1,0,0,58.514664,0,5,1</TileData>
+	<TileData>1,0,0,68.640091,0,2,0</TileData>
+	<TileData>1,3,0,58.236946,0,11,2</TileData>
+	<TileData>1,0,0,68.108459,0,14,2</TileData>
+	<TileData>1,0,0,53.090916,0,14,2</TileData>
+	<TileData>1,0,0,68.956879,0,1,-1</TileData>
+	<TileData>1,2,0,50.931118,0,10,5</TileData>
+	<TileData>1,2,0,148.827713,0,9,0</TileData>
+	<TileData>1,2,2,132.342758,0,9,0</TileData>
+	<TileData>1,0,2,140.000000,0,23,0</TileData>
+	<TileData>4,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>39,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,53.117161,1,0,0</TileData>
+	<TileData>1,0,0,56.697594,0,0,0</TileData>
+	<TileData>1,0,0,58.810997,0,0,0</TileData>
+	<TileData>1,0,0,59.807121,0,14,0</TileData>
+	<TileData>1,0,0,53.692741,0,14,0</TileData>
+	<TileData>1,0,0,53.700676,0,14,0</TileData>
+	<TileData>1,0,0,55.330364,0,14,0</TileData>
+	<TileData>1,0,0,56.388744,0,0,-1</TileData>
+	<TileData>1,0,0,61.109348,0,2,-1</TileData>
+	<TileData>1,0,0,51.744438,0,14,0</TileData>
+	<TileData>1,0,0,57.202370,0,14,0</TileData>
+	<TileData>1,0,0,52.647175,0,2,-1</TileData>
+	<TileData>1,2,0,52.903835,0,10,5</TileData>
+	<TileData>1,2,0,57.115086,0,10,5</TileData>
+	<TileData>1,2,0,159.325043,0,9,0</TileData>
+	<TileData>1,2,2,188.523712,0,9,0</TileData>
+	<TileData>1,2,2,181.304657,0,9,0</TileData>
+	<TileData>1,0,2,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>34,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,2,0.000000,0,13,-1</TileData>
+	<TileData>5,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,56.821190,1,0,-1</TileData>
+	<TileData>1,0,0,51.696526,0,14,5</TileData>
+	<TileData>1,0,0,58.260750,0,14,0</TileData>
+	<TileData>1,0,0,53.140049,0,14,5</TileData>
+	<TileData>1,0,0,58.650166,0,5,-1</TileData>
+	<TileData>1,0,0,57.968384,0,1,-1</TileData>
+	<TileData>1,0,0,51.020233,0,14,0</TileData>
+	<TileData>1,0,0,56.592915,0,0,-1</TileData>
+	<TileData>1,0,0,68.419754,0,2,-1</TileData>
+	<TileData>1,0,0,62.655415,0,14,2</TileData>
+	<TileData>1,3,0,53.227638,0,11,2</TileData>
+	<TileData>1,0,0,59.481491,0,5,0</TileData>
+	<TileData>1,2,0,57.247231,0,10,5</TileData>
+	<TileData>1,2,0,155.544556,0,9,0</TileData>
+	<TileData>1,2,0,146.269806,0,9,0</TileData>
+	<TileData>2,0,2,140.000000,0,23,0</TileData>
+	<TileData>4,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>33,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,3,0,62.059692,0,11,1</TileData>
+	<TileData>1,0,0,59.320045,0,0,-1</TileData>
+	<TileData>1,0,0,56.029846,0,0,-1</TileData>
+	<TileData>2,0,0,50.000000,0,14,0</TileData>
+	<TileData>1,0,0,53.625904,0,14,1</TileData>
+	<TileData>1,0,0,51.246376,0,14,0</TileData>
+	<TileData>1,2,0,50.153202,0,10,0</TileData>
+	<TileData>2,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,0,0,55.795006,0,5,-1</TileData>
+	<TileData>1,0,0,65.264748,0,14,2</TileData>
+	<TileData>1,0,0,54.486526,0,14,0</TileData>
+	<TileData>1,0,0,51.423687,0,14,5</TileData>
+	<TileData>1,0,0,59.254433,0,14,2</TileData>
+	<TileData>1,0,0,50.624409,0,0,-1</TileData>
+	<TileData>1,0,0,115.945313,0,6,5</TileData>
+	<TileData>1,2,0,50.529495,0,10,5</TileData>
+	<TileData>1,2,0,53.905148,0,10,5</TileData>
+	<TileData>1,2,2,205.004242,0,9,0</TileData>
+	<TileData>1,2,0,176.250000,0,9,0</TileData>
+	<TileData>1,2,2,230.000000,0,9,0</TileData>
+	<TileData>7,0,0,140.000000,0,23,0</TileData>
+	<TileData>33,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,3,0,56.345409,0,11,1</TileData>
+	<TileData>1,3,0,56.169926,0,11,0</TileData>
+	<TileData>2,0,0,50.274666,0,2,-1</TileData>
+	<TileData>1,0,0,58.836941,0,5,1</TileData>
+	<TileData>1,3,0,50.274666,0,11,1</TileData>
+	<TileData>1,3,0,59.888607,0,11,1</TileData>
+	<TileData>1,3,0,65.717644,0,11,2</TileData>
+	<TileData>1,2,0,51.636097,0,10,0</TileData>
+	<TileData>1,2,2,156.327713,0,9,0</TileData>
+	<TileData>1,2,0,50.121159,0,10,0</TileData>
+	<TileData>1,0,0,50.137333,0,0,0</TileData>
+	<TileData>1,0,0,50.417492,0,2,0</TileData>
+	<TileData>1,0,0,62.583389,0,2,0</TileData>
+	<TileData>1,0,0,66.904816,0,2,0</TileData>
+	<TileData>1,0,0,69.749138,0,2,0</TileData>
+	<TileData>1,0,0,54.355755,0,5,0</TileData>
+	<TileData>1,0,0,59.684135,0,0,0</TileData>
+	<TileData>1,2,0,50.153202,0,10,0</TileData>
+	<TileData>1,2,2,151.999268,0,9,0</TileData>
+	<TileData>1,2,0,130.594040,0,9,0</TileData>
+	<TileData>1,0,2,140.000000,0,23,0</TileData>
+	<TileData>1,2,2,149.076019,0,9,0</TileData>
+	<TileData>7,0,0,140.000000,0,23,0</TileData>
+	<TileData>32,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>2,3,0,56.029846,0,11,0</TileData>
+	<TileData>1,0,0,64.472183,0,5,-1</TileData>
+	<TileData>1,0,0,50.274666,0,1,0</TileData>
+	<TileData>1,0,0,59.148685,0,5,0</TileData>
+	<TileData>1,0,0,69.425644,0,2,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>2,2,0,61.304665,0,9,0</TileData>
+	<TileData>1,2,0,211.250000,0,9,0</TileData>
+	<TileData>2,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,0,0,64.747154,0,2,0</TileData>
+	<TileData>1,0,0,62.569962,0,2,0</TileData>
+	<TileData>1,3,0,57.430950,0,11,0</TileData>
+	<TileData>1,3,0,52.999359,0,11,0</TileData>
+	<TileData>1,0,0,53.312477,0,5,0</TileData>
+	<TileData>2,2,0,50.153202,0,10,0</TileData>
+	<TileData>1,2,2,137.308716,0,9,0</TileData>
+	<TileData>10,0,0,140.000000,0,23,0</TileData>
+	<TileData>32,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,3,0,56.029846,0,11,0</TileData>
+	<TileData>1,3,0,53.397015,0,11,0</TileData>
+	<TileData>1,0,0,58.332008,0,5,0</TileData>
+	<TileData>1,3,0,56.821190,0,11,0</TileData>
+	<TileData>1,0,0,58.456528,0,5,0</TileData>
+	<TileData>1,0,0,50.124973,0,5,0</TileData>
+	<TileData>1,0,0,53.394878,0,2,0</TileData>
+	<TileData>1,2,0,51.636097,0,10,0</TileData>
+	<TileData>1,2,2,117.283554,0,9,0</TileData>
+	<TileData>1,2,0,201.250000,0,9,0</TileData>
+	<TileData>1,2,0,207.500000,0,9,0</TileData>
+	<TileData>1,2,0,173.804657,0,9,0</TileData>
+	<TileData>1,2,2,50.137333,0,10,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,0,0,58.367565,0,1,0</TileData>
+	<TileData>1,3,0,50.153202,0,11,0</TileData>
+	<TileData>1,3,0,57.331158,0,11,0</TileData>
+	<TileData>1,2,0,50.153202,0,10,0</TileData>
+	<TileData>1,2,0,65.931885,0,9,0</TileData>
+	<TileData>1,2,0,163.955429,0,9,0</TileData>
+	<TileData>1,2,2,203.955429,0,9,0</TileData>
+	<TileData>10,0,0,140.000000,0,23,0</TileData>
+	<TileData>31,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,1,2,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,3,0,58.533279,0,11,0</TileData>
+	<TileData>1,3,0,50.137333,0,11,0</TileData>
+	<TileData>1,3,0,53.536179,0,11,0</TileData>
+	<TileData>1,0,0,57.160557,0,5,0</TileData>
+	<TileData>1,0,0,64.406265,0,5,0</TileData>
+	<TileData>1,0,0,64.297310,0,2,1</TileData>
+	<TileData>2,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,2,0,191.216766,0,9,0</TileData>
+	<TileData>1,2,0,129.283569,0,9,0</TileData>
+	<TileData>1,2,0,197.500000,0,9,0</TileData>
+	<TileData>1,2,0,148.540451,0,9,0</TileData>
+	<TileData>1,2,0,179.869339,0,9,0</TileData>
+	<TileData>5,2,0,50.153202,0,10,0</TileData>
+	<TileData>1,2,0,178.265259,0,9,0</TileData>
+	<TileData>1,2,0,182.250931,0,9,0</TileData>
+	<TileData>11,0,0,140.000000,0,23,0</TileData>
+	<TileData>32,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,3,0,53.460800,0,11,0</TileData>
+	<TileData>1,0,0,64.406265,0,5,0</TileData>
+	<TileData>1,0,0,63.581348,0,5,0</TileData>
+	<TileData>1,0,0,55.908993,0,5,0</TileData>
+	<TileData>2,3,0,50.137333,0,11,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,2,0,148.540451,0,9,0</TileData>
+	<TileData>1,2,0,188.619339,0,9,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,2,0,136.905731,0,9,0</TileData>
+	<TileData>1,2,2,174.750931,0,9,0</TileData>
+	<TileData>1,2,0,207.500000,0,9,0</TileData>
+	<TileData>1,2,0,211.844040,0,9,0</TileData>
+	<TileData>1,2,0,181.844040,0,9,0</TileData>
+	<TileData>1,2,0,152.243912,0,9,0</TileData>
+	<TileData>1,2,0,142.826019,0,9,0</TileData>
+	<TileData>1,2,0,130.594040,0,9,0</TileData>
+	<TileData>11,0,0,140.000000,0,23,0</TileData>
+	<TileData>32,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,0</TileData>
+	<TileData>1,0,0,52.075871,0,0,0</TileData>
+	<TileData>1,0,0,55.706963,0,0,0</TileData>
+	<TileData>1,0,0,59.475388,0,0,0</TileData>
+	<TileData>1,0,0,51.199074,0,0,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,2,0,61.304665,0,9,0</TileData>
+	<TileData>1,2,0,50.137333,0,10,0</TileData>
+	<TileData>1,2,0,200.533569,0,9,0</TileData>
+	<TileData>8,0,0,140.000000,0,23,0</TileData>
+	<TileData>1,2,0,57.964111,0,10,0</TileData>
+	<TileData>14,0,0,140.000000,0,23,0</TileData>
+	<TileData>32,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,50.833767,0,10,0</TileData>
+	<TileData>1,2,0,55.153965,0,10,0</TileData>
+	<TileData>1,2,0,53.661915,0,10,0</TileData>
+	<TileData>1,2,0,58.992279,0,10,0</TileData>
+	<TileData>1,2,0,54.592426,0,10,0</TileData>
+	<TileData>1,2,0,200.000000,0,9,0</TileData>
+	<TileData>1,2,0,226.033554,0,9,0</TileData>
+	<TileData>1,2,0,182.290451,0,9,0</TileData>
+	<TileData>1,2,0,163.619339,0,9,0</TileData>
+	<TileData>20,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>30,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,56.266365,0,10,-1</TileData>
+	<TileData>1,2,0,156.250000,0,9,-1</TileData>
+	<TileData>1,2,0,58.669090,0,10,0</TileData>
+	<TileData>1,2,0,147.230789,0,9,0</TileData>
+	<TileData>1,2,0,127.456390,0,9,0</TileData>
+	<TileData>1,2,0,188.809540,0,9,0</TileData>
+	<TileData>1,2,0,210.000000,0,9,0</TileData>
+	<TileData>1,2,0,157.500000,0,9,0</TileData>
+	<TileData>1,2,0,56.448563,0,10,0</TileData>
+	<TileData>4,0,0,140.000000,0,23,0</TileData>
+	<TileData>7,0,0,140.000000,0,23,5</TileData>
+	<TileData>11,0,0,140.000000,0,23,0</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>28,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,55.167393,0,10,-1</TileData>
+	<TileData>1,2,0,156.250000,0,9,-1</TileData>
+	<TileData>1,2,0,156.250000,0,9,0</TileData>
+	<TileData>1,2,0,193.281494,0,9,0</TileData>
+	<TileData>1,2,0,192.500000,0,9,0</TileData>
+	<TileData>1,2,0,176.695984,0,9,0</TileData>
+	<TileData>1,2,0,178.750000,0,9,0</TileData>
+	<TileData>1,2,0,152.158997,0,9,0</TileData>
+	<TileData>1,2,0,58.173466,0,10,0</TileData>
+	<TileData>1,2,0,53.419292,0,10,0</TileData>
+	<TileData>1,2,0,55.113071,0,10,0</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>9,0,0,140.000000,0,23,5</TileData>
+	<TileData>8,0,0,140.000000,0,23,0</TileData>
+	<TileData>6,0,0,140.000000,0,23,5</TileData>
+	<TileData>28,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,51.423992,0,10,-1</TileData>
+	<TileData>3,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,2,0,56.364025,0,10,-1</TileData>
+	<TileData>1,2,0,51.015656,0,10,-1</TileData>
+	<TileData>1,2,0,51.590931,0,10,0</TileData>
+	<TileData>1,2,0,57.968384,0,10,0</TileData>
+	<TileData>1,2,0,55.637684,0,10,0</TileData>
+	<TileData>2,0,0,140.000000,0,23,0</TileData>
+	<TileData>4,0,0,140.000000,0,23,5</TileData>
+	<TileData>5,0,0,140.000000,0,23,-1</TileData>
+	<TileData>5,0,0,140.000000,0,23,5</TileData>
+	<TileData>5,0,0,140.000000,0,23,0</TileData>
+	<TileData>6,0,0,140.000000,0,23,5</TileData>
+	<TileData>33,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,4,0,54.553909,0,12,-1</TileData>
+	<TileData>1,0,0,140.000000,0,23,-1</TileData>
+	<TileData>3,0,0,140.000000,0,23,0</TileData>
+	<TileData>4,0,0,140.000000,0,23,5</TileData>
+	<TileData>7,0,0,140.000000,0,23,-1</TileData>
+	<TileData>15,0,0,140.000000,0,23,5</TileData>
+	<TileData>33,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>2,0,0,140.000000,0,23,-1</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	<TileData>4,0,0,140.000000,0,23,5</TileData>
+	<TileData>8,0,0,140.000000,0,23,-1</TileData>
+	<TileData>15,0,0,140.000000,0,23,5</TileData>
+	<TileData>33,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>3,0,0,140.000000,0,23,-1</TileData>
+	<TileData>1,0,0,140.000000,0,23,5</TileData>
+	<TileData>7,0,0,140.000000,0,23,-1</TileData>
+	<TileData>1,0,0,140.000000,0,23,5</TileData>
+	<TileData>7,0,0,140.000000,0,23,-1</TileData>
+	<TileData>11,0,0,140.000000,0,23,5</TileData>
+	<TileData>33,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>25,0,0,140.000000,0,23,-1</TileData>
+	<TileData>5,0,0,140.000000,0,23,5</TileData>
+	<TileData>33,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>30,0,0,140.000000,0,23,-1</TileData>
+	<TileData>32,1,0,0.000000,0,16,-1</TileData>
+	<TileData>2,5,0,0.000000,0,13,-1</TileData>
+	<TileData>6,0,0,140.000000,0,23,-1</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>5,0,0,140.000000,0,23,-1</TileData>
+	<TileData>3,0,0,140.000000,0,23,5</TileData>
+	<TileData>13,0,0,140.000000,0,23,-1</TileData>
+	<TileData>32,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>2,0,0,140.000000,0,23,-1</TileData>
+	<TileData>23,0,0,140.000000,0,23,5</TileData>
+	<TileData>6,0,0,140.000000,0,23,-1</TileData>
+	<TileData>32,1,0,0.000000,0,16,-1</TileData>
+	<TileData>1,5,0,0.000000,0,13,-1</TileData>
+	<TileData>1,0,0,140.000000,0,23,-1</TileData>
+	<TileData>29,0,0,140.000000,0,23,5</TileData>
+	<TileData>1,0,0,140.000000,0,23,0</TileData>
+	
+	<!--FOREST DATA-->
+	
+	<ForestData>46,12,Forest 162,FallenForest01,5,0.000000</ForestData>
+	<ForestData>47,12,Forest 163,FallenForest01,4,0.000000</ForestData>
+	<ForestData>48,12,Forest 290,FallenForest01,3,0.000000</ForestData>
+	<ForestData>45,13,Forest 168,FallenForest01,5,0.000000</ForestData>
+	<ForestData>46,13,Forest 169,FallenForest01,32770,0.000000</ForestData>
+	<ForestData>47,13,Forest 170,FallenForest01,8,0.000000</ForestData>
+	<ForestData>48,13,Forest 171,FallenForest01,32771,0.000000</ForestData>
+	<ForestData>49,13,Forest 172,FallenForest01,3,0.000000</ForestData>
+	<ForestData>33,14,Forest 173,DeadForest01,32769,0.000000</ForestData>
+	<ForestData>34,14,Forest 174,DeadForest01,1,0.000000</ForestData>
+	<ForestData>41,14,Forest 175,FallenForest01,5,0.000000</ForestData>
+	<ForestData>42,14,Forest 176,FallenForest01,3,0.000000</ForestData>
+	<ForestData>45,14,Forest 177,FallenForest01,7,0.000000</ForestData>
+	<ForestData>46,14,Forest 178,FallenForest01,0,0.000000</ForestData>
+	<ForestData>47,14,Forest 179,FallenForest01,32768,0.000000</ForestData>
+	<ForestData>48,14,Forest 180,FallenForest01,8,0.000000</ForestData>
+	<ForestData>49,14,Forest 181,FallenForest01,32769,0.000000</ForestData>
+	<ForestData>50,14,Forest 182,FallenForest01,1,0.000000</ForestData>
+	<ForestData>30,15,Forest 183,DeadForest01,5,0.000000</ForestData>
+	<ForestData>31,15,Forest 184,DeadForest01,4,0.000000</ForestData>
+	<ForestData>32,15,Forest 185,DeadForest01,32769,0.000000</ForestData>
+	<ForestData>33,15,Forest 186,DeadForest01,32770,0.000000</ForestData>
+	<ForestData>41,15,Forest 187,FallenForest01,6,0.000000</ForestData>
+	<ForestData>42,15,Forest 188,FallenForest01,2,0.000000</ForestData>
+	<ForestData>47,15,Forest 189,FallenForest01,7,0.000000</ForestData>
+	<ForestData>48,15,Forest 190,FallenForest01,0,0.000000</ForestData>
+	<ForestData>49,15,Forest 191,FallenForest01,1,0.000000</ForestData>
+	<ForestData>30,16,Forest 192,DeadForest01,6,0.000000</ForestData>
+	<ForestData>31,16,Forest 193,DeadForest01,32769,0.000000</ForestData>
+	<ForestData>32,16,Forest 194,DeadForest01,1,0.000000</ForestData>
+	<ForestData>40,16,Forest 195,FallenForest01,5,0.000000</ForestData>
+	<ForestData>41,16,Forest 196,FallenForest01,32769,0.000000</ForestData>
+	<ForestData>42,16,Forest 197,FallenForest01,1,0.000000</ForestData>
+	<ForestData>30,17,Forest 198,DeadForest01,7,0.000000</ForestData>
+	<ForestData>31,17,Forest 199,DeadForest01,1,0.000000</ForestData>
+	<ForestData>40,17,Forest 200,FallenForest01,7,0.000000</ForestData>
+	<ForestData>41,17,Forest 201,FallenForest01,1,0.000000</ForestData>
+	<ForestData>35,20,Forest 206,FallenForest01,3,0.000000</ForestData>
+	<ForestData>37,20,Forest 207,FallenForest01,5,0.000000</ForestData>
+	<ForestData>38,20,Forest 208,FallenForest01,3,0.000000</ForestData>
+	<ForestData>42,20,Forest 209,FallenForest01,3,0.000000</ForestData>
+	<ForestData>34,21,Forest 210,FallenForest01,7,0.000000</ForestData>
+	<ForestData>35,21,Forest 291,FallenForest01,32770,0.000000</ForestData>
+	<ForestData>37,21,Forest 212,FallenForest01,7,0.000000</ForestData>
+	<ForestData>38,21,Forest 213,FallenForest01,1,0.000000</ForestData>
+	<ForestData>42,21,Forest 214,FallenForest01,2,0.000000</ForestData>
+	<ForestData>42,22,Forest 215,FallenForest01,32771,0.000000</ForestData>
+	<ForestData>43,22,Forest 216,FallenForest01,1,0.000000</ForestData>
+	<ForestData>44,24,Forest 292,FallenForest01,1,0.000000</ForestData>
+	<ForestData>36,26,Forest 220,FallenForest01,7,0.000000</ForestData>
+	<ForestData>37,27,Forest 222,FallenForest01,1,0.000000</ForestData>
+	<ForestData>44,29,Forest!,FallenForest01,5,1.000000</ForestData>
+	<ForestData>45,29,Forest!,FallenForest01,3,1.000000</ForestData>
+	<ForestData>43,30,Forest 288,FallenForest01,5,0.000000</ForestData>
+	<ForestData>44,30,Forest!,FallenForest01,32769,1.000000</ForestData>
+	<ForestData>45,30,Forest!,FallenForest01,1,1.000000</ForestData>
+	<ForestData>43,31,Forest 289,FallenForest01,7,0.000000</ForestData>
+	<ForestData>44,31,Forest 225,FallenForest01,32768,0.000000</ForestData>
+	<ForestData>44,32,Forest 226,FallenForest01,1,0.000000</ForestData>
+	<ForestData>25,33,Forest 293,DeadForest01,3,0.000000</ForestData>
+	<ForestData>25,34,Forest!,DeadForest01,32771,1.000000</ForestData>
+	<ForestData>26,34,Forest!,DeadForest01,3,1.000000</ForestData>
+	<ForestData>27,35,Forest!,DeadForest01,3,1.000000</ForestData>
+	<ForestData>27,36,Forest!,DeadForest01,32771,1.000000</ForestData>
+	<ForestData>28,36,Forest!,DeadForest01,1,1.000000</ForestData>
+	<ForestData>42,44,Forest 227,DeadForest01,32769,0.000000</ForestData>
+	<ForestData>43,44,Forest 228,DeadForest01,1,0.000000</ForestData>
+	<ForestData>42,45,Forest 229,DeadForest01,1,0.000000</ForestData>
+	<ForestData>37,56,Forest!,AutumnForest01,5,1.000000</ForestData>
+	<ForestData>38,56,Forest 232,AutumnForest01,4,0.000000</ForestData>
+	<ForestData>39,56,Forest 293,AutumnForest01,3,0.000000</ForestData>
+	<ForestData>37,57,Forest!,AutumnForest01,7,1.000000</ForestData>
+	<ForestData>38,57,Forest!,AutumnForest01,0,1.000000</ForestData>
+	<ForestData>39,57,Forest 235,AutumnForest01,1,0.000000</ForestData>
+	<ForestData>49,58,Forest 236,DeadForest01,1,0.000000</ForestData>
+	<ForestData>50,60,Forest 237,DeadForest01,1,0.000000</ForestData>
+	<ForestData>35,61,Forest 238,DeadForest01,3,0.000000</ForestData>
+	<ForestData>34,62,Forest 239,DeadForest01,5,0.000000</ForestData>
+	<ForestData>35,62,Forest 240,DeadForest01,32770,0.000000</ForestData>
+	<ForestData>39,62,Forest 241,DeadForest01,7,0.000000</ForestData>
+	<ForestData>40,62,Forest 242,DeadForest01,0,0.000000</ForestData>
+	<ForestData>41,62,Forest 243,DeadForest01,1,0.000000</ForestData>
+	<ForestData>34,63,Forest 244,DeadForest01,32769,0.000000</ForestData>
+	<ForestData>35,63,Forest 245,DeadForest01,2,0.000000</ForestData>
+	<ForestData>48,63,Forest 246,DeadForest01,5,0.000000</ForestData>
+	<ForestData>49,63,Forest 247,DeadForest01,3,0.000000</ForestData>
+	<ForestData>33,64,Forest 248,DeadForest01,5,0.000000</ForestData>
+	<ForestData>34,64,Forest 249,DeadForest01,32770,0.000000</ForestData>
+	<ForestData>36,64,Forest 250,DeadForest01,1,0.000000</ForestData>
+	<ForestData>48,64,Forest 251,DeadForest01,7,0.000000</ForestData>
+	<ForestData>49,64,Forest 252,DeadForest01,1,0.000000</ForestData>
+	<ForestData>33,65,Forest 253,DeadForest01,32769,0.000000</ForestData>
+	<ForestData>34,65,Forest 254,DeadForest01,32771,0.000000</ForestData>
+	<ForestData>35,65,Forest 255,DeadForest01,1,0.000000</ForestData>
+	<ForestData>33,66,Forest 294,DeadForest01,1,0.000000</ForestData>
+	<ForestData>37,66,Forest 257,DeadForest01,7,0.000000</ForestData>
+	<ForestData>38,66,Forest 258,DeadForest01,1,0.000000</ForestData>
+	
+	<!--SWAMP FOREST DATA-->
+	
+	<SwampForestData>39,6,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>40,6,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>41,6,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>38,7,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>39,7,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>40,7,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>41,7,Swamp 0,SwampForest01,32771,0.000000</SwampForestData>
+	<SwampForestData>42,7,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>43,7,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>44,7,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>22,8,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>36,8,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>37,8,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>38,8,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>39,8,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>42,8,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>43,8,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>44,8,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>15,9,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>16,9,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>21,9,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>22,9,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>23,9,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>27,9,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>32,9,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>33,9,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>34,9,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>35,9,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>36,9,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>37,9,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>14,10,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>15,10,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>16,10,Swamp 0,SwampForest01,32771,0.000000</SwampForestData>
+	<SwampForestData>17,10,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>18,10,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>19,10,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>20,10,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>21,10,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>22,10,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>23,10,Swamp 0,SwampForest01,32771,0.000000</SwampForestData>
+	<SwampForestData>24,10,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>25,10,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>26,10,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>27,10,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>33,10,Swamp 0,SwampForest01,6,0.000000</SwampForestData>
+	<SwampForestData>34,10,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>35,10,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>36,10,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>14,11,Swamp 0,SwampForest01,6,0.000000</SwampForestData>
+	<SwampForestData>15,11,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>16,11,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>17,11,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>18,11,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>19,11,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>20,11,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>21,11,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>22,11,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>23,11,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>24,11,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>25,11,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>29,11,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>33,11,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>34,11,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>55,11,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>13,12,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>14,12,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>15,12,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>16,12,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>17,12,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>18,12,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>19,12,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>20,12,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>21,12,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>22,12,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>23,12,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>24,12,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>28,12,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>30,12,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>31,12,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>54,12,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>55,12,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>56,12,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>15,13,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>19,13,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>20,13,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>21,13,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>22,13,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>23,13,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>24,13,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>27,13,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>28,13,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>29,13,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>30,13,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>54,13,Swamp 0,SwampForest01,6,0.000000</SwampForestData>
+	<SwampForestData>55,13,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>56,13,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>57,13,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>20,14,Swamp 0,SwampForest01,6,0.000000</SwampForestData>
+	<SwampForestData>21,14,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>22,14,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>23,14,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>24,14,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>53,14,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>54,14,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>55,14,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>56,14,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>19,15,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>20,15,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>21,15,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>22,15,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>23,15,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>24,15,Swamp 0,SwampForest01,32771,0.000000</SwampForestData>
+	<SwampForestData>25,15,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>54,15,Swamp 0,SwampForest01,6,0.000000</SwampForestData>
+	<SwampForestData>55,15,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>56,15,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>18,16,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>19,16,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>20,16,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>21,16,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>22,16,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>23,16,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>24,16,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>25,16,Swamp 0,SwampForest01,32771,0.000000</SwampForestData>
+	<SwampForestData>26,16,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>27,16,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>28,16,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>52,16,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>53,16,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>54,16,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>55,16,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>56,16,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>14,17,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>15,17,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>16,17,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>17,17,Swamp 0,SwampForest01,4,0.000000</SwampForestData>
+	<SwampForestData>18,17,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>19,17,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>20,17,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>24,17,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>25,17,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>26,17,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>27,17,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>52,17,Swamp 0,SwampForest01,6,0.000000</SwampForestData>
+	<SwampForestData>53,17,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>54,17,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>55,17,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>56,17,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>13,18,Swamp 0,SwampForest01,5,0.000000</SwampForestData>
+	<SwampForestData>14,18,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	<SwampForestData>15,18,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>16,18,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>17,18,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>18,18,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>19,18,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>20,18,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>25,18,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>26,18,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>52,18,Swamp 0,SwampForest01,6,0.000000</SwampForestData>
+	<SwampForestData>53,18,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>54,18,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>55,18,Swamp 0,SwampForest01,8,0.000000</SwampForestData>
+	<SwampForestData>56,18,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>11,19,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>12,19,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>13,19,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>14,19,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>15,19,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>16,19,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>17,19,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>52,19,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>53,19,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>54,19,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>55,19,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>56,19,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>13,20,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>14,20,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>53,20,Swamp 0,SwampForest01,6,0.000000</SwampForestData>
+	<SwampForestData>54,20,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>53,21,Swamp 0,SwampForest01,6,0.000000</SwampForestData>
+	<SwampForestData>54,21,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>53,22,Swamp 0,SwampForest01,32769,0.000000</SwampForestData>
+	<SwampForestData>54,22,Swamp 0,SwampForest01,1,0.000000</SwampForestData>
+	<SwampForestData>52,23,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>53,23,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>53,24,Swamp 0,SwampForest01,32771,0.000000</SwampForestData>
+	<SwampForestData>54,24,Swamp 0,SwampForest01,3,0.000000</SwampForestData>
+	<SwampForestData>53,25,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>54,25,Swamp 0,SwampForest01,32768,0.000000</SwampForestData>
+	<SwampForestData>54,26,Swamp 0,SwampForest01,2,0.000000</SwampForestData>
+	<SwampForestData>52,27,Swamp 0,SwampForest01,7,0.000000</SwampForestData>
+	<SwampForestData>53,27,Swamp 0,SwampForest01,0,0.000000</SwampForestData>
+	<SwampForestData>54,27,Swamp 0,SwampForest01,32770,0.000000</SwampForestData>
+	
+	<!--RIVER DATA-->
+	
+	<RiverTileData>51,57,0,0,0,2,0</RiverTileData>
+	<RiverTileData>51,58,0,1,2,0,0</RiverTileData>
+	<RiverTileData>50,58,0,0,0,2,1</RiverTileData>
+	<RiverTileData>50,59,0,1,2,0,0</RiverTileData>
+	<RiverTileData>49,59,0,0,0,2,1</RiverTileData>
+	<RiverTileData>49,60,0,1,0,2,0</RiverTileData>
+	<RiverTileData>49,61,0,1,2,0,0</RiverTileData>
+	<RiverTileData>48,61,0,0,2,0,1</RiverTileData>
+	<RiverTileData>47,61,0,0,2,0,1</RiverTileData>
+	<RiverTileData>46,61,0,2,0,0,1</RiverTileData>
+	<RiverTileData>46,60,0,2,0,1,0</RiverTileData>
+	<RiverTileData>46,59,0,0,2,1,0</RiverTileData>
+	<RiverTileData>45,59,0,0,2,0,1</RiverTileData>
+	<RiverTileData>44,59,0,0,2,0,1</RiverTileData>
+	<RiverTileData>43,59,0,0,0,2,1</RiverTileData>
+	<RiverTileData>43,60,0,1,2,0,0</RiverTileData>
+	<RiverTileData>42,60,0,0,2,0,1</RiverTileData>
+	<RiverTileData>41,60,0,0,0,2,1</RiverTileData>
+	<RiverTileData>41,61,0,1,2,0,0</RiverTileData>
+	<RiverTileData>40,61,0,0,2,0,1</RiverTileData>
+	<RiverTileData>39,61,0,0,2,0,1</RiverTileData>
+	<RiverTileData>38,61,0,2,0,0,1</RiverTileData>
+	<RiverTileData>38,60,0,0,0,1,0</RiverTileData>
+	
+	<!--BLOCKED TILES-->
+	
+	<BlockedTile>44,35,0</BlockedTile>
+	<BlockedTile>43,35,0</BlockedTile>
+	<BlockedTile>42,35,0</BlockedTile>
+	<BlockedTile>44,36,0</BlockedTile>
+	<BlockedTile>40,31,0</BlockedTile>
+	<BlockedTile>40,32,0</BlockedTile>
+	<BlockedTile>33,68,0</BlockedTile>
+	<BlockedTile>33,67,0</BlockedTile>
+	<BlockedTile>34,68,0</BlockedTile>
+	<BlockedTile>35,68,0</BlockedTile>
+	<BlockedTile>36,68,0</BlockedTile>
+	<BlockedTile>36,67,0</BlockedTile>
+	<BlockedTile>37,67,0</BlockedTile>
+	<BlockedTile>52,16,0</BlockedTile>
+	<BlockedTile>53,16,0</BlockedTile>
+	<BlockedTile>54,16,0</BlockedTile>
+	<BlockedTile>52,17,0</BlockedTile>
+	<BlockedTile>53,17,0</BlockedTile>
+	<BlockedTile>54,17,0</BlockedTile>
+	<BlockedTile>52,18,0</BlockedTile>
+	<BlockedTile>53,18,0</BlockedTile>
+	<BlockedTile>54,18,0</BlockedTile>
+	<BlockedTile>52,19,0</BlockedTile>
+	<BlockedTile>53,19,0</BlockedTile>
+	<BlockedTile>54,19,0</BlockedTile>
+	<BlockedTile>55,16,0</BlockedTile>
+	<BlockedTile>56,16,0</BlockedTile>
+	<BlockedTile>55,17,0</BlockedTile>
+	<BlockedTile>56,17,0</BlockedTile>
+	<BlockedTile>55,18,0</BlockedTile>
+	<BlockedTile>56,18,0</BlockedTile>
+	<BlockedTile>55,19,0</BlockedTile>
+	<BlockedTile>56,19,0</BlockedTile>
+	<BlockedTile>53,20,0</BlockedTile>
+	<BlockedTile>54,20,0</BlockedTile>
+	<BlockedTile>55,20,0</BlockedTile>
+	<BlockedTile>53,21,0</BlockedTile>
+	<BlockedTile>54,21,0</BlockedTile>
+	<BlockedTile>55,21,0</BlockedTile>
+	<BlockedTile>56,20,0</BlockedTile>
+	<BlockedTile>56,21,0</BlockedTile>
+	<BlockedTile>53,22,0</BlockedTile>
+	<BlockedTile>54,22,0</BlockedTile>
+	<BlockedTile>55,22,0</BlockedTile>
+	<BlockedTile>53,23,0</BlockedTile>
+	<BlockedTile>54,23,0</BlockedTile>
+	<BlockedTile>55,23,0</BlockedTile>
+	<BlockedTile>53,24,0</BlockedTile>
+	<BlockedTile>54,24,0</BlockedTile>
+	<BlockedTile>55,24,0</BlockedTile>
+	<BlockedTile>53,25,0</BlockedTile>
+	<BlockedTile>54,25,0</BlockedTile>
+	<BlockedTile>55,25,0</BlockedTile>
+	<BlockedTile>53,26,0</BlockedTile>
+	<BlockedTile>54,26,0</BlockedTile>
+	<BlockedTile>55,26,0</BlockedTile>
+	<BlockedTile>52,26,0</BlockedTile>
+	<BlockedTile>52,27,0</BlockedTile>
+	<BlockedTile>53,27,0</BlockedTile>
+	<BlockedTile>54,27,0</BlockedTile>
+	<BlockedTile>52,28,0</BlockedTile>
+	<BlockedTile>53,28,0</BlockedTile>
+	<BlockedTile>54,28,0</BlockedTile>
+	<BlockedTile>51,28,0</BlockedTile>
+	<BlockedTile>51,29,0</BlockedTile>
+	<BlockedTile>52,29,0</BlockedTile>
+	<BlockedTile>53,29,0</BlockedTile>
+	<BlockedTile>51,30,0</BlockedTile>
+	<BlockedTile>52,30,0</BlockedTile>
+	<BlockedTile>53,30,0</BlockedTile>
+	<BlockedTile>53,14,0</BlockedTile>
+	<BlockedTile>54,14,0</BlockedTile>
+	<BlockedTile>55,14,0</BlockedTile>
+	<BlockedTile>53,15,0</BlockedTile>
+	<BlockedTile>54,15,0</BlockedTile>
+	<BlockedTile>55,15,0</BlockedTile>
+	<BlockedTile>54,12,0</BlockedTile>
+	<BlockedTile>55,12,0</BlockedTile>
+	<BlockedTile>56,12,0</BlockedTile>
+	<BlockedTile>54,13,0</BlockedTile>
+	<BlockedTile>55,13,0</BlockedTile>
+	<BlockedTile>56,13,0</BlockedTile>
+	<BlockedTile>56,14,0</BlockedTile>
+	<BlockedTile>57,13,0</BlockedTile>
+	<BlockedTile>58,13,0</BlockedTile>
+	<BlockedTile>57,14,0</BlockedTile>
+	<BlockedTile>58,14,0</BlockedTile>
+	<BlockedTile>56,15,0</BlockedTile>
+	<BlockedTile>57,15,0</BlockedTile>
+	<BlockedTile>58,15,0</BlockedTile>
+	<BlockedTile>59,13,0</BlockedTile>
+	<BlockedTile>59,14,0</BlockedTile>
+	<BlockedTile>59,15,0</BlockedTile>
+	<BlockedTile>60,14,0</BlockedTile>
+	<BlockedTile>60,15,0</BlockedTile>
+	<BlockedTile>58,16,0</BlockedTile>
+	<BlockedTile>59,16,0</BlockedTile>
+	<BlockedTile>60,16,0</BlockedTile>
+	<BlockedTile>55,11,0</BlockedTile>
+	<BlockedTile>44,7,0</BlockedTile>
+	<BlockedTile>44,8,0</BlockedTile>
+	<BlockedTile>43,8,0</BlockedTile>
+	<BlockedTile>43,7,0</BlockedTile>
+	<BlockedTile>42,7,0</BlockedTile>
+	<BlockedTile>42,8,0</BlockedTile>
+	<BlockedTile>41,7,0</BlockedTile>
+	<BlockedTile>41,6,0</BlockedTile>
+	<BlockedTile>40,6,0</BlockedTile>
+	<BlockedTile>40,7,0</BlockedTile>
+	<BlockedTile>39,6,0</BlockedTile>
+	<BlockedTile>39,7,0</BlockedTile>
+	<BlockedTile>39,8,0</BlockedTile>
+	<BlockedTile>38,8,0</BlockedTile>
+	<BlockedTile>38,7,0</BlockedTile>
+	<BlockedTile>36,8,0</BlockedTile>
+	<BlockedTile>37,8,0</BlockedTile>
+	<BlockedTile>37,9,0</BlockedTile>
+	<BlockedTile>36,9,0</BlockedTile>
+	<BlockedTile>36,10,0</BlockedTile>
+	<BlockedTile>35,10,0</BlockedTile>
+	<BlockedTile>35,9,0</BlockedTile>
+	<BlockedTile>34,9,0</BlockedTile>
+	<BlockedTile>34,10,0</BlockedTile>
+	<BlockedTile>34,11,0</BlockedTile>
+	<BlockedTile>33,11,0</BlockedTile>
+	<BlockedTile>33,10,0</BlockedTile>
+	<BlockedTile>33,9,0</BlockedTile>
+	<BlockedTile>32,9,0</BlockedTile>
+	<BlockedTile>27,9,0</BlockedTile>
+	<BlockedTile>27,10,0</BlockedTile>
+	<BlockedTile>26,10,0</BlockedTile>
+	<BlockedTile>25,11,0</BlockedTile>
+	<BlockedTile>25,10,0</BlockedTile>
+	<BlockedTile>24,11,0</BlockedTile>
+	<BlockedTile>24,10,0</BlockedTile>
+	<BlockedTile>23,10,0</BlockedTile>
+	<BlockedTile>23,9,0</BlockedTile>
+	<BlockedTile>22,9,0</BlockedTile>
+	<BlockedTile>22,8,0</BlockedTile>
+	<BlockedTile>23,11,0</BlockedTile>
+	<BlockedTile>24,12,0</BlockedTile>
+	<BlockedTile>24,13,0</BlockedTile>
+	<BlockedTile>24,14,0</BlockedTile>
+	<BlockedTile>24,15,0</BlockedTile>
+	<BlockedTile>25,15,0</BlockedTile>
+	<BlockedTile>25,16,0</BlockedTile>
+	<BlockedTile>26,16,0</BlockedTile>
+	<BlockedTile>27,16,0</BlockedTile>
+	<BlockedTile>28,16,0</BlockedTile>
+	<BlockedTile>27,17,0</BlockedTile>
+	<BlockedTile>27,18,0</BlockedTile>
+	<BlockedTile>26,18,0</BlockedTile>
+	<BlockedTile>26,17,0</BlockedTile>
+	<BlockedTile>25,17,0</BlockedTile>
+	<BlockedTile>25,18,0</BlockedTile>
+	<BlockedTile>24,17,0</BlockedTile>
+	<BlockedTile>24,16,0</BlockedTile>
+	<BlockedTile>23,16,0</BlockedTile>
+	<BlockedTile>23,15,0</BlockedTile>
+	<BlockedTile>20,14,0</BlockedTile>
+	<BlockedTile>21,14,0</BlockedTile>
+	<BlockedTile>22,14,0</BlockedTile>
+	<BlockedTile>20,15,0</BlockedTile>
+	<BlockedTile>21,15,0</BlockedTile>
+	<BlockedTile>22,15,0</BlockedTile>
+	<BlockedTile>20,16,0</BlockedTile>
+	<BlockedTile>21,16,0</BlockedTile>
+	<BlockedTile>22,16,0</BlockedTile>
+	<BlockedTile>18,16,0</BlockedTile>
+	<BlockedTile>19,16,0</BlockedTile>
+	<BlockedTile>18,17,0</BlockedTile>
+	<BlockedTile>19,17,0</BlockedTile>
+	<BlockedTile>20,17,0</BlockedTile>
+	<BlockedTile>18,18,0</BlockedTile>
+	<BlockedTile>19,18,0</BlockedTile>
+	<BlockedTile>20,18,0</BlockedTile>
+	<BlockedTile>22,12,0</BlockedTile>
+	<BlockedTile>23,12,0</BlockedTile>
+	<BlockedTile>22,13,0</BlockedTile>
+	<BlockedTile>23,13,0</BlockedTile>
+	<BlockedTile>23,14,0</BlockedTile>
+	<BlockedTile>20,11,0</BlockedTile>
+	<BlockedTile>21,11,0</BlockedTile>
+	<BlockedTile>22,11,0</BlockedTile>
+	<BlockedTile>20,12,0</BlockedTile>
+	<BlockedTile>21,12,0</BlockedTile>
+	<BlockedTile>20,13,0</BlockedTile>
+	<BlockedTile>21,13,0</BlockedTile>
+	<BlockedTile>20,10,0</BlockedTile>
+	<BlockedTile>21,10,0</BlockedTile>
+	<BlockedTile>22,10,0</BlockedTile>
+	<BlockedTile>18,10,0</BlockedTile>
+	<BlockedTile>19,10,0</BlockedTile>
+	<BlockedTile>18,11,0</BlockedTile>
+	<BlockedTile>19,11,0</BlockedTile>
+	<BlockedTile>18,12,0</BlockedTile>
+	<BlockedTile>19,12,0</BlockedTile>
+	<BlockedTile>15,10,0</BlockedTile>
+	<BlockedTile>16,10,0</BlockedTile>
+	<BlockedTile>17,10,0</BlockedTile>
+	<BlockedTile>15,11,0</BlockedTile>
+	<BlockedTile>16,11,0</BlockedTile>
+	<BlockedTile>17,11,0</BlockedTile>
+	<BlockedTile>15,12,0</BlockedTile>
+	<BlockedTile>16,12,0</BlockedTile>
+	<BlockedTile>17,12,0</BlockedTile>
+	<BlockedTile>14,10,0</BlockedTile>
+	<BlockedTile>14,11,0</BlockedTile>
+	<BlockedTile>14,12,0</BlockedTile>
+	<BlockedTile>14,13,0</BlockedTile>
+	<BlockedTile>15,13,0</BlockedTile>
+	<BlockedTile>13,12,0</BlockedTile>
+	<BlockedTile>15,9,0</BlockedTile>
+	<BlockedTile>16,9,0</BlockedTile>
+	<BlockedTile>21,9,0</BlockedTile>
+	<BlockedTile>19,13,0</BlockedTile>
+	<BlockedTile>19,14,0</BlockedTile>
+	<BlockedTile>19,15,0</BlockedTile>
+	<BlockedTile>17,16,0</BlockedTile>
+	<BlockedTile>17,17,0</BlockedTile>
+	<BlockedTile>17,18,0</BlockedTile>
+	<BlockedTile>17,19,0</BlockedTile>
+	<BlockedTile>14,17,0</BlockedTile>
+	<BlockedTile>15,17,0</BlockedTile>
+	<BlockedTile>16,17,0</BlockedTile>
+	<BlockedTile>14,18,0</BlockedTile>
+	<BlockedTile>15,18,0</BlockedTile>
+	<BlockedTile>16,18,0</BlockedTile>
+	<BlockedTile>14,19,0</BlockedTile>
+	<BlockedTile>15,19,0</BlockedTile>
+	<BlockedTile>16,19,0</BlockedTile>
+	<BlockedTile>13,19,0</BlockedTile>
+	<BlockedTile>14,20,0</BlockedTile>
+	<BlockedTile>13,20,0</BlockedTile>
+	<BlockedTile>13,18,0</BlockedTile>
+	<BlockedTile>12,19,0</BlockedTile>
+	<BlockedTile>11,19,0</BlockedTile>
+	<BlockedTile>27,13,0</BlockedTile>
+	<BlockedTile>27,12,0</BlockedTile>
+	<BlockedTile>28,12,0</BlockedTile>
+	<BlockedTile>28,13,0</BlockedTile>
+	<BlockedTile>29,13,0</BlockedTile>
+	<BlockedTile>29,12,0</BlockedTile>
+	<BlockedTile>29,11,0</BlockedTile>
+	<BlockedTile>30,12,0</BlockedTile>
+	<BlockedTile>30,13,0</BlockedTile>
+	<BlockedTile>31,12,0</BlockedTile>
+	<BlockedTile>31,68,0</BlockedTile>
+	<BlockedTile>32,68,0</BlockedTile>
+	<BlockedTile>31,69,0</BlockedTile>
+	<BlockedTile>32,69,0</BlockedTile>
+	<BlockedTile>29,24,0</BlockedTile>
+	<BlockedTile>46,48,0</BlockedTile>
+	<BlockedTile>46,46,0</BlockedTile>
+	<BlockedTile>46,47,0</BlockedTile>
+	<BlockedTile>51,46,0</BlockedTile>
+	<BlockedTile>51,47,0</BlockedTile>
+	<BlockedTile>51,48,0</BlockedTile>
+	
+	<!--GAME TRIGGERS-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_FoundAirShard">
+		<WorldTile>32,23</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_TornadoQuest1">
+		<WorldTile>26,20</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_TornadoQuest2">
+		<WorldTile>25,19</WorldTile>
+		<WorldTile>26,19</WorldTile>
+		<WorldTile>27,19</WorldTile>
+		<WorldTile>25,20</WorldTile>
+		<WorldTile>27,20</WorldTile>
+		<WorldTile>25,21</WorldTile>
+		<WorldTile>26,21</WorldTile>
+		<WorldTile>27,21</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_CorruptedArea">
+		<WorldTile>38,10</WorldTile>
+		<WorldTile>39,10</WorldTile>
+		<WorldTile>40,10</WorldTile>
+		<WorldTile>41,10</WorldTile>
+		<WorldTile>42,10</WorldTile>
+		<WorldTile>35,11</WorldTile>
+		<WorldTile>42,11</WorldTile>
+		<WorldTile>43,11</WorldTile>
+		<WorldTile>35,12</WorldTile>
+		<WorldTile>43,12</WorldTile>
+		<WorldTile>35,13</WorldTile>
+		<WorldTile>43,13</WorldTile>
+		<WorldTile>35,14</WorldTile>
+		<WorldTile>43,14</WorldTile>
+		<WorldTile>35,15</WorldTile>
+		<WorldTile>42,15</WorldTile>
+		<WorldTile>43,15</WorldTile>
+		<WorldTile>41,16</WorldTile>
+		<WorldTile>42,16</WorldTile>
+		<WorldTile>40,17</WorldTile>
+		<WorldTile>41,17</WorldTile>
+		<WorldTile>39,18</WorldTile>
+		<WorldTile>40,18</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_ThirdPillarTrigger">
+		<WorldTile>36,12</WorldTile>
+		<WorldTile>42,13</WorldTile>
+		<WorldTile>39,17</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_SecondPillarTrigger">
+		<WorldTile>36,12</WorldTile>
+		<WorldTile>42,13</WorldTile>
+		<WorldTile>39,17</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_FirstPillarTrigger">
+		<WorldTile>36,12</WorldTile>
+		<WorldTile>42,13</WorldTile>
+		<WorldTile>39,17</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_Altar">
+		<WorldTile>38,14</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_CrystalKeyForged">
+		<WorldTile>46,8</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_MovedPastStatue">
+		<WorldTile>48,18</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_EnteredPalace">
+		<WorldTile>48,20</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_FoundVillage2">
+		<WorldTile>29,16</WorldTile>
+		<WorldTile>30,16</WorldTile>
+		<WorldTile>28,17</WorldTile>
+		<WorldTile>30,17</WorldTile>
+		<WorldTile>28,18</WorldTile>
+		<WorldTile>29,18</WorldTile>
+		<WorldTile>30,18</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_FoundVillage3">
+		<WorldTile>25,12</WorldTile>
+		<WorldTile>26,12</WorldTile>
+		<WorldTile>27,12</WorldTile>
+		<WorldTile>25,13</WorldTile>
+		<WorldTile>27,13</WorldTile>
+		<WorldTile>25,14</WorldTile>
+		<WorldTile>26,14</WorldTile>
+		<WorldTile>27,14</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_FoundVillage4">
+		<WorldTile>32,12</WorldTile>
+		<WorldTile>32,13</WorldTile>
+		<WorldTile>30,14</WorldTile>
+		<WorldTile>31,14</WorldTile>
+		<WorldTile>32,14</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_Farmer_Conversation">
+		<WorldTile>45,60</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_Bandit_Conversation">
+		<WorldTile>49,56</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_Bandit_Fight_Conversation">
+		<WorldTile>49,56</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_ThiefAmbush">
+		<WorldTile>40,60</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_HIDE_FOOTSTEPS">
+		<WorldTile>42,19</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_MISSING_PERSON">
+		<WorldTile>38,28</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_CAMPAIGNBOOK_BEAR_CAVE_TILE">
+		<WorldTile>41,27</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_ShipDisembarkTips">
+		<WorldTile>28,38</WorldTile>
+		<WorldTile>28,39</WorldTile>
+		<WorldTile>29,39</WorldTile>
+		<WorldTile>30,39</WorldTile>
+		<WorldTile>31,39</WorldTile>
+		<WorldTile>32,39</WorldTile>
+		<WorldTile>33,39</WorldTile>
+		<WorldTile>34,39</WorldTile>
+		<WorldTile>35,39</WorldTile>
+		<WorldTile>36,39</WorldTile>
+		<WorldTile>37,39</WorldTile>
+		<WorldTile>38,39</WorldTile>
+		<WorldTile>39,39</WorldTile>
+		<WorldTile>40,39</WorldTile>
+		<WorldTile>41,39</WorldTile>
+		<WorldTile>42,39</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_AdjacentToKushar">
+		<WorldTile>41,30</WorldTile>
+		<WorldTile>42,30</WorldTile>
+		<WorldTile>43,30</WorldTile>
+		<WorldTile>41,31</WorldTile>
+		<WorldTile>43,31</WorldTile>
+		<WorldTile>41,32</WorldTile>
+		<WorldTile>42,32</WorldTile>
+		<WorldTile>43,32</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_DestroyedBridge">
+		<WorldTile>47,49</WorldTile>
+		<WorldTile>48,49</WorldTile>
+		<WorldTile>49,49</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_StartedShipQuest">
+		<WorldTile>36,61</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_ReturnedToTemple">
+		<WorldTile>32,23</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_BOTTLE_POPUP">
+		<WorldTile>45,38</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_TREASURE_ISLAND">
+		<WorldTile>27,34</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_Log_Lost_Brother">
+		<WorldTile>42,19</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_Journal4">
+		<WorldTile>32,12</WorldTile>
+		<WorldTile>33,12</WorldTile>
+		<WorldTile>31,13</WorldTile>
+		<WorldTile>32,13</WorldTile>
+		<WorldTile>29,14</WorldTile>
+		<WorldTile>30,14</WorldTile>
+		<WorldTile>31,14</WorldTile>
+		<WorldTile>29,15</WorldTile>
+		<WorldTile>29,16</WorldTile>
+		<WorldTile>21,17</WorldTile>
+		<WorldTile>22,17</WorldTile>
+		<WorldTile>23,17</WorldTile>
+		<WorldTile>28,17</WorldTile>
+		<WorldTile>29,17</WorldTile>
+		<WorldTile>21,18</WorldTile>
+		<WorldTile>23,18</WorldTile>
+		<WorldTile>24,18</WorldTile>
+		<WorldTile>28,18</WorldTile>
+		<WorldTile>21,19</WorldTile>
+		<WorldTile>24,19</WorldTile>
+		<WorldTile>25,19</WorldTile>
+		<WorldTile>26,19</WorldTile>
+		<WorldTile>27,19</WorldTile>
+		<WorldTile>28,19</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_DarwellaGoalAchieved">
+		<WorldTile>25,33</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_DarwellaGoalAchievedReminder">
+		<WorldTile>25,33</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_ValieroGoalAchieved">
+		<WorldTile>32,23</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerWorldTile InternalName="FEC_T_ValieroGoalAchievedReminder">
+		<WorldTile>32,23</WorldTile>
+	</GameTriggerWorldTile>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetSlag"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_LaunchedShipAdjacent"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetAirElemental"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_UNIT_AtDrotaVillage"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetAlonn"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_FOOTSTEP_CLUE"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetFireElemental"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetKraxArmy"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetSkayd"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetSkayd_AfterKraxArmy"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_DarwellaIntroduction"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_DarwellaCantRecruit"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_DarwellaJoinsRelias"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_ValieroIntroduction"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_ValieroCantRecruit"/>
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_ValieroJoinsRelias"/>
+	<GameTriggerStartTurn InternalName="FEC_T_RihossaForgot"/>
+	<GameTriggerTurnCountdown InternalName="FEC_T_Chapter5Save"/>
+	<GameTriggerTurnCountdown InternalName="FEC_T_Chapter6Save"/>
+	<GameTriggerTurnCountdown InternalName="FEC_T_Chapter7Save"/>
+	<GameTriggerTurnCountdown InternalName="FEC_T_Chapter8Save"/>
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal1"/>
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal2"/>
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal3"/>
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal5"/>
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal6"/>
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal7"/>
+	<GameTriggerStartOfGame InternalName="FEC_T_OnGameStart"/>
+	<GameTriggerUnitKilled InternalName="FEC_T_After_Killing_Bandits"/>
+	<GameTriggerUnitKilled InternalName="FEC_T_ShamanKilled"/>
+	<GameTriggerUnitKilled InternalName="FEC_T_ShamanKilled_Valiero"/>
+	<GameTriggerResourceLevel InternalName="FEC_T_ShipQuestCompleteMetalHack"/>
+	<GameTriggerResourceLevel InternalName="FEC_T_EnoughCrystal"/>
+	<GameTriggerBattleFinished InternalName="FEC_T_Victory"/>
+	<GameTriggerBattleFinished InternalName="FEC_T_AfterTrollAmbush"/>
+	<GameTriggerBattleFinished InternalName="FEC_T_ThirdKraxArmy"/>
+	<GameTriggerBattleFinished InternalName="FEC_T_SecondKraxArmy"/>
+	<GameTriggerBattleFinished InternalName="FEC_T_FirstKraxArmy"/>
+	
+	<!--GAME RESTRICTIONS-->
+	
+	<GameRestrictionBlockTiles InternalName="FEC_R_Malaya">
+		<BlockedTile>46,8</BlockedTile>
+	</GameRestrictionBlockTiles>
+	<GameRestrictionBlockTiles InternalName="FEC_R_PalaceGate">
+		<BlockedTile>48,18</BlockedTile>
+	</GameRestrictionBlockTiles>
+	
+	<!--WORLD PROPS-->
+	
+	<MapObjectData>15,11,4,S_Forest_Full_01,WorldProp,6,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>15,13,4,S_Forest_Full_01,WorldProp,6,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>13,19,4,S_Forest_Corner_01,WorldProp,5,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>14,20,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>15,18,4,S_Forest_Corner_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>15,19,4,S_Forest_Corner_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>16,10,4,S_Forest_Full_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>17,12,4,S_Forest_Full_01,WorldProp,6,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>18,11,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>19,12,4,S_Forest_Full_01,WorldProp,4,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>20,11,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>20,13,4,S_Forest_Full_01,WorldProp,4,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>20,15,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>21,13,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>22,9,4,S_Forest_Corner_01,WorldProp,7,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>22,12,4,S_Forest_Full_05,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>22,13,4,S_Forest_Corner_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>22,14,4,S_Forest_Full_05,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>23,10,4,S_Forest_Full_01,WorldProp,5,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>24,10,4,S_Forest_Corner_01,WorldProp,5,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>24,12,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>24,14,4,S_Forest_Full_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>26,11,4,S_Forest_Corner_01,WorldProp,1,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>27,10,4,S_Forest_Corner_01,WorldProp,7,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>28,13,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>29,12,4,S_Forest_Corner_01,WorldProp,7,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>30,13,4,S_Forest_Full_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>31,12,4,S_Forest_Corner_01,WorldProp,5,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>17,17,4,S_Forest_Corner_01,WorldProp,6,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>17,19,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>18,18,4,S_Forest_Corner_01,WorldProp,6,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>19,17,4,S_Forest_Full_01,WorldProp,4,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>20,18,4,S_Forest_Full_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>21,16,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>23,16,4,S_Forest_Full_01,WorldProp,4,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>25,16,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>25,18,4,S_Forest_Corner_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>26,17,4,S_Forest_Corner_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>27,18,4,S_Forest_Corner_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>28,17,4,S_Forest_Corner_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>28,26,4,P_Scrapyard_Rocks_1,WorldProp,2,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>25,35,4,P_Namtur_Rocks_02,WorldProp,2,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>26,32,4,P_Scrapyard_Rocks_1,WorldProp,1,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>27,32,4,P_Namtur_Rocks_04,WorldProp,3,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>27,37,4,P_Namtur_Rocks_04,WorldProp,0,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>29,35,4,P_Namtur_Rocks_04,WorldProp,4,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>30,35,4,P_Scrapyard_Rocks_1,WorldProp,5,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>31,68,4,P_Scrapyard_Rocks_1,WorldProp,1,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>33,10,4,S_Forest_Corner_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>34,11,4,S_Forest_Corner_01,WorldProp,4,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>36,9,4,S_Forest_Corner_01,WorldProp,6,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>36,10,4,S_Forest_Corner_01,WorldProp,4,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>37,9,4,S_Forest_Corner_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>39,8,4,S_Forest_Corner_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>40,7,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>42,7,4,S_Forest_Corner_01,WorldProp,3,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>43,8,4,S_Forest_Full_01,WorldProp,6,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>44,8,4,S_Forest_Full_01,WorldProp,4,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>33,28,4,P_Namtur_Rocks_04,WorldProp,4,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>39,24,4,Artifact_Valcano_Lava,WorldProp,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>40,32,4,P_Scrapyard_Rocks_1,WorldProp,3,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>41,32,4,P_Namtur_Rocks_04,WorldProp,1,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>43,36,4,P_Scrapyard_Rocks_1,WorldProp,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>44,35,4,P_Namtur_Rocks_04,WorldProp,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>44,36,4,P_Scrapyard_Rocks_1,WorldProp,2,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>44,37,4,P_Scrapyard_Rocks_1,WorldProp,2,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>46,46,4,P_Scrapyard_Rocks_1,WorldProp,7,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>46,47,4,P_Scrapyard_Rocks_1,WorldProp,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>39,53,4,P_Namtur_Rocks_04,WorldProp,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>36,56,4,P_Namtur_Statue_01,WorldProp,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>36,57,4,P_Scrapyard_Rocks_1,WorldProp,1,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>36,58,4,P_Scrapyard_Rocks_1,WorldProp,4,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>40,53,4,P_Namtur_Rocks_04,WorldProp,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>41,53,4,P_Scrapyard_Rocks_1,WorldProp,5,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>46,48,4,P_Scrapyard_Rocks_1,WorldProp,5,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>32,69,4,P_Namtur_Rocks_04,WorldProp,5,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>33,67,4,P_Scrapyard_Rocks_1,WorldProp,7,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>33,68,4,P_Scrapyard_Rocks_1,WorldProp,6,0,-1,-1,1,1.000000,0</MapObjectData>
+	<MapObjectData>33,73,4,P_Scrapyard_Rocks_1,WorldProp,3,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>54,15,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>55,13,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>55,14,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>56,13,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>56,15,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>57,14,4,S_Forest_Corner_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>53,17,4,S_Forest_Full_01,WorldProp,4,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>53,19,4,S_Forest_Full_01,WorldProp,4,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>53,23,4,S_Forest_Corner_01,WorldProp,3,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>54,20,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>54,22,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>55,16,4,S_Forest_Corner_01,WorldProp,3,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>55,17,4,S_Forest_Corner_01,WorldProp,3,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>55,19,4,S_Forest_Corner_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>55,20,4,S_Forest_Full_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>55,22,4,S_Forest_Full_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>55,23,4,S_Forest_Full_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>53,27,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>53,28,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>54,25,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>54,26,4,S_Forest_Full_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>56,16,4,S_Forest_Corner_01,WorldProp,2,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>56,17,4,S_Forest_Corner_01,WorldProp,0,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>56,20,4,S_Forest_Full_01,WorldProp,7,0,-1,-1,1,2.000000,0</MapObjectData>
+	<MapObjectData>51,46,4,P_Scrapyard_Rocks_1,WorldProp,1,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>51,47,4,P_Scrapyard_Rocks_1,WorldProp,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>51,48,4,P_Scrapyard_Rocks_1,WorldProp,3,0,-1,-1,1,1.000000,1</MapObjectData>
+	
+	<!--SHARDS-->
+	
+	<MapObjectData>41,56,0,Fire Shard,FireShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	
+	<!--RESOURCES-->
+	
+	<MapObjectData>41,57,3,Crystal Crag,Crystal,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>42,54,3,Gold Deposit,GoldDepositBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>39,55,3,Gold Deposit,GoldDepositBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>39,54,3,Iron Ore,IronOre,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	
+	<!--GOODIES-->
+	
+	<MapObjectData>26,13,2,Az Zuran,FEC_GOODY_DrotaVillageAzZuranDummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>31,13,2,Az Anoka,FEC_GOODY_DrotaVillageAzAnokaDummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>26,20,2,Az Amakett,FEC_GOODY_DrotaVillageDummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>29,17,2,Az Kali,FEC_GOODY_DrotaVillageAzKaliDummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>25,33,2,Ancient Ruins,FEC_GOODY_MarakataRingRuins,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>27,34,2,A Deserted Island,FEC_GOODY_TREASURE_ISLAND,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>36,12,2,Ruins of the M'Zengeti,FEC_GOODY_PillarDummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>38,14,2,The Altar of the Ascended,FEC_GOODY_TrakirrsAltar_Dummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>40,9,2,Tomb of the Veladrii,FEC_GOODY_Tomb_of_the_Veladrii,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>42,13,2,Ruins of the M'Zengeti,FEC_GOODY_PillarDummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>46,8,2,The Ruined City,FEC_GOODY_Malaya_Dummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>32,23,2,The Temple of the Wind,FEC_GOODY_DrotaTemple,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>35,21,2,Temple of The Dragon,FEC_GOODY_Temple_of_The_Dragon,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>39,17,2,Ruins of the M'Zengeti,FEC_GOODY_PillarDummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>38,28,2,A Makeshift Sign,FEC_GOODY_MISSING_PERSON _TILE,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>45,36,2,Village Ruins,FEC_GOODY_Village_Ruins,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>45,38,2,The Glint of Glass,FEC_GOODY_MESSAGE_IN_A_BOTTLE,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>36,61,2,Taz-al-Jidda,FEC_GOODY_ShipQuestDummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>46,49,2,Shrine to Torax,FEC_GOODY_Shrine_to_Torax,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>40,60,2,River Crossing,FEC_GOODY_RiverCrossing,1,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>45,60,2,Old Farmer's Hut,FEC_GOODY_OLD_MAN,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>33,66,2,A Lumbermill,FEC_GOODY_LumbermillDummy,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>48,18,2,The House of Sirdir,FEC_GOODY_PalaceBlockade,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>48,20,2,The Temple of Fire,FEC_GOODY_Palace,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	
+	<!--MONSTER LAIRS-->
+	
+	<MapObjectData>21,18,5,Animal Den,FEC_Lair_Plaguestalker1,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>44,24,5,Den of the Fire Creature,FEC_GOODY_FireElemental,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>45,39,5,Hezza's Bane,FEC_GOODY_TrogVillage,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>44,50,5,A Dark Crevasse,FEC_GOODY_SpiderNest,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>48,12,5,A Dangerous Den,FEC_Lair_GreatWolf1,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>51,25,5,The Army of Yithril,FEC_GOODY_YithrilArmyBase1,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>50,49,5,Trog Sentries,FEC_GOODY_TrogHunterLair1,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>51,61,5,A Hidden Cavern,FEC_Lair_Troll1,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	
+	<!--CITIES-->
+	
+	<Improvement>42,31,Kushar,FEC_CITY_Map2Minor,9,0,-1,1,1,42,31,15</Improvement>
+	<Improvement>38,55,Cymra,FEC_CITY_Map2Player,9,0,-1,0,1,38,55,15</Improvement>
+	
+	<!--NPCs-->
+	
+	<NPCSpawn>45,35,FEC_UNIT_Darwella,0,3,0,4,6</NPCSpawn>
+	<NPCSpawn>28,24,FEC_UNIT_Valiero,0,3,0,4,6</NPCSpawn>
+	<NPCSpawn>29,8,FEC_UNIT_AlonnBeseret,0,3,1,2,8</NPCSpawn>
+	
+	<!--QUESTS-->
+	
+	<QuestSpawn>42,19,FEC_Lost_Brother_QUEST,0,-1</QuestSpawn>
+	
+	<!--CREATURES AND RUFFIANS-->
+	
+	<CreatureSpawn>28,14,Stalker,0,-1,1,-1,4,5,</CreatureSpawn>
+	<CreatureSpawn>23,19,Plaguestalker,0,-1,1,-1,3,6,</CreatureSpawn>
+	<CreatureSpawn>29,22,AirShrill,0,-1,1,-1,4,7,</CreatureSpawn>
+	<CreatureSpawn>33,15,CaveBear,0,-1,1,-1,1,7,</CreatureSpawn>
+	<CreatureSpawn>38,13,ShrillContainer,0,-1,1,-1,1,7,</CreatureSpawn>
+	<CreatureSpawn>42,14,ShadowWarg,0,-1,1,-1,4,6,</CreatureSpawn>
+	<CreatureSpawn>47,12,WolfContainer,0,-1,1,-1,3,5,</CreatureSpawn>
+	<CreatureSpawn>32,23,AirElementalContainer,0,-1,0,-1,1,8,</CreatureSpawn>
+	<CreatureSpawn>35,22,CorpseSpider,0,-1,1,-1,6,3,</CreatureSpawn>
+	<CreatureSpawn>34,25,AirShrill,0,-1,1,-1,3,10,</CreatureSpawn>
+	<CreatureSpawn>43,22,Ignys,0,-1,1,-1,4,6,</CreatureSpawn>
+	<CreatureSpawn>46,25,Ignys,0,-1,1,-1,5,5,</CreatureSpawn>
+	<CreatureSpawn>46,30,Troll,0,-1,1,-1,1,8,</CreatureSpawn>
+	<CreatureSpawn>42,58,SmallBanditParty,0,-1,1,-1,1,2,</CreatureSpawn>
+	<CreatureSpawn>37,65,Map2WildingContainer,0,-1,2,-1,1,4,</CreatureSpawn>
+	<CreatureSpawn>50,16,CoastalSkath,0,-1,1,-1,6,5,</CreatureSpawn>
+	<CreatureSpawn>48,60,WildingRiderContainer,0,-1,2,-1,1,3,</CreatureSpawn>
+</ElementalMap>

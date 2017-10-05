@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<ElementalMapTriggerData>
+	
+	<!-- ******************-->
+	<!-- ON GAME START -->
+	<!-- ******************-->	
+	<GameTriggerStartOfGame InternalName="LH_T_OnGameStart">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<LogText>* If Pariden falls, the war is lost.</LogText>
+		<TriggerResultOpenCampaignBook>
+            <StoryBookPage>
+<!--                <LargeHeaderText>CHAPTER 1</LargeHeaderText> -->
+                <SmallHeaderText>The War for Anthys</SmallHeaderText>
+                <BodyText>The voyage did not go easily.  For four long days the storms raged around you, and in the sudden flashes of lightning you could see the silhouetted forms of black birds in the sky, seemingly unaffected by the wind and rain.  On the second night a winged creature attacked, grabbed crewmen and threw them into sea.  It was an elemental of some sort, but dark and twisted, and you recognized the familiar touch of Ceresa's power.
+
+				The sea finally cast you against the rocks and you dragged the few men that survived out of the wreckage.  From here you will need to establish a base and warn Queen Procipinee of the threat in the east.</BodyText>
+				<ImagePath>Gfx\Medallions\Cartography_Medallion_Full.png</ImagePath>
+			</StoryBookPage>			
+			<Sound>TurnPageMagical_01</Sound>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>click_apply</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerStartOfGame>
+
+	<!-- ******************-->
+	<!-- PROCIPINEE: INTRO -->
+	<!-- ******************-->	
+	<GameTriggerWorldTile InternalName="LH_T_ProcipineeIntro">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<LogText>* Found a city and prepare for the coming war.</LogText>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Relias, I am glad to see your return. But even now the Empires are crossing the Henge and Capitar is besieged.  Clear the land, settle camps and recruit soldiers.  Wildings prowl the desert to the west and the syndicate has holdings to the north, though there are fertile lands in both places."</ConversationText>
+			<AnswerText>I will prepare my armies</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+			<ConversingPlayer>5</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- PROCIPINEE: NEW CITY -->
+	<!-- ******************-->	
+	<GameTriggerNewCity InternalName="LH_T_NewCity">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<LogText>* Send troops to clear the Yithril Invasion to the West</LogText>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Good, you have a settlement in which to construct improvements and train soldiers.  Manage your resources well.  The challenge will be in deciding what resources to use to make your borders safe, expand your control and to assist with the war.  I will share the secrets for the Civics, Knowledge and Restoration technologies with you.  We are in this war together Relias, in victory or defeat."
+			
+			"Verga has sent a small invasion force to the west of you, lead by Craul Gravehands. You would do well to capture his city before he establishes a foothold at our back."
+			</ConversationText>
+			<AnswerText>Thank you Queen Procipinee</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+			<ConversingPlayer>5</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		<TriggerResultApplyGameModifierToPlayer>
+			<PlayerID>0</PlayerID>
+			<GameModifier>
+				<ModType>Player</ModType>
+				<Attribute>UnlockTech</Attribute>
+				<StrVal>Civics</StrVal>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToPlayer>
+		<TriggerResultApplyGameModifierToPlayer>
+			<PlayerID>0</PlayerID>
+			<GameModifier>
+				<ModType>Player</ModType>
+				<Attribute>UnlockTech</Attribute>
+				<StrVal>Restoration</StrVal>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToPlayer>
+		<TriggerResultApplyGameModifierToPlayer>
+			<PlayerID>0</PlayerID>
+			<GameModifier>
+				<ModType>Player</ModType>
+				<Attribute>UnlockTech</Attribute>
+				<StrVal>Knowledge</StrVal>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToPlayer>
+	</GameTriggerNewCity>
+
+	<!-- ******************-->
+	<!-- THE CLOSED GATE   -->
+	<!-- ******************-->	
+	<GameTriggerWorldTile InternalName="LH_T_ClosedGate">		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"This gate is ancient and impassable.  Magic and the strength of the mountains themselves hold this pass closed and if there was once a way to open it, it was lost long ago.  I don't know what lays beyond the gate, perhaps riches, perhaps danger."</ConversationText>
+			<AnswerText>I will find another way around</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+			<ConversingPlayer>5</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- ABEIX             -->
+	<!-- ******************-->	
+	<GameTriggerWorldTile InternalName="LH_T_Abeix">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Beware, the chasm ahead is deeper than the Pits of Namtur or Magnar's slave mines.  It reaches to the heart of Elemental and into places where even Curgen feared to thread.  The altar ahead was there before the cataclysm, and I will be there long after we have passed from this world."</ConversationText>
+			<AnswerText>I will be careful</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+			<ConversingPlayer>5</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- CERESA: ATTACK 1  -->
+	<!-- ******************-->	
+	<GameTriggerWorldTile InternalName="LH_T_CeresaAttack1">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Did you think I had forgotten about you?  The shadows and the wind are my servants.  Though you run to the edge of the world, you cannot escape me."</ConversationText>
+			<AnswerText>I am not trying to escape</AnswerText>
+			<RequiredUnit>Sovereign_Ceresa_Scenario</RequiredUnit>
+			<MusicToPlay>Theme_EasternWardrums_Full</MusicToPlay>
+			<ConversingPlayer>2</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		<TriggerResultSpawnUnit>
+			<UnitType>CrowDemon_Ancient</UnitType>
+			<PlayerID>2</PlayerID>
+			<TileX>30</TileX>
+			<TileY>37</TileY>
+			<Level>9</Level>
+		</TriggerResultSpawnUnit>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- PROCIPINEE: FORGE -->
+	<!-- ******************-->	
+	<GameTriggerWorldTile InternalName="LH_T_ProcipineeForge">	
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<LogText>* Find the Forge of the Overlord.</LogText>	
+		<TriggerResultSimpleConversation>
+			<ConversationText>"The tide of fallen soldiers is unending. Even if we win battles we may drown in their blood before this war is over."
+			
+			"But there is a way. The Forge of the Overlord is in the east, that which was built by the Witch-Queen, Argynn and Lord Ereog. It has the power to focus the magic of the world and with that power you could end this war. But be careful. You will need to fight through the fallen empires to reach it, and the Forge itself has powerful guardians."</ConversationText>
+			<AnswerText>I will find the forge and end this war</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+			<ConversingPlayer>5</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		<!-- Spawn the quest -->
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>151</TileX>
+			<TileY>80</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateQuestAtTile</Attribute>
+				<Unitclass>Quest_LHScenario_ForgeOfTheOverlord</Unitclass>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- PROCIPINEE: IMPERIAL SPINE -->
+	<!-- ******************-->
+	<GameTriggerWorldTile InternalName="LH_T_ProcipineeImperialSpine">	
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"It is hard to determine the location of the Forge.  Our records deal with its location before the cataclysm, but now there are oceans where there should be mountains and gaping chasms where there once were vast forests."
+			
+			"The great mountain range to your east is the Imperial Spine, and at least that still remains.  A pass directly east of you cuts through the spine and if our records are right the Forge of the Overlord is on the other side."</ConversationText>
+			<AnswerText>Thank you, I will cross through the spine</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+			<ConversingPlayer>5</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- PROCIPINEE: IMPERIAL SPINE 2 -->
+	<!-- ******************-->
+	<GameTriggerWorldTile InternalName="LH_T_ProcipineeImperialSpine2">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"You are close to the Forge of the Overlord.  If these maps are to be believed it is a short march north of your current location.  Beware Relias, the area is thick with enemies and the Forge itself will have it's own guardians.  But the legacy of men in this world relies on your success."</ConversationText>
+			<AnswerText>This time I will not fail</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+			<ConversingPlayer>5</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- PROCIPINEE: IMPERIAL SPINE 2 -->
+	<!-- ******************-->
+	<GameTriggerWorldTile InternalName="LH_T_ProcipineeHoarderCave">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Lord Markin dug these tunnels out years ago.  But they found something in the depths and what few men made it out never entered again.  It has been abandoned ever since."</ConversationText>
+			<AnswerText>If I enter the cave, I will be carefully</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+			<ConversingPlayer>5</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		<ToggleRestriction>LH_R_HoarderCave,0</ToggleRestriction>
+	</GameTriggerWorldTile>
+
+	<GameRestrictionBlockTiles InternalName="LH_R_HoarderCave">
+		<PlayerID>0</PlayerID>
+		<IsActive>1</IsActive>
+	</GameRestrictionBlockTiles>
+
+	<!-- ******************-->
+	<!-- PROCIPINEE: GUARDIAN STATUE TRAP -->
+	<!-- ******************-->
+	<GameTriggerWorldTile InternalName="LH_T_GuardianStatueTrap">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<ToggleRestriction>LH_R_GuardianStatueTrap,0</ToggleRestriction>
+	</GameTriggerWorldTile>
+
+	<GameRestrictionBlockTiles InternalName="LH_R_GuardianStatueTrap">
+		<PlayerID>0</PlayerID>
+		<IsActive>1</IsActive>
+	</GameRestrictionBlockTiles>
+
+	<!-- ******************-->
+	<!-- PROCIPINEE: GUARDIAN STATUE -->
+	<!-- ******************-->
+	<GameTriggerWorldTile InternalName="LH_T_GuardianStatue">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Beware Relias, these statues are not simply decoration."</ConversationText>
+			<AnswerText>They are already moving</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+			<ConversingPlayer>5</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>143</TileX>
+			<TileY>73</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>DestroyObjects</Attribute>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>143</TileX>
+			<TileY>69</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>DestroyObjects</Attribute>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		<!-- Remove the Shrill Lord tile restriction now that we're killing him off -->
+		<ToggleRestriction>LH_R_GuardianStatue,0</ToggleRestriction>
+	</GameTriggerWorldTile>
+
+	<GameRestrictionBlockTiles InternalName="LH_R_GuardianStatue">
+		<PlayerID>0</PlayerID>
+		<IsActive>1</IsActive>
+	</GameRestrictionBlockTiles>
+
+	<!-- ******************-->
+	<!-- IRANE: WAR BOAR   -->
+	<!-- ******************-->	
+	<GameTriggerWorldTile InternalName="LH_T_IraneWarBoar">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"I've sent many hunters to capture that boar, none have returned.  The wildings have mastered the art of domesticating them, but even they leave this old, foul tempered one alone.  If you can beat it into submission they often become loyal mounts."</ConversationText>
+			<AnswerText>Well, I am getting tired of walking everywhere.</AnswerText>
+			<RequiredUnit>Sovereign_Irane</RequiredUnit>
+			<MusicToPlay>Theme_ForestRefuge_Full</MusicToPlay>
+			<ConversingPlayer>6</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- IRANE: TARTH      -->
+	<!-- ******************-->	
+	<GameTriggerWorldTile InternalName="LH_T_IraneTarth">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Welcome to the free lands of Tarth.  There is little adventure here for you, just my soldiers readying for war.  But I cannot allow you to leave empty handed, please accept this gift."</ConversationText>
+			<AnswerText>Thank you</AnswerText>
+			<RequiredUnit>Sovereign_Irane</RequiredUnit>
+			<MusicToPlay>Theme_ForestRefuge_Full</MusicToPlay>
+			<ConversingPlayer>6</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		<TriggerResultApplyGameModifierToUnit>
+			<GameModifier>
+				<ModType>GiveItem</ModType>
+				<Attribute>YewLongbow_Tarth</Attribute>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToUnit>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- IRANE: DESERT PASS-->
+	<!-- ******************-->	
+	<GameTriggerWorldTile InternalName="LH_T_IraneDesertPass">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"We call this the pass the Stretch of Gilias.  We avoid it because of the blinding sand storms that cause many to go missing within its depths.  Hard to imagine when you should be able to follow the mountains edge through, which makes us suspect there may be more than storms in the pass."</ConversationText>
+			<AnswerText>Thank you for the warning, I will carefully consider before entering the pass.</AnswerText>
+			<RequiredUnit>Sovereign_Irane</RequiredUnit>
+			<MusicToPlay>Theme_ForestRefuge_Full</MusicToPlay>
+			<ConversingPlayer>6</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- IRANE: TROLL      -->
+	<!-- ******************-->	
+	<GameTriggerWorldTile InternalName="LH_T_IraneTrolls">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Trolls... Carrodus made us fight them in the arenas.  They were brutal savages, cheap to feed and if they lost they could regenerate in a few hours. The mire skaths may be even more dangerous.  They have a powerful bite, especially the first time they attack.  It is cruel to say, but you may want to make sure their first target is either well armored or expendable."
+			
+			"The valley behind the troll is well known for the gold veins running through.  Markin used to have an outpost here, but he is withdrawing all his men to Gilden and running from the war."</ConversationText>
+			<AnswerText>If Markin has no need for the gold I'm sure I can find a use</AnswerText>
+			<RequiredUnit>Sovereign_Irane</RequiredUnit>
+			<MusicToPlay>Theme_ForestRefuge_Full</MusicToPlay>
+			<ConversingPlayer>6</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+	</GameTriggerWorldTile>
+
+	<!-- ******************-->
+	<!-- DESERT WARNING 2  -->
+	<!-- ******************-->	
+	<GameTriggerUnitKilled InternalName="LH_T_DesertPass2">		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultPopupDialog>
+			<Text>The raging sand storms make it difficult to see and hear.  The roar surrounds you and you can barely make out the words of men standing right beside you.  So when you begin hearing the howls of something deeper and more hungry than the storm coming toward you, you know they can't be far away.</Text>
+			<Title>Stretch of Gilias</Title>
+			<Image>T_TitansBreath_Painting.png</Image>
+		</TriggerResultPopupDialog>
+		<TriggerResultPlaySound>
+			<Sound>FireShard_SFX_02</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerUnitKilled>
+
+	<!-- ******************-->
+	<!-- BESTIARY: SPIDER  -->
+	<!-- ******************-->	
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetSpider">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>RavenousHarridan</UnitTypeName>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Ravenous Harridan</SmallHeaderText>
+                <BodyText>Ravenous Harridan is the name given by the Lord Argynn to those spiders which marched with the armies of Mergas Maz Adul. But having examined several of these beasts, I have concluded that they are kin to the black widow spider. Their great size (the span from leg tip to opposite leg tip has been measured in some cases at ten feet), their foul disposition (they will attack anything that moves in their field of vision), and above all, their taste for animal flesh, must be attributed to necromancy of the most foul and cruel sort. These beasts are to be avoided, yes, but pitied as well.
+				</BodyText>
+				<ImagePath>Gfx\Medallions\M_Spider_GiantBlackWidow.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>bigspider_move</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerAdjacentToUnit>
+
+	<!-- ******************-->
+	<!-- BESTIARY: FIRE SHRILL -->
+	<!-- ******************-->	
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetFireShrill">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>FireShrill</UnitTypeName>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Fire Shrill</SmallHeaderText>
+                <BodyText>There is an old scrying pool here, a place where shamans and Amarian diviners gathered to glimpse the future.  They hoped that by seeing the future they could change or prepare for it.  With all of Anthys at war there has never been a time where the future was less certain and you wonder what the pools murky depths may show.
+				
+				Strategy: Fire Shrills have a deadly ranged attack.  Use the Rush ability to sacrifice your attack and take an additional action to cross the battlefield quickly.</BodyText>
+				<ImagePath>Gfx\Medallions\FireShrill.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>bigspider_move</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerAdjacentToUnit>
+
+	<!-- ******************-->
+	<!-- BESTIARY: BROOD HUNTER -->
+	<!-- ******************-->	
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetBroodHunter">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>BroodHunter</UnitTypeName>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Brood</SmallHeaderText>
+                <BodyText>Though the swamps of Elemental are full of the queen's servants, many more lay in the depths of the world. Creatures inchoate and tenebrous. There are those that spin webs that trap spirits, those that bear their young when enraged so that the young may join in the battle, and pabulum worms so intent on being eaten that they force themselves into the mouths of larger creatures. But the most tragic are the brood. They are the discarded experiments of the titans, the results of rock spider eggs planted in a darkling mother's womb. As the hatched they consume her intestines and burst from her as they would from the fractured world generations later.</BodyText>
+				<ImagePath>Gfx\Medallions\M_BroodWarden_Card_01.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>bigspider_move</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerAdjacentToUnit>
+
+	<!-- ******************-->
+	<!-- BESTIARY: FELL DRAGON -->
+	<!-- ******************-->	
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetFellDragon">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>FellDragon</UnitTypeName>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Fell Dragon</SmallHeaderText>
+                <BodyText>"I stood at the chasm's edge and listened to the whispers of the world below. I saw the place where night escapes when morning comes, and where fear lingers, waiting for the darkness to return." - The Oracle Ceresa at the Aphotic Throne, the ancient nest of the Fell Dragons.
+				
+				Fell Dragons seek the annilation of men, and their desire is so great that they are willing to debase themselves to accomplish it. They will join with the Fallen, pretend to unite with those that would command them, so that they can encourage war, so that they can taste flesh, and so that they can hope for a time when a single battle calls all the lesser creatures of the world into a great war. That time has come.</BodyText>
+				<ImagePath>Gfx\Medallions\ObsidianDragon.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>bigspider_move</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerAdjacentToUnit>
+
+	<!-- ******************-->
+	<!-- BESTIARY: OGRE -->
+	<!-- ******************-->	
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetOgre">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>Ogre</UnitTypeName>
+		<!-- Disable the alternate version of this trigger that looks for a different unit -->
+		<ToggleTrigger>LH_T_MetOgre2,0</ToggleTrigger>
+		<ToggleTrigger>LH_T_MetOgre3,0</ToggleTrigger>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Ogre</SmallHeaderText>
+                <BodyText>In the time of the dragons, there lived a girl named Olanna. She was daughter to a great Nimer chieftain, and wise as she was beautiful. But because she was a woman, when her father died, she could not become chief. This angered her and she fled into the White Mountains, taking shelter in the catacombs deep beneath those peaks.
+				
+				One day a Garrote came to her cavern. This beast is a maneater, but was captivated by Olanna's beauty. They lay together in the darkness, and made a child, the first ogre. They had a dozen more, and Olanna taught each of her children to hate man, and to live in solitude. These lessons were passed down through each generation.</BodyText>
+				<ImagePath>Gfx\Medallions\Ogre_Medallion.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>CLick_Giant4</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerAdjacentToUnit>
+	
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetOgre2">		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>YoungOgre</UnitTypeName>
+		<!-- Disable the alternate version of this trigger that looks for a different unit -->
+		<ToggleTrigger>LH_T_MetOgre,0</ToggleTrigger>
+		<ToggleTrigger>LH_T_MetOgre3,0</ToggleTrigger>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Ogre</SmallHeaderText>
+                <BodyText>In the time of the dragons, there lived a girl named Olanna. She was daughter to a great Nimer chieftain, and wise as she was beautiful. But because she was a woman, when her father died, she could not become chief. This angered her and she fled into the White Mountains, taking shelter in the catacombs deep beneath those peaks.
+				
+				One day a Garrote came to her cavern. This beast is a maneater, but was captivated by Olanna's beauty. They lay together in the darkness, and made a child, the first ogre. They had a dozen more, and Olanna taught each of her children to hate man, and to live in solitude. These lessons were passed down through each generation.</BodyText>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>CLick_Giant4</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerAdjacentToUnit>
+	
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetOgre3">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>Ogre_Banished</UnitTypeName>
+		<!-- Disable the alternate version of this trigger that looks for a different unit -->
+		<ToggleTrigger>LH_T_MetOgre,0</ToggleTrigger>		
+		<ToggleTrigger>LH_T_MetOgre2,0</ToggleTrigger>		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Ogre</SmallHeaderText>
+                <BodyText>In the time of the dragons, there lived a girl named Olanna. She was daughter to a great Nimer chieftain, and wise as she was beautiful. But because she was a woman, when her father died, she could not become chief. This angered her and she fled into the White Mountains, taking shelter in the catacombs deep beneath those peaks.
+				
+				One day a Garrote came to her cavern. This beast is a maneater, but was captivated by Olanna's beauty. They lay together in the darkness, and made a child, the first ogre. They had a dozen more, and Olanna taught each of her children to hate man, and to live in solitude. These lessons were passed down through each generation.</BodyText>
+				<ImagePath>Gfx\Medallions\Ogre_Medallion.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>CLick_Giant4</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerAdjacentToUnit>
+
+	<!-- ******************-->
+	<!-- BESTIARY: UMBERDROTH -->
+	<!-- ******************-->	
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetUmberdroth">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>Umberdroth</UnitTypeName>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Umberdroth</SmallHeaderText>
+                <BodyText>In this monster's name is its power and origin, for it was enchanted into being by the Titan Illosa, known also as the Lady Umber. Centuries has it served as her guardian, for of her blood was it made, and to her blood is it bound. In size and strength is its power, up to ten times the height and weight of a man, and it is possessed of resistance to many of the more common spells of earth, air, fire, and water.</BodyText>
+				<ImagePath>Gfx\Medallions\Umderdroth.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>Warg1_Click2_TEMP</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>			
+	</GameTriggerAdjacentToUnit>
+
+	<!-- ******************-->
+	<!-- BESTIARY: GARROTE -->
+	<!-- ******************-->	
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetGarrote">	
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>Garrote</UnitTypeName>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Garrote</SmallHeaderText>
+                <BodyText>Of these creatures, Lord Argynn wrote 'they have the strength of a hundred men, and the temper of a hundred scorned maidens.' This is exaggeration, but there is truth in it, for the garrote is strong enough to carry a horsecart, and quick indeed to anger. Many hunt these animals for sport, or for their horns and pelts, but I consider these acts cruelty of the worst sort. 
+				
+				I first had cause to observe this creature in the time of my youth, when a hunting party returned to our village from the north, bearing two dozen aribu carcasses, and in a great wooden cage, a beast they called 'snow ogre.' Out of cruelty and spite, they subjected this</BodyText>
+				<ImagePath>Gfx\backgrounds\Medallions\M_Garrote_Card.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>creature to various tortures. As I observed these acts, and the garrote's reactions, I became convinced of its intelligence, and possessed of a desire to help it escape.
+				
+				Sadly, I found no way to free the creature but one. I obtained from the apothecary a quantity of poison, and sprinkled it in the garrote's food. Thus ended its torment - an act I pray the Five forgive me for.</BodyText>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>CLick_Giant1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>		
+	</GameTriggerAdjacentToUnit>
+
+	<!--******************-->
+	<!-- BESTIARY: FIRE ELEMENTAL -->
+	<!--******************-->
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetFireElemental">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>FireElemental</UnitTypeName>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+			   <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Fire Elemental</SmallHeaderText>
+                <BodyText>This creature is made of the world, ancient beyond measure, as are all of its ilk. Fire is its power, fire is its name, and in the days before Mankind rose from the jungles of Al-Ashteroth, these were bound to the service of the Elemental Lord Sirdir. As Ereog himself wrote in the Commandments he passed down to the Padars who followed him; 'These you shall regard as worthy of veneration, for they follow the Elemental Lords as you do.' When Sirdir was cast down, many of these creatures were said to have passed from the world as well. Those that remain congregate near their sacred places of old, near the shards whose essence contains the same power they draw upon. They are most often hostile, though some can be wooed with appropriate sacrifice.</BodyText>
+				<ImagePath>Gfx\Spells\M_FireElemental_01_Card.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>Click_Fire_Elemental</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>		
+	</GameTriggerAdjacentToUnit>
+
+	<!--******************-->
+	<!-- MOVED NEXT TO ASSASSIN DEMON -->
+	<!--******************-->
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetAssassinDemon">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>AssassinDemon</UnitTypeName>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Assassin Demon</SmallHeaderText>
+                <BodyText>These creatures are said to be death-magic made flesh, monsters summoned from other realms by the Titans and then used as weapons to destroy the great civilizations of yesteryear. For this reason, they bear the name of Drednii. Yet when I first came to the great Library, I heard a tale from one of the elder scribes, Wyanne of Ithul, that these demons were made by man, in the jungles of Al-Ashteroth by the Dark Prince, and can thus be vanquished by the spells to be found in Hosten's Codex.</BodyText>
+				<ImagePath>Gfx\Medallions\M_AssassinDemon_01_Card.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>Click_Demon_Lair</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerAdjacentToUnit>
+
+	<!--******************-->
+	<!-- BESTIARY: SAND GOLEM -->
+	<!--******************-->
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetSandGolem">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>SandGolem</UnitTypeName>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Sand Golem</SmallHeaderText>
+                <BodyText>All golems are given movement by the Anima T'sal Animana - the spell of life from lifelessness. Among those who have studied the enchanter's art, however, it is generally believed that a second spell - an enchantment of binding - is required for the successful creation of the Sand Golem, a spell fixing the material to be animated into the correct form.</BodyText>
+				<ImagePath>Gfx\Medallions\M_Golem_SandGolem_01.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>		
+		<TriggerResultPlaySound>
+			<Sound>Golem_Click1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerAdjacentToUnit>
+
+	<!--******************-->
+	<!-- BESTIARY: EARTH ELEMENTAL -->
+	<!--******************-->
+	<GameTriggerAdjacentToUnit InternalName="LH_T_MetEarthElemental">	
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>EarthElemental</UnitTypeName>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Earth Elemental</SmallHeaderText>
+                <BodyText>This creature is made of the world and ancient beyond measure. Its power comes from the soil, from the rock and stone all who live dwell upon. In the days before Mankind rose from the jungles of Al-Ashteroth, these were bound to the service of the Elemental Lord Abeix. As Ereog told the Padars in his service; 'These you shall regard as worthy of veneration, for they follow the Elemental Lords as you do.' When Curgen cast down the Elemental Lords, many of these creatures were said to have passed from the world as well. Those that remain congregate near their sacred places of old, near the shards whose essence contains the same power they draw upon. They are most often hostile, though some can be wooed with appropriate sacrifice.</BodyText>
+				<ImagePath>Gfx\Medallions\StormGiant_Medallion.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>RockGolemWalk1_M</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>		
+	</GameTriggerAdjacentToUnit>
+	
+	<!--******************-->
+	<!-- ODENVELL          -->
+	<!--******************-->
+	<GameTriggerAdjacentToUnit InternalName="LH_T_Odenvell">	
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<RequiresChampion>0</RequiresChampion>
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Temple of Cyndrum</MediumHeaderText>
+                <BodyText>This was once a prison, the place where the Oracle Ceresa was bound by the Titan Curgen.  It was also the place where Shirayne was transformed into a demonic creature.  Both women still wander Elemental, both corrupted by the acts at Odenvell.
+				
+				You wander the grounds, but there is nothing left here now.  Nothing but loss and dark memories.</BodyText>
+				<ImagePath>Gfx\Medallions\G_Odenvell.png</ImagePath>
+			</StoryBookPage>
+		</TriggerResultOpenCampaignBook>
+		<TriggerResultPlaySound>
+			<Sound>click_apply</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	</GameTriggerAdjacentToUnit>
+	
+	<!-- ******************-->
+	<!-- WHEN THE PLAYER GETS 500 GOLD, REMIND HIM TO SPEND IT -->
+	<!-- ******************-->
+	<GameTriggerResourceLevel InternalName="LH_T_LotsaCash">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<ResourceTypeName>Gold</ResourceTypeName>
+		<ResourceLevel>500</ResourceLevel>
+		<TriggerResultSimpleConversation>
+			<ConversationText>With that much Gildar in your treasury you may want to consider rushing some of the things your cities are working on, or buying equipment at the shops for your champions.</ConversationText>
+			<AnswerText>Not a bad idea, thank you.</AnswerText>
+			<RequiredUnit>Sovereign_Carrodus</RequiredUnit>
+			<ConversingPlayer>8</ConversingPlayer>
+			<MusicToPlay>Theme_BladeOfThePeople_Full</MusicToPlay>
+		</TriggerResultSimpleConversation>
+	</GameTriggerResourceLevel>
+
+	<!-- ******************-->
+	<!-- WHEN THE PLAYER GETS 300 MANA, REMIND HIM TO SPEND IT -->
+	<!-- ******************-->
+	<GameTriggerResourceLevel InternalName="LH_T_LotsaMana">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<ResourceTypeName>Mana</ResourceTypeName>
+		<ResourceLevel>300</ResourceLevel>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Remember Relias, it is our power as channelers that seperates us from petty warlords.  You have gathered a reserve of mana that you can use to enchant your cities or champions.  It is a powerful tool, your success in this war will depend on your ability to use it wisely."</ConversationText>
+			<AnswerText>I will check my spellbook, thank you.</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<ConversingPlayer>5</ConversingPlayer>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+		</TriggerResultSimpleConversation>
+	</GameTriggerResourceLevel>
+	
+	<!-- ******************-->
+	<!-- Procipinee: Mana Shrine -->
+	<!-- ******************-->
+	<GameTriggerResourceLevel InternalName="LH_T_IruTAlavar">
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"This is Iru T'Alavar, a sacred place of renewel and growth. I often come here to meditate and remember past days. A hidden people are said to live in this vale, but if it is true I have never seen them.  You would to well to rest here and allow the energy of Iru T'Alavar restore you."</ConversationText>
+			<AnswerText>I will rest here (+100 Mana).</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<ConversingPlayer>5</ConversingPlayer>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+		</TriggerResultSimpleConversation>
+		<TriggerResultApplyGameModifierToPlayer>
+			<PlayerID>0</PlayerID>
+			<GameModifier>
+				<ModType>Resource</ModType>
+				<Attribute>Mana</Attribute>
+				<Value>100</Value>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToPlayer>
+	</GameTriggerResourceLevel>
+
+	<!-- ******************-->
+	<!-- FACTION DEATH: YITHRIL2 -->
+	<!-- ******************-->
+	<GameTriggerFactionDestroyed InternalName="LH_T_DefeatYithril2">
+		<FactionName>EmpireOfYithril2</FactionName>
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<LogText>* Cross the Henge to the north east and invade the Fallen lands</LogText>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Craul will no longer be a thorn in our side.  With our back protected you are free to turn your attention on the eastern front.  Aide our allies and push across the Henge at the most north eastern tip of our continent.  You would do well to explore our land as well, there are lost treasures and many who would assist you."
+			
+			"Remember one man can only do so much.  Your champions can lead armies too, you will accomplish more if you field multiple armies at once."</ConversationText>
+			<AnswerText>This is only the start of a long war</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<ConversingPlayer>5</ConversingPlayer>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+		</TriggerResultSimpleConversation>
+	</GameTriggerFactionDestroyed>
+
+	<!-- ******************-->
+	<!-- FACTION DEATH: PARIDEN -->
+	<!-- ******************-->
+	<GameTriggerFactionDestroyed InternalName="LH_T_DefeatPariden">
+		<FactionName>KingdomOfPariden</FactionName>
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"With the fall of Pariden the strength of men is broken.  You played your part in drama well, but I've always known the outcome."</ConversationText>
+			<AnswerText>I have failed... again.</AnswerText>
+			<RequiredUnit>Sovereign_Ceresa_Scenario</RequiredUnit>
+			<ConversingPlayer>2</ConversingPlayer>
+			<MusicToPlay>Theme_EasternWardrums_Full</MusicToPlay>
+		</TriggerResultSimpleConversation>
+		<TriggerResultCampaignLoss>
+			<LossText>You Lose!</LossText>
+		</TriggerResultCampaignLoss>
+	</GameTriggerFactionDestroyed>
+
+	<!-- ******************-->
+	<!-- FACTION DEATH: TARTH -->
+	<!-- ******************-->
+	<GameTriggerFactionDestroyed InternalName="LH_T_DefeatTarth">
+		<FactionName>KingdomOfTarth</FactionName>
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSpawnUnit>
+			<UnitType>Champion_Irane</UnitType>
+				<PlayerID>0</PlayerID>
+			<TileX>60</TileX>
+			<TileY>38</TileY>
+			<Level>9</Level>
+		</TriggerResultSpawnUnit>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Tarth is fallen, but I have not given up."</ConversationText>
+			<AnswerText>Then join me Irane and we will revenge your loss</AnswerText>
+			<RequiredUnit>Champion_Irane</RequiredUnit>
+			<MusicToPlay>Theme_ForestRefuge_Full</MusicToPlay>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+	</GameTriggerFactionDestroyed>
+
+	<!-- ******************-->
+	<!-- FACTION DEATH: CAPITAR -->
+	<!-- ******************-->
+	<GameTriggerFactionDestroyed InternalName="LH_T_DefeatCapitar">
+		<FactionName>KingdomOfCapitar</FactionName>
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSpawnUnit>
+			<UnitType>Champion_Carrodus</UnitType>
+				<PlayerID>0</PlayerID>
+			<TileX>60</TileX>
+			<TileY>36</TileY>
+			<Level>9</Level>
+		</TriggerResultSpawnUnit>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Capitar has fallen, our vaults are being looted by fallen hordes.  Capitar could not fight this war alone."</ConversationText>
+			<AnswerText>This war is not over, follow me and we will retake your cities</AnswerText>
+			<RequiredUnit>Champion_Carrodus</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+			<MusicToPlay>Theme_BladeOfThePeople_Full</MusicToPlay>
+		</TriggerResultSimpleConversation>
+	</GameTriggerFactionDestroyed>
+
+	<!-- ******************-->
+	<!-- FACTION DEATH: KRAXIS -->
+	<!-- ******************-->
+	<GameTriggerFactionDestroyed InternalName="LH_T_DefeatKraxis">
+		<FactionName>EmpireOfKraxis</FactionName>
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<TriggerResultSimpleConversation>
+			<ConversationText>"Did you know Karavox was not the eldest son of his family? His brother was in line for the throne, and had won the heart of beautiful Kasima, who Karavox loved as well. Karavox attempted to poison his brother, but when Kasima drank the wine instead he was imprisoned and lost."
+			
+			"In time he rose from the prison to seize the throne of Kraxis, with the help of ambitious and disloyal men. He was a dark man made darker by each decision he made."</ConversationText>
+			<AnswerText>A fitting fate for the betrayer</AnswerText>
+			<RequiredUnit>Sovereign_Procipinee</RequiredUnit>
+			<ConversingPlayer>5</ConversingPlayer>
+			<MusicToPlay>Theme_CrownOfTheWest_Full</MusicToPlay>
+		</TriggerResultSimpleConversation>
+	</GameTriggerFactionDestroyed>
+
+</ElementalMapTriggerData>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<FlavorTextEntries>
+	<DataChecksum NoParse="1">
+		<Ignore>Text</Ignore>
+		<Translate>Text</Translate>
+	</DataChecksum>
+
+	<!--
+  - STRING PLACEHOLDERS -
+  
+  [S_FactionName] the name of the speaker's faction
+  [S_FactionShortName] the short name of the speaker's faction (Kraxis, Altar, etc)
+  [S_LeaderName] the name of the speaker
+  [S_LastResearchedTech] the most recently unlocked tech milestone of the speaker's faction
+  
+  [L_FactionName] listener's faction name
+  [L_FactionShortName] the short name of the listener's faction (Kraxis, Altar, etc)
+  [L_LeaderName] listener's sovereign name
+  [L_LastResearchedTech] the most recently unlocked tech milestone of the listener's faction
+  
+  [WorldName] the name of the world
+  
+  ____________________________________________
+  
+  - RULES (Mostly for use with Generic Race conversations) -
+  
+  - Race of Men -
+  0  - A Kingdom speaking
+  1  - A Kingdom speaking to another Kingdom
+  2  - A Kingdom speaking to a Fallen nation
+  
+  - Fallen Race -
+  10 - A Fallen race speaking
+  11 - A Fallen race speaking to another Fallen Race
+  12 - A Fallen Race speaking to a Kingdom nation
+  
+  - Military Might -
+  20 - Speaker has a MUCH STRONGER Military than the Listener
+  21 - Speaker has a Slightly STRONGER Military than the Listener
+  22 - Speaker has approximatly EQUAL Military Might as the Listener
+  23 - Speaker has a Slightly WEAKER Military than the Listener
+  24 - Speaker has a MUCH WEAKER Military than the Listeners
+  
+  - Diplomatic Skill -
+  30 - Speaker is MUCH MORE DIPLOMATIC than the Listener
+  31 - Speaker is SLIGHTLY MORE DIPLOMATIC than the Listener
+  31 - Speaker is EQUALLY DIPLOMATIC than the Listener
+  33 - Speaker is SLIGHTLY LESS DIPLOMATIC than the Listener
+  34 - Speaker is MUCH LESS DIPLOMATIC than the Listener
+  
+  <RevisitedTopicBarrier>
+  This is the number of times a topic is triggered by these two races before the given flavor text will be used.
+  
+  <RelationsMax>
+  <RelationsMin>
+  The span of relations that this text will be used for.
+  1- Permanent War
+  2- War
+  3- Hostile
+  4- Unfriendly
+  5- Cool
+  6- Neutral
+  7- Warm
+  8- Friendly
+  9- Close
+  10- Ally
+  11- Team
+  -->
+    
+	<FlavorText>
+    <Rule>1</Rule>
+		<Topic>NOTIFY_WAR_ON_OTHER_PLAYER</Topic>
+		<Text>For our own reasons, we have decided that [S_OtherPlayer] can no longer be allowed to exist. As a fellow Kingdom, we expect you to support us.</Text>
+	</FlavorText>
+
+  <FlavorText>
+    <Rule>1</Rule>
+    <Topic>NOTIFY_WAR_ON_OTHER_PLAYER</Topic>
+    <Text>Fallen creature, we are notifying you that we have decided to rid the world of [S_OtherPlayer]. Stay out of it if you know what's best for you.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Rule>11</Rule>
+    <Topic>NOTIFY_WAR_ON_OTHER_PLAYER</Topic>
+    <Text>Noble, [L_LeaderName]. We wanted to let you know that we have decided to wipe out, [S_OtherPlayer]. Feel free to join in.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Rule>12</Rule>
+    <Topic>NOTIFY_WAR_ON_OTHER_PLAYER</Topic>
+    <Text>As a Kingdom, I don't expect you to understand this, [L_LeaderName]. In this world, only the strongest survive. To that end, we are going to eliminate, [S_OtherPlayer].</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Rule>0</Rule>
+    <Topic>NOTIFY_WAR_IS_COMING</Topic>
+    <Text>Our ideologies are simply too different to coexist. The Kingdoms exist as a beacon of order and civilization. In time, [L_LeaderName], we will be forced to destroy you.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Rule>10</Rule>
+    <Topic>NOTIFY_WAR_IS_COMING</Topic>
+    <Text>The time of Kingdoms and their allies are over, [L_LeaderName]. This is a new world. A world where only the strong shall survive. We are not friends. Eventually, we shall find you weak and we shall crush you. There is no manner of trade or diplomacy that will change this fact. Accept it.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_PARANOID</Topic>
+    <Text>I know you're plotting against me, [L_LeaderName]! I see through your lies. The voices. The voices tell me they're all out to get me! You're out to get to me! I know it! I KNOW IT!</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_ISOLATIONIST</Topic>
+    <Text>I don't know you. I don't want to know you, [L_LeaderName]! We, the [S_FactionName] just want to be left alone.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_YOUAREWEAK</Topic>
+    <Text>You should just retire, [L_LeaderName]. Can't you see you are doomed? You are weak. Your faction makes no difference in this world as far as we're concerned.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_JEALOUS</Topic>
+    <Text>We are a proud people, [L_LeaderName]. The [S_FactionName] are the chosen ones of this world. Why must you rob us of our day in the sun?</Text>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>NOTIFY_DIPLOMAT</Topic>
+    <Text>Greetings, [L_LeaderName]! We believe there are great opportunities for us to work together.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_GREEDY_TRADER</Topic>
+    <Text>Greetings [L_LeaderName]! I see our trade is coming along nicely. These sorts of trades go a long way with me.</Text>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>NOTIFY_WARMONGER</Topic>
+    <Text>I love the taste of death. Sometimes I just can't help myself, [L_LeaderName]. I have nothing against you personally. But know this, if I can, I will destroy you.</Text>
+    <Text>I need war. I love war. The Destiny put me on this world to wage it, [L_LeaderName]. I look for weakness. When I find it, I crush it.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_MUCHSTRONGER</Topic>
+    <Text>This world is not for the weak, [L_LeaderName]. You are not protecting your citizens very well. It may soon be time for a stronger, more effective leader to take your place.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_YOU_ATTACKED_A_FELLOW_KINGDOM</Topic>
+    <Text>I cannot believe you attacked a fellow Kingdom, [L_LeaderName]. I do not think we shall ever be able to overlook that.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_FORGE</Topic>
+    <Text>Do you honestly believe we will stand by and allow you to construct The Forge of the Overlord? Do you really think we are that passive?</Text>
+    <Text>Are you insane? You brazenly construct the Forge of the Overlord? Do you think we will just allow this to happen?</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_LATEGAME</Topic>
+    <Text>We have appreciated your work in the past, [L_LeaderName]. But the time is approaching when the world must unite under one rule. Our rule.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_PLAYER_IS_POWERFUL</Topic>
+    <Text>The world needs strength.  Your might, [L_LeaderName] is impressive.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_PLAYER_IS_TOO_CLOSE</Topic>
+    <Text>I do not know if we shall be able to maintain peaceful relations, [L_LeaderName]. Your military might is uncomfortable close to us.</Text>
+    <Text>Our close borders continue to be a source of tension, [L_LeaderName].</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_PLAYER_IS_TOO_DONTKNOWYOU</Topic>
+    <Text>You seem honorable enough, [L_LeaderName]. On the other hand,we don't really know you. Perhaps if we had some treaties together that might help.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_UNSTABLE</Topic>
+    <Text>They sing to me, [L_LeaderName]. The songs of the voices within my soul. Some say I am mad. But I am not. I am not. </Text>
+  </FlavorText>
+
+
+  <FlavorText>
+    <Topic>NOTIFY_PLAYER_IS_CONQUERING</Topic>
+    <Text>You are a menace [L_LeaderName]. Do you honestly expect us to stand by and allow you to conquer us all one by one?</Text>
+    <Text>Do you think this is some sort of game, [L_LeaderName]? A game where you can simply build up armies and ravage our cities? Think again. We shall unite and resist you!</Text>
+  </FlavorText>
+  
+  <FlavorText>
+    <rule>1</rule>
+    <Topic>NOTIFY_MONSTERS</Topic>
+    <Text>We must warn you, [L_LeaderName] that the monster threat is growing. We just lost one of our cities to them! Be wary! They will only attack cities that they think they can successfully destroy.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <rule>11</rule>
+    <Topic>NOTIFY_MONSTERS</Topic>
+    <Text>(A traveler has arrived) [L_LeaderName] the creatures of the wilds continue to thwart our expansion. We just lost one of our cities to the vile things! The Empires must eradicate these things sooner rather than later!</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>NOTIFY_MONSTERS</Topic>
+    <Text>We have sent word across the lands, [L_LeaderName]. The monsters are growing more aggressive. They now attack cities. Despite our difference in ideology, we felt we should warn you of this.</Text>
+  </FlavorText>
+  
+  <FlavorText>
+		<Topic>Bandits_Warning</Topic>
+		<Text>Your little village of [CITYNAME] isn't even defended. Perhaps it will do better under new management.</Text>
+		<Text>Look at that, the little town of [CITYNAME] hasn't even trained a bloody peasant to defend its gates. Don't worry, we'll be there soon.</Text>
+	</FlavorText>
+  
+	<FlavorText>
+		<Topic>Monster_Dumb</Topic>
+		<Text>Looks like dinner is coming to me today.</Text>
+    <Text>This land belongs to me!</Text>
+    <Text>Stay away from my stuff!</Text>
+	</FlavorText>
+
+  <FlavorText>
+    <Topic>Monster_Syndicate</Topic>
+    <Text>These lands belong to the syndicate.</Text>
+    <Text>What do we have here? Another would-be adventurer?</Text>
+    <Text>This is Syndicate territory.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Monster_Bandit</Topic>
+    <Text>You have some nice gear. I can't wait to take it from you.</Text>
+    <Text>This is our turf, find your own area.</Text>
+    <Text>I hear the jingle of gildar. Come closer.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Monster_DarkWizard</Topic>
+    <Text>Come to my abode for a visit. I won't harm you. Much.</Text>
+    <Text>Ah, another visitor. Stay awhile. Stay..forever.</Text>
+    <Text>I sense there is a power in you. A power I would take.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Monster_Wildings</Topic>
+    <Text>You trespass on our hunting grounds. You must pay the price.</Text>
+    <Text>The time of cities is over. The world is ours now.</Text>
+    <Text>It has shinies. Maybe we can take the shinies from it.</Text>
+  </FlavorText>
+  
+	<FlavorText>
+		<Topic>Monster_Smart_Stronger</Topic>
+		<Text>Your gear will fetch a pretty gildar.</Text>
+    <Text>Your gear will fetch a pretty gildar.</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Monster_Smart_Weaker</Topic>
+		<Text>Look at you, lording through the wilds as if you own them!</Text>
+	</FlavorText>
+
+  
+</FlavorTextEntries>

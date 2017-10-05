@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<ElementalMapTriggerData>
+	
+	<!--GAME TRIGGERS-->
+	
+	<GameTriggerWorldTile InternalName="Tutorial_Explored_1">
+		<PlayerID>0</PlayerID>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<ToggleTrigger>Tutorial_ExploreHint1,0</ToggleTrigger>
+	</GameTriggerWorldTile>
+	<GameTriggerStartTurn InternalName="Tutorial_ExploreHint1">
+		<PlayerID>0</PlayerID>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<TurnNumber>8</TurnNumber>
+		<TriggerResultPopupDialog InternalName="Tutorial_ExploreHint1_Text">
+			<Text>While you can spend all the time you would like improving your Kingdom from the safety of your own borders, to really experience the world of Legendary Heroes you will need to explore. 
+
+			
+
+			Keep an eye out for treasures, monsters and quests during your travels.
+
+			
+
+			Get out there and enjoy the world!</Text>
+			<Title>Getting Started</Title>
+			<Image>Gfx\Items\Map1.png</Image>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultPopupDialog>
+	</GameTriggerStartTurn>
+	<GameTriggerStartOfGame InternalName="Tutorial_OnGameStart">
+		<PlayerID>0</PlayerID>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<TriggerResultApplyGameModifierToPlayer InternalName="ApplyGameModifierToPlayerResult">
+			<PlayerID>0</PlayerID>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+			<GameModifier InternalName="GameModifier 227">
+				<ModType>Resource</ModType>
+				<Attribute>Gold</Attribute>
+				<Value>290.0000</Value>
+				<PerTurn>0</PerTurn>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToPlayer>
+	</GameTriggerStartOfGame>
+	<GameTriggerUnitKilled InternalName="Tutorial_KillBandits">
+		<PlayerID>0</PlayerID>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FETutorial_EarthElemental</UnitTypeName>
+		<UnitOwnedBy>-1</UnitOwnedBy>
+		<UnitKilledBy>-1</UnitKilledBy>
+		<TriggerResultCampaignVictory InternalName="Tutorial_Finished">
+			<VictoryText>Thanks for playing the Legendary Heroes tutorial.  Now, try out all of the things you have just learned in a new game!</VictoryText>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultCampaignVictory>
+	</GameTriggerUnitKilled>
+	<GameTriggerResourceLevel InternalName="Tutorial_EnoughMetal">
+		<PlayerID>0</PlayerID>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<ResourceTypeName>Metal</ResourceTypeName>
+		<ResourceLevel>5.0000</ResourceLevel>
+	</GameTriggerResourceLevel>
+</ElementalMapTriggerData>

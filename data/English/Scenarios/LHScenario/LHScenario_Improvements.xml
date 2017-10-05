@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ImprovementTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName</Ignore>
+        <Translate>DisplayName</Translate>
+    </DataChecksum>
+    <ImprovementType InternalName="TowerOfMagic1">
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <RequiresForceUnlock>1</RequiresForceUnlock>
+    </ImprovementType>
+    <ImprovementType InternalName="TowerOfMagic2">
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <RequiresForceUnlock>1</RequiresForceUnlock>
+    </ImprovementType>
+    <ImprovementType InternalName="TowerOfMagic3">
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <RequiresForceUnlock>1</RequiresForceUnlock>
+    </ImprovementType>
+    <ImprovementType InternalName="TowerOfMagic4">
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <RequiresForceUnlock>1</RequiresForceUnlock>
+    </ImprovementType>
+ </ImprovementTypes>

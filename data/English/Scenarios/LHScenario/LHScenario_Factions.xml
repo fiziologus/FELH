@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RaceConfigs>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName, ShortName, Capitol, Description, UnitSkinColor, UnitHairColor, UnitClothColor, BuildingPrimaryColor, BuildingSecondaryColor, BuildingRoofColor, BuildingStyle, UnitStyle, WorkerName</Ignore>
+        <Translate>DisplayName, ShortName, Capitol, Description, WorkerName</Translate>
+    </DataChecksum>
+    <RaceConfig InternalName="EmpireOfYithril2">
+        <DisplayName>Yithril Invasion Force</DisplayName>
+        <Description>The people of Yithril are those who the armies of mankind called Trogs, a name said to have come from the first of their kind, D’rog, who slew the last descendant of Ereog in the great battle at Engar’s Plain. The Trogs, or D’rog, are warriors; violence and butchery is to them what milk and honey are to other races.</Description>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>Kett</Capital>
+        <City>Tallow</City>
+        <City>Carcase</City>
+        <City>Rapine</City>
+        <City>Clot</City>
+        <City>Mountainshade</City>
+        <City>Pit of Craul</City>
+        <City>Scythe</City>
+        <City>Butcher Bay</City>
+        <City>Shambles</City>
+        <ShortName>Yithril Invasion</ShortName>
+        <LeaderName>Sovereign_Craul</LeaderName>
+        <PopulaceName>Fallen</PopulaceName>
+        <Alignment>Evil</Alignment>
+        <FactionAllegiance>Empire</FactionAllegiance>
+        <SelAbilityBonusOption>WarriorsTech</SelAbilityBonusOption>
+        <SelAbilityBonusOption>WarriorCaste</SelAbilityBonusOption>
+        <SelAbilityBonusOption>ToughEmpire</SelAbilityBonusOption>
+        <SelAbilityBonusOption>GreatAxes</SelAbilityBonusOption>
+        <SelAbilityBonusOption>NoRangedWeapons</SelAbilityBonusOption>
+        <EntityID>11</EntityID>
+        <MusicTheme>SeeInDarkness</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fallen_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Fallen</RaceClassification>
+        <RaceDisplayName>Fallen</RaceDisplayName>
+        <RaceInternalName>Race_Type_Trogs</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Yithril.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitClothing1Color>150,150,150,255</UnitClothing1Color>
+        <UnitClothing2Color>50,50,50,255</UnitClothing2Color>
+        <UnitMetalColor>80,75,90,255</UnitMetalColor>
+        <BuildingPrimaryColor>100,100,100</BuildingPrimaryColor>
+        <BuildingSecondaryColor>20,20,20</BuildingSecondaryColor>
+        <BuildingRoofColor>165,160,150</BuildingRoofColor>
+        <ZoneOfControlColor>200,200,200</ZoneOfControlColor>
+        <BuildingStyle>EmpireStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>1</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>GrasslandEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>YithrilCrest</PreferredLogoType>
+        <SovereignUnitType>Sovereign_Craul</SovereignUnitType>
+    </RaceConfig>
+</RaceConfigs>

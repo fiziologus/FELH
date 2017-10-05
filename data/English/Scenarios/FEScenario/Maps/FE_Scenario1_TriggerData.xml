@@ -1,0 +1,2973 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<ElementalMapTriggerData>
+	
+	<!-- ******************-->
+	<!-- ON GAME START -->
+	<!-- ******************-->
+	
+	<GameTriggerStartOfGame InternalName="FEC_T_OnGameStart">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>* Search to the southeast for Prince Adaris in the town of Barra Nurg.</LogText>
+
+		<TriggerResultOpenCampaignBook>
+            <StoryBookPage>
+                <LargeHeaderText>CHAPTER 1</LargeHeaderText>
+                <SmallHeaderText>The Forbidden East</SmallHeaderText>
+
+                <BodyText>The sea is wet in your boots. The ship that left you and Shirayne on these shores disappears beneath the horizon. Nine of you began this journey: you two are the last left alive.
+ 
+"No signposts," Shirayne scowls. "Ezmir's map says there should be signs. Oh well. We'll figure things out." Her eyes blaze with resolve. She's never said it out loud, but you know Shirayne is eager to prove the doubters wrong.
+
+You also have detractors. Your father for one. This mission never sounded like much fun, but at least it's an opportunity to show him what's what... Resoln - yes, that's what you'll call this new outpost.</BodyText>
+
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Search to the southeast for Prince Adaris in the town of Barra Nurg.</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+				<ImagePath>Gfx\Medallions\Cartography_Medallion_Full.png</ImagePath>
+			</StoryBookPage>
+			
+			<StoryBookPage>
+                <BodyText>It will serve as proof of your resolve. You grin, fantasizing about what they'll say when you get back.
+
+Shirayne calls out to you, and you snap out of your trance. The lack of clear signposts is no surprise: Ezmir's map is more than a century old, and things made by man do not last here, in the East. You can sense dark forces even now, watching you, gathering their strength; an Empire of Darkness, and Sorcery, just as the prophecy foresaw. You shake your mind of these thoughts.
+
+The queen has tasked you with raising the Oracle from her enchanted slumber in lost Odenvell to help. Shirayne's map cannot guide you to her chamber, but you've heard of another who knows the way: Adaris of Kraxis, who waits for you now in the town of Barra Nurg.</BodyText>
+			</StoryBookPage>
+			
+			<StoryBookPage>
+                <BodyText>Well, better get started before Shirayne starts wandering ahead alone. I swear, that girl...</BodyText>
+			</StoryBookPage>
+			
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+			<Sound>TurnPageMagical_01</Sound>
+		</TriggerResultOpenCampaignBook>
+		
+		<!-- New Game Help Popup -->
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+                <BodyText>This scenario is focused on Relias and his companions. You cannot found new cities or outposts, and your economic options for building up your capital are very limited.
+
+You may train new soldiers to support your main party, but they will have a much smaller role to play than in a non-scenario game.
+
+All champions must remain with Relias for his entire adventure - make sure you plan accordingly!</BodyText>
+			</StoryBookPage>
+            <ShouldUseJournalScreen>1</ShouldUseJournalScreen>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<!-- New Game Help Popup -->
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+                <BodyText>Just a few more tips...
+
+Important places have a yellow "page" icon hovering over them. Only Relias and his party can visit these locations and progress the story.
+
+If you're ever unsure of what to do next, click the "book" button on the left side of this screen. This will open the Scenario Log, where you can review your current (and past) objectives.
+
+The text will often direct you to go in a particular direction, such as north or east - "north" simply means up, "east" is right, etc.
+
+Good luck!</BodyText>
+			</StoryBookPage>
+            <ShouldUseJournalScreen>1</ShouldUseJournalScreen>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>click_apply</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerStartOfGame>
+	
+	
+	
+	
+	<!-- ******************-->
+	<!-- VICTORY - HAUNTERS AT TEMPLE KILLED -->
+	<!-- ******************-->
+
+	<GameTriggerBattleFinished InternalName="FEC_T_Victory">
+		
+		<WinningPlayerID>0</WinningPlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<BattleIdentifier>TempleOfFiveBattle</BattleIdentifier>
+
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <SmallHeaderText>The Temple is Yours...</SmallHeaderText>
+                <BodyText>The battle for Odenvell, hard-fought and costly, is over. You have won. All around you lie the slain remants of the Fallen army that had occupied the Oracle's sanctuary - the Warlord Verga's army - and the enchanters who helped them protect it. A dying grayskin promises that Verga's vengeance for what you have done here will be swift and merciless.
+				
+That worry, however, is for later. For now, it is time to proceed with the last - and most important step of your mission.
+
+The Oracle has slept for a thousand years. Now, it is time to gather Rihossa and Shirayne - to find the Oracle's chamber - and wake her once more...</BodyText>
+				<ImagePath>Gfx\Medallions\G_Ancient_Battlefield_01.png</ImagePath>
+            </StoryBookPage>
+            <NotifierTileX>-1</NotifierTileX>
+            <NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+
+		<TriggerResultKillChampion InternalName="FEC_TR_KillShirayne">
+			<UnitType>FEC_UNIT_Shirayne</UnitType>
+		</TriggerResultKillChampion>
+		
+		<TriggerResultCampaignVictory InternalName="FEC_TR_Victory">
+			<VictoryText>Press NEXT to continue.</VictoryText>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultCampaignVictory>
+	
+		<TriggerResultPlaySound>
+			<Sound>Click_Arena</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+	
+	</GameTriggerBattleFinished>
+	
+
+    <!-- ******************-->
+	<!-- BANDIT STOLE CONVERSATION-->
+	<!-- ******************-->
+	
+	<GameTriggerStartTurn InternalName="FEC_T_Bandit_Stole">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<TurnNumber>1</TurnNumber>
+		
+		<TriggerResultApplyGameModifierToPlayer>
+			<PlayerID>0</PlayerID>
+			<GameModifier>
+				<ModType>Resource</ModType>
+				<Attribute>Gold</Attribute>
+				<Value>-25</Value>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToPlayer>
+		
+		<LogText>*A thief has made off with 25 of your gold and fled south. If you wish, you may pursue him, or consider the gold lost and move on.</LogText>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Relias, we have been robbed! 25 of our gold pieces have been stolen. I saw someone or something slink off to the southwest - we need to head after them.</ConversationText>
+			<AnswerText>Such a promising start to our expedition. Alright, alright... I'm coming... Hey, slow down!</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<MusicToPlay>ItemShop_Theme4</MusicToPlay>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+	
+		<TriggerResultPlaySound>
+			<Sound>Click_Paper_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerStartTurn>
+	
+
+	<!-- ******************-->
+	<!-- FOUND BANDIT CONVERSATION-->
+	<!-- ******************-->
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_Bandit_Reward">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Zayedd</UnitTypeName>
+	
+		<TriggerResultSimpleConversation>
+			<ConversationText>Your money? Oh no. Let me explain, noble Relias. I am Zayedd, of the Hashanii. This is a dangerous place you have chosen to settle; fortunately for you, I am here to help protect you from its many hazards. My services, alas, necessarily come at a cost; the money I took, that was simply advance on my fee. No thanks are necessary.</ConversationText>
+			<AnswerText>Tch... Bastard. I'll give you to the count of three to return that gold. Three.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Zayedd</RequiredUnit>
+			<ConversingPlayer>2</ConversingPlayer>
+			<MusicToPlay>Thief</MusicToPlay>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>Click_Paper_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerAdjacentToUnit>
+	
+	
+	<!-- ******************-->
+	<!-- AFTER KILLING BANDIT POPUP-->
+	<!-- ******************-->
+	
+	<GameTriggerUnitKilled InternalName="FEC_T_Recieve_Bandit_Gold">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Zayedd</UnitTypeName>
+		
+		<TriggerResultPopupDialog>
+			<Text>You are not the first traveler Zayedd has 'borrowed' from. In his saddlebags, you find not only the 25 gold pieces he stole from you, but 25 others in a pouch bearing the seal of your allies, the kingdom of Kraxis.</Text>
+			<Title>Justice's Reward</Title>
+			<Image>Gfx\Medallions\Tech_Refined_Economics.png</Image>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultPopupDialog>
+		
+		<TriggerResultPlaySound>
+			<Sound>FireShard_SFX_02</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerUnitKilled>
+	
+	
+	<!-- ******************-->
+	<!-- FOUND FIRST BUTCHERMAN IN THE TOWN OF CANNARGH -->
+	<!-- ******************-->
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_ButchermenConv">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Butcherman</UnitTypeName>
+	
+		<TriggerResultSimpleConversation>
+			<ConversationText>Relias! That creature there - do you see? A Butcherman. I've read that in the time before this one, he and his brethren were soldiers of fabled Antheros. Now they are creatures of magic - weakened husks of the great warriors they once were.</ConversationText>
+			<AnswerText>They look like they can barely stand up, let alone fight. Well, let's get this over with...</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+			<MusicToPlay>ItemShop_Theme4</MusicToPlay>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>Click_SwampTree_01</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerAdjacentToUnit>
+	
+	
+	<!-- ******************-->
+	<!-- DISCOVER THAT SWAMP IS IMPASSABLE -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_SwampInfo">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Hold it. There is no way through this swamp. Some of the rushes are poisonous, in addition to which the quills of those plants are -</ConversationText>
+			<AnswerText>Hm? Ow. Point taken. Guess we'll have to find another path.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<MusicToPlay>ItemShop_Theme4</MusicToPlay>
+			<ConversingPlayer>0</ConversingPlayer>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>Click_SwampTree_01</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerWorldTile>
+	
+	
+	<!-- ******************-->
+	<!-- ENTERED CANNARGH -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_EnteredCannargh">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+
+		<LogText>* Liberate the town of Barra Nurg, to the southeast, from the Butchermen.
+
+* (OPTIONAL) Liberate the town of Lunnesdell from the Butchermen.</LogText>
+		
+		<!-- Turn on the countdown trigger for Journal 1 -->
+		<ToggleTrigger>FEC_T_Journal1,1</ToggleTrigger>
+
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+			<Sound>AtWar2_BG</Sound>
+                <SmallHeaderText>Iomarr's Warning</SmallHeaderText>
+                <BodyText>"Lord of the West." A woman with long, graying hair and the build of a warrior strides towards you. "I am Iomarr. I thank you for saving us from these Butchermen. The thousand who cannot die, they have been called, yet your swords have done for them nonetheless."
+
+"It matters naught." An old man steps forward. "The race of man is doomed. It is the time foretold by prophecy - the rise of the Empire of Sorcery. For Lunnesdell and Barra Nurg have fallen as well."
+
+"Barra Nurg?" You frown. "That is where we are bound next."
+
+"Retaking that town will be difficult," Iomarr says. "The Butchermen have concentrated the greatest </BodyText>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Liberate the town of Barra Nurg, to the southeast, from the Butchermen.</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Objective>
+                    <Icon>Partical_Icon.png</Icon>
+                    <Text>Liberate the town of Lunnesdell from the Butchermen.</Text>
+                    <IsOptional>1</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\M_Butcherman_Card_01.png</ImagePath>    
+            </StoryBookPage>
+			<StoryBookPage>
+                <BodyText>of their strength there."
+
+Wonderful... It looks like this isn't going to be the nice vacation you were hoping for.
+
+There is fear in Iomarr's eyes as she speaks; fear that tries to take hold in your heart as well. You cast that emotion aside. You have to show your family that you can accomplish even this small task. Plus, Shirayne is so full of enthusiasm about this journey, and you can't let her see your will wavering...</BodyText>
+            </StoryBookPage>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+			
+		<TriggerResultPlaySound>
+			<Sound>Spell_DarkEnchant_05</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+		
+	</GameTriggerWorldTile>
+	
+	
+	<!-- ******************-->
+	<!-- ADJACENT TO LUNNESDELL -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_AdjacentToLunnesdell">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Look! The sign there... if I read the words correctly... we have come to Lunnesdell. The town Iomarr told us of.</ConversationText>
+			<AnswerText>More Butchermen, huh... well, at least they go down easy.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerWorldTile>
+	
+	
+	<!-- ******************-->
+	<!-- ENTERED LUNNESDELL -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_EnteredLunnesdell">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+
+		<TriggerResultSimpleConversation>
+			<ConversationText>We did it Relias! Hm? It seems some soldiers were holed up during the occupation and have agreed to join us!</ConversationText>
+			<AnswerText>Good. More soldiers means we'll be done with all this sooner.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultSimpleConversation>
+
+		<!-- The player gets some free soldiers -->
+		<TriggerResultSpawnUnit>
+			<UnitType>GiftLunnesdellContainer</UnitType>
+			<PlayerID>0</PlayerID>
+			<TileX>30</TileX>
+			<TileY>21</TileY>
+			<Level>1</Level>
+		</TriggerResultSpawnUnit>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerWorldTile>
+	
+	
+	<!-- ******************-->
+	<!-- ADJACENT TO BARRA NURG -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_ButchermenBlockadeConv">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>* You must build up a powerful army and break through the Butchermen outpost in Barra Nurg, which blocks access to the rest of the continent.</LogText>
+
+		<TriggerResultSimpleConversation>
+			<ConversationText>Barra Nurg... we made it! Iomarr was right - the Butchermen have occupied it in force. There's one that looks different from the others. Even so, I think we can take them Relias.</ConversationText>
+			<AnswerText>Are you sure? Alright, if you say so. Let me adjust my armor at least... hey... wait!</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerWorldTile>
+	
+	
+	<!-- ******************-->
+	<!-- ENTERED BARRA NURG -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_EnteredBarraNurg">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+
+		<LogText>* Follow the Winter Road northeast to the Abbey at Grennhelm.</LogText>
+		
+		<!-- Turn on the countdown trigger for Journal 2 -->
+		<ToggleTrigger>FEC_T_Journal2,1</ToggleTrigger>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <LargeHeaderText>CHAPTER 2</LargeHeaderText>
+                <SmallHeaderText>North to Grennhelm</SmallHeaderText>
+                <BodyText>With the Butchermen dead, Barra Nurg's survivors emerge from hiding. Among them is a young soldier wearing the colors of Kraxis. He eyes you warily as you approach; his hand going to his sword. 
+
+"Hey there... take it easy." You smile. "I am Relias. Of Resoln - have you heard of it? I'm looking for Adaris. Do you know him?"
+
+"Relias. Yes, I have heard of you. I am Gradzh, son of Gorad of Hedigah. I was the prince's bodyguard." The young man sheathes his weapon; his accent is as thick as his beard. "I regret to say Adaris is dead. Ambushed as he rode forth to confront these Butchermen."</BodyText>
+								
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Follow the Winter Road northeast to the Abbey at Grennhelm.</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\Improvements\K_Academy_01_Thumb.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>"But..." It takes you a moment to find your voice. "He was to guide us. Help us to find Odenvell." This place is just full of good news.
+
+"The Lost Temple." Gradzh nods. "My prince spoke of this place. I know only this: his knowledge of Odenvell came from the Padars of Grennhelm - those who worship the Elemental Lords of Old. Their abbey lies northeast of here."
+
+"Alright Relias, let's go!" Shirayne's energy never ceases to amaze you. Well, looks like you won't be home for dinner after all. You roll up your sleeves, grin, and chase after her.</BodyText>
+								
+			</StoryBookPage>
+		
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+
+		<!-- Spawn Gnarri -->
+		<TriggerResultSpawnUnit>
+			<UnitType>FEC_UNIT_Gnarri</UnitType>
+			<PlayerID>4</PlayerID>
+			<TileX>36</TileX>
+			<TileY>26</TileY>
+			<Level>2</Level>
+		</TriggerResultSpawnUnit>
+		
+		<TriggerResultPlaySound>
+			<Sound>TurnPageMagical_01</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>	
+
+	<!-- Turn on the countdown trigger which creates a save -->
+		<ToggleTrigger>FEC_T_Chapter2Save,1</ToggleTrigger>
+		
+	</GameTriggerWorldTile>
+			
+	<GameTriggerTurnCountdown InternalName="FEC_T_Chapter2Save">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TurnCount>1</TurnCount>
+		
+		<!-- Create a save -->
+		<TriggerResultEndCampaignChapter>
+			<NextChapter>Chapter 2</NextChapter>
+			<GameSaveName>Chapter 2 Start</GameSaveName>
+		</TriggerResultEndCampaignChapter>
+		
+	</GameTriggerTurnCountdown>
+	
+	
+	<!-- ******************-->
+	<!-- GNARRI - INTRODUCTION -->
+	<!-- ******************-->
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_GnarriIntroduction">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Gnarri</UnitTypeName>
+		
+		<!-- If the player achieves the goal necessary to recruit this champion, show the reminder conversation -->
+		<ToggleTrigger>FEC_T_GnarriGoalAchievedReminder,1</ToggleTrigger>
+
+		<LogText>* (OPTIONAL) Head east, then south, kill one of the ogres in the area, then return to Gnarri.</LogText>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <SmallHeaderText>A Prisoner's Proposal</SmallHeaderText>
+                <BodyText>Not long after leaving Barra Nurg, you stumble across a ragged-looking man along the side of the road. He gives you a seedy grin, then speaks.
+
+"Greetings traveler!" You stare at him, unimpressed. "Who are you? What are you doing here? Let me guess - you're another bandit."
+
+"Haha! No comment. Name's Gnarri. I was locked up in jail in Barra Nurg when those creatures attacked. Someone managed to kick them out, and during the mess I was able to escape. I ain't got much to do now though. You seem like an interesting crew. Tell you what - if you prove your mettle by slaying one of them ogres to the southeast I'll call you my boss." He grins a vile grin.</BodyText>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Head east, then south, kill one of the ogres in the area, then return to Gnarri.</Text>
+                    <IsOptional>1</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\FE_Campaign_Gnarri.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>Shirayne leans towards you. "He seems to be a seedy fellow, but based on what we've run into so far we could probably use the extra help. What do you think, Relias?" You frown. "Ogres aren't Butchermen. They're tough. Then again, if I told everyone back home I killed one..."
+
+You ponder the man's offer while visions of fame and glory dance through your mind.</BodyText>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Kill one of the ogres to the southeast, then return to Gnarri.</Text>
+                    <IsOptional>1</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\FE_Campaign_Gnarri.png</ImagePath>
+			</StoryBookPage>
+		
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerAdjacentToUnit>
+
+	
+	<!-- ******************-->
+	<!-- GNARRI - GOAL ACHIEVED -->
+	<!-- ******************-->
+	<GameTriggerUnitKilled InternalName="FEC_T_GnarriGoalAchieved">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>YoungOgre</UnitTypeName>
+		
+		<!-- It is now possible for the champion to join Relias -->
+		<ToggleTrigger>FEC_T_GnarriJoinsRelias,1</ToggleTrigger>
+		
+		<!-- Disable the champion intro, because we're going straight to recruiting -->
+		<ToggleTrigger>FEC_T_GnarriIntroduction,0</ToggleTrigger>
+		
+	</GameTriggerUnitKilled>
+
+	
+	<!-- ******************-->
+	<!-- GNARRI - GOAL ACHIEVED REMINDER -->
+	<!-- ******************-->
+	<GameTriggerUnitKilled InternalName="FEC_T_GnarriGoalAchievedReminder">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>YoungOgre</UnitTypeName>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>We did it Relias, we killed an ogre! You were right, they are a bit tougher than Butchermen... Maybe we should go pay that guy back by Barra Nurg a visit.</ConversationText>
+			<AnswerText>Yeah... just a bit tougher...</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerUnitKilled>
+
+	
+	<!-- ******************-->
+	<!-- GNARRI - CAN'T RECRUIT -->
+	<!-- ******************-->
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_GnarriCantRecruit">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Gnarri</UnitTypeName>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>I said I'd join you, did I? Tch. Who's THAT guy? K'uo Sian? What kind of a name is that? Well, I recognize the robes that trash is wearing, and I want nothing to do with any of his "enlightenment" crap. I bet he doesn't even know how to fight. Well, I would have considered joining you if you'd shown you weren't a softie like this guy. Maybe another time, my good friend.</ConversationText>
+			<AnswerText>Thanks for nothing, "friend." Maybe we'll lock you back up in that cell of yours.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Gnarri</RequiredUnit>
+			<ConversingPlayer>4</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerAdjacentToUnit>
+
+	
+	<!-- ******************-->
+	<!-- GNARRI - JOINS RELIAS -->
+	<!-- ******************-->
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_GnarriJoinsRelias">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Gnarri</UnitTypeName>
+		
+		<!-- No longer possible for the OTHER champion on this map to join Relias -->
+		<ToggleTrigger>FEC_T_KuoSianCantRecruit,1</ToggleTrigger>
+		<ToggleTrigger>FEC_T_KuoSianIntroduction,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_KuoSianGoalAchieved,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_KuoSianJoinsRelias,0</ToggleTrigger>
+
+		<!-- Kill the NPC version of the champion -->
+		<TriggerResultKillChampion>
+			<UnitType>FEC_UNIT_Gnarri</UnitType>
+		</TriggerResultKillChampion>
+
+		<!-- Create a new instance of the champion, which joins the party -->
+		<TriggerResultSpawnUnit>
+			<UnitType>FEC_UNIT_Gnarri</UnitType>
+			<UnitName>Gnarri</UnitName>
+			<PlayerID>0</PlayerID>
+			<Champion>1</Champion>
+			<Level>2</Level>
+			<TileX>36</TileX>
+			<TileY>26</TileY>
+		</TriggerResultSpawnUnit>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Ha! So you really managed to kill one of those things, huh? Fine, a deal's a deal. Even Gnarri is true to his word. Sometimes.</ConversationText>
+			<AnswerText>Just stay out of trouble, alright. I have enough to worry about.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Gnarri</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerAdjacentToUnit>
+
+	
+	<!-- ******************-->
+	<!-- KUO SIAN - INTRODUCTION -->
+	<!-- ******************-->
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_KuoSianIntroduction">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_KuoSian</UnitTypeName>
+		
+		<!-- If the player achieves the goal necessary to recruit this champion, show the reminder conversation -->
+		<ToggleTrigger>FEC_T_KuoSianGoalAchievedReminder,1</ToggleTrigger>
+
+		<LogText>* (OPTIONAL) Return to K'uo Sian with the Oracle's protector.</LogText>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <SmallHeaderText>The Path</SmallHeaderText>
+                <BodyText>Shirayne calls out to you. "Look Relias! There's someone off in the distance." Your party heads in that direction and finds a man sitting in a clearing with his eyes closed and legs crossed. He appears to be deep in meditation. As you peer at this strange man, his eyes suddenly open, staring straight at you.
+
+"Uhhh..." You're kind of taken aback by the whole experience. The man then smiles and begins speaking.
+
+"Greetings, wanderers. My name is K'uo Sian. I'm here in search of enlightenment. I can tell you're on a path of your own. Hmmm..." He looks you up and down, which makes you more than a little uncomfortable. "Um, do you..."</BodyText>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Return to K'uo Sian with the Oracle's protector.</Text>
+                    <IsOptional>1</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\FE_Campaign_KuoSian.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>"What an interesting group. I might be willing to join you if you're able to demonstrate that you seek enlightenment." "Actually, we're looking for the Oracle..."
+
+"Ah! I have heard many legends, but I'm afraid I have no knowledge as to her whereabouts. There is an old poem though, how does it go... 'her protector will stand at the side those with a just heart and mind.' Yes, that's it. I don't quite know the meaning of this, but should you return here one day with her protector, then I too shall stand at your side. Until then, I shall continue my meditation. Good luck, friends."</BodyText>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Return to K'uo Sian with the Oracle's protector.</Text>
+                    <IsOptional>1</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\FE_Campaign_KuoSian.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>You turn to Shirayne as you leave. "What a weird guy." She nods. "Yes, but he seems both wise and strong. He could be a great ally. Perhaps we should pay him another visit someday."</BodyText>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Return to K'uo Sian with the Oracle's protector.</Text>
+                    <IsOptional>1</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\FE_Campaign_KuoSian.png</ImagePath>
+			</StoryBookPage>
+		
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerAdjacentToUnit>
+
+	
+	<!-- ******************-->
+	<!-- KUO SIAN - GOAL ACHIEVED -->
+	<!-- ******************-->
+	<GameTriggerResourceLevel InternalName="FEC_T_KuoSianGoalAchieved">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<ResourceTypeName>RefinedCrystal</ResourceTypeName>
+		<ResourceLevel>10000</ResourceLevel>
+		
+		<!-- DON'T TAKE AWAY THE CRYSTAL YET - WE NEED IT FOR OTHER TRIGGERS -->
+		
+		<!-- It is now possible for the champion to join Relias -->
+		<ToggleTrigger>FEC_T_KuoSianJoinsRelias,1</ToggleTrigger>
+		
+		<!-- Disable the champion intro, because we're going straight to recruiting -->
+		<ToggleTrigger>FEC_T_KuoSianIntroduction,0</ToggleTrigger>
+		
+	</GameTriggerResourceLevel>
+
+	
+	<!-- ******************-->
+	<!-- KUO SIAN - GOAL ACHIEVED REMINDER -->
+	<!-- ******************-->
+	<GameTriggerResourceLevel InternalName="FEC_T_KuoSianGoalAchievedReminder">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<ResourceTypeName>RefinedCrystal</ResourceTypeName>
+		<ResourceLevel>10000</ResourceLevel>
+		
+		<!-- DON'T TAKE AWAY THE CRYSTAL YET - WE NEED IT FOR OTHER TRIGGERS -->
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Relias, the Oracle's protector... Tyundii. This must be what K'uo Sian was talking about.</ConversationText>
+			<AnswerText>That would make sense. Maybe we'll go say hi again.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerResourceLevel>
+
+	
+	<!-- ******************-->
+	<!-- KUO SIAN - CAN'T RECRUIT -->
+	<!-- ******************-->
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_KuoSianCantRecruit">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_KuoSian</UnitTypeName>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Greetings. Hmmm, who is that? I sense a dark and troubled energy from that one back there. You say Gnarri is his name? He is... ugh... The fact that you have that... murderous... brute in tow clearly shows that we are walking different paths. Perhaps in another life I might have become one of your followers, but I cannot sully myself and stand alongside someone like that. I shall remain here and continue my meditation. Farewell.</ConversationText>
+			<AnswerText>Really? Alright, well, have fun with that.</AnswerText>
+			<RequiredUnit>FEC_UNIT_KuoSian</RequiredUnit>
+			<ConversingPlayer>4</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerAdjacentToUnit>
+
+	
+	<!-- ******************-->
+	<!-- KUO SIAN - JOINS RELIAS -->
+	<!-- ******************-->
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_KuoSianJoinsRelias">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_KuoSian</UnitTypeName>
+		
+		<!-- No longer possible for the OTHER champion on this map to join Relias -->
+		<ToggleTrigger>FEC_T_GnarriCantRecruit,1</ToggleTrigger>
+		<ToggleTrigger>FEC_T_GnarriIntroduction,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_GnarriGoalAchieved,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_GnarriJoinsRelias,0</ToggleTrigger>
+
+		<!-- Kill the NPC version of the champion -->
+		<TriggerResultKillChampion>
+			<UnitType>FEC_UNIT_KuoSian</UnitType>
+		</TriggerResultKillChampion>
+
+		<!-- Create a new instance of the champion, which joins the party -->
+		<TriggerResultSpawnUnit>
+			<UnitType>FEC_UNIT_KuoSian</UnitType>
+			<UnitName>K'uo Sian</UnitName>
+			<PlayerID>0</PlayerID>
+			<Champion>1</Champion>
+			<Level>3</Level>
+			<TileX>44</TileX>
+			<TileY>16</TileY>
+		</TriggerResultSpawnUnit>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Ahhh! The golem... it bears her crest. Yes, yes. This shows that you indeed follow the enlightened path my friend. Please - let me join in your journey.</ConversationText>
+			<AnswerText>Alright, alright. Just stop with all of that enlightenment stuff. We have bigger fish to fry.</AnswerText>
+			<RequiredUnit>FEC_UNIT_KuoSian</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerAdjacentToUnit>
+
+	
+	<!-- ******************-->
+	<!-- FOUND FIRE SHRILL AT THE BASE OF THE WINTER ROAD -->
+	<!-- ******************-->
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetShrill">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FireShrill</UnitTypeName>
+	
+		<TriggerResultSimpleConversation>
+			<ConversationText>That creature there - it is an elemental. A fire shrill. Strange... they are normally vulnerable to great cold. For it to be this far north... it is unnatural. Something is wrong here...</ConversationText>
+			<AnswerText>Great, now you're worried too? Let's hurry up and get to Grennhelm.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerAdjacentToUnit>
+	
+	
+	<!-- ******************-->
+	<!-- PLAYER FINDS THE ABBEY -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_FoundAbbey">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<!-- Mini Cut-Scene 1 -->
+		
+		<TriggerResultPlayCutscene>
+            <CutsceneName>Minicut_FECampaign_AbbeyOnFire.bik</CutsceneName>
+		</TriggerResultPlayCutscene>
+		
+		<LogText>* Track down each of the demons, and retrieve the two halves of the Key of Allard.</LogText>
+		
+		<!-- Turn on the countdown trigger for Journal 3 -->
+		<ToggleTrigger>FEC_T_Journal3,1</ToggleTrigger>
+		
+		<!-- Campaign book -->
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+                <SmallHeaderText>The Burning of Grennhelm</SmallHeaderText>
+                <BodyText>"Help us!" A man staggers toward you, dressed in the brown robes of a Padar, those who worship the Five - the Elemental Lords of Anthuane. "Monsters... they attacked us... set fire to the abbey..."
+
+He points to two demons standing on a rise, illuminated by the moonlight. One holds something in his hand - something metal, the size of a short sword - then snaps it in half.
+
+"Vetrar save us," the Padar says, despair in his voice. "That is the Key of Allard. The only key to the great doors of the Abbey. My Lord... four of my brothers remain trapped inside. They will burn! No one can get in or out without that key!"</BodyText>
+				
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Track down each of the demons, and retrieve the two halves of the Key of Allard.</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\Lurk.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>As you watch, the demon tosses half the key to its brother. Both cackle - inhuman, unholy laughter - and then disappear into the darkness. One heads northeast - the other due north.
+
+This really wasn't what you had in mind when you volunteered to board that ship and cross the seas. But the time to worry about that has passed. You glance at Shirayne. She looks back at you, her face filled with resolve.
+
+"Rest easy," you tell the Padar. "We will retrieve the key."</BodyText>
+			</StoryBookPage>
+			
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>Spell_DarkEnchant_05</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerWorldTile>
+
+	
+	<!-- ******************-->
+	<!-- KILLED THE SECOND DEMON WITH THE ABBEY KEY -->
+	<!-- ******************-->
+	
+	<!-- WARNING: THE LAST TRIGGERS MUST BE LISTED FIRST SO THEY DON'T ALL FIRE AT THE SAME TIME -->
+	<!-- WARNING: THE LAST TRIGGERS MUST BE LISTED FIRST SO THEY DON'T ALL FIRE AT THE SAME TIME -->
+	<!-- WARNING: THE LAST TRIGGERS MUST BE LISTED FIRST SO THEY DON'T ALL FIRE AT THE SAME TIME -->
+
+	<GameTriggerBattleFinished InternalName="FEC_T_SecondDemonKey">
+		
+		<WinningPlayerID>0</WinningPlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<BattleIdentifier>DemonKeyBattle</BattleIdentifier>
+	
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>35</TileX>
+			<TileY>37</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<Unitclass>FEC_GOODY_Abbey_Ruins</Unitclass>
+				<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+		<!-- Can now enter the abbey -->
+		<ToggleRestriction>FEC_R_Abbey,0</ToggleRestriction>
+		
+		<!-- Not allowed to move PAST the abbey until you visit it! -->
+		<ToggleTrigger>FEC_T_MovedPastAbbey,1</ToggleTrigger>
+		
+		<!-- Shrill Lord will now spawn as the player returns -->
+		<ToggleTrigger>FEC_T_TILE_NearShrillLord,1</ToggleTrigger>
+		
+		<LogText>* Return to the abbey and see what the situation inside is.</LogText>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>We found it! Here, give me the other half of the key, for with the power of the amulet the Queen gave me... there. Allard's Key is made whole again.</ConversationText>
+			<AnswerText>Alright. We have to hurry back to the abbey, and free those trapped inside.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerBattleFinished>
+	
+	
+	<!-- ******************-->
+	<!-- KILLED THE FIRST DEMON WITH THE ABBEY KEY -->
+	<!-- ******************-->
+	
+	<GameTriggerBattleFinished InternalName="FEC_T_FirstDemonKey">
+		
+		<WinningPlayerID>0</WinningPlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<BattleIdentifier>DemonKeyBattle</BattleIdentifier>
+	
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<!-- Turn on the second demon key trigger -->
+		<ToggleTrigger>FEC_T_SecondDemonKey,1</ToggleTrigger>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>I searched everywhere, Relias! Nothing. But the key is here, I am sure of it. I sense its presence, but... Gods!</ConversationText>
+			<AnswerText>Hehe... 'tis a bloody business, milady. I saw the monster swallow it as we approached. Let's find the other half of the key.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerBattleFinished>
+	
+	
+	<!-- ******************-->
+	<!-- ABBEY TILE RESTRICTION -->
+	<!-- ******************-->
+	
+	<GameRestrictionBlockTiles InternalName="FEC_R_Abbey">
+		<PlayerID>0</PlayerID>
+		<IsActive>1</IsActive>
+	</GameRestrictionBlockTiles>
+
+	
+	<!-- ******************-->
+	<!-- RETURNING TO THE ABBEY, THE SHRILL LORD SPAWNS -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_TILE_NearShrillLord">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<!-- Prevent the player from attacking the Shrill Lord -->
+		<ToggleRestriction>FEC_R_ShrillLord,1</ToggleRestriction>
+		
+		<!-- Spawn the Shrill Lord -->
+		<TriggerResultSpawnUnit>
+			<UnitType>ShrillLord</UnitType>
+			<UnitName>Shrill Lord</UnitName>
+			<PlayerID>2</PlayerID>
+			<TileX>35</TileX>
+			<TileY>38</TileY>
+			<Level>10</Level>
+			<WanderRadius>0</WanderRadius>
+		</TriggerResultSpawnUnit>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Gods of... Relias, it's a Shrill Lord! They're among the most powerful demons known to man! There's no way we can kill that.</ConversationText>
+			<AnswerText>Okay... I suggest we head back the way we came.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<!-- Turn on the Shrill Lord disappearance trigger -->
+		<ToggleTrigger>FEC_T_ShrillLordCountdown,1</ToggleTrigger>
+		
+	</GameTriggerWorldTile>
+	
+	
+	<!-- ******************-->
+	<!-- ABBEY TILE RESTRICTION -->
+	<!-- ******************-->
+	
+	<GameRestrictionBlockTiles InternalName="FEC_R_ShrillLord">
+		<PlayerID>0</PlayerID>
+		<IsActive>0</IsActive>
+	</GameRestrictionBlockTiles>
+	
+	
+	<!-- ******************-->
+	<!-- ONE TURN AFTER THE SHRILL LORD APPEARS -->
+	<!-- ******************-->
+	
+	<GameTriggerTurnCountdown InternalName="FEC_T_ShrillLordCountdown">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TurnCount>1</TurnCount>
+		
+		<!-- Remove the Shrill Lord tile restriction now that we're killing him off -->
+		<ToggleRestriction>FEC_R_ShrillLord,0</ToggleRestriction>
+		
+		<!-- Kill the Shrill -->
+		<TriggerResultApplyGameModifierToUnit>
+			<UnitType>ShrillLord</UnitType>
+			<ReqUnitOwner>2</ReqUnitOwner>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>CurHealth</Attribute>
+				<Value>-1000</Value>
+            </GameModifier>
+		</TriggerResultApplyGameModifierToUnit>
+
+		<!-- Grael gives the player some soldiers -->
+		<TriggerResultSpawnUnit>
+			<UnitType>GiftKraxContainer</UnitType>
+			<PlayerID>0</PlayerID>
+			<TileX>35</TileX>
+			<TileY>39</TileY>
+			<Level>3</Level>
+		</TriggerResultSpawnUnit>
+		
+		<TriggerResultOpenCampaignBook>			
+			<StoryBookPage>
+                <SmallHeaderText>An Unexpected Ally</SmallHeaderText>
+                <BodyText>There is no escape. Before you could blink the Shrill Lord was upon you.
+
+"Relias!" Shirayne screams as the beast charges. But before you can draw your sword... it explodes in a burst of eldritch energy!
+
+"I hope you don't mind the assistance." A man steps forward, beaming. "I am Grael Castenford. General of the Army of Kraxis." 
+
+"Your arrival is most timely, sir," Shirayne says, smiling.
+
+You quickly snap your gaze away from Shirayne and glare at the man... just who is this guy? And why is he dressed like that? Well, it doesn't matter... </BodyText>
+				<ImagePath>Gfx\Medallions\FE_Camp_GraelCastenford.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>You're both alive, which is what counts.
+
+"Then let me offer more." Castenford's already-impressive smile grows even larger. Your eye twitches. He motions a squad of men forward. "Troops, to aid your party. A gift, from the Prince of Kraxis!"
+
+"Karavox." You nod in Shirayne's direction, ignoring Grael as best you can; Adaris's younger brother, Kraxis's ruler now... and the man who wrote you of Janusk's death in battle, months ago. Shirayne, still smiling at Grael, curtsies. "This is a most generous gift, General. Tell your sovereign we hope one day to repay him in kind."
+
+Castenford smiles once more. You bid him a cold farewell, and then - new fighters in tow - hurry towards your destination once more.</BodyText>
+			</StoryBookPage>
+			
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>Click_Death_Shard</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerTurnCountdown>
+	
+	
+	<!-- ******************-->
+	<!-- PLAYER TRIES TO MOVE PAST THE ABBEY BEFORE VISITING IT -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_MovedPastAbbey">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+
+		<TriggerResultSimpleConversation>
+			<ConversationText>Relias, we need to return to the abbey before it's too late.</ConversationText>
+			<AnswerText>You're right. Let us return immediately.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerWorldTile>
+	
+	
+	<!-- ******************-->
+	<!-- PLAYER RETURNS TO THE ABBEY WITH THE KEY -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_ReturnedToAbbey">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<!-- Player visited the abbey, allow them to head back south again -->
+		<ToggleTrigger>FEC_T_MovedPastAbbey,0</ToggleTrigger>
+		
+		<LogText>* Seek out the Shrine of the Protector, which lies in the shadow of the Crying Mountain, to the southeast of Barra Nurg.</LogText>
+		
+		<!-- Allow the player to begin the Tyndii quest -->
+		<ToggleTrigger>FEC_T_GolemQuestStart,1</ToggleTrigger>
+		
+		<!-- Rihossa joins the party -->
+		<TriggerResultSpawnUnit>
+			<UnitType>FEC_UNIT_PadarRihossa</UnitType>
+			<UnitName>Padar Rihossa</UnitName>
+			<PlayerID>0</PlayerID>
+			<Champion>1</Champion>
+			<Level>4</Level>
+			<TileX>35</TileX>
+			<TileY>36</TileY>
+		</TriggerResultSpawnUnit>
+		
+
+		<!-- Replace dummy -->
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>40</TileX>
+			<TileY>26</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<Unitclass>FEC_GOODY_Shrine</Unitclass>
+				<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+		<!-- Allow the player to start the Antidote Quest (it involves Rihossa) -->
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>58</TileX>
+			<TileY>27</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateQuestAtTile</Attribute>
+				<StrVal>The Bandits are outside.</StrVal>
+				<Unitclass>FEC_QUEST_Poisoned_Guy</Unitclass>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <LargeHeaderText>CHAPTER 3</LargeHeaderText>
+                <SmallHeaderText>Last of the Padars</SmallHeaderText>
+                <BodyText>You insert the key. With a great creak, the abbey's doors open... and someone charges at you, war hammer in hand. Another Padar. You parry his blow as his eyes widen in surprise.
+
+"My Lord," he says. "Forgive me. Those monsters... I thought..."
+
+You sigh, and wait for your heart rate to slow. "Nice to meet you too." You look around. "Where is everyone else?"
+
+"It is too late, my Lord. They are all dead." His eyes are red; ash and soot run black against his pale skin. "I am the sole survivor. The last of my order, in all </BodyText>
+			
+			    <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Seek out the Shrine of the Protector, which lies south of the Abbey, southeast of Barra Nurg.</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\L_Obsidian_Golem_01.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>Grennhelm, and..." His voice trails off. He falls to his knees and starts sobbing. You look away, having no words to console this man. Shirayne rests a hand on his shoulder.
+
+The man's name, you learn, is Rihossa. And though he is young - although he certainly doesn't look it - he possesses at least part of the knowledge you need.
+
+"Odenvell. The Lost Temple," he says. "Its location is secret, but south of here, in the Shrine of the Protector is a map, of sorts. I will show you." As you set off, Rihossa stares grimly into the distance. He speaks softly to himself.
+
+"If only I'd..."</BodyText>
+			</StoryBookPage>
+			
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>TurnPageMagical_01</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+		<ToggleTrigger>FEC_T_Log_PoisonedGuy,1</ToggleTrigger>
+		
+		<!-- Turn on the countdown trigger which creates a save -->
+		<ToggleTrigger>FEC_T_Chapter3Save,1</ToggleTrigger>
+		
+	</GameTriggerWorldTile>
+	
+	<GameTriggerTurnCountdown InternalName="FEC_T_Chapter3Save">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TurnCount>1</TurnCount>
+		
+		<!-- Create a save -->
+		<TriggerResultEndCampaignChapter>
+			<NextChapter>Chapter 3</NextChapter>
+			<GameSaveName>Chapter 3 Start</GameSaveName>
+		</TriggerResultEndCampaignChapter>
+		
+	</GameTriggerTurnCountdown>
+	
+	
+	<!-- ******************-->
+	<!-- MET GAREN -->
+	<!-- ******************-->
+
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_GarenConv">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Garen</UnitTypeName>
+		<UnitOwnedBy>4</UnitOwnedBy>
+		
+		<!-- Garen gives the player some armor -->
+		<TriggerResultApplyGameModifierToUnit>
+            <GameModifier>
+				<ModType>GiveItem</ModType>
+				<Attribute>ChainBreastpiece</Attribute>
+            </GameModifier>
+		</TriggerResultApplyGameModifierToUnit>
+		
+		<TriggerResultSimpleConversation InternalName="FEC_C_Garen2">
+			<ConversationText>Greetings stranger. I am Garen of the Free Riders, and I urge you to pass through here quickly, for Butchermen roam this land in great numbers. Should you encounter them... perhaps this will be of some protection.</ConversationText>
+			<AnswerText>Ah, a fine piece of armor. Thank you, wanderer. So this is where the Butchermen come from, eh...</AnswerText>
+			<RequiredUnit>FEC_UNIT_Garen</RequiredUnit>
+			<ConversingPlayer>4</ConversingPlayer>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultSimpleConversation>
+		
+	</GameTriggerAdjacentToUnit>
+	
+	
+	<!-- ******************-->
+	<!-- GOLEM QUEST STARTS WHEN RELIAS VISITS THE SHRINE -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_GolemQuestStart">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>* Collect the four pieces of Tyundii. Three are missing and can be found near Kair Na Morne - the crying mountain.</LogText>
+		
+		<!-- Turn on the countdown trigger for Journal 4 -->
+		<ToggleTrigger>FEC_T_Journal4,1</ToggleTrigger>
+		
+		<!-- Begin the Golem Quest -->
+		<TriggerResultBeginQuest InternalName="FEC_TR_GolemQuest">
+			<QuestName>FEC_QUEST_Golem</QuestName>
+			<PlayerID>0</PlayerID>
+		</TriggerResultBeginQuest>
+		
+		<!-- Enable Grandma's Hut -->
+		<ToggleTrigger>FEC_T_GolemQuestForestPiece,1</ToggleTrigger>
+		
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>48</TileX>
+			<TileY>24</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<Unitclass>FEC_GOODY_GolemHut</Unitclass>
+				<BoolVal1>1</BoolVal1>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+		<!-- Enable the Medfen Quest, replacing the dummy goody-->
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>45</TileX>
+			<TileY>30</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateQuestAtTile</Attribute>
+				<Unitclass>FEC_QUEST_FairExchange</Unitclass>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+		<!-- Give the player the first piece -->
+		<TriggerResultApplyGameModifierToUnit>
+            <GameModifier>
+				<ModType>GiveItem</ModType>
+				<Attribute>FEC_Loot_GolemPiece</Attribute>
+            </GameModifier>
+		</TriggerResultApplyGameModifierToUnit>
+		
+		<ToggleTrigger>FEC_T_Log_FairExchange,1</ToggleTrigger>
+		
+	</GameTriggerWorldTile>
+
+	
+	<!-- ******************-->
+	<!-- GOLEM QUEST - FOREST PIECE -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_GolemQuestForestPiece">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>* An old woman has told you that one of the pieces of Tyundii is hidden away in a graveyard to the southeast.</LogText>
+		
+		<!-- Campaign book -->
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+                <SmallHeaderText>The Caretaker's Wife</SmallHeaderText>
+                <BodyText>As your company approaches a ramshackle hut, an old woman comes to the door, brandishing a rusted knife. "Thieves, are you? I warn you, I may have little, but I will fight for what..."
+
+You attempt to stifle your laughter. Unsuccessfully. The woman pays you no mind.
+
+Her voice trails off, as she catches sight of Rihossa. "A Padar. So you've found me, then." She lowers the knife, and then her head. "'Tis a shameful thing I've done, sir. But I only wished to protect him from evil."
+
+Your group exchanges a confused glance. Then, following your nodded consent, he speaks. "Come, mother. Tell me what you did."</BodyText>
+		
+			    <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Head southeast to find the graveyard and the piece of Tyundii the old woman has told you about.</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\G_Graveyard_01.png</ImagePath>
+            </StoryBookPage>
+			<StoryBookPage>
+                <BodyText>"Sir. My husband was caretaker to the Shrine of the Protector. When he passed - I stole one of the blessed fragments. Buried it with him."
+
+"To keep him safe, in the next life." Rihossa smiles. "I understand. You are forgiven, mother. But tell us where the fragment is buried."
+
+"In a graveyard to the southeast, sir. By a marker that says Bartosh." You leave her hut and are on your way. Rihossa stares blankly off into the distance. "A graveyard, huh..." It's not your nature to pity others, but you can't help but feel bad for this man.</BodyText>
+            </StoryBookPage>
+			
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>Spell_Heal_01</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+		<!-- Spawn the goody -->
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>54</TileX>
+			<TileY>23</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<Unitclass>FEC_GOODY_GolemHut2</Unitclass>
+				<BoolVal1>1</BoolVal1>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+	</GameTriggerWorldTile>
+
+	
+	<!-- ******************-->
+	<!-- MET THE SPIDER -->
+	<!-- ******************-->
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetSpider">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>RavenousHarridan</UnitTypeName>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Ravenous Harridan</SmallHeaderText>
+                <BodyText>In this book I, Saar Al-Axulla, outline for the curious the appearance, habits, and history of those creatures encountered during my many expeditions to the wild places of this world. I include also mention of those specimens I have examined in the Library at Ithul, by the grace of my Lord Dariun, fourth of his name, High King of Antheros. 
+
+Ravenous Harridan is the name given by the Lord Argynn to those spiders which marched with the armies of Mergas Maz Adul. But having examined several of these beasts, I have concluded that they are kin to the black widow spider. Their great size (the span from leg tip to opposite leg tip has been measured in some cases at ten feet),</BodyText>
+				<ImagePath>Gfx\Medallions\M_Spider_GiantBlackWidow.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>their foul disposition (they will attack anything that moves in their field of vision), and above all, their taste for animal flesh, must be attributed to necromancy of the most foul and cruel sort. These beasts are to be avoided, yes, but pitied as well.</BodyText>
+			</StoryBookPage>
+	
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>bigspider_move</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerAdjacentToUnit>
+	
+	
+	<!-- ******************-->
+	<!-- MET THE OGRE -->
+	<!-- ******************-->
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetOgre">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>FEC_UNIT_Ogre</UnitTypeName>
+		
+		<!-- Disable the alternate version of this trigger that looks for a different unit -->
+		<ToggleTrigger>FEC_T_MetOgre2,0</ToggleTrigger>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Ogre</SmallHeaderText>
+                <BodyText>Much is said of the origin of these beasts, but of all the stories I have heard, this is the one I believe to hold the greatest truth.
+
+In the time of the dragons, there lived a girl named Olanna. She was daughter to a great Nimer chieftain, and wise as she was fair to look upon. But because she was a woman, when her father died, she could not become chief of her clan. This angered her, and so Olanna fled north into the wilderness, into the White Mountains, taking shelter in the catacombs deep beneath those peaks.</BodyText>
+				<ImagePath>Gfx\Medallions\Ogre_Medallion.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>One day, to her cavern, came the creature known as the Garrote, or Snow Ogre. This beast is a maneater, but was captivated by Olanna's beauty. They lay together in the darkness, and made a child, and this was the first ogre. A dozen times more they did this, and each of her children, Olanna taught to hate man, and to live in solitude always lest they be corrupted by their ways. Each new generation of these creatures was taught the same, and thus it is that these beasts are ever solitary, and ever spiteful and angry towards mankind.</BodyText>
+			</StoryBookPage>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>CLick_Giant4</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerAdjacentToUnit>
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetOgre2">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>YoungOgre</UnitTypeName>
+		
+		<!-- Disable the alternate version of this trigger that looks for a different unit -->
+		<ToggleTrigger>FEC_T_MetOgre,0</ToggleTrigger>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Ogre</SmallHeaderText>
+                <BodyText>Much is said of the origin of these beasts, but of all the stories I have heard, this is the one I believe to hold the greatest truth.
+
+In the time of the dragons, there lived a girl named Olanna. She was daughter to a great Nimer chieftain, and wise as she was fair to look upon. But because she was woman, when her father died, she could not become chief of her clan. This angered her, and so Olanna fled north into the wilderness, into the White Mountains, taking shelter in the catacombs deep beneath those peaks.</BodyText>
+				<ImagePath>Gfx\Medallions\Ogre_Medallion.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Ogre</SmallHeaderText>
+                <BodyText>One day, to her cavern, came the creature known as the Garrote, or Snow Ogre. This beast is maneater, but was captivated by Olanna's beauty. They lay together in the darkness, and made a child, and this was the first ogre. A dozen times more they did this, and each of her children, Olanna taught to hate man, and to live in solitude always lest they be corrupted by their ways. Each new generation of these creatures was taught the same, and thus it is that these beasts are ever solitary, and ever spiteful and angry towards mankind.</BodyText>
+			</StoryBookPage>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>CLick_Giant4</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerAdjacentToUnit>
+	
+	
+	<!-- ******************-->
+	<!-- MET THE UMBERDROTH -->
+	<!-- ******************-->
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetUmberdroth">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>Umberdroth</UnitTypeName>
+		
+		<!-- Disable the alternate version of this trigger that looks for a different unit -->
+		<ToggleTrigger>FEC_T_MetUmberdroth2,0</ToggleTrigger>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Umberdroth</SmallHeaderText>
+                <BodyText>In this monster's name is its power and origin, for it was enchanted into being by the Titan Illosa, known also as the Lady Umber. Centuries has it served as her guardian, for of her blood was it made, and to her blood is it bound. In size and strength is its power, up to ten times the height and weight of a man, and it is possessed of resistance to many of the more common spells of earth, air, fire, and water.</BodyText>
+				<ImagePath>Gfx\Medallions\Umderdroth.png</ImagePath>
+			</StoryBookPage>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>Warg1_Click2_TEMP</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+			
+	</GameTriggerAdjacentToUnit>
+
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetUmberdroth2">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>FEC_UNIT_UmberdrothHunter</UnitTypeName>
+		
+		<!-- Disable the alternate version of this trigger that looks for a different unit -->
+		<ToggleTrigger>FEC_T_MetUmberdroth,0</ToggleTrigger>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Umberdroth</SmallHeaderText>
+                <BodyText>In this monster's name is its power and origin, for it was enchanted into being by the Titan Illosa, known also as the Lady Umber. Centuries has it served as her guardian, for of her blood was it made, and to her blood is it bound. In size and strength is its power, up to ten times the height and weight of a man, and it is possessed of resistance to many of the more common spells of earth, air, fire, and water.</BodyText>
+				<ImagePath>Gfx\Medallions\Umderdroth.png</ImagePath>
+			</StoryBookPage>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>Warg1_Click2_TEMP</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+			
+	</GameTriggerAdjacentToUnit>
+		
+	
+	<!-- ******************-->
+	<!-- MET THE GARROTE -->
+	<!-- ******************-->
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetGarrote">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<RequiresChampion>0</RequiresChampion>
+		<UnitTypeName>FEC_UNIT_Garrote</UnitTypeName>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <MediumHeaderText>The Bestiary of Ithu</MediumHeaderText>
+                <SmallHeaderText>The Garrote</SmallHeaderText>
+                <BodyText>Of these creatures, Lord Argynn wrote 'they have the strength of a hundred men, and the temper of a hundred scorned maidens.' This is exaggeration, but there is truth in it, for the garrote is strong enough to carry a horsecart, and quick indeed to anger. Many hunt these animals for sport, or for their horns and pelts, but I consider these acts cruelty of the worst sort. 
+
+I first had cause to observe this creature in the time of my youth, when a hunting party returned to our village from the north, bearing two dozen aribu carcasses, and in a great wooden cage, a beast they called 'snow ogre.' Out of cruelty and spite, they subjected this</BodyText>
+				<ImagePath>Gfx\backgrounds\Medallions\M_Garrote_Card.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>creature to various tortures. As I observed these acts, and the garrote's reactions, I became convinced of its intelligence, and possessed of a desire to help it escape.
+
+Sadly, I found no way to free the creature but one. I obtained from the apothecary a quantity of poison, and sprinkled it in the garrote's food. Thus ended its torment - an act I pray the Five forgive me for.</BodyText>
+			</StoryBookPage>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>CLick_Giant1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerAdjacentToUnit>
+	
+	
+	<!-- ******************-->
+	<!-- MET THE DARKLINGS -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_AdjacentToDarklings">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <SmallHeaderText>The Darkling Village</SmallHeaderText>
+                <BodyText>Shirayne's amulet glows; another fragment of Tyundii is near. But this is not good news, for the village before you belongs to the darklings, whose gray skin and white hair mark them as Fallen. One - elderly, wizened, carrying a staff in his hand - shuffles forward. You bring your hand to your weapon.
+
+"I am Edzaba, chief of the Ogalli. Who are you? Why are you here?"
+
+"I am Relias of Resoln. You have something I want, Edzaba. Something I would buy. A shard of Tyundii, the Oracle's guardian."
+
+"Buy? Buy? Oh no. The shard is not for sale, though perhaps..." Edzaba leers at Shirayne. "A trade?" She </BodyText>
+				<ImagePath>Gfx\Medallions\L_Darkling_Camp_01.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>takes a step backward.
+
+You try to contain your rage as best you can. Unsuccessfully. "Have a care, you wretched little creature!"
+
+"Oh, ho ho... it is you should take care, human. You are... not welcome here..."
+
+The look in Edzaba's eyes tells you he speaks the truth - as does the large group of other darklings that seems to have materialized out of nowhere. You have a feeling that if you want the shard... you'll have to fight for it. Which suits you just fine.</BodyText>
+			</StoryBookPage>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Ha! Look at those little things. Can't wait to bash them. Need to let out some stress after being cooped up in that cell for months.</ConversationText>
+			<AnswerText>Hold it, don't rush... Bah. I should just lock him back up...</AnswerText>
+			<RequiredUnit>FEC_UNIT_Gnarri</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Vile creatures... they live only to cause chaos. There's no reasoning with them.</ConversationText>
+			<AnswerText>So I see. Let's put them down.</AnswerText>
+			<RequiredUnit>FEC_UNIT_KuoSian</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>Click_Death_Shard</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerWorldTile>
+
+
+	<!--******************-->
+	<!-- Hacked "Trigger" for when the Tyundii Quest is completed -->
+	<!--******************-->
+	
+	<GameTriggerResourceLevel InternalName="FEC_T_GolemQuestCompleteCrystalHack">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<ResourceTypeName>RefinedCrystal</ResourceTypeName>
+		<ResourceLevel>10000</ResourceLevel>
+		
+		<!-- We gave the player 10000 Crystal earlier to fire this trigger, now we take it away -->
+		<TriggerResultApplyGameModifierToPlayer>
+			<PlayerID>0</PlayerID>
+			<GameModifier>
+				<ModType>Resource</ModType>
+				<Attribute>RefinedCrystal</Attribute>
+				<Value>-10000</Value>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToPlayer>
+		
+		<!-- Turn on the countdown trigger for Journal 5 -->
+		<ToggleTrigger>FEC_T_Journal5,1</ToggleTrigger>
+		
+		<!-- Destroy the old dummy Redstone goody -->
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>57</TileX>
+			<TileY>35</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>DestroyObjects</Attribute>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+		<!-- Allow the player to start the Redstone Quest -->
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>57</TileX>
+			<TileY>35</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateQuestAtTile</Attribute>
+				<Unitclass>FEC_QUEST_Catapult</Unitclass>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+		<ToggleTrigger>FEC_T_Log_Redstone,1</ToggleTrigger>
+		
+		<!-- Disable Redstone restriction -->
+		<ToggleRestriction>FEC_R_Redstone,0</ToggleRestriction>
+		
+		<LogText>* Search to the east for the city of Redstone.</LogText>
+		
+		<!-- Mini Cut-Scene 2 -->
+		
+		<TriggerResultPlayCutscene>
+            <CutsceneName>Minicut_FECampaign_TyundiIsReformed.bik</CutsceneName>
+		</TriggerResultPlayCutscene>
+		
+		<!-- Chapter 4 book -->
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <LargeHeaderText>CHAPTER 4</LargeHeaderText>
+                <SmallHeaderText>The Temple Valley</SmallHeaderText>
+                <BodyText>Journal of the Expedition. Date Unknown.
+
+The golem's runes tell us; it is Redstone we seek. Redstone - fabled fortress of fallen Antheros. Redstone, which alone among that kingdom's cities survived the assault of Curgen, and the slave armies of the Quendar. Through its gates we will find the entrance to the Temple Valley of old - and, it is hoped, Odenvell itself. 
+
+The road takes us east, yet we do not walk it alone. This afternoon, we caught a spy. A Fallen soldier, wearing heraldry unfamiliar to me. "Why do you dog our footsteps, soldier? What are you doing here?"</BodyText>
+				
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Search to the east for the city of Redstone.</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\Medallions\Treaty.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>"I serve Verga, Warlord of risen Yithril. Not you, pinkskin." He spat in my face. One of my men ran him through before I could do so myself. 
+
+Fallen soldiers, on the road to Odenvell. Yet another unwelcome omen. We must hurry.</BodyText>
+			</StoryBookPage>
+
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>TurnPageMagical_01</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+		<!-- Turn on the countdown trigger which creates a save -->
+		<ToggleTrigger>FEC_T_Chapter4Save,1</ToggleTrigger>
+		
+	</GameTriggerResourceLevel>
+	
+	<GameTriggerTurnCountdown InternalName="FEC_T_Chapter4Save">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TurnCount>1</TurnCount>
+		
+		<!-- Create a save -->
+		<TriggerResultEndCampaignChapter>
+			<NextChapter>Chapter 4</NextChapter>
+			<GameSaveName>Chapter 4 Start</GameSaveName>
+		</TriggerResultEndCampaignChapter>
+		
+	</GameTriggerTurnCountdown>
+	
+	
+	<!-- ******************-->
+	<!-- REDSTONE TILE RESTRICTION -->
+	<!-- ******************-->
+	
+	<GameRestrictionBlockTiles InternalName="FEC_R_Redstone">
+		<PlayerID>0</PlayerID>
+		<IsActive>1</IsActive>
+	</GameRestrictionBlockTiles>
+	
+	
+	<!-- ******************-->
+	<!-- VISITED REDSTONE -->
+	<!-- ******************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_Redstone">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<!-- Swap out the Kinakrul field dummies -->
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>58</TileX>
+			<TileY>31</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<Unitclass>FEC_GOODY_FieldOfKinakrul1</Unitclass>
+				<BoolVal1>1</BoolVal1>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>54</TileX>
+			<TileY>39</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<Unitclass>FEC_GOODY_FieldOfKinakrul2</Unitclass>
+				<BoolVal1>1</BoolVal1>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>51</TileX>
+			<TileY>36</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<Unitclass>FEC_GOODY_FieldOfKinakrul3</Unitclass>
+				<BoolVal1>1</BoolVal1>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+
+	</GameTriggerWorldTile>
+	
+
+	<!--******************-->
+	<!-- Hacked "Trigger" for when the Redstone Quest is completed -->
+	<!--******************-->
+	
+	<GameTriggerResourceLevel InternalName="FEC_T_RedstoneQuestCompleteMetalHack">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<ResourceTypeName>Metal</ResourceTypeName>
+		<ResourceLevel>10000</ResourceLevel>
+		
+		<!-- We gave the player 10000 Metal earlier to fire this trigger, now we take it away -->
+		<TriggerResultApplyGameModifierToPlayer>
+			<PlayerID>0</PlayerID>
+			<GameModifier>
+				<ModType>Resource</ModType>
+				<Attribute>Metal</Attribute>
+				<Value>-10000</Value>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToPlayer>
+
+		<!-- Turn on the countdown trigger for Journal 6 -->
+		<ToggleTrigger>FEC_T_Journal6,1</ToggleTrigger>
+		
+		<!-- Disable Valley restriction -->
+		<ToggleRestriction>FEC_R_Valley,0</ToggleRestriction>
+		
+		<LogText>* Enter the valley and find the temple, a short ways to the east.</LogText>
+		
+	</GameTriggerResourceLevel>
+
+	
+	<!-- ******************-->
+	<!-- VALLEY TILE RESTRICTION -->
+	<!-- ******************-->
+	
+	<GameRestrictionBlockTiles InternalName="FEC_R_Valley">
+		<PlayerID>0</PlayerID>
+		<IsActive>1</IsActive>
+	</GameRestrictionBlockTiles>
+	
+	
+	<!-- ******************-->
+	<!-- THIRD KINAKRUL VILLAGE -->
+	<!-- ******************-->
+	
+		<GameTriggerBattleFinished InternalName="FEC_T_ThirdKinakrulBattle">
+		
+		<WinningPlayerID>0</WinningPlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<BattleIdentifier>KinakrulBattle</BattleIdentifier>
+	
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+	<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>57</TileX>
+			<TileY>35</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateWorldProp</Attribute>
+				<StrVal>G_Redstone_on_Fire</StrVal>
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+
+	</GameTriggerBattleFinished>
+	
+	
+	<!-- ******************-->
+	<!-- SECOND KINAKRUL VILLAGE -->
+	<!-- ******************-->
+	
+		<GameTriggerBattleFinished InternalName="FEC_T_SecondKinakrulBattle">
+		
+		<WinningPlayerID>0</WinningPlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<BattleIdentifier>KinakrulBattle</BattleIdentifier>
+	
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<!-- Turn on the third Kinakrul trigger -->
+		<ToggleTrigger>FEC_T_ThirdKinakrulBattle,1</ToggleTrigger>
+		
+	</GameTriggerBattleFinished>
+	
+	<!-- ******************-->
+	<!-- FIRST KINAKRUL VILLAGE -->
+	<!-- ******************-->
+	
+		<GameTriggerBattleFinished InternalName="FEC_T_FirstKinakrulBattle">
+		
+		<WinningPlayerID>0</WinningPlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<BattleIdentifier>KinakrulBattle</BattleIdentifier>
+	
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<!-- Turn on the second Kinakrul trigger -->
+		<ToggleTrigger>FEC_T_SecondKinakrulBattle,1</ToggleTrigger>
+		
+	</GameTriggerBattleFinished>
+	
+
+	
+	<!-- ******************-->
+	<!-- FOUND THE BANDIT CAMP -->
+	<!-- ******************-->
+
+	<GameTriggerWorldTile InternalName="FEC_T_Bandits">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+                <SmallHeaderText>The Hashanii</SmallHeaderText>
+                <BodyText>As you approach the mountains, you note activity in the foothills. An encampment of men - dressed in a very familiar style. 
+
+"Hashanii, Relias," Shirayne says. "Bandits."
+
+"More bandits..." you say, reaching for your weapon.
+
+"It seems they have women and children with them," Shirayne says. "The ones here will not confront us now, unless we force the issue."
+
+As you consider your next move, you remember the words of a man from one of the villages you liberated... "Lord. The Hashanii.... they are renowned for their throwing knives. The sharpness of the blades... the balance of the weapon... these things </BodyText>
+			    <ImagePath>Gfx\Medallions\Tech_Mercenaries.png</ImagePath>
+			</StoryBookPage>
+			 <StoryBookPage>
+                <BodyText>are much prized, my king. Here, and around the world."
+
+Now you have something else to consider. Effective weapons are a scarcity in these desolate lands. Should you pass on peacefully, or confront the bandits, and try and steal their weapons?</BodyText>
+			</StoryBookPage>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+		<Sound>Cast_ReviveLand</Sound>
+		<PlayCount>1</PlayCount>
+	</TriggerResultPlaySound>
+		
+		<LogText>* (OPTIONAL) Destroy the Hashaini camp and claim the weapons inside as your own.</LogText>
+		
+	</GameTriggerWorldTile>
+	
+
+	<!-- ******************-->
+	<!-- FOUND THE NORTHERN URXEN VILLAGE -->
+	<!-- ******************-->
+
+	<GameTriggerWorldTile InternalName="FEC_T_UrxenNorth">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+
+		<TriggerResultSimpleConversation InternalName="FEC_T_UrxenNorth">
+			<ConversationText>Fallen soldiers, Relias. Urxen, by the look of them. It is strange to see their kind this far north.</ConversationText>
+			<AnswerText>Strange you say? Shall we "ask" them what business they have here?</AnswerText>
+			<RequiredUnit>FEC_UNIT_PadarRihossa</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultSimpleConversation>
+		
+	</GameTriggerWorldTile>
+
+
+	<!-- ******************-->
+	<!-- FOUND THE SOUTHERN URXEN VILLAGE -->
+	<!-- ******************-->
+
+	<GameTriggerWorldTile InternalName="FEC_T_UrxenSouth">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+
+		<TriggerResultSimpleConversation InternalName="FEC_T_UrxenSouth">
+			<ConversationText>Grayskin warriors, Relias. These ones are Urxen.</ConversationText>
+			<AnswerText>Hmmm, there's quite a few of them. They appear to be guarding something...</AnswerText>
+			<RequiredUnit>FEC_UNIT_PadarRihossa</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultSimpleConversation>
+		
+	</GameTriggerWorldTile>
+	
+
+	<!-- ******************-->
+	<!-- FOUND RED SPRING - SOURCE OF THE BUTCHERMEN -->
+	<!-- ******************-->
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_RedSpring">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Amhah</UnitTypeName>
+		
+		<LogText>* (OPTIONAL) Defeat Amhah and destroy his base at Red Spring, granting the Butchermen the eternal rest they seek.</LogText>
+
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <SmallHeaderText>Lord of the Butchermen</SmallHeaderText>
+                <BodyText>Before you lie the ruins of a town - among the shattered hulks of its buildings, scores of Butchermen come and go. You have found their base, you realize. And - as it turns out - something else as well.
+
+"Relias!" Shirayne steps up alongside you. "That figure there - it is Amhah himself. He was once Padar to the peoples of Antheros. It was at his command the warriors who became these Butchermen were sacrificed."
+
+Where does she learn all of these things? You wonder if paying better attention to your tutor might have been a good idea...
+
+"Their leader." You nod. "So if we stop him - we stop </BodyText>
+				<ImagePath>Gfx\Medallions\Improvements\BurningFarm.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>the attacks."
+
+"So it seems. Still... it will be no easy task," Shirayne says. "Curgen's curse not only animates his flesh... Curgen's power flows through his veins. We must be wary."
+
+You nod, and consider her words. If Shirayne is cautious, that means this foe must be truly powerful. There is a need to husband your strength, and that of your army for the battles to come, yet the Butchermen are a threat not just to you, but to all who dwell in these lands.
+
+Shirayne looks to you, awaiting your decision...</BodyText>
+			</StoryBookPage>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>	
+
+		<TriggerResultSimpleConversation>
+			<ConversationText>So these are the bastards that messed everything up. Well, I should thank them for killing everyone off so that you could break me out.</ConversationText>
+			<AnswerText>Don't just run in there without permission...</AnswerText>
+			<RequiredUnit>FEC_UNIT_Gnarri</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+
+		<TriggerResultSimpleConversation>
+			<ConversationText>These poor souls are little more than shambling corpses. Relias, let us bring an end to their suffering.</ConversationText>
+			<AnswerText>I'd love to, but let's first make sure we don't end up sharing their fate.</AnswerText>
+			<RequiredUnit>FEC_UNIT_KuoSian</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+
+		<TriggerResultPlaySound>
+			<Sound>Spell_CalltoArms_01</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>		
+			
+	</GameTriggerAdjacentToUnit>
+	
+
+	<!-- ******************-->
+	<!-- FOUND THE TEMPLE OF FIVE - CERESA'S PRISON -->
+	<!-- ******************-->
+
+	<GameTriggerWorldTile InternalName="FEC_T_TempleOfFive">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <SmallHeaderText>Journey's End</SmallHeaderText>
+                <BodyText>In your dreams, you saw it whole. Odenvell, the Temple precinct, gleaming marble, glittering roads of polished black stone.
+
+Now, it is a ruin - its boundaries blurred by encroaching forest, its walls shattered by the energies of the cataclysm. Only a single structure is recognizable - the Temple itself.
+
+All at once, a being cloaked in black appears on the Temple steps. A second shimmers into existence alongside it. 
+
+"Haunters," Shirayne says. "Dark mages of monstrous power." Soldiers step forward from the Temple interior, wearing the colors of Yithril.</BodyText>
+				<ImagePath>Gfx\Medallions\Improvements\R_Ancient_Temple_02_Card.png</ImagePath>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>Shirayne looks down. You notice that she's trembling slightly. "I was excited for this journey Relias. The chance to do something exciting with you. But... this experience has been... I just, I..." You break into a reassuring smile. "It's almost over. After this we can go home. Come on, let's do it!" Your forced confidence has the desired effect, and she smiles back. "Yes. Let's do it." You turn back towards the temple.
+
+These creatures and their ilk... they're the cause of so much misery not only throughout these lands but also among your friends. Fury fills your soul. You turn to your army, and raise your sword. 
+
+"In the name of Procipinee. In the name of the High King Dariun, and Antheros that was, let us reclaim </BodyText>
+			</StoryBookPage>
+			<StoryBookPage>
+                <BodyText>this sacred ground!"
+
+A sudden feeling of dread overcomes you. You shrug it off and charge forward.</BodyText>
+			</StoryBookPage>
+
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+		<Sound>Spell_CalltoArms_01</Sound>
+		<PlayCount>1</PlayCount>
+	</TriggerResultPlaySound>
+		
+	</GameTriggerWorldTile>
+	
+	
+	<!-- ******************-->
+	<!-- MET THE FIRST WAVE OF BANDITS LAIR UNITS -->
+	<!-- ******************-->
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetFirstHunters">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>Bandit</UnitTypeName>
+
+		<TriggerResultSimpleConversation>
+			<ConversationText>Look, Relias. A troop of Hashanii... bandits. It seems they've heard of our arrival. We should take care of this group and find out where they're coming from.</ConversationText>
+			<AnswerText>More thieves? It's no wonder no one wants to live over here.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerAdjacentToUnit>
+	
+	
+	<!-- ******************-->
+	<!-- MET THE FIRST WAVE OF BUTCHERMEN HUNTING RELIAS -->
+	<!-- ******************-->
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetButchermenWave">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_ButchermanHunter</UnitTypeName>
+		
+		<LogText>* (OPTIONAL) You have learned that the Butchermen are hunting you. If you wish, you may venture north to locate where they're coming from and put a stop to their rampage.</LogText>
+
+		<TriggerResultSimpleConversation>
+			<ConversationText>More of these cursed creatures? I had thought them mindless - but their actions seem to have a purpose. We need to figure out where they're coming from Relias!</ConversationText>
+			<AnswerText>Man, it's just one thing after another here...</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerAdjacentToUnit>
+
+	
+	<!-- ******************-->
+	<!-- MET THE FIRST GARROTE HUNTER - WARN THE PLAYER HE HAS TO GET MOVING -->
+	<!-- ******************-->
+	
+	<GameTriggerAdjacentToUnit InternalName="FEC_T_MetGarroteHunter">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Garrote</UnitTypeName>
+
+		<TriggerResultSimpleConversation>
+			<ConversationText>A snow ogre... And it's huge! Do you think we can fight him?</ConversationText>
+			<AnswerText>Uhhh... I don't like our chances.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerAdjacentToUnit>
+
+	
+	<!-- ******************-->
+	<!-- CONQUERED RED SPRING - BUTCHERMEN WAVES CEASE -->
+	<!-- ******************-->
+	
+	<GameTriggerUnitKilled InternalName="FEC_T_RedSpringConquered">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Amhah</UnitTypeName>
+		
+		<!-- Turn off the "hey, the Butchermen are coming after us" conversation -->
+		<ToggleTrigger>FEC_T_MetButchermenWave,0</ToggleTrigger>
+
+		<TriggerResultSimpleConversation>
+			<ConversationText>He is at rest at last... Amhah and his creatures will trouble us no longer.</ConversationText>
+			<AnswerText>At rest? Tch. For all the suffering he has caused... I hope he burns in the outer realms for all of eternity.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultSimpleConversation>
+		
+		<TriggerResultPlaySound>
+			<Sound>male_select_1</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerUnitKilled>
+
+	
+	<!-- ******************-->
+	<!-- VISITED MINOR CITY 1 -->
+	<!-- ******************-->
+
+	<GameTriggerWorldTile InternalName="FEC_T_VisitedMinor1">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>*You have discovered the independent town of Urwenn, where you may purchase new equipment for your champions.</LogText>
+		
+		<TriggerResultPopupDialog>
+			<Text>Here is the humble settlement of Urwenn - a welcome sight nonethless after your travels. There is an inn here; and a street of merchants.
+
+Your champions may purchase new equipment and items from this neutral city by pressing the "Shop" button in the active unit's action panel.</Text>
+			<Title>Urwenn</Title>
+			<Image>Gfx\Medallions\Tech_Civics.png</Image>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultPopupDialog>
+		
+		<TriggerResultPlaySound>
+			<Sound>FireShard_SFX_02</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+
+	</GameTriggerWorldTile>
+	
+	
+	<!-- ******************-->
+	<!-- Chef's Town Location-->
+	<!-- ******************-->
+
+	<GameTriggerWorldTile InternalName="FEC_T_ChefsTown">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>* (OPTIONAL) Search to the northeast for Taevish.</LogText>
+		
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+                <SmallHeaderText>The Curse of Kair Na Morne</SmallHeaderText>
+                <BodyText>At the outskirts of a small village, a boy steps forward onto the road.
+
+"Please sir. I'm thirsty," he says. You hand him a flagon of water. A dozen other children rush forward then, begging for water as well. 
+
+"Why are you thirsty, kids?" you ask. "And where are your parents?" 
+
+"Looking for Taevish, sir," the first boy says. "He's the one fixes the water so we can drink it. But he ain't come back in days. See, the water here's cursed, sir. The curse of the crying mountain. The Fallen..."
+
+"Not a curse." Another child speaks up. "It's fouled </BodyText>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>* (OPTIONAL) Search to the northeast for Taevish.</Text>
+                    <IsOptional>1</IsOptional>
+                </Objective>
+                <ImagePath>Gfx\\Medallions\Improvements\K_Bakery_Thumb_01.png</ImagePath>
+			</StoryBookPage>
+			 <StoryBookPage>
+                <BodyText>'cause it don't flow no more, my dad says. But Taevish fixes that."
+
+"They went north to find him," the first boy says. "Maybe you could help look too, sir?"
+
+You frown. This village is clearly in need, and yet... Odenvell awaits. Shirayne puts her hand on your shoulder. "What should we do?"</BodyText>
+			</StoryBookPage>
+			
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+	<TriggerResultPlaySound>
+		<Sound>Spell_Heal_01</Sound>
+		<PlayCount>1</PlayCount>
+	</TriggerResultPlaySound>
+		
+	</GameTriggerWorldTile>
+	
+	
+	<!-- ******************-->
+	<!-- WHEN THE PLAYER GETS 300 GOLD, REMIND HIM TO SPEND IT -->
+	<!-- ******************-->
+	<GameTriggerResourceLevel InternalName="FEC_T_LotsaCash">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<ResourceTypeName>Gold</ResourceTypeName>
+		<ResourceLevel>300</ResourceLevel>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Hey Relias, I've checked our purse and it seems we have quite a bit of gold saved up. Perhaps we should spend some of it on new equipment?</ConversationText>
+			<AnswerText>Hm, not a bad idea. We should check out the shop back in Resoln.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+	</GameTriggerResourceLevel>
+
+	
+	<!-- ******************-->
+	<!-- WHEN A CHAMPION DIES, REMIND THE PLAYER HE CAN BUY A POTION TO HEAL INJURIES -->
+	<!-- ******************-->
+	
+	<GameTriggerUnitKilled InternalName="FEC_T_ShirayneDied">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Shirayne</UnitTypeName>
+		
+		<!-- Turn off all other "champion died" triggers -->
+		<ToggleTrigger>FEC_T_RihossaDied,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_GnarriDied,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_KuoSianDied,0</ToggleTrigger>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Ugh... that battle... anyone who falls in combat sustains a permanent injury of some kind.</ConversationText>
+			<AnswerText>I've heard there's a potion you can buy which will heal these wounds.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+	</GameTriggerUnitKilled>
+	
+	<GameTriggerUnitKilled InternalName="FEC_T_RihossaDied">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_PadarRihossa</UnitTypeName>
+		
+		<!-- Turn off all other "champion died" triggers -->
+		<ToggleTrigger>FEC_T_ShirayneDied,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_GnarriDied,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_KuoSianDied,0</ToggleTrigger>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Ugh... that battle... anyone who falls in combat sustains a permanent injury of some kind.</ConversationText>
+			<AnswerText>I've heard there's a potion you can buy which will heal these wounds.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+	</GameTriggerUnitKilled>
+	
+	<GameTriggerUnitKilled InternalName="FEC_T_GnarriDied">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_Gnarri</UnitTypeName>
+		
+		<!-- Turn off all other "champion died" triggers -->
+		<ToggleTrigger>FEC_T_ShirayneDied,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_RihossaDied,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_KuoSianDied,0</ToggleTrigger>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Ugh... that battle... anyone who falls in combat sustains a permanent injury of some kind.</ConversationText>
+			<AnswerText>I've heard there's a potion you can buy which will heal these wounds.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+	</GameTriggerUnitKilled>
+	
+	<GameTriggerUnitKilled InternalName="FEC_T_KuoSianDied">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		<UnitTypeName>FEC_UNIT_KuoSian</UnitTypeName>
+		
+		<!-- Turn off all other "champion died" triggers -->
+		<ToggleTrigger>FEC_T_ShirayneDied,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_GnarriDied,0</ToggleTrigger>
+		<ToggleTrigger>FEC_T_RihossaDied,0</ToggleTrigger>
+		
+		<TriggerResultSimpleConversation>
+			<ConversationText>Ugh... that battle... anyone who falls in combat sustains a permanent injury of some kind.</ConversationText>
+			<AnswerText>I've heard there's a potion you can buy which will heal these wounds.</AnswerText>
+			<RequiredUnit>FEC_UNIT_Shirayne</RequiredUnit>
+			<ConversingPlayer>0</ConversingPlayer>
+		</TriggerResultSimpleConversation>
+		
+	</GameTriggerUnitKilled>
+	
+
+	<!-- ************************************-->
+	<!-- RELIAS JOURNAL 1 -->
+	<!-- ************************************-->
+
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal1">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TurnCount>1</TurnCount>
+		
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+               <SmallHeaderText>Journal of the Expedition</SmallHeaderText>
+                <BodyText>Our scribe Janusk is dead. Shirayne spends each night learning her magics. And so it falls on me - Relias - to keep this journal. Lucky me. A record of our journey, and the charge given us by the Queen, in this dark hour. What great wisdom have I to pass on - what lessons do I wish to impart to those who may one day follow in my footsteps?
+ 
+Perhaps this: when adventuring, bring an extra pair of boots.
+
+Yes, that's enough for tonight. Maybe I'll go help Shirayne study...</BodyText>
+			    <ImagePath>Gfx\Medallions\Education.png</ImagePath>
+			</StoryBookPage>
+
+            <ShouldUseJournalScreen>1</ShouldUseJournalScreen>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>PenPaperWritingShort</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerTurnCountdown>
+	
+	
+	<!-- ************************************-->
+	<!-- RELIAS JOURNAL 2 -->
+	<!-- ************************************-->
+	
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal2">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TurnCount>1</TurnCount>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <SmallHeaderText>Journal of the Expedition</SmallHeaderText>                
+                <BodyText>This continent... it is a cursed land. The dead past surrounds us.
+
+This afternoon we came upon the broken stones of one of the old trading roads - those that the great caravans followed, in ages past, to the cities of Antheros. Nearby lay the bones of an Umberdroth, a creature of legend fashioned by the Titans, at least according to the Bestiary Janusk left us.
+
+And everywhere, we find remnants of the Oracle's presence. Shrines. Gravestones, inscribed with her name alongside those of the dead. She has slept for a thousand years, and yet her presence still haunts this land.
+
+Speaking of haunting, I have started having nightmares. Terrible ones. Last night Shirayne mentioned that my screams woke her. Maybe I just need to drink more.</BodyText>
+				<ImagePath>Gfx\Medallions\Education.png</ImagePath>
+			</StoryBookPage>
+            <ShouldUseJournalScreen>1</ShouldUseJournalScreen>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>PenPaperWritingShort</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerTurnCountdown>
+	
+
+	<!-- ************************************-->
+	<!-- RELIAS JOURNAL 3 -->
+	<!-- ************************************-->
+	
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal3">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TurnCount>1</TurnCount>
+		
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+                <SmallHeaderText>Journal of the Expedition</SmallHeaderText>
+                <BodyText>A fun discovery today. In the entrance to a cave... a hundred skeletons, their bones burned black. Near one, a box of some strange metal, pliant as silk, and in that box a fragment of parchment a thousand years old. A fragment somehow, miraculously, intact. A letter - begun, but never sent. A letter written to Dariun the Gray, the King of Redstone.
+
+"My Lord, we cannot stop them. It is Curgen himself, marching on Odenvell. He has the Stone. Breon's Jewel. He has burned the fleet. He - " The letter ends.
+
+I swear, this place...</BodyText>
+			    <ImagePath>Gfx\Medallions\Education.png</ImagePath>
+			</StoryBookPage>
+            <ShouldUseJournalScreen>1</ShouldUseJournalScreen>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>PenPaperWritingShort</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerTurnCountdown>
+	
+	
+	<!-- ************************************-->
+	<!-- RELIAS JOURNAL 4 -->
+	<!-- ************************************-->
+	
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal4">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TurnCount>1</TurnCount>
+		
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+               <SmallHeaderText>Journal of the Expedition</SmallHeaderText>
+                <BodyText>I had a dream last night. A very strange dream. A dream of a little girl - perhaps four or five years of age, with long auburn hair. A poor girl, dressed in no more than rags, sitting cross-legged on a straw mattress. 
+
+"They're dead," she said, but before I could ask what she meant, the hut door opened, and a man - a Padar, dressed in the same manner as Rihossa, in the simple brown robe of their order - stepped in.
+
+"Child." He spoke to the girl, looking past me as if I wasn't there. "I bring sad news. Your parents - "
+
+"An accident," she interrupted. "At the mill. I told them not to go. But they would not listen. They did not believe."
+
+She turned to look at me then, and I saw she had the most extraordinary eyes. Eyes of a brilliant, piercing blue.
+
+"I foresaw it," she said. Suddenly, her face transforms into that of Shirayne. She screams and then I woke.</BodyText>
+			    <ImagePath>Gfx\Medallions\Education.png</ImagePath>
+			</StoryBookPage>
+            <ShouldUseJournalScreen>1</ShouldUseJournalScreen>
+            <NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>PenPaperWritingShort</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerTurnCountdown>
+	
+	
+	<!-- ************************************-->
+	<!-- RELIAS JOURNAL 5 -->
+	<!-- ************************************-->
+	
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal5">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TurnCount>1</TurnCount>
+		
+		<TriggerResultOpenCampaignBook>
+			<StoryBookPage>
+                <SmallHeaderText>Journal of the Expedition</SmallHeaderText>
+                <BodyText>By the Destiny. By the Gods. I dreamt of the girl again. The little girl with the auburn hair, and the piercing blue eyes.
+
+In this dream, she is a few years older. She lies on the same straw mattress, in the same simple hut. The same Padar stands over her. Worry lines his face. I know, somehow, the girl is the cause of this worry. She looks exhausted. Her eyes ringed by dark circles, her skin an unhealthy, grayish color.
+
+"You must rest, child," the Padar says.
+
+"The visions will not stop, Padar. They haunt me," she says, and turns to look at me - her eyes that same, brilliant, piercing, blue. "I can find no peace." I blink and once again she becomes Shirayne. She cries out in pain. "Relias..."
+
+What... what are these dreams?</BodyText>
+				<ImagePath>Gfx\Medallions\Education.png</ImagePath>
+			</StoryBookPage>
+            <ShouldUseJournalScreen>1</ShouldUseJournalScreen>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>PenPaperWritingShort</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerTurnCountdown>
+	
+	
+	<!-- ************************************-->
+	<!-- RELIAS JOURNAL 6 -->
+	<!-- ************************************-->
+	
+	<GameTriggerTurnCountdown InternalName="FEC_T_Journal6">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<TurnCount>1</TurnCount>
+		
+		<TriggerResultOpenCampaignBook>
+		    <StoryBookPage>
+                <SmallHeaderText>Journal of the Expedition</SmallHeaderText>
+                <BodyText>The dreams. The little girl. I understand now. Who she is, why I have been seeing her, night after night. Last night as well; older now, a young woman, standing in the midst of a great city; Odenvell, as it was, in all its glory. The Arch of the Magi. The great Bazaar, and the Avenue of Kings, and looming over all, the Temple itself, on whose steps she now stood.
+
+"All hail the seer of Odenvell." The Padar from my dreams steps alongside her, and raises his voice. "All hail the Oracle!"
+
+The little girl - the young woman - bows her head. The crowd roars its approval, and she looks up, her eyes glowing that same luminous, brilliant, blue. A flame then engulfs her, and before it consumes her fully I yet again see Shirayne's face amid the flames.
+
+These nightmares have troubled me to such an extent that I finally decided to share them with Shirayne. I was worried about what she would say, but she was very comforting. Shirayne told me not to worry about such things, that dreams are just dreams. Her words bring me a small measure of comfort, but no matter what she says I still can't shake this feeling.
+</BodyText>
+			    <ImagePath>Gfx\Medallions\Education.png</ImagePath>
+			</StoryBookPage>
+            <ShouldUseJournalScreen>1</ShouldUseJournalScreen>
+			<NotifierTileX>-1</NotifierTileX>
+			<NotifierTileY>-1</NotifierTileY>
+		</TriggerResultOpenCampaignBook>
+		
+		<TriggerResultPlaySound>
+			<Sound>PenPaperWritingShort</Sound>
+			<PlayCount>1</PlayCount>
+		</TriggerResultPlaySound>
+		
+	</GameTriggerTurnCountdown>
+	
+	
+	<!-- ************************************-->
+	<!-- Log Entry Triggers -->
+	<!-- ************************************-->
+	
+	<GameTriggerWorldTile InternalName="FEC_T_Log_FairExchange">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>* Amass 15 metal, then return to Cumbrana.</LogText>
+		
+	</GameTriggerWorldTile>
+	
+	<GameTriggerWorldTile InternalName="FEC_T_Log_Redstone">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>* Search the area nearby for the three granaries occupied by Verga's soldiers. Defeat them, and return with the grain to feed its people.</LogText>
+		
+	</GameTriggerWorldTile>
+	
+	
+	<GameTriggerWorldTile InternalName="FEC_T_Log_PoisonedGuy">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>0</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>* Search out Urwenn to the northwest, then buy the Lannarg seeds from the apothecary there, and return them to Dathal Da Nadda.</LogText>
+		
+	</GameTriggerWorldTile>
+	
+	<GameTriggerWorldTile InternalName="FEC_T_Log_Chef">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>* Seek out the elixir's ingredients; Amaranta, which may be found to the northeast, wolf meat, to the east, ogre blood, to the southwest.</LogText>
+		
+		<!-- Replace dummy -->
+		<TriggerResultApplyGameModifierToTile>
+			<PlayerID>0</PlayerID>
+			<TileX>42</TileX>
+			<TileY>36</TileY>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<Unitclass>FEC_Amaranta_Farm</Unitclass>
+				<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+			</GameModifier>
+		</TriggerResultApplyGameModifierToTile>
+		
+	</GameTriggerWorldTile>
+	
+	<GameTriggerWorldTile InternalName="FEC_T_Log_Fisherman">
+		
+		<PlayerID>0</PlayerID>
+		<HasTriggerFired>0</HasTriggerFired>
+		<Active>1</Active>
+		<NotifierTileX>-1</NotifierTileX>
+		<NotifierTileY>-1</NotifierTileY>
+		
+		<LogText>* Bring Duggam at least 2 garrote hides to prove you have taken care of his problem.</LogText>
+		
+	</GameTriggerWorldTile>
+	
+</ElementalMapTriggerData>

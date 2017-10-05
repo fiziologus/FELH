@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Created with the Elemental Editor -->
+<!-- LHScenario_Quests.xml -->
+<!-- -->
+<Quests>
+    <DataChecksum NoParse="1">
+        <Ignore>DispName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <QuestDef InternalName="Quest_LHScenario_Jordur">
+        <DisplayName>Jordur the Giant</DisplayName>
+        <Description>"Welcome to the war Relias," Irane says. "If Carrodus is all that stands between us and the east then they will be on us soon.  I am sure he is attempting to bribe them, but the gray skins care little for gold."
+
+"In the meantime the fool has jailed one of my soldiers, Jordur the Giant.  Would you break him out of the small jail where they are keeping him?  We will need him for the war."
+
+"One more thing," She continues. "Do not suggest that Jordur may be anything but pure Tarth blood.  He obviously looks inhuman... but he does not take criticism well."</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <ShortTextAccept>I will find and free Jordur</ShortTextAccept>
+        <ShortTextDeny>I will not interfere with Carrodus's laws</ShortTextDeny>
+        <RewardText>Jordur the Giant</RewardText>
+        <SuccessText>Jordur the Giant steps out of the prison after retrieving his weapon from the armory.  If there is any Tarth blood in him, it is because he ate one of them earlier in the day.
+
+"We go?" Jordur asks.</SuccessText>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>TurnNumber</TriggerType>
+        <TriggerData>140</TriggerData>
+        <SpawnRating>3</SpawnRating>
+        <TriggerChance>10000</TriggerChance>
+        <PostTriggerChance>10000</PostTriggerChance>
+        <Image>K_Lady_Irane_Card_01.png</Image>
+        <Treasure>
+            <GameModifier InternalName="Reward1">
+                <ModType>Unit</ModType>
+                <Attribute>UnitJoinArmy</Attribute>
+                <StrVal>Champion_Jordur</StrVal>
+                <StrVal2>Jordur the Giant</StrVal2>
+                <Value>7</Value>
+                <UnitClass>Champion</UnitClass>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward3">
+                <ModType>Unit</ModType>
+                <Attribute>GiveExperience</Attribute>
+                <Value>6</Value>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>0</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <NextObjectiveID>1</NextObjectiveID>
+            <Description>Find the jail where Jordur is being held</Description>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+            <Treasure>
+                <GameModifier>
+                    <ModType>Map</ModType>
+                    <Attribute>CreateGoodieHut</Attribute>
+                    <StrVal>Prison</StrVal>
+                    <Unitclass>GH_Quest_Prison</Unitclass>
+                    <Radius>4</Radius>
+                </GameModifier>
+            </Treasure>
+            <QuestConditionDef>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Find the jail where Jordur is being held.</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>ClearGoodieHut</Type>
+                <TextData>GH_Quest_Prison</TextData>
+                <Flag>RevealTarget</Flag>
+            </QuestConditionDef>
+            <QuestConditionDef>
+                <ID>1</ID>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Collect 100 gildar to pay Jordur's fine</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>ChoiceUnlock</Class>
+                <Type>CheckForResource</Type>
+                <TextData>Gold</TextData>
+                <NumericData>100</NumericData>
+            </QuestConditionDef>
+            <ChoiceText>The jail has only a skeletal staff, most of the men have been pulled away for the war.  But how do you hope to free Jordur?</ChoiceText>
+            <ChoiceMedallion>L_Champion_Kingdom_05.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>Attack the guards</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+                <Encounter>
+                    <Liklihood>100</Liklihood>
+                    <BattleIdentifier>Guards</BattleIdentifier>
+                    <WillRespawn>0</WillRespawn>
+                    <WanderingRadius>0</WanderingRadius>
+                    <UnitInstance>
+                        <UnitType>Unit_Defender_Mancer</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>1</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Defender_Mancer</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>1</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Defender_Mancer</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>1</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Spearman_Mancer</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>1</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Spearman_Mancer</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>1</Level>
+                    </UnitInstance>
+                </Encounter>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>I'll offer to pay Jordur's fine (-100 gildar)</Description>
+                <RequiredConditionID>1</RequiredConditionID>
+                <NextObjectiveID>2</NextObjectiveID>
+                <PopupMessage>The guards were tired of putting up with Jordur and quickly pocket your bribe... err... payment.</PopupMessage>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>I'll come back later</Description>
+                <NextObjectiveID>0</NextObjectiveID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <NextObjectiveID>2</NextObjectiveID>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+            <QuestConditionDef>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Defeat the Guards</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>BattleFinished</Type>
+                <TextData>Guards</TextData>
+                <MoreTextData>Victory</MoreTextData>
+            </QuestConditionDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>2</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+        </QuestObjectiveDef>
+    </QuestDef>
+    <QuestDef InternalName="Quest_LHScenario_GildenMerchant">
+        <DisplayName>The Gilden Caravan</DisplayName>
+        <Description>A group of Ironeer merchants are camped here on their way back to Gilden.  Markin has ordered everyone back to Gilden and this is one of the last to return.</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <ShortTextAccept>Approach the camp</ShortTextAccept>
+        <ShortTextDeny>I don't have time for this</ShortTextDeny>
+        <RewardText>Unknown</RewardText>
+        <RewardImage>Question_Mark_Icon.png</RewardImage>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>QuestLocation</TriggerType>
+        <TriggerOrigin>EventLocation</TriggerOrigin>
+        <SpawnRating>1</SpawnRating>
+        <AIAcceptChance>0</AIAcceptChance>
+        <AICanGoOnQuest>0</AICanGoOnQuest>
+        <Image>Caravan1_Medallion.png</Image>
+        <PrefQuestLoc>QuestLoc_Palisade</PrefQuestLoc>
+        <Treasure>
+            <GameModifier InternalName="Reward3">
+                <ModType>Unit</ModType>
+                <Attribute>GiveExperience</Attribute>
+                <Value>0</Value>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>-10</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <NextObjectiveID>1</NextObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <ChoiceText>Some part of you wishes that these Ironeer merchants would have been attacked by the fallen on their trip.  Then Markin would be forced to join the war.  You can't help but wonder if you should kill these men and blame the fallen to force Markin's hand.  Is it worth the lives of these innocent men?  Are the men whose lives Markin's armies would save any less deserving?</ChoiceText>
+            <ChoiceMedallion>Caravan1_Medallion.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>Attack the caravan</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+                <Encounter>
+                    <Liklihood>100</Liklihood>
+                    <BattleIdentifier>Caravan</BattleIdentifier>
+                    <WillRespawn>0</WillRespawn>
+                    <WanderingRadius>0</WanderingRadius>
+                    <UnitInstance>
+                        <UnitType>Unit_Defender_Ironeer</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+                        <Level>1</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Defender_Ironeer</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>1</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Defender_Ironeer</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>1</Level>
+                    </UnitInstance>
+                </Encounter>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>I will not spill innocent blood</Description>
+                <RequiredConditionID>3</RequiredConditionID>
+                <PopupMessage>"We are sorry to leave you to the wolves," The caravan master says. "Many in our kingdom would prefer to be standing with you against the fallen.  But for now all I can offer is some metal we weren't able to sell." (+100 metal)</PopupMessage>
+            <Treasure>
+                <GameModifier>
+                    <ModType>Resource</ModType>
+                    <Attribute>Metal</Attribute>
+                    <Value>100</Value>
+                </GameModifier>
+            </Treasure>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <NextObjectiveID>2</NextObjectiveID>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+            <QuestConditionDef>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Defeat the Ironeers</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>BattleFinished</Type>
+                <TextData>Caravan</TextData>
+                <MoreTextData>Victory</MoreTextData>
+            </QuestConditionDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>2</ObjectiveID>
+            <NextObjectiveID>3</NextObjectiveID>
+            <PopupObjectiveMsg>Searching through the remains you find the caravan's logbook.  It should be all the evidence you need to prove to Markin that he cannot avoid the war.</PopupObjectiveMsg>
+            <Treasure>
+                <GameModifier>
+                    <ModType>GiveItem</ModType>
+                    <Attribute>GildenLogs</Attribute>
+                    <Value>100</Value>
+                </GameModifier>
+            </Treasure>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>3</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+        </QuestObjectiveDef>
+    </QuestDef>
+    <QuestDef InternalName="Quest_LHScenario_WishingWell">
+        <DisplayName>Wishing Well</DisplayName>
+        <Description>An old well built in a time when magic flowed freely across Elemental.  These used to be wishing wells, and occasionally miracles did happen when people focused their minds and wished upon them.  But those days are well past and only the cracked rock remains.</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <ShortTextAccept>Make a wish at the well</ShortTextAccept>
+        <ShortTextDeny>I don't have time for this</ShortTextDeny>
+        <SuccessText>You coin falls silently into the darkness.  You can only hope that there is enough magic left in the old site to hear your prayer.</SuccessText>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>QuestLocation</TriggerType>
+        <TriggerOrigin>EventLocation</TriggerOrigin>
+        <SpawnRating>1</SpawnRating>
+        <AIAcceptChance>0</AIAcceptChance>
+        <AICanGoOnQuest>0</AICanGoOnQuest>
+        <Image>Artifact_Well1.png</Image>
+        <PrefQuestLoc>QuestLoc_Well</PrefQuestLoc>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>-10</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <NextObjectiveID>1</NextObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <ChoiceText>So many regrets in your lifetime of wasted years.  And when you were finally determined to become something more than a gambler and drunk, what happened?  You freed the Fallen Enchantress, you led your soldiers to their death and you saw Shirayne become something worse than dead.  
+
+What is it you wish for?</ChoiceText>
+            <ChoiceMedallion>Artifact_Well1.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>I wish that Ceresa would find peace, she didn't deserve her centuries of imprisonment</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+            <Treasure>
+                <GameModifier>
+                    <ModType>Map</ModType>
+                    <Attribute>CreateQuestInRadius</Attribute>
+                    <Unitclass>Quest_LHScenario_Pool1</Unitclass>
+                    <Radius>6</Radius>
+                </GameModifier>
+            </Treasure>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>I wish for power, that I could save Anthys from the Fallen</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+            <Treasure>
+                <GameModifier>
+                    <ModType>Map</ModType>
+                    <Attribute>CreateQuestInRadius</Attribute>
+                    <Unitclass>Quest_LHScenario_Pool2</Unitclass>
+                    <Radius>6</Radius>
+                </GameModifier>
+            </Treasure>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>I wish that Shirayne would have escaped from the East instead of me</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+            <Treasure>
+                <GameModifier>
+                    <ModType>Map</ModType>
+                    <Attribute>CreateQuestInRadius</Attribute>
+                    <Unitclass>Quest_LHScenario_Pool3</Unitclass>
+                    <Radius>6</Radius>
+                </GameModifier>
+            </Treasure>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+        </QuestObjectiveDef>
+    </QuestDef>
+    <QuestDef InternalName="Quest_LHScenario_Pool1">
+        <DisplayName>Scrying Pool</DisplayName>
+        <Description>There is an old scrying pool here, a place where shamans and Amarian diviners gathered to glimpse the future.  They hoped that by seeing the future they could change or prepare for it.  With all of Anthys at war there has never been a time where the future was less certain and you wonder what the pool's murky depths may show.</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <ShortTextAccept>Look into the depths of the pool</ShortTextAccept>
+        <ShortTextDeny>I don't have time for this</ShortTextDeny>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>QuestLocation</TriggerType>
+        <TriggerOrigin>EventLocation</TriggerOrigin>
+        <SpawnRating>1</SpawnRating>
+        <AIAcceptChance>0</AIAcceptChance>
+        <AICanGoOnQuest>0</AICanGoOnQuest>
+        <Image>G_Swamp_Fountain_01.png</Image>
+        <PrefQuestLoc>QuestLoc_Pool</PrefQuestLoc>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>-10</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <ChoiceText>For a minute the clouds pass in front of the sun and you see the shimmering reflection of someone kneeling before Queen Procipinee.</ChoiceText>
+            <ChoiceMedallion>Q_CeresaKneelsPool.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>…</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+        </QuestObjectiveDef>
+    </QuestDef>
+    <QuestDef InternalName="Quest_LHScenario_Pool2">
+        <DisplayName>Scrying Pool</DisplayName>
+        <Description>There is an old scrying pool here, a place where shamans and Amarian diviners gathered to glimpse the future.  They hoped that by seeing the future they could change or prepare for it.  With all of Anthys at war there has never been a time where the future was less certain and you wonder what the pool's murky depths may show.</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <ShortTextAccept>Look into the depths of the pool</ShortTextAccept>
+        <ShortTextDeny>I don't have time for this</ShortTextDeny>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>QuestLocation</TriggerType>
+        <TriggerOrigin>EventLocation</TriggerOrigin>
+        <SpawnRating>1</SpawnRating>
+        <AIAcceptChance>0</AIAcceptChance>
+        <AICanGoOnQuest>0</AICanGoOnQuest>
+        <Image>G_Swamp_Fountain_01.png</Image>
+        <PrefQuestLoc>QuestLoc_Pool</PrefQuestLoc>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>-10</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+            <ChoiceText>The water shifts and becomes tinted red.  Procipinee's corpse floats in the pools depths, lifeless and empty.</ChoiceText>
+            <ChoiceMedallion>Q_ProcipineeFallsPool.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>…</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+        </QuestObjectiveDef>
+    </QuestDef>
+    <QuestDef InternalName="Quest_LHScenario_Pool3">
+        <DisplayName>Scrying Pool</DisplayName>
+        <Description>There is an old scrying pool here, a place where shamans and Amarian diviners gathered to glimpse the future.  They hoped that by seeing the future they could change or prepare for it.  With all of Anthys at war there has never been a time where the future was less certain and you wonder what the pool's murky depths may show.</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <ShortTextAccept>Look into the depths of the pool</ShortTextAccept>
+        <ShortTextDeny>I don't have time for this</ShortTextDeny>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>QuestLocation</TriggerType>
+        <TriggerOrigin>EventLocation</TriggerOrigin>
+        <SpawnRating>1</SpawnRating>
+        <AIAcceptChance>0</AIAcceptChance>
+        <AICanGoOnQuest>0</AICanGoOnQuest>
+        <Image>G_Swamp_Fountain_01.png</Image>
+        <PrefQuestLoc>QuestLoc_Pool</PrefQuestLoc>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>-10</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+            <ChoiceText>Deep in the pool's depths you see another world and another time.  In that place Shirayne is waking up on the beach, and you have faded and disappeared entirely.</ChoiceText>
+            <ChoiceMedallion>Q_ShiryaneRestoredPool.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>…</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+        </QuestObjectiveDef>
+    </QuestDef>
+    <QuestDef InternalName="Quest_LHScenario_YithrilPier">
+        <DisplayName>Yithril Pier</DisplayName>
+        <Description>The ship Verga used to transport his men is still docked here with a small guard.  If the men can be defeated you could use the ship to slip past the Henge and land a force behind the empire's armies.</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <AllowQuestRejection>0</AllowQuestRejection>
+        <ShortTextAccept>Approch the pier</ShortTextAccept>
+        <SuccessText>Verga was a fool to leave the ship docked here.  He believes that men cannot defeat Trogs, but you have proven otherwise.</SuccessText>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>QuestLocation</TriggerType>
+        <TriggerOrigin>EventLocation</TriggerOrigin>
+        <SpawnRating>2</SpawnRating>
+        <AIAcceptChance>0</AIAcceptChance>
+        <AICanGoOnQuest>0</AICanGoOnQuest>
+        <Image>FE_Camp_MuutiYanaMedallion.png</Image>
+        <PrefQuestLoc>QuestLoc_Pier</PrefQuestLoc>
+        <Treasure>
+            <GameModifier InternalName="Reward1">
+                <ModType>Unit</ModType>
+                <Attribute>UnitJoinArmy</Attribute>
+                <StrVal>Ship</StrVal>
+                <Value>1</Value>
+                <UnitClass>Ship</UnitClass>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward3">
+                <ModType>Unit</ModType>
+                <Attribute>GiveExperience</Attribute>
+                <Value>9</Value>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>5</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <NextObjectiveID>1</NextObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+            <ChoiceText>There are a handful of Trog soldiers betting on the outcome of a fight. One of the fighters is wearing a soldier's uniform, and carrying two axes.  The other is bare chested and weaponless.  As you watch the unarmed Trog beats his opponent into unconsciousness with his fists.</ChoiceText>
+            <ChoiceMedallion>FE_Camp_MuutiYanaMedallion.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>Attack!</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+                <Encounter>
+                    <Liklihood>100</Liklihood>
+                    <BattleIdentifier>TrogGuards</BattleIdentifier>
+                    <WillRespawn>0</WillRespawn>
+                    <WanderingRadius>0</WanderingRadius>
+                    <UnitInstance>
+                        <UnitType>Unit_Light_Trog_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>2</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Light_Trog_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>2</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Magic_Light_Trog_Quest</UnitType>
+                        <Level>5</Level>
+                    </UnitInstance>
+                </Encounter>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <NextObjectiveID>2</NextObjectiveID>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+            <QuestConditionDef>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Defeat the Trog Guards</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>BattleFinished</Type>
+                <TextData>TrogGuards</TextData>
+                <MoreTextData>Victory</MoreTextData>
+            </QuestConditionDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>2</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+        </QuestObjectiveDef>
+    </QuestDef>
+    <QuestDef InternalName="Quest_LHScenario_GildenGate">
+        <DisplayName>The Walls of Gilden</DisplayName>
+        <Description>"We have nothing to fear from the eastern hordes," Markin says.  "Our walls are mountains, our bones steel.  Gilden soldiers will not bleed and die in foreign wars."</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <ShortTextAccept>You cannot hide forever, I will be back</ShortTextAccept>
+        <ShortTextDeny>Then you are no ally of mine, you will face the hordes alone</ShortTextDeny>
+        <SuccessText>The color drains from Markin's face as he reads the logs.
+
+"We were never safe," He says, that familiar confidence gone from his voice.  "Gilden will march again!"</SuccessText>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>QuestLocation</TriggerType>
+        <TriggerOrigin>EventLocation</TriggerOrigin>
+        <SpawnRating>1</SpawnRating>
+        <AIAcceptChance>0</AIAcceptChance>
+        <AICanGoOnQuest>0</AICanGoOnQuest>
+        <Image>K_Markinn_Card_01.png</Image>
+        <PrefQuestLoc>QuestLoc_Gate1</PrefQuestLoc>
+        <Treasure>
+            <GameModifier InternalName="Reward1">
+                <ModType>Map</ModType>
+                <Attribute>BlockTile</Attribute>
+                <Radius>1</Radius>
+                <BoolVal1>1</BoolVal1>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward3">
+                <ModType>Unit</ModType>
+                <Attribute>GiveExperience</Attribute>
+                <Value>12</Value>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>20</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <NextObjectiveID>1</NextObjectiveID>
+            <Description>Find a way to convince Markin to join the war</Description>
+            <QuestConditionDef>
+                <ID>0</ID>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Find a way to convince Markin to join the war</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>CheckForItem</Type>
+                <TextData>GildenLogs</TextData>
+                <NumericData>1</NumericData>
+            </QuestConditionDef>
+            <QuestConditionDef>
+                <ID>1</ID>
+                <DependentCondition>0</DependentCondition>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Find a way to convince Markin to join the war</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>UnitEntersQuestLocation</Type>
+            </QuestConditionDef>
+            <ChoiceText>"Is there anything else?" Markin asks.</ChoiceText>
+            <ChoiceMedallion>K_Markinn_Card_01.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>I have evidence that Gilden is already under attack</Description>
+                <RequiredConditionID>1</RequiredConditionID>
+                <NextObjectiveID>1</NextObjectiveID>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>No, I will return</Description>
+                <RequiredConditionID>0</RequiredConditionID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+        </QuestObjectiveDef>
+    </QuestDef>
+</Quests>

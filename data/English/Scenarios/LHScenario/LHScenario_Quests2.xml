@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Quests>
+    <DataChecksum NoParse="1">
+        <Ignore>DispName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <QuestDef InternalName="Quest_LHScenario_ForgeOfTheOverlord">
+        <DisplayName>The Forge of the Overlord</DisplayName>
+        <Description>Fallen soldiers are swarming around the forge.  Trog axemen, Wraith mages, Krax spearmen and more are looking for a way to break into the oldest structure in Elemental.
+
+You consider moving away, but they have already spotted you.</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <AllowQuestRejection>0</AllowQuestRejection>
+        <ShortTextAccept>Attack!</ShortTextAccept>
+        <QuestClass>Major</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>QuestLocation</TriggerType>
+        <TriggerOrigin>EventLocation</TriggerOrigin>
+        <SpawnRating>5</SpawnRating>
+        <AIAcceptChance>0</AIAcceptChance>
+        <AICanGoOnQuest>0</AICanGoOnQuest>
+        <Image>Q_ForgeOfTheOverlord.png</Image>
+        <PrefQuestLoc>QuestLoc_Forge</PrefQuestLoc>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>-10</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <NextObjectiveID>1</NextObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+            <ChoiceText>The army has already spotted you, all you can do is fight.</ChoiceText>
+            <ChoiceMedallion>Q_ForgeOfTheOverlord.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>Attack!</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+                <AutoSelectChoice>1</AutoSelectChoice>
+                <Encounter>
+                    <Liklihood>100</Liklihood>
+                    <BattleIdentifier>EmpireArmy</BattleIdentifier>
+					<TacticalMap>T_ForgeExterior_01</TacticalMap>
+                    <WillRespawn>0</WillRespawn>
+                    <WanderingRadius>0</WanderingRadius>
+                    <UnitInstance>
+                        <UnitType>Unit_Medium_Krax_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>3</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Light_Urxen_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Company</UnitGroupingType>
+                        <Level>3</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Magic_Medium_Quendar_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+                        <Level>5</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Heavy_Trog_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+                        <Level>5</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Heavy_Trog_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+                        <Level>5</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Juggernaut_Quest</UnitType>
+                        <Level>7</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Mage_Wraith_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>5</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Mage_Wraith_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>5</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient</UnitType>
+                        <Level>7</Level>
+                    </UnitInstance>
+                </Encounter>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <NextObjectiveID>2</NextObjectiveID>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+            <QuestConditionDef>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Clear the way to the Forge</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>BattleFinished</Type>
+                <TextData>EmpireArmy</TextData>
+                <MoreTextData>Victory</MoreTextData>
+            </QuestConditionDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>2</ObjectiveID>
+            <NextObjectiveID>3</NextObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <ChoiceText>Queen Procipinee joins you at the massive stone doors to the forge.
+
+"The spells are unlike anything I've seen.  They don't block us from entering the forge as much as they remove whatever is beyond those walls from this world.  I cannot guess at what lies beyond.  I believe I can open the way, though it will require all of my effort to do so.  Be careful, for if you fail we will not be able to try it again."
+
+With great effort Procipinee channels her power towards the forge.  It has remained closed since the titan that her kingdom is named for came through.  The doors do not open, they are not real doors, they simply shimmer like starlight through clouds.</ChoiceText>
+            <ChoiceMedallion>Q_ProcipineeGate.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>Leap through!</Description>
+                <NextObjectiveID>3</NextObjectiveID>
+            <Treasure>
+                <GameModifier>
+                    <ModType>Unit</ModType>
+                    <Attribute>UnlockUnitAbility</Attribute>
+                    <StrVal>Ascension</StrVal>
+                </GameModifier>
+            </Treasure>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>3</ObjectiveID>
+            <NextObjectiveID>4</NextObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <ChoiceText>The forge was a massive building, but even it could not contain the endless halls and galleries that exist inside it.  Throughout cyclopean crystal pillars jut up into the higher levels.  They begin straight and nearly as thick as a house and gradually become finer and more delicate, eventually forming a sharp latticework around the forge's central chamber.
+
+In the center of the chamber there is a silver platform etched with astronomical symbols.  When you stand on it you feel the complete power of Elemental running through you.  You feel Procipinee straining to keep the way into the forge open and through that whole into the world you can feel every shard, every spell and everyone who can wield magic.  With the slightest effort you pull the power of the fallen sovereigns from them.
+
+The chamber erupts with attackers, the protectors of Elemental rebelling at your grip on the heart of the world.  You would have been crushed once, but now you are a god.</ChoiceText>
+            <ChoiceMedallion>Q_ForgeInterior.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_01.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>Attack!</Description>
+                <NextObjectiveID>4</NextObjectiveID>
+                <Encounter>
+                    <Liklihood>100</Liklihood>
+                    <BattleIdentifier>ForgeElementals</BattleIdentifier>
+                    <ForceLeaderOnly>1</ForceLeaderOnly>
+                    <TacticalMap>T_Forge_01</TacticalMap>
+                    <UnitInstance>
+                        <UnitType>DeathDemon_Quest</UnitType>
+                        <Level>15</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient_Quest</UnitType>
+                        <Level>12</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient_Quest</UnitType>
+                        <Level>12</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>DeathDemon_Quest</UnitType>
+                        <Level>15</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>DeathDemon_Quest</UnitType>
+                        <Level>15</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>DeathDemon_Quest</UnitType>
+                        <Level>15</Level>
+                    </UnitInstance>
+
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient_Quest</UnitType>
+                        <Level>12</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>DeathDemon_Quest</UnitType>
+                        <Level>15</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient_Quest</UnitType>
+                        <Level>12</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient_Quest</UnitType>
+                        <Level>12</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+
+                    <UnitInstance>
+                        <UnitType>CyndrumDemon_Ancient_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>6</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>CyndrumDemon_Ancient_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>6</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>CyndrumDemon_Ancient_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>6</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>CyndrumDemon_Ancient_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>6</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>CyndrumDemon_Ancient_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>6</Level>
+                    </UnitInstance>
+
+<!--                    <UnitInstance>
+                        <UnitType>DeathDemon_Quest</UnitType>
+                        <Level>15</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient_Quest</UnitType>
+                        <Level>12</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient_Quest</UnitType>
+                        <Level>12</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>DeathDemon_Quest</UnitType>
+                        <Level>15</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>DeathDemon_Quest</UnitType>
+                        <Level>15</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>DeathDemon_Quest</UnitType>
+                        <Level>15</Level>
+                    </UnitInstance>
+
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient_Quest</UnitType>
+                        <Level>12</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>DeathDemon_Quest</UnitType>
+                        <Level>15</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient_Quest</UnitType>
+                        <Level>12</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>BurningWraith_Ancient_Quest</UnitType>
+                        <Level>12</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+
+                    <UnitInstance>
+                        <UnitType>CyndrumDemon_Ancient_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>6</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>CyndrumDemon_Ancient_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>6</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>CyndrumDemon_Ancient_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>6</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>CyndrumDemon_Ancient_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>6</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>AssassinDemon_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>9</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>CyndrumDemon_Ancient_Quest</UnitType>
+						<UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+                        <Level>6</Level>
+                    </UnitInstance> -->
+                </Encounter>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>4</ObjectiveID>
+            <NextObjectiveID>5</NextObjectiveID>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+            <QuestConditionDef>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Destroy the Elementals!</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>BattleFinished</Type>
+                <TextData>ForgeElementals</TextData>
+                <MoreTextData>Victory</MoreTextData>
+                <Flag>SetQuestVictory</Flag>
+            </QuestConditionDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>5</ObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <ChoiceText>Procipinee waits just outside the entrance to the forge, still straining to hold the gate open.  Through the gate you can feel the world already turning on the now powerless Fallen armies.  You also realize that the only connection you have with the world is through Procipinee's gate, outside of the rest of the forge there is only empty space and distant stars.
+
+"We owe you a great debt," Procipinee says. "But I cannot allow you to return to this world.  We cannot accept a new titan, no matter how benevolent you would be in the beginning."</ChoiceText>
+            <ChoiceMedallion>K_Lady_Procipinee_Card_01.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>I understand, but show mercy to Ceresa, she was like us once</Description>
+                <NextObjectiveID>6</NextObjectiveID>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>I will not be sacrificed so that you can rule Anthys (kill Procipinee)</Description>
+                <NextObjectiveID>7</NextObjectiveID>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>Allow me to restore Shirayn before you close the gate</Description>
+                <NextObjectiveID>8</NextObjectiveID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>6</ObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <ChoiceText>Procipinee nods.  "This world will not forget your sacrifice."
+
+They are the last words you hear as the gate closes.</ChoiceText>
+            <ChoiceMedallion>Q_CeresaKneels.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>...</Description>
+                <NextObjectiveID>9</NextObjectiveID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>7</ObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <ChoiceText>You attempt to teleport through the gate.  But it takes more concentration to jump between worlds and Procipinee has only to release her effort to close the gate.
+
+As it closes you send a single bolt of dark fire through.  Your last view of Elemental is the form of Queen Procipinee falling to the ground dead.</ChoiceText>
+            <ChoiceMedallion>Q_ProcipineeFalls.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>...</Description>
+                <NextObjectiveID>9</NextObjectiveID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>8</ObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <ChoiceText>You reach out to Elemental and find the corrupted form of Shirayn.  You feel her pain and savage anger, which is so unlike her spirit in life.  Deep within her demonic form some part of her still lives.  Though you expect dark chains to bind her, there are none.  The corruption has no power of its own, it only fractured what was there like a mirror broken into sharp shards.  Piece by piece you restore her spirit.  When it is done you nod at Procipinee and she closes the gate.  Somewhere far off, in a different world than the one you now occupy, Shirayne is waking up as if from a long nightmare.</ChoiceText>
+            <ChoiceMedallion>Q_ShiryaneRestored.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>...</Description>
+                <NextObjectiveID>9</NextObjectiveID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>9</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+        </QuestObjectiveDef>
+    </QuestDef>
+    <QuestDef InternalName="Quest_LHScenario_Inn">
+        <DisplayName>The Blinded Boar</DisplayName>
+        <Description>Once this may have been a bustling inn where traders haggled and sailors enjoyed a night on land.  But those days are long past.  Now seedy men whisper, drink and gamble in the dark corners of the great room.  You spent your youth in such places, and you wonder if it disgusts you now because these men are wasting their lives, or because you wasted so much of yours.</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <AllowQuestRejection>0</AllowQuestRejection>
+        <ShortTextAccept>Enter the Inn</ShortTextAccept>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>QuestLocation</TriggerType>
+        <TriggerOrigin>EventLocation</TriggerOrigin>
+        <SpawnRating>1</SpawnRating>
+        <TriggerChance>0</TriggerChance>
+        <AICanGoOnQuest>0</AICanGoOnQuest>
+        <Image>Q_Kingdom_Inn_01.png</Image>
+        <PrefQuestLoc>QuestLoc_Inn1</PrefQuestLoc>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>-10</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <NextObjectiveID>1</NextObjectiveID>
+            <ChoiceText>"A war is coming." You say. "I need every able man to join the fight."
+
+"Found a camp and men will rally to your cause, be they soldiers, cooks or craftsmen," the innkeeper answers.
+
+"An army needs all of these and more." You say. "Is there a good place to make camp nearby?  We will need fertile land to grow food and space for barracks and workshops."
+
+"The syndicate controls the north, though the land is good, they will not relinquish it easily.  To the south east there is open land, but the Wildings beyond may harass your people," The innkeeper answers.  "For our part we will join you, how can we best serve you?"</ChoiceText>
+            <ChoiceMedallion>Q_Brood.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>As axemen, I will need soldiers</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+            <Treasure>
+                <GameModifier>
+                    <ModType>Unit</ModType>
+                    <Attribute>UnitJoinArmy</Attribute>
+                    <StrVal>Unit_Light_Altarian</StrVal>
+                    <Unitclass>Unit</Unitclass>
+                </GameModifier>
+            </Treasure>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>As archers, we'll kill our enemies from a distance</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+            <Treasure>
+                <GameModifier>
+                    <ModType>Unit</ModType>
+                    <Attribute>UnitJoinArmy</Attribute>
+                    <StrVal>Unit_Archer_Altarian</StrVal>
+                    <Unitclass>Unit</Unitclass>
+                </GameModifier>
+            </Treasure>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>As defenders, we need soldiers that can survive battle</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+            <Treasure>
+                <GameModifier>
+                    <ModType>Unit</ModType>
+                    <Attribute>UnitJoinArmy</Attribute>
+                    <StrVal>Unit_Defender_Altarian</StrVal>
+                    <Unitclass>Unit</Unitclass>
+                </GameModifier>
+            </Treasure>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+        </QuestObjectiveDef>
+    </QuestDef>
+	<QuestDef InternalName="Quest_FrogAltar">
+        <DisplayName>Frog Altar</DisplayName>
+        <Description>There is a forgotten altar here, a symbol to ancient gods and a time when men were ruled by superstition and fear.  You scoffed at these cults once, but after seeing the tragedy and dark power in the east, you wonder if there may be more to these myths.</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <ShortTextAccept>I should investigate these myths</ShortTextAccept>
+        <ShortTextDeny>I have no time for superstitions</ShortTextDeny>
+        <RewardText>Unknown</RewardText>
+        <RewardImage>Question_Mark_Icon.png</RewardImage>
+        <SuccessText>You leave the offering for the altar.  The armor is enough of a reward.</SuccessText>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>QuestLocation</TriggerType>
+        <TriggerOrigin>EventLocation</TriggerOrigin>
+        <SpawnRating>1</SpawnRating>
+        <TriggerChance>0</TriggerChance>
+        <AICanGoOnQuest>0</AICanGoOnQuest>
+        <Image>Q_FrogAltar.png</Image>
+        <PrefQuestLoc>QuestLoc_FrogAltar</PrefQuestLoc>
+        <Treasure>
+            <GameModifier InternalName="Reward1">
+                <ModType>GiveItem</ModType>
+                <Attribute>ChainBreastpiece_Impenetrable</Attribute>
+                <Value>100</Value>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward3">
+                <ModType>Unit</ModType>
+                <Attribute>GiveExperience</Attribute>
+                <Value>6</Value>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>10</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <NextObjectiveID>1</NextObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>0</AutoFulfillSuccessConditionsOnSetup>
+            <QuestConditionDef>
+                <ID>0</ID>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Find an Offering for the Frog Altar</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>CheckForItem</Type>
+                <TextData>Loot_JeweledFly</TextData>
+                <NumericData>1</NumericData>
+            </QuestConditionDef>
+            <QuestConditionDef>
+                <ID>1</ID>
+                <DependentCondition>0</DependentCondition>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Bring an offering to the Frog Altar</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>UnitEntersQuestLocation</Type>
+                <CannotCompleteText>You don't have an appropriate offering for the Frog Altar.</CannotCompleteText>
+            </QuestConditionDef>
+            <ChoiceText>You could make an offering on the altar, if you had an appropriate gift.</ChoiceText>
+            <ChoiceMedallion>Q_FrogAltar.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>Offer the Jeweled Fly</Description>
+                <RequiredConditionID>0</RequiredConditionID>
+                <NextObjectiveID>1</NextObjectiveID>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>I'll return if I can find an appropriate offering.</Description>
+                <NextObjectiveID>0</NextObjectiveID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <NextObjectiveID>2</NextObjectiveID>
+            <AutoFulfillSuccessConditionsOnSetup>1</AutoFulfillSuccessConditionsOnSetup>
+            <ChoiceText>There is little response to your offering.  The waves still beat steadily against the shore, the wind blows against the mountains.  Nothing seems to have changed until you notice a glint coming from the mouth of the frog altar.  Inside a coat of glimmering crystal armor sits.  It must have appeared there as a reward for your gift, certainly you would have noticed it before.
+			
+			Your offering still sits untouched on the altar.  Would you like to take both the armor and your offering?</ChoiceText>
+            <ChoiceMedallion>Q_FrogAltar.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>No, leave the offering for the altar.</Description>
+                <NextObjectiveID>2</NextObjectiveID>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>Yes, I'll take back the offering.</Description>
+                <QuestFailure>1</QuestFailure>
+                <PopupMessage>Both the armor and the offering turn to sand and spill out onto the beach.</PopupMessage>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>2</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+        </QuestObjectiveDef>
+    </QuestDef>
+    <QuestDef InternalName="Quest_LHScenario_ArcaneMonolith">
+        <DisplayName>The Missing Courier</DisplayName>
+        <Description>"I've dispatched some scrolls to you, the secrets to casting the Arcane Monolith spell.  With it you can create outposts with a spell and save your men for building cities and armies," Queen Procipinee says.
+
+"But the courier was waylaid by Yithril soldiers," She continues. "Rescue the men so the spell doesn't fall into Verga's hands."</Description>
+        <IsStartingPointQuest>0</IsStartingPointQuest>
+        <ShortTextAccept>I will rescue the courier</ShortTextAccept>
+        <ShortTextDeny>I've no time for this</ShortTextDeny>
+        <RewardText>Arcane Monolith spell</RewardText>
+        <RewardImage>S_ArcaneMonolith_Painting.png</RewardImage>
+        <SuccessText>You set a small grave for the courier, and leave the Trogs to be eaten by the wolves.  It seems a fitting reward for their barbarism.  As further evidence of their ignorance you pick up the scrolls out of the mud, nearly priceless artifacts that they casually discarded.  Despite their strength these mistakes will cost them the war.</SuccessText>
+        <QuestClass>Minor</QuestClass>
+        <Repeatable>0</Repeatable>
+        <TriggerType>TurnNumber</TriggerType>
+        <TriggerData>45</TriggerData>
+        <SpawnRating>2</SpawnRating>
+        <TriggerChance>10000</TriggerChance>
+        <PostTriggerChance>10000</PostTriggerChance>
+        <Image>K_Lady_Procipinee_Card_01.png</Image>
+        <Treasure>
+            <GameModifier InternalName="Reward1">
+                <ModType>Player</ModType>
+                <Attribute>UnlockSpell</Attribute>
+                <StrVal>ArcaneMonolith</StrVal>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward3">
+                <ModType>Unit</ModType>
+                <Attribute>GiveExperience</Attribute>
+                <Value>6</Value>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <GameModifier InternalName="Reward4">
+                <ModType>Resource</ModType>
+                <Attribute>Fame</Attribute>
+                <Value>10</Value>
+            </GameModifier>
+        </Treasure>
+        <QuestObjectiveDef>
+            <ObjectiveID>0</ObjectiveID>
+            <NextObjectiveID>1</NextObjectiveID>
+            <Description>Find the waylaid courier</Description>
+            <Treasure>
+                <GameModifier>
+                    <ModType>Map</ModType>
+                    <Attribute>CreateGoodieHut</Attribute>
+                    <StrVal>Courier's Camp</StrVal>
+                    <Unitclass>GH_Quest_Camp</Unitclass>
+                    <Radius>3</Radius>
+                </GameModifier>
+            </Treasure>
+            <QuestConditionDef>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Explore the Camp.</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>ClearGoodieHut</Type>
+                <TextData>GH_Quest_Camp</TextData>
+                <Flag>RevealTarget</Flag>
+            </QuestConditionDef>
+            <ChoiceText>Trog soldiers relax in the remains of the courier's camp and pull strips of foul smelling meat off of the fire.  There is no sign of the courier, but you see the Pariden banner, some supplies, clothes and scrolls lying in the mud.  The clothes are torn and bloodstained, and it takes a minute for you to realize what is cooking on the fire and why it smells so bad.</ChoiceText>
+            <ChoiceMedallion>L_Champion_Kingdom_01.png</ChoiceMedallion>
+            <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+            <QuestChoiceDef>
+                <Description>Attack the soldiers</Description>
+                <NextObjectiveID>1</NextObjectiveID>
+                <Encounter>
+                    <Liklihood>100</Liklihood>
+                    <BattleIdentifier>Trogs</BattleIdentifier>
+                    <WillRespawn>0</WillRespawn>
+                    <WanderingRadius>0</WanderingRadius>
+                    <UnitInstance>
+                        <UnitType>Unit_Light_Trog_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>2</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Light_Trog_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>2</Level>
+                    </UnitInstance>
+                    <UnitInstance>
+                        <UnitType>Unit_Light_Trog_Quest</UnitType>
+                        <UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+                        <Level>2</Level>
+                    </UnitInstance>
+                </Encounter>
+            </QuestChoiceDef>
+            <QuestChoiceDef>
+                <Description>I'll return later</Description>
+                <NextObjectiveID>0</NextObjectiveID>
+            </QuestChoiceDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>1</ObjectiveID>
+            <NextObjectiveID>2</NextObjectiveID>
+            <PopupObjectiveMsg>0</PopupObjectiveMsg>
+            <QuestConditionDef>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Kill the Trog soldiers</Text>
+                    <IsOptional>0</IsOptional>
+                </Objective>
+                <Class>Success</Class>
+                <Type>BattleFinished</Type>
+                <TextData>Trogs</TextData>
+                <MoreTextData>Victory</MoreTextData>
+            </QuestConditionDef>
+        </QuestObjectiveDef>
+        <QuestObjectiveDef>
+            <ObjectiveID>2</ObjectiveID>
+            <QuestEnd>1</QuestEnd>
+        </QuestObjectiveDef>
+    </QuestDef>
+</Quests>

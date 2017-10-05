@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<GameItemTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DispName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <GameItemType InternalName="PlateVambraces_Maniac">
+        <DisplayName>Maniac Gauntlets</DisplayName>
+        <Description>Some Trog soldiers consider weapons to be a weakness and prefer to pummel their enemies with their armored fists.</Description>
+        <Type>Weapon</Type>
+		<WeaponType>Blunt</WeaponType>
+        <Type>Forearms</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>180</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Pierce</StrVal>
+            <Value>12</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CombatSpeed</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Likelihood>-1</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+		<AIData AIPersonality="AI_General">
+			<AIPriority>13</AIPriority>
+        </AIData>
+        <ArtDef>Art_GauntletsOfGrazna</ArtDef>
+    </GameItemType>
+ </GameItemTypes>

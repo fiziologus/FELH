@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<UnitTypes>
+    <UnitType InternalName="Champion_Jordur">
+        <DisplayName>Jordur the Giant</DisplayName>
+        <UnitDisplayName>Jordur the Giant</UnitDisplayName>
+        <Class>Adventurer</Class>
+        <Allegiance>Kingdom</Allegiance>
+        <CreatureType>Champion</CreatureType>
+        <RaceType>Race_Type_Tarthans</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Male</Gender>
+        <WageOverride>1</WageOverride>
+        <IsNPC>1</IsNPC>
+        <IsChampion>1</IsChampion>
+        <IsSovereign>0</IsSovereign>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>Unrest</Attribute>
+            <Value>-5</Value>
+            <Provides>-5% Unrest in the city this unit is in</Provides>
+        </GameModifier>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>80</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Tarth</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>PathOfTheWarrior</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Endurance1_Warrior</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ArmorProficiency1_Warrior</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ArmorProficiency2_Warrior</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Brute_Level</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Lethal1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Enmity_Level</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>GreatAxe</AutoCreateEquipment>
+        <AutoCreateEquipment>PlateBreastpiece_Gladiators</AutoCreateEquipment>
+        <AutoCreateEquipment>TildaHerbs</AutoCreateEquipment>
+        <Equipment>F_Male_Head_07</Equipment>
+        <Quote>'Men or Fallen, they are all insects to me.'</Quote>
+        <NPCRecruitmentText>I can be of service. If you wish to hire me for %d gildar.</NPCRecruitmentText>
+        <Backstory>Jordur's people were slaves; Jordur is free. Jordur fights for coin now, and to find the lands of his fathers. Jordur's elders sing songs of the Great Ice Mountain, and beasts called Noribuna, whose flesh fed our people for a thousand years. Jordur will use your coin to keep his armor strong, and to pay others to help him in his quest.</Backstory>
+        <AnimationPack>MaleSovereignAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>2</ClothPoseIndex>
+        <Color_Clothing1>84,15,15,255</Color_Clothing1>
+        <Color_Clothing2>135,69,0,255</Color_Clothing2>
+        <Color_Hair>78,53,43,255</Color_Hair>
+        <Color_Metal>150,155,135,255</Color_Metal>
+        <Color_Skin>170,115,90,255</Color_Skin>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m4_gold.png</EyeTexture>
+        <InfoCardBackground>BG_Swamp</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\F_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1.1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Male</SoundPack>
+        <TacticalModelScale>1.6</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m4_gold.png</Texture_Eyes>
+        <Texture_Skin>Trog_Skin_M_02.png</Texture_Skin>
+        <UnitModelType>FallenMale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="Champion_Craul">
+        <DisplayName>Craul Gravehands</DisplayName>
+        <UnitDisplayName>Craul Gravehands</UnitDisplayName>
+        <Class>Adventurer</Class>
+        <Allegiance>Empire</Allegiance>
+        <CreatureType>Champion</CreatureType>
+        <RaceType>Race_Type_Trogs</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Male</Gender>
+        <WageOverride>1</WageOverride>
+        <IsNPC>1</IsNPC>
+        <IsChampion>1</IsChampion>
+        <IsSovereign>0</IsSovereign>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>Unrest</Attribute>
+            <Value>-5</Value>
+            <Provides>-5% Unrest in the city this unit is in</Provides>
+        </GameModifier>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>80</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Trog</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Earth1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Revenge</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>Axe_Trog</AutoCreateEquipment>
+        <AutoCreateEquipment>Potion_TrogBlood</AutoCreateEquipment>
+        <Equipment>F_Male_Head_06</Equipment>
+        <Equipment>Fallen_Leather_Pants_ID2</Equipment>
+        <Equipment>Large_Sion_Boots_ID1</Equipment>
+        <Quote>'My father was the first man that struck me, and the first that I put into the ground for it.'</Quote>
+        <NPCRecruitmentText>I can be of service. If you wish to hire me for %d gildar.</NPCRecruitmentText>
+        <Backstory>You have not heard of Craul? It was I who made the desert of Hengameh bloom, without water. It was I who caused the long grass of ancient Malaya to grow once more, so that the great herds of horse could return. I have made my peace with the Elemental Lords, and they have granted me a special way with the living things that grow upon the land.</Backstory>
+        <AnimationPack>MaleSovereignAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>6</ClothPoseIndex>
+        <Color_Clothing1>56,33,13,255</Color_Clothing1>
+        <Color_Clothing2>184,148,85,255</Color_Clothing2>
+        <Color_Hair>177,187,197,255</Color_Hair>
+        <Color_Metal>80,75,90,255</Color_Metal>
+        <Color_Skin>133,128,128,255</Color_Skin>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m3_cataract.png</EyeTexture>
+        <InfoCardBackground>BG_EmpireRugged</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\F_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Male</SoundPack>
+        <TacticalModelScale>1.6</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m3_cataract.png</Texture_Eyes>
+        <Texture_Skin>Trog_Skin_M_03.png</Texture_Skin>
+        <UnitModelType>FallenMale</UnitModelType>
+    </UnitType>
+	<UnitType InternalName="Sovereign_Craul">
+		<DisplayName>Craul Gravehands</DisplayName>
+		<Backstory>You have not heard of Craul? It was I who made the desert of Hengameh bloom, without water. It was I who caused the long grass of ancient Malaya to grow once more, so that the great herds of horse could return. I have made my peace with the Elemental Lords, and they have granted me a special way with the living things that grow upon the land.</Backstory>
+		<HasEssence>true</HasEssence>
+		<ModelPath>Gfx\HKB\Units\F_Male_Mesh_01.hkb</ModelPath>
+		<SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+		<EyeTexture>gfx\eyes\blinks\eyeblink_m3_cataract.png</EyeTexture>
+		<AnimationPack>MaleSovereignAnimationPack</AnimationPack>
+		<ShowAsSingleUnit>false</ShowAsSingleUnit>
+		<CutSceneDataPack>VergaCutscenePack</CutSceneDataPack>
+		<ModelScale>1.0000</ModelScale>
+		<TacticalModelScale>1.6000</TacticalModelScale>
+		<EquipmentScale>1.0000</EquipmentScale>
+		<ClothMapScale>1.6000</ClothMapScale>
+		<BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+		<MovementType>land</MovementType>
+		<BobbingFrequency>0.0000</BobbingFrequency>
+		<ClothPoseIndex>2</ClothPoseIndex>
+		<InfoCardBackground>BG13_Volcanic</InfoCardBackground>
+		<InfoCardBackgroundFlipped>0</InfoCardBackgroundFlipped>
+		<CanBeDesigned>0</CanBeDesigned>
+		<UserDesigned>true</UserDesigned>
+		<IsModDependent>false</IsModDependent>
+		<Medallions InternalName=""/>
+		<MovingSFX>TEMP_KnightMarching1</MovingSFX>
+		<LevelMilestone InternalName="">
+			<Level>1</Level>
+			<UnitStat_Accuracy>80.0000</UnitStat_Accuracy>
+			<UnitStat_ChanceToCrit>1.0000</UnitStat_ChanceToCrit>
+			<UnitStat_CombatSpeed>22.0000</UnitStat_CombatSpeed>
+			<UnitStat_HitPoints>15.0000</UnitStat_HitPoints>
+		</LevelMilestone>
+		<Equipment>F_Male_Head_06</Equipment>
+		<Equipment>Fallen_Leather_Pants_ID2</Equipment>
+		<AutoCreateEquipment>LeatherVambraces</AutoCreateEquipment>
+		<AutoCreateEquipment>LeatherBoots</AutoCreateEquipment>
+		<AutoCreateEquipment>Axe_Trog</AutoCreateEquipment>
+		<Color_Skin>130,125,125,255</Color_Skin>
+		<Color_Hair>50,50,50,255</Color_Hair>
+		<Color_Clothing1>150,150,150,255</Color_Clothing1>
+		<Color_Clothing2>0,0,0,255</Color_Clothing2>
+		<Color_Metal>80,75,90,255</Color_Metal>
+		<Texture_Skin>Trog_Skin_M_03.png</Texture_Skin>
+		<Texture_Eyes>gfx\eyes\blinks\eyeblink_m3_cataract.png</Texture_Eyes>
+		<Gender>Male</Gender>
+		<UnitModelType>FallenMale</UnitModelType>
+		<AIMilitaryStrategy>Swordsman</AIMilitaryStrategy>
+		<PossibleAITrait>Proud</PossibleAITrait>
+		<PossibleAITrait>Militaristic</PossibleAITrait>
+		<PossibleAITrait>WarMonger</PossibleAITrait>
+		<SelectedAbilityBonusOption>Blood_Trog</SelectedAbilityBonusOption>
+		<SelectedAbilityBonusOption>TrainJuggernauts</SelectedAbilityBonusOption>
+		<SelectedAbilityBonusOption>Warlord</SelectedAbilityBonusOption>
+		<SelectedAbilityBonusOption>Cruel</SelectedAbilityBonusOption>
+		<SelectedAbilityBonusOption>Discipline_Level</SelectedAbilityBonusOption>
+		<SelectedAbilityBonusOption>Might</SelectedAbilityBonusOption>
+		<SelectedAbilityBonusOption>Hardy</SelectedAbilityBonusOption>
+		<SelectedAbilityBonusOption>Tactician</SelectedAbilityBonusOption>
+		<GameModifier InternalName="GameModifier 2633">
+			<ModType>Resource</ModType>
+			<Attribute>Unrest</Attribute>
+			<PerTurn>0</PerTurn>
+			<Value>-10.0000</Value>
+		</GameModifier>
+		<IsSovereign>1</IsSovereign>
+		<FactionToLead>EmpireOfYithril</FactionToLead>
+		<HasWages>0</HasWages>
+		<NPCFreeRecruit>0</NPCFreeRecruit>
+		<RaceType>Race_Type_Trogs</RaceType>
+		<IgnoreItemTrainingCosts>false</IgnoreItemTrainingCosts>
+		<AdditionalTrainingTurns>0.0000</AdditionalTrainingTurns>
+		<WageOverride>0.0000</WageOverride>
+		<UnitTypeVersion>1</UnitTypeVersion>
+		<TileRadius>0</TileRadius>
+		<GetPerksOnLevelUp>0</GetPerksOnLevelUp>
+		<DividesBattleExp>1</DividesBattleExp>
+		<CanSqueeze>0</CanSqueeze>
+		<OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+		<AllowGrouping>true</AllowGrouping>
+		<SoundPack>SoundPack_Generic_Male</SoundPack>
+		<IsChampion>0</IsChampion>
+	</UnitType>
+    <UnitType InternalName="Unit_Heavy_Trog_Quest">
+        <DisplayName>Harbingers of War</DisplayName>
+        <Description>Harbingers of War are powerful melee units, able to do lots of damage to those that fall within their range.  They are the most elite of the Trog armies and not many can withstand their attacks.</Description>
+        <RaceType>Race_Type_Trogs</RaceType>
+        <Gender>Male</Gender>
+        <IsSovereign>0</IsSovereign>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Trog</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ArmorProficiency2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Brute</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Muscle</SelectedAbilityBonusOption>
+        <Equipment>Greataxe_Trog</Equipment>
+        <Equipment>PlateBoots</Equipment>
+        <Equipment>PlateBreastpiece</Equipment>
+        <Equipment>PlateHelmet</Equipment>
+        <Equipment>PlateGreaves</Equipment>
+        <Equipment>PlateVambraces</Equipment>
+        <Equipment>FirstAidKit</Equipment>
+        <Equipment>Rations</Equipment>
+        <Equipment>F_Male_Head_02</Equipment>
+        <Equipment>Sion_Cloak_ID1</Equipment>
+        <Equipment>Magnar_Hair</Equipment>
+        <Backstory>"The sound of their boots upon the city’'s cobblestones shall haunt my dreams, in this life and the next." - Hengut the Younger of Odenvell. 
+
+Trog heavy infantry. The armies of the Titans of old - the endless swarms of soldiers depicted in the great paintings and murals recovered from Imperium’'s ruins - were often led by units similar to these, whose appearance foretold the coming of battle, of death and destruction.</Backstory>
+        <AnimationPack>SoldierAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>13</ClothPoseIndex>
+        <Color_Skin>120,120,120,255</Color_Skin>
+        <Color_Hair>190,190,190,255</Color_Hair>
+        <Color_Clothing1>150,150,150,255</Color_Clothing1>
+        <Color_Clothing2>50,50,50,255</Color_Clothing2>
+        <Color_Metal>80,75,90,255</Color_Metal>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m5_White.png</EyeTexture>
+        <InfoCardBackground>BG_EmpireRugged</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\F_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Male</SoundPack>
+        <TacticalModelScale>1.6</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m5_White.png</Texture_Eyes>
+        <Texture_Skin>Trog_Skin_M_02.png</Texture_Skin>
+        <UnitModelType>FallenMale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="Unit_Magic_Medium_Quendar_Quest">
+        <DisplayName>Chosen</DisplayName>
+        <Description>The Chosen are outfitted with enchanted weapons and items.  They are a powerful tool for any empire, but expensive to train.</Description>
+        <RaceType>Race_Type_Quendar</RaceType>
+        <Gender>Male</Gender>
+        <IsSovereign>0</IsSovereign>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Quendar</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>SpellResistance</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ArmorProficiency2</SelectedAbilityBonusOption>
+        <Equipment>Axe_Burning</Equipment>
+		<Equipment>ChainBoots_Masterwork</Equipment>
+		<Equipment>ChainBreastpiece_Masterwork</Equipment>
+		<Equipment>ChainGreaves_Masterwork</Equipment>
+		<Equipment>ChainVambraces_Masterwork</Equipment>
+        <Equipment>AmuletOfFlames</Equipment>
+        <Equipment>ScarStone</Equipment>
+        <Equipment>DragonHideCloak</Equipment>
+        <Equipment>F_Male_Quendar_Head_01</Equipment>
+        <Equipment>F_Male_Quendar_Horns_03</Equipment>
+        <Backstory>Discipline is first, second, and third when building an effective fighting force. Little else matters.' These words - spoken by Vergaxa of the Quendar - remain the watchword for the commanders of this army. They will make slaves of any fighter they defeat in battle; they will conscript any banker, baker, or miner whose path they cross. From those slaves they will make soldiers, and from those soldiers, massive armies driven by fear of the lash, and inculcated with the discipline prescribed by Vergaxa centuries earlier.</Backstory>
+        <AnimationPack>SoldierAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>3</ClothPoseIndex>
+        <Color_Skin>208,116,88,255</Color_Skin>
+        <Color_Hair>200,200,200,255</Color_Hair>
+        <Color_Clothing1>85,15,75,255</Color_Clothing1>
+        <Color_Clothing2>40,35,35,255</Color_Clothing2>
+        <Color_Metal>107,41,41,255</Color_Metal>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m6_Red.png</EyeTexture>
+        <InfoCardBackground>BG_Lava</InfoCardBackground>
+        <ModelPath>F_Male_Magnar_Body_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Male</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m6_Red.png</Texture_Eyes>
+        <Texture_Skin>Magnar_Skin_M_01.dds</Texture_Skin>
+        <UnitModelType>QuendarMale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="Unit_Mage_Wraith_Quest">
+        <DisplayName>Gravewarden</DisplayName>
+        <Description>Gravewardens are mages that draw the lives from those they kill, adding it to their faction's mana.</Description>
+        <RaceType>Race_Type_Wraiths</RaceType>
+        <Gender>Female</Gender>
+        <IsSovereign>0</IsSovereign>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Wraith</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>HallowedRite</SelectedAbilityBonusOption>
+		<Equipment>Staff_Freezing</Equipment>
+		<Equipment>RingOfTheGlacier</Equipment>
+		<Equipment>IceWargCloak</Equipment>
+		<Equipment>Rations</Equipment>
+        <Equipment>F_Female_Head_Mesh_06</Equipment>
+        <Equipment>DarkWizardFemaleRobeID2</Equipment>
+        <Equipment>Sovereign_Ponytail_Hair</Equipment>
+        <Backstory>"Take pleasure in the killing, for it is what you were made to do." - The Enchantress
+
+These are Wraith sorcerers trained in the arts of war; mages who share the Enchantress’s blood, and thus, a bit of her power.</Backstory>
+        <AnimationPack>SoldierAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>0</ClothPoseIndex>
+        <Color_Skin>160,170,185,255</Color_Skin>
+        <Color_Hair>50,50,65,255</Color_Hair>
+        <Color_Clothing1>90,130,170,255</Color_Clothing1>
+        <Color_Clothing2>50,50,60,255</Color_Clothing2>
+        <Color_Metal>19,69,130,255</Color_Metal>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\Eyeblink_F4_Wht.png</EyeTexture>
+        <InfoCardBackground>BG_Chasm</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Female</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_f3_blue.png</Texture_Eyes>
+        <Texture_Skin>K_Female_Scarred_Texture_01.png</Texture_Skin>
+        <UnitModelType>WraithFemale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="Unit_Juggernaut_Quest">
+        <DisplayName>Juggernaut</DisplayName>
+        <Description>Nothing matches the savagery of a Juggernaut.  Your enemies should be afraid, but your allies are also at risk from the Juggernaut's frenzied attacks.</Description>
+        <CreatureType>Twisted</CreatureType>
+        <RaceType>Race_Type_Trogs</RaceType>
+        <Gender>Male</Gender>
+        <IsSovereign>0</IsSovereign>
+        <AllowGrouping>0</AllowGrouping>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_ChanceToAvoidProne>100</UnitStat_ChanceToAvoidProne>
+            <UnitStat_HitPoints>50</UnitStat_HitPoints>
+            <UnitStat_WeightCapacity>200</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Juggernaut</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>IgnorePain</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>BrutalNature</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Maul</SelectedAbilityBonusOption>
+        <Equipment>Juggernaut_Hair</Equipment>
+        <Equipment>Juggernaut_Gear</Equipment>
+        <Equipment>BattleAxe_Juggernaut_Trog</Equipment>	
+        <Backstory>"Feel no pain. Know no fear. Need no rest. Fight till the foe falls. Then seek the next battle." These are the watchwords of the yatra nata - the Juggernauts - the elite among all Trog warriors, soldiers segregated from their brethren on their eleventh name day for special training. History says their first battle came a dozen years after the Quendar conquered Teroth-Nu, when eight of them overthrew a city full of Magnar II’'s troops, and retook Kir-Tion'’s throne.</Backstory>
+        <AnimationPack>JuggernautAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Stationary</BattleAnimationBehavior>
+        <Color_Skin>120,120,120,255</Color_Skin>
+        <Color_Hair>190,190,190,255</Color_Hair>
+        <Color_Clothing1>150,150,150,255</Color_Clothing1>
+        <Color_Clothing2>50,50,50,255</Color_Clothing2>
+        <Color_Metal>80,75,90,255</Color_Metal>
+        <ClothMapScale>1.2</ClothMapScale>
+        <ClothPoseIndex>1</ClothPoseIndex>
+        <CutSceneDataPack>JuggernautUnitCutscenePack</CutSceneDataPack>
+        <EquipmentScale>2.5</EquipmentScale>
+        <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG_EmpireRugged</InfoCardBackground>
+        <ModelPath>K_Juggernaut_Mesh_01.hkb</ModelPath>
+        <ModelScale>0.8</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>K_Juggernaut_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Juggernaut</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Skin>M_Juggernaut_Texture_01.dds</Texture_Skin>
+        <UnitModelType>JuggernautMale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="Unit_Light_Urxen_Quest">
+        <DisplayName>Carrion Men</DisplayName>
+        <Description>Carrion Men are good early skirmishers, quick to train and good in most battles.  Although dangerous from the start they are even more dangerous when injured, often flying into a berserk rage.</Description>
+        <RaceType>Race_Type_Urxen</RaceType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Male</Gender>
+        <IsSovereign>0</IsSovereign>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Urxen</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Rage</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ArmorProficiency1</SelectedAbilityBonusOption>
+        <Equipment>Shortsword_Urxen</Equipment>
+        <Equipment>LeatherArmor</Equipment>
+        <Equipment>LeatherBoots</Equipment>
+        <Equipment>LeatherGreaves</Equipment>
+        <Equipment>LeatherVambraces</Equipment>
+        <Equipment>Rations</Equipment>
+        <Equipment>PoisonVial</Equipment>
+        <Equipment>F_Male_Head_06</Equipment>
+        <Equipment>Sovereign_Bandit_Hair_ID1</Equipment>
+        <Backstory>For a thousand years, following their banishment from Imperium, the Urxen roamed the great Umbran wastes. There, in the shadow of the mountain ranges ruled by the Titan Ilosa, she who became the Lady Umber, they forged a special relationship with the creatures of Elemental, a bond that not even the Cataclysm could break.  Even now, the Urxen can call to their cause the great serpents of this world - the naja and the ophidian - and command them in battle.</Backstory>
+        <AnimationPack>SoldierAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>11</ClothPoseIndex>
+        <Color_Skin>165,165,170,255</Color_Skin>
+        <Color_Hair>45,45,65,255</Color_Hair>
+        <Color_Clothing1>201,94,22,255</Color_Clothing1>
+        <Color_Clothing2>55,45,30,255</Color_Clothing2>
+        <Color_Metal>50,35,31,255</Color_Metal>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m5_gold.png</EyeTexture>
+        <InfoCardBackground>BG_BarrenForest</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\F_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Male</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m5_gold.png</Texture_Eyes>
+        <Texture_Skin>Urxen_Skin_M_02.png</Texture_Skin>
+        <UnitModelType>UrxenMale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="Unit_Medium_Krax_Quest">
+        <DisplayName>Karavox's Honorguard</DisplayName>
+        <Description>Karavox's Honorguard are good midgame units for your armies.  They are known for their resilience and stubborn refusal to retreat their position.</Description>
+        <RaceType>Race_Type_Krax</RaceType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Male</Gender>
+        <IsSovereign>0</IsSovereign>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Krax</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ArmorProficiency2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Ironskin</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Constitution</SelectedAbilityBonusOption>
+        <Equipment>BoarSpear_Krax</Equipment>
+        <Equipment>KiteShield</Equipment>
+        <Equipment>PlateBoots_Light</Equipment>
+        <Equipment>PlateBreastpiece_Light</Equipment>
+        <Equipment>PlateHelmet_Light</Equipment>
+        <Equipment>PlateGreaves_Light</Equipment>
+        <Equipment>PlateVambraces_Light</Equipment>
+        <Equipment>Rations</Equipment>
+        <Equipment>F_Head_Wraith_Mesh_02</Equipment>
+        <Equipment>Fancy_Cloak_ID1</Equipment>
+        <Equipment>Sovereign_Beard</Equipment>
+        <Equipment>Sovereign_Warrior_Hair</Equipment>
+        <Backstory>There are no more stalwart defenders than the armies of Kraxis; their ability to establish and protect near-unassailable battlefield positions is well-documented. Recall the siege of Morrania, the last of the great pre-cataclysmic battles between Man and Fallen, where four hundred Krax held off two thousand D'Rog fighters. Some may call them traitors, but the Krax have an unshakable belief in the righteousness of their cause, and an uncanny ability to persuade others to their side...… a trait opposing commanders would do well to take note of.</Backstory>
+        <AnimationPack>SoldierAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>3</ClothPoseIndex>
+        <Color_Skin>190,145,110,255</Color_Skin>
+        <Color_Hair>60,50,65,255</Color_Hair>
+        <Color_Clothing1>170,100,40,255</Color_Clothing1>
+        <Color_Clothing2>40,35,30,255</Color_Clothing2>
+        <Color_Metal>110,100,90,255</Color_Metal>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m4_blk.png</EyeTexture>
+        <InfoCardBackground>BG_EmpireHills</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Male</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m4_blk.png</Texture_Eyes>
+        <Texture_Skin>K_Male_Groomed_Texture_01.png</Texture_Skin>
+        <UnitModelType>EmpireMale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="Unit_Light_Trog_Quest">
+        <DisplayName>Axeman</DisplayName>
+        <Description>Axeman are good early skirmishers, though they can't wield shields their Cleave ability allows them to attack multiple enemies at once.</Description>
+        <Class>Light</Class>
+        <RaceType>Race_Type_Trogs</RaceType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Male</Gender>
+        <IsSovereign>0</IsSovereign>
+        <IsStartingUnitType>0</IsStartingUnitType>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Trog</SelectedAbilityBonusOption>
+        <Equipment>Axe_Trog</Equipment>
+        <Equipment>F_Male_Head_05</Equipment>
+        <Equipment>F_Mohawk_Hair_Mesh_01</Equipment>
+        <Equipment>Fallen_Sleeveless_Leather_Shirt_ID2</Equipment>
+        <Equipment>Fallen_Vest_ID2</Equipment>
+        <Equipment>Fallen_Leather_Pants_ID2</Equipment>
+        <Equipment>Large_Sion_Boots_ID2</Equipment>
+        <Equipment>Empire_Leather_Gloves_Dark</Equipment>
+        <Backstory>These are Elemental's most fearsome warriors; bred for battle, taught to strike without mercy and to ignore pain, to banish the words 'caution' and 'surrender' from their vocabulary. Whether you engage them in single combat, or fight them in phalanxes, you will learn the truth of those words attributed to Iskahar, last of Ereog's line, as he lay dying on the steppes of Engar. "It is no shame to perish to a superior foe."</Backstory>
+        <AnimationPack>SoldierAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>11</ClothPoseIndex>
+        <Color_Skin>120,120,120,255</Color_Skin>
+        <Color_Hair>190,190,190,255</Color_Hair>
+        <Color_Clothing1>150,150,150,255</Color_Clothing1>
+        <Color_Clothing2>50,50,50,255</Color_Clothing2>
+        <Color_Metal>80,75,90,255</Color_Metal>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m5_Amber.png</EyeTexture>
+        <InfoCardBackground>BG_EmpireRugged</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\F_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Male</SoundPack>
+        <TacticalModelScale>1.6</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m5_Amber.png</Texture_Eyes>
+        <Texture_Skin>F_Male_Weathered_Texture_01.png</Texture_Skin>
+        <UnitHairType>FallenMale</UnitHairType>
+    </UnitType>
+    <UnitType InternalName="Unit_Magic_Light_Trog_Quest">
+        <DisplayName>Maniac</DisplayName>
+        <RaceType>Race_Type_Trogs</RaceType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Male</Gender>
+        <AdditionalTrainingTurns>20</AdditionalTrainingTurns>
+        <IsSovereign>0</IsSovereign>
+        <IsStartingUnitType>0</IsStartingUnitType>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Trog</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Constitution</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Fast</SelectedAbilityBonusOption>
+        <Equipment>PlateVambraces_Maniac</Equipment>
+        <Equipment>F_Male_Head_07</Equipment>
+        <Backstory>These are Elemental's most fearsome warriors; bred for battle, taught to strike without mercy and to ignore pain, to banish the words 'caution' and 'surrender' from their vocabulary. Whether you engage them in single combat, or fight them in phalanxes, you will learn the truth of those words attributed to Iskahar, last of Ereog's line, as he lay dying on the steppes of Engar. 'It is no shame to perish to a superior foe."</Backstory>
+        <AnimationPack>SoldierAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>20</ClothPoseIndex>
+        <Color_Skin>120,120,120,255</Color_Skin>
+        <Color_Hair>190,190,190,255</Color_Hair>
+        <Color_Clothing1>150,150,150,255</Color_Clothing1>
+        <Color_Clothing2>50,50,50,255</Color_Clothing2>
+        <Color_Metal>80,75,90,255</Color_Metal>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m4_gold.png</EyeTexture>
+        <InfoCardBackground>BG_EmpireRugged</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\F_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Male</SoundPack>
+        <TacticalModelScale>1.9</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m4_gold.png</Texture_Eyes>
+        <Texture_Skin>Trog_Skin_M_02.png</Texture_Skin>
+        <UnitModelType>FallenMale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="Sovereign_Ceresa_Scenario">
+        <DisplayName>Oracle Ceresa</DisplayName>
+        <UnitDisplayName>Oracle Ceresa</UnitDisplayName>
+        <Class>Sovereign</Class>
+        <Allegiance>Empire</Allegiance>
+        <CreatureType>Champion</CreatureType>
+        <RaceType>Race_Type_Wraiths</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <FactionToLead>EmpireOfResoln</FactionToLead>
+        <Gender>Female</Gender>
+        <HasWages>0</HasWages>
+        <IsSovereign>1</IsSovereign>
+        <HasEssence>1</HasEssence>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>Unrest</Attribute>
+            <Value>-10</Value>
+            <Provides>-10% Unrest in the city this unit is in</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Map</ModType>
+            <Attribute>SummonUnit</Attribute>
+            <Value>1</Value>
+            <Multiplier>3</Multiplier>
+            <UnitClass>Unit_Spearman_Wraith</UnitClass>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Map</ModType>
+            <Attribute>SummonUnit</Attribute>
+            <Value>1</Value>
+            <Multiplier>3</Multiplier>
+            <UnitClass>Unit_Peasant_Wraith</UnitClass>
+        </GameModifier>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_HitPoints>15</UnitStat_HitPoints>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Wraith</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Summoner</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Death1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Death2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Death3</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Death4</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Water1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Water2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Water3</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Water4</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Attunement</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>SovereignBond</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Scarred</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>PathOfTheMage</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ArmorProficiency1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ArmorProficiency2</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>Staff_Freezing</AutoCreateEquipment>
+        <AutoCreateEquipment>PlateBreastpiece_Reinforced</AutoCreateEquipment>
+        <Equipment>K_Female_Head_04</Equipment>
+        <Equipment>K_Female_Slim_Hair</Equipment>
+        <Equipment>CeresaCloak</Equipment>
+        <Equipment>Basic_Wraith_Skirt_ID2</Equipment>
+        <Backstory>In the Temple of Destiny, in the center of once-great Cyndrum, the Oracle Ceresa can be found, wisest amongst the Fallen. She speaks for the last of the titans, the Dread Lord Talax. The oracle performs magics of the highest difficulty and pronounces prophecies for her people and those who seek her council.</Backstory>
+        <LorebookIntroText>You were born long ago, in the north of Anthys, a simple child, of simple people. But the gods blessed you with a gift - the ability to foretell the future. It was a blessing you neither asked for, nor desired. It took you from your home, to Odenvell, where warlords and statesmen, mages and masters-at-arms alike, came to the Temple raised in your honor bowing down before you, asking for your favor. But you shunned the power you had been given, and sought only solitude.
+		
+		Now you seek more. The world has changed, and you have changed with it. Power, you see now, is your birthright - your heritage - your destiny. You will use it to restore order to the world's chaos... and raise an Empire that will last a thousand years.</LorebookIntroText>
+        <LorebookIntroVoiceover>Intro_Ceresa</LorebookIntroVoiceover>
+        <AIMilitaryStrategy>Swordsman</AIMilitaryStrategy>
+        <PossibleAITrait>Unstable</PossibleAITrait>
+        <PossibleAITrait>Sorcerer</PossibleAITrait>
+        <Medallions InternalName="">
+            <All>F_Ceresa_Card_01.png</All>
+        </Medallions>
+        <AnimationPack>OracleCeresaAnimationPack</AnimationPack>
+        <AnimationParticleEffect>HeroPoseFront,_Particle_Ceresa_02,0.0,-2.0,0.0,2.0,EffectAttach</AnimationParticleEffect>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>23</ClothPoseIndex>
+        <Color_Clothing1>31,65,100,255</Color_Clothing1>
+        <Color_Clothing2>90,130,170,255</Color_Clothing2>
+        <Color_Hair>50,50,65,255</Color_Hair>
+        <Color_Metal>50,55,70,255</Color_Metal>
+        <Color_Skin>160,170,185,255</Color_Skin>
+        <CutSceneDataPack>Ceresa_CutscenePack</CutSceneDataPack>
+        <InfoCardBackground>BG_Chasm</InfoCardBackground>
+        <InfoCardBackgroundFlipped>0</InfoCardBackgroundFlipped>
+        <ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Ceresa</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_f2_violet.png</Texture_Eyes>
+        <Texture_Skin>K_Female_Tattoo_Texture_02.png</Texture_Skin>
+        <UnitModelType>WraithFemale</UnitModelType>
+    </UnitType>
+	<UnitType InternalName="Champion_Irane">
+        <DisplayName>Lady Irane</DisplayName>
+        <UnitDisplayName>Lady Irane</UnitDisplayName>
+        <Class>Adventurer</Class>
+        <Allegiance>Kingdom</Allegiance>
+        <CreatureType>Champion</CreatureType>
+        <RaceType>Race_Type_Tarthans</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Female</Gender>
+        <IsChampion>1</IsChampion>
+        <IsNPC>1</IsNPC>
+        <IsSovereign>0</IsSovereign>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>Unrest</Attribute>
+            <Value>-5</Value>
+            <Provides>-5% Unrest in the city this unit is in</Provides>
+        </GameModifier>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_HitPoints>15</UnitStat_HitPoints>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Tarth</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Hunter</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>PathOfTheAssassin</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Precision_Level</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Precision2_Level</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Precision3_Level</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>RainOfArrows</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ShadowStrike1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ShadowStrike2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ArmorProficiency1_Assassin</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Air1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Air2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Air3</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Air4</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Life1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Life2</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>YewLongbow_Brutal</AutoCreateEquipment>
+        <AutoCreateEquipment>ChainVambraces_Masterwork</AutoCreateEquipment>
+        <AutoCreateEquipment>ChainGreaves_Masterwork</AutoCreateEquipment>
+        <AutoCreateEquipment>ChainBoots_Masterwork</AutoCreateEquipment>
+        <AutoCreateEquipment>ChainBreastpiece_Masterwork</AutoCreateEquipment>
+        <AutoCreateEquipment>AmuletOfHaste</AutoCreateEquipment>
+        <Equipment>K_Female_Head_02</Equipment>
+        <Equipment>K_Female_Bob_Hair_Mesh_01</Equipment>
+        <Equipment>Ladies_Cape_ID1</Equipment>
+        <Backstory>This warrior-queen is the only child of the great Gladiator Tarth, for whom the country she now leads was named. Irane is, in many ways, her father's physical twin. She has the same features and is, in full armor, virtually the same size. Her entire life was spent living in his shadow; his presence, and absence, shaped her every action.</Backstory>
+        <Medallions InternalName="">
+            <All>K_Lady_Irane_Card_01.png</All>
+        </Medallions>
+        <AnimationPack>LadyIraneAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>32</ClothPoseIndex>
+        <Color_Clothing1>75,80,60,255</Color_Clothing1>
+        <Color_Clothing2>65,45,40,255</Color_Clothing2>
+        <Color_Hair>60,35,25,255</Color_Hair>
+        <Color_Metal>150,155,135,255</Color_Metal>
+        <Color_Skin>175,120,95,255</Color_Skin>
+        <CutSceneDataPack>LadyIrane_CutscenePack</CutSceneDataPack>
+        <InfoCardBackground>BG_Swamp</InfoCardBackground>
+        <InfoCardBackgroundFlipped>1</InfoCardBackgroundFlipped>
+        <ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Female</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_f3_grn.png</Texture_Eyes>
+        <Texture_Skin>NewTarthGirlSkin.png</Texture_Skin>
+        <UnitModelType>TarthanFemale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="Champion_Carrodus">
+        <DisplayName>General Carrodus</DisplayName>
+        <UnitDisplayName>General Carrodus</UnitDisplayName>
+        <Class>Adventurer</Class>
+        <Allegiance>Kingdom</Allegiance>
+        <CreatureType>Champion</CreatureType>
+        <RaceType>Race_Type_Mancers</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Male</Gender>
+        <HasWages>0</HasWages>
+        <IsChampion>1</IsChampion>
+        <IsNPC>1</IsNPC>
+        <IsSovereign>0</IsSovereign>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>Unrest</Attribute>
+            <Value>-5</Value>
+            <Provides>-5% Unrest in the city this unit is in</Provides>
+        </GameModifier>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_HitPoints>15</UnitStat_HitPoints>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Blood_Mancer</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>PathOfTheCommander</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>General</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Administrator1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Merchant1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Leadership1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Leadership2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Leadership3</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Spell_Command</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ArmorProficiency1_Commander</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Life1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Air1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Tactician</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Cautious</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>Broadsword_Silver</AutoCreateEquipment>
+        <AutoCreateEquipment>ChainBreastpiece_Masterwork</AutoCreateEquipment>
+        <AutoCreateEquipment>ChainBoots_Masterwork</AutoCreateEquipment>
+        <AutoCreateEquipment>ChainVambraces_Masterwork</AutoCreateEquipment>
+        <AutoCreateEquipment>ChainGreaves_Masterwork</AutoCreateEquipment>
+		<AutoCreateEquipment>KiteShield_Mirror</AutoCreateEquipment>
+        <AutoCreateEquipment>Warhorse</AutoCreateEquipment>
+        <Equipment>K_Male_Head_05</Equipment>
+        <Equipment>CarrodusGreatcoat</Equipment>
+        <Equipment>Sovereign_Short_Hair_03</Equipment>
+        <Backstory>Born somewhere in the Central Wastelands to parents he no longer remembers, Carrodus made his way to the city of Ruvenna as a youth. He worked as a pickpocket until he was old enough to be trained as a soldier in service to the Merchant-Lords of Surrane and Calder. He is a natural fighter and an inspiring leader of men.</Backstory>
+        <Medallions InternalName="">
+            <All>K_Carrodus_Card_01.png</All>
+        </Medallions>
+        <AnimationPack>GeneralCarrodusAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.6</ClothMapScale>
+        <ClothPoseIndex>12</ClothPoseIndex>
+        <Color_Clothing1>159,181,207,255</Color_Clothing1>
+        <Color_Clothing2>84,31,75,255</Color_Clothing2>
+        <Color_Hair>210,175,125,255</Color_Hair>
+        <Color_Metal>171,175,200,255</Color_Metal>
+        <Color_Skin>214,145,100,255</Color_Skin>
+        <CutSceneDataPack>Carrodus_CutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m4_grn.png</EyeTexture>
+        <InfoCardBackground>BG_KingdomBarren</InfoCardBackground>
+        <InfoCardBackgroundFlipped>0</InfoCardBackgroundFlipped>
+        <ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Male</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m4_grn.png</Texture_Eyes>
+        <Texture_Skin>K_Male_Warrior_Texture_01.png</Texture_Skin>
+        <UnitModelType>MancerMale</UnitModelType>
+    </UnitType>
+</UnitTypes>

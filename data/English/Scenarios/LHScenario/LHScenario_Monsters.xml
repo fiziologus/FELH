@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<UnitTypes>
+    <UnitType InternalName="AssassinDemon_Quest">
+        <DisplayName>Assassin Demon</DisplayName>
+        <CreatureType>Elemental</CreatureType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <IsSovereign>0</IsSovereign>
+        <HasWages>0</HasWages>
+        <SpawnRating>5</SpawnRating>
+        <MinSpawn>2</MinSpawn>
+        <MaxSpawn>6</MaxSpawn>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>17</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L2">
+            <Level>2</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>18</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>21</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L3">
+            <Level>3</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>19</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>7</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L4">
+            <Level>4</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>20</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>9</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>23</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L5">
+            <Level>5</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>21</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>11</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L6">
+            <Level>6</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>22</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>13</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>25</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L7">
+            <Level>7</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>23</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>15</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>26</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L8">
+            <Level>8</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>24</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>17</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>27</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L9">
+            <Level>9</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>25</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>19</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>28</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L10">
+            <Level>10</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>26</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>21</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>29</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L11">
+            <Level>11</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>27</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>23</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>30</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L12">
+            <Level>12</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>28</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>25</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>31</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L13">
+            <Level>13</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>29</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>27</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>32</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L14">
+            <Level>14</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>30</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>29</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>33</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L15">
+            <Level>15</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>31</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>31</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>34</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L16">
+            <Level>16</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>32</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>33</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>35</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L17">
+            <Level>17</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>33</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>35</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>36</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L18">
+            <Level>18</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>34</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>37</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>37</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L19">
+            <Level>19</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>35</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>39</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>38</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L20">
+            <Level>20</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>36</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>41</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>39</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>17</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>ImmuneToPoison</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Harbinger</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>VulnerableToLightning</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Dodge1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Dodge2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ImmuneToCounterattack</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Counterattack</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Endurance1</SelectedAbilityBonusOption>
+        <Treasure>
+            <Liklihood>100</Liklihood>
+            <GameModifier>
+                <ModType>GiveItem</ModType>
+                <Title></Title>
+                <Attribute>Loot_DemonHorn</Attribute>
+                <BoolVal1>1</BoolVal1>
+                <Value></Value>
+            </GameModifier>
+        </Treasure>
+        <Quote>To feel my touch is to feel no more.</Quote>
+        <Backstory>It was Curgen's brother, the Drednir known as Kir-Tion, who first summoned these creatures (known variously as Drednii, or Demons) to Elemental. Upon the very altar where Josryn the Elder received Great Ereog's blessing, Kir-Tion first bound and then sacrificed the Princess Lansa to open a portal to the outer planes... and through that portal came these monsters and their brethren (it should be noted that there are some channelers who believe that the Drednii are simply death magic made flesh, and not separate, sentient creatures). All demons draw their strength from devouring the life-force of other beings.
+
+Their horns are often used in various alchemical remedies and magical experiments, and are extremely valuable.</Backstory>
+        <Medallions InternalName="">
+            <All>M_AssassinDemon_01_Card.png</All>
+        </Medallions>
+        <AnimationPack>DemonAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.5</ClothMapScale>
+        <Color_Skin>25,20,20,255</Color_Skin>
+        <CutSceneDataPack>AssassinDemonUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG18_Dark</InfoCardBackground>
+        <MaxScaleMainMap>1.08</MaxScaleMainMap>
+        <MaxScaleTacticalMap>1</MaxScaleTacticalMap>
+        <ModelPath>gfx/hkb/Monsters/M_Demon_Mesh_01.hkb</ModelPath>
+        <ModelScale>1.5</ModelScale>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Demon1</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Skin>M_Demon_Texture_01.png</Texture_Skin>
+    </UnitType>
+    <UnitType InternalName="CyndrumDemon_Ancient_Quest">
+        <DisplayName>Ancient Cyndrum Demon</DisplayName>
+        <CreatureType>Elemental</CreatureType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <IsSovereign>0</IsSovereign>
+        <HasWages>0</HasWages>
+        <SpawnRating>5</SpawnRating>
+        <IsLimitedUnitType>1</IsLimitedUnitType>
+        <AdditionalTrainingTurns>300</AdditionalTrainingTurns>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>9</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L2">
+            <Level>2</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>10</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L3">
+            <Level>3</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>11</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L4">
+            <Level>4</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>12</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L5">
+            <Level>5</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>13</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L6">
+            <Level>6</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>14</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L7">
+            <Level>7</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>15</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L8">
+            <Level>8</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>16</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L9">
+            <Level>9</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>17</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L10">
+            <Level>10</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>18</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L11">
+            <Level>11</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>19</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L12">
+            <Level>12</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>20</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L13">
+            <Level>13</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>21</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L14">
+            <Level>14</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>22</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L15">
+            <Level>15</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>23</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L16">
+            <Level>16</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>24</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L17">
+            <Level>17</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>25</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L18">
+            <Level>18</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>26</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L19">
+            <Level>19</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>27</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L20">
+            <Level>20</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>28</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>4</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>ImmuneToPoison</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>VulnerableToLightning</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>UndyingCurse</SelectedAbilityBonusOption>
+        <Backstory>Though the Titans brought death magic to this world, it was the Empress Ceresa who mastered it. She used these energies to corrupt and transform the minor Elementals of this world, twisting their powers to suit her own needs. 
+
+According to Ezmir, Cyndrum was the most heavily guarded of all entrances to N'it'Vaganesh - the laboratory of the damned, where first Curgen and then Morrigan the Mad made monsters from the creatures of Elemental. These demons are said to have been fashioned by Ceresa using the arcane tools she found in Cyndrum's ruins. For every soldier they kill, demons summoned in this manner are able to add another of their own kind to their forces.</Backstory>
+        <Medallions InternalName="">
+            <All>M_CyndrumDemon_Ancient_Card_01.png</All>
+        </Medallions>
+        <AnimationPack>DemonAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.5</ClothMapScale>
+        <Color_Skin>25,20,20,255</Color_Skin>
+        <CutSceneDataPack>AssassinDemonUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG18_Dark</InfoCardBackground>
+        <LightMap>M_Demon_Resoln_Texture_L_01.dds</LightMap>
+        <MaxScaleMainMap>1.08</MaxScaleMainMap>
+        <MaxScaleTacticalMap>1</MaxScaleTacticalMap>
+        <ModelPath>gfx/hkb/Monsters/M_Demon_Mesh_01.hkb</ModelPath>
+        <ModelScale>1.4</ModelScale>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Demon1</SoundPack>
+        <TacticalModelScale>1.4</TacticalModelScale>
+        <Texture_Skin>M_Demon_Resoln_Texture_01.dds</Texture_Skin>
+    </UnitType>
+    <UnitType InternalName="BurningWraith_Ancient_Quest">
+        <DisplayName>Ancient Burning Wraith</DisplayName>
+        <CreatureType>Elemental</CreatureType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <IsSovereign>0</IsSovereign>
+        <AllowGrouping>0</AllowGrouping>
+        <HasWages>0</HasWages>
+        <SpawnRating>7</SpawnRating>
+        <IsLimitedUnitType>1</IsLimitedUnitType>
+        <AdditionalTrainingTurns>300</AdditionalTrainingTurns>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>MeleeDefenseAppliesSpell</Attribute>
+            <StrVal>MantleOfFire_Effect</StrVal>
+        </GameModifier>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>3</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>5</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>16</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L2">
+            <Level>2</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>4</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>6</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>17</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L3">
+            <Level>3</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>5</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>7</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>18</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L4">
+            <Level>4</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>6</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>8</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>19</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L5">
+            <Level>5</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>7</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>9</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L6">
+            <Level>6</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>8</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>10</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>21</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L7">
+            <Level>7</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>9</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>11</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L8">
+            <Level>8</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>10</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>12</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>23</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L9">
+            <Level>9</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>11</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>13</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L10">
+            <Level>10</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>12</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>14</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>25</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L11">
+            <Level>11</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>13</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>15</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>26</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L12">
+            <Level>12</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>14</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>16</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>27</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L13">
+            <Level>13</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>15</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>17</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>28</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L14">
+            <Level>14</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>16</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>18</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>29</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L15">
+            <Level>15</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>17</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>19</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>30</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L16">
+            <Level>16</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>18</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>20</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>31</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L17">
+            <Level>17</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>19</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>21</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>32</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L18">
+            <Level>18</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>20</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>22</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>33</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L19">
+            <Level>19</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>21</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>23</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>34</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L20">
+            <Level>20</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>22</UnitStat_Attack_Pierce>
+            <UnitStat_Attack_Fire>24</UnitStat_Attack_Fire>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>35</UnitStat_CombatSpeed>
+            <UnitStat_HitPoints>20</UnitStat_HitPoints>
+            <UnitStat_Moves>3</UnitStat_Moves>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>ImmuneToPoison</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ImmuneToFire</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>VulnerableToCold</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Spell_FeedTheFire</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Endurance1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Endurance2</SelectedAbilityBonusOption>
+        <Backstory>Every channeler hears the call of fire.  It is eager, violent and hungry.  It yearns to consume, to grow and ravage the wilds, to burn cities until there is nothing left but ash.  It is easy to summon, but difficult to control.
+
+With this in mind, Ceresa led her most loyal handmaiden to a fire shrine.  Ceresa bound her in the runes of Resoln and summoned a fire elemental into the young girl's pale, white flesh.
+
+The screams echoed through Cyndrum as the girl's body melted like wax.  By the time the screams ended she was reborn as something terrible and cruel, but faithfully devoted to Ceresa.</Backstory>
+        <Medallions InternalName="">
+            <All>M_BurningWraith_Ancient_Card_01.png</All>
+        </Medallions>
+        <AnimationPack>WraithAnimationPack</AnimationPack>
+        <AnimationParticleEffect>Awaken,_FireElemental_Awaken_01,0.0,50.0,0.0,1.0</AnimationParticleEffect>
+        <BattleAnimationBehavior>Stationary</BattleAnimationBehavior>
+        <ClothMapScale>1</ClothMapScale>
+        <Color_Clothing1>12,15,19</Color_Clothing1>
+        <Color_Skin>28,30,33,255</Color_Skin>
+        <CutSceneDataPack>ElementalUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG13_Volcanic</InfoCardBackground>
+        <LightMap>M_Fire_Elemental_Resoln_Texture_L_01.dds</LightMap>
+        <ModelPath>M_Fire_Elemental_Mesh_01.hkb</ModelPath>
+        <ModelScale>0.8</ModelScale>
+        <ShowAsSingleUnit>1</ShowAsSingleUnit>
+        <SkeletonPath>Gfx\HKB\Monsters\M_SuperDemon_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_BurningWraith</SoundPack>
+        <TacticalModelScale>1.1</TacticalModelScale>
+        <Texture_Skin>M_Fire_Elemental_Resoln_Texture_01.dds</Texture_Skin>
+    </UnitType>
+    <UnitType InternalName="DeathDemon_Quest">
+        <DisplayName>Death Demon</DisplayName>
+        <CreatureType>Elemental</CreatureType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <IsSovereign>0</IsSovereign>
+        <HasWages>0</HasWages>
+        <SpawnRating>9</SpawnRating>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>18</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>20</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L2">
+            <Level>2</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>20</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>21</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L3">
+            <Level>3</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>22</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>22</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L4">
+            <Level>4</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>24</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>23</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L5">
+            <Level>5</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>26</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>24</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L6">
+            <Level>6</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>28</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>25</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L7">
+            <Level>7</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>30</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>26</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L8">
+            <Level>8</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>32</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>27</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L9">
+            <Level>9</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>34</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>28</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L10">
+            <Level>10</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>36</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>29</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L11">
+            <Level>11</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>38</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>30</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L12">
+            <Level>12</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>40</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>31</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L13">
+            <Level>13</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>42</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>32</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L14">
+            <Level>14</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>44</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>33</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L15">
+            <Level>15</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>46</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>34</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L16">
+            <Level>16</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>48</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>35</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L17">
+            <Level>17</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>50</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>36</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L18">
+            <Level>18</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>52</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>37</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L19">
+            <Level>19</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>54</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>38</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L20">
+            <Level>20</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>56</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>5</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>39</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>14</UnitStat_HitPoints>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Large</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ImmuneToPoison</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Overpower</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>VulnerableToLightning</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>SpellResistance</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ImmuneToCounterattack</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>UncontrolledRage</SelectedAbilityBonusOption>
+        <Quote>I feed on death and thrive on sorrow.</Quote>
+        <Backstory>It was Curgen's brother, the Drednir known as Kir-Tion, who first summoned these creatures (known variously as Drednii, or Demons) to Elemental. Upon the very altar where Josryn the Elder received Great Ereog's blessing, Kir-Tion first bound and then sacrificed the Princess Lansa to open a portal to the outer planes... and through that portal came these monsters and their brethren (it should be noted that there are some channelers who believe that the Drednii are simply death magic made flesh, and not separate, sentient creatures). All demons draw their strength from devouring the life-force of other beings.
+
+The horns of these creatures are often used in various alchemical remedies and magical experiments, and are extremely valuable.</Backstory>
+        <Medallions InternalName="">
+            <All>M_SuperDemon_Card.png</All>
+        </Medallions>
+        <AnimationPack>SuperDemonAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1</ClothMapScale>
+        <Color_Skin>35,30,30,255</Color_Skin>
+        <CutSceneDataPack>DeathDemonUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG15_Dark</InfoCardBackground>
+        <ModelPath>gfx/hkb/Monsters/M_SuperDemon_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <SkeletonPath>Gfx\HKB\Monsters\M_SuperDemon_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_SuperDemon1</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Skin>M_SuperDemon_Texture_01.png</Texture_Skin>
+    </UnitType>
+    <UnitType InternalName="LivingStatue_Empire">
+        <DisplayName>Living Statue</DisplayName>
+        <CreatureType>Construct</CreatureType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <IsSovereign>0</IsSovereign>
+        <AllowGrouping>0</AllowGrouping>
+        <HasWages>0</HasWages>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <SpawnRating>8</SpawnRating>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>0</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>20</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L2">
+            <Level>2</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>2</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>21</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L3">
+            <Level>3</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>4</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>22</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L4">
+            <Level>4</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>6</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>23</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L5">
+            <Level>5</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>8</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>24</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L6">
+            <Level>6</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>10</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>25</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L7">
+            <Level>7</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>12</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>26</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L8">
+            <Level>8</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>14</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>27</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L9">
+            <Level>9</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>16</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>28</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L10">
+            <Level>10</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>18</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>29</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L11">
+            <Level>11</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>20</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>30</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L12">
+            <Level>12</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>22</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>31</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L13">
+            <Level>13</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>24</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>32</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L14">
+            <Level>14</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>26</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>33</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L15">
+            <Level>15</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>28</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>34</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L16">
+            <Level>16</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>30</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>35</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L17">
+            <Level>17</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>32</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>36</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L18">
+            <Level>18</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>34</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>37</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L19">
+            <Level>19</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>36</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>38</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L20">
+            <Level>20</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>38</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>39</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Large</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ImmuneToPoison</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ImmuneToCriticals</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>SovereignBond</SelectedAbilityBonusOption>
+        <Equipment>Mace_Golem</Equipment>
+        <Backstory>Within the third quarto of the Varis Reliquaria is contained the spell Anima Tsal Animana - life from lifelessness. This incantation, first mastered by Ereog in his time of solitude, imbues stone with the semblance of life. 
+
+A Guardian Idol is the next stage of that design.  It is not only given a portion of life by its enchanter, but a portion of their power as well.  And through the Idol, the enchanters' magic can act.</Backstory>
+        <Medallions InternalName="">
+            <All>M_GuardianIdolEmpire.png</All>
+        </Medallions>
+        <AnimationPack>ScrapGolemAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Stationary</BattleAnimationBehavior>
+        <ClothMapScale>1.5</ClothMapScale>
+        <Color_Skin>40,45,50,55</Color_Skin>
+        <CutSceneDataPack>GolemUnitCutscenePack</CutSceneDataPack>
+        <EquipmentScale>0.8</EquipmentScale>
+        <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG28_Capitar</InfoCardBackground>
+        <MaxScaleMainMap>0.96</MaxScaleMainMap>
+        <ModelPath>gfx/hkb/Monsters/M_Fallen_Guardian_Ward_Mesh_01.hkb</ModelPath>
+        <ModelScale>4</ModelScale>
+        <OnAttackParticleName>Golem_Attack</OnAttackParticleName>
+        <OnHitParticleName>Golem_Hit</OnHitParticleName>
+        <ShowAsSingleUnit>1</ShowAsSingleUnit>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Golem1</SoundPack>
+        <TacticalModelScale>6</TacticalModelScale>
+        <Texture_Skin>M_Fallen_Guardian_Texture_01.png</Texture_Skin>
+        <UnitModelType>IronGolem</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="LivingStatue_Kingdom">
+        <DisplayName>Living Statue</DisplayName>
+        <CreatureType>Construct</CreatureType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <IsSovereign>0</IsSovereign>
+        <AllowGrouping>0</AllowGrouping>
+        <HasWages>0</HasWages>
+        <SpawnRating>8</SpawnRating>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>0</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>20</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L2">
+            <Level>2</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>2</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>21</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L3">
+            <Level>3</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>4</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>22</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L4">
+            <Level>4</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>6</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>23</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L5">
+            <Level>5</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>8</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>24</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L6">
+            <Level>6</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>10</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>25</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L7">
+            <Level>7</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>12</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>26</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L8">
+            <Level>8</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>14</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>27</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L9">
+            <Level>9</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>16</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>28</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L10">
+            <Level>10</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>18</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>29</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L11">
+            <Level>11</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>20</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>30</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L12">
+            <Level>12</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>22</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>31</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L13">
+            <Level>13</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>24</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>32</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L14">
+            <Level>14</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>26</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>33</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L15">
+            <Level>15</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>28</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>34</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L16">
+            <Level>16</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>30</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>35</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L17">
+            <Level>17</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>32</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>36</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L18">
+            <Level>18</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>34</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>37</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L19">
+            <Level>19</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>36</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>38</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L20">
+            <Level>20</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>38</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Pierce>39</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Large</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ImmuneToPoison</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ImmuneToCriticals</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>SovereignBond</SelectedAbilityBonusOption>
+        <Equipment>Longsword_Golem</Equipment>
+        <Backstory>Within the third quarto of the Varis Reliquaria is contained the spell Anima Tsal Animana - life from lifelessness. This incantation, first mastered by Ereog in his time of solitude, imbues stone with the semblance of life. 
+
+A Guardian Idol is the next stage of that design.  It is not only given a portion of life by its enchanter, but a portion of their power as well.  And through the Idol, the enchanters' magic can act.</Backstory>
+        <Medallions InternalName="">
+            <All>M_GuardianIdolKingdom.png</All>
+        </Medallions>
+        <AnimationPack>ScrapGolemAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Stationary</BattleAnimationBehavior>
+        <ClothMapScale>1.5</ClothMapScale>
+        <Color_Skin>40,45,50,55</Color_Skin>
+        <CutSceneDataPack>GolemUnitCutscenePack</CutSceneDataPack>
+        <EquipmentScale>0.8</EquipmentScale>
+        <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG49_FallenCastle</InfoCardBackground>
+        <MaxScaleMainMap>0.96</MaxScaleMainMap>
+        <ModelPath>gfx/hkb/Monsters/M_Kingdom_Guardian_Ward_Mesh_01.hkb</ModelPath>
+        <ModelScale>4</ModelScale>
+        <OnAttackParticleName>Golem_Attack</OnAttackParticleName>
+        <OnHitParticleName>Golem_Hit</OnHitParticleName>
+        <ShowAsSingleUnit>1</ShowAsSingleUnit>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Golem1</SoundPack>
+        <TacticalModelScale>6</TacticalModelScale>
+        <Texture_Skin>M_Kingdom_Guardian_Texture_01.png</Texture_Skin>
+        <UnitModelType>IronGolem</UnitModelType>
+    </UnitType>
+</UnitTypes>

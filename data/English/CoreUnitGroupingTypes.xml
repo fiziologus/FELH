@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<UnitGroupingTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName</Ignore>
+        <Translate>DisplayName</Translate>
+    </DataChecksum>
+    <UnitGroupingType InternalName="UnitGroupingType_Single">
+        <DisplayName>Individual</DisplayName>
+        <TroopCount>1</TroopCount>
+        <IsAllowedForTraining>0</IsAllowedForTraining>
+        <BaseTurnsToTrain>0</BaseTurnsToTrain>
+        <WageMultiplier>1.0</WageMultiplier>
+        <IconFile>Individual.png</IconFile>
+		    <PewterStandModel>Gfx//HKB//Stands//Stand_Circle_01.hkb</PewterStandModel>
+    </UnitGroupingType>
+  <UnitGroupingType InternalName="UnitGroupingType_Pair">
+    <DisplayName>Pair</DisplayName>
+    <TroopCount>2</TroopCount>
+    <IsAllowedForTraining>0</IsAllowedForTraining>
+    <BaseTurnsToTrain>0</BaseTurnsToTrain>
+    <WageMultiplier>2.0</WageMultiplier>
+    <IconFile>Party.png</IconFile>
+    <PewterStandModel>Gfx//HKB//Stands//Stand_Square_01.hkb</PewterStandModel>
+  </UnitGroupingType>
+    <UnitGroupingType InternalName="UnitGroupingType_Party">
+		<DisplayName>Party</DisplayName>
+		<Description>Can train parties of 3 units</Description>
+        <TroopCount>3</TroopCount>
+        <BaseTurnsToTrain>0</BaseTurnsToTrain>
+        <WageMultiplier>3.0</WageMultiplier>
+        <IconFile>Party.png</IconFile>
+        <PewterStandModel>Gfx//HKB//Stands//Stand_Square_01.hkb</PewterStandModel>
+    </UnitGroupingType>
+	<UnitGroupingType InternalName="UnitGroupingType_Group">
+		<DisplayName>Group</DisplayName>
+		<Description>Can train groups of 4 units</Description>
+		<TroopCount>4</TroopCount>
+		<BaseTurnsToTrain>0</BaseTurnsToTrain>
+		<WageMultiplier>4.0</WageMultiplier>
+		<IconFile>Squad.png</IconFile>
+		<PewterStandModel>Gfx//HKB//Stands//Stand_Square_01.hkb</PewterStandModel>
+		<Prereq>
+			<Type>Tech</Type>
+			<Target>Player</Target>
+			<Attribute>Cooperation</Attribute>
+		</Prereq>
+	</UnitGroupingType>
+	<UnitGroupingType InternalName="UnitGroupingType_Squad">
+		<DisplayName>Squad</DisplayName>
+		<Description>Can train squads of 5 units</Description>
+		<TroopCount>5</TroopCount>
+		<IconFile>Company.png</IconFile>
+		<BaseTurnsToTrain>0</BaseTurnsToTrain>
+		<WageMultiplier>5.0</WageMultiplier>
+		<PewterStandModel>Gfx//HKB//Stands//Stand_Shield_01.hkb</PewterStandModel>
+		<Prereq>
+			<Type>Tech</Type>
+			<Target>Player</Target>
+			<Attribute>Logistics</Attribute>
+		</Prereq>
+	</UnitGroupingType>
+	<UnitGroupingType InternalName="UnitGroupingType_Company">
+		<DisplayName>Company</DisplayName>
+		<Description>Can train companies of 6 units</Description>
+		<TroopCount>6</TroopCount>
+		<BaseTurnsToTrain>0</BaseTurnsToTrain>
+		<WageMultiplier>6.0</WageMultiplier>
+		<IconFile>Company.png</IconFile>
+		<PewterStandModel>Gfx//HKB//Stands//Stand_Shield_01.hkb</PewterStandModel>
+		<Prereq>
+			<Type>Tech</Type>
+			<Target>Player</Target>
+			<Attribute>Company</Attribute>
+		</Prereq>
+	</UnitGroupingType>
+  <UnitGroupingType InternalName="UnitGroupingType_Seven">
+    <DisplayName>Seven</DisplayName>
+    <TroopCount>7</TroopCount>
+    <IsAllowedForTraining>0</IsAllowedForTraining>
+    <BaseTurnsToTrain>0</BaseTurnsToTrain>
+    <WageMultiplier>5.0</WageMultiplier>
+    <IconFile>Company.png</IconFile>
+    <PewterStandModel>Gfx//HKB//Stands//Stand_Shield_01.hkb</PewterStandModel>
+  </UnitGroupingType>
+  <UnitGroupingType InternalName="UnitGroupingType_Eight">
+    <DisplayName>Eight</DisplayName>
+    <TroopCount>8</TroopCount>
+    <IsAllowedForTraining>0</IsAllowedForTraining>
+    <BaseTurnsToTrain>0</BaseTurnsToTrain>
+    <WageMultiplier>5.25</WageMultiplier>
+    <IconFile>Company.png</IconFile>
+    <PewterStandModel>Gfx//HKB//Stands//Stand_Square_01.hkb</PewterStandModel>
+  </UnitGroupingType>
+</UnitGroupingTypes>

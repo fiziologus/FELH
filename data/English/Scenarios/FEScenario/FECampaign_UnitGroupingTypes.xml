@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<UnitGroupingTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName</Ignore>
+        <Translate>DisplayName</Translate>
+    </DataChecksum>
+    <UnitGroupingType InternalName="UnitGroupingType_Single">
+        <DisplayName>Individual</DisplayName>
+        <TroopCount>1</TroopCount>
+        <IsAllowedForTraining>0</IsAllowedForTraining>
+        <BaseTurnsToTrain>0</BaseTurnsToTrain>
+        <WageMultiplier>1.0</WageMultiplier>
+        <IconFile>Individual.png</IconFile>
+		    <PewterStandModel>Gfx//HKB//Stands//Stand_Circle_01.hkb</PewterStandModel>
+    </UnitGroupingType>
+	<UnitGroupingType InternalName="FEC_UnitGroupingType_Group">
+		<DisplayName>Group</DisplayName>
+		<Description>Can train groups of 4 units</Description>
+		<TroopCount>4</TroopCount>
+		<BaseTurnsToTrain>0</BaseTurnsToTrain>
+		<WageMultiplier>3.5</WageMultiplier>
+		<IconFile>Squad.png</IconFile>
+		<PewterStandModel>Gfx//HKB//Stands//Stand_Square_01.hkb</PewterStandModel>
+		<Prereq>
+			<Type>Tech</Type>
+			<Target>Player</Target>
+			<Attribute>FEC_TECH_Cooperation</Attribute>
+		</Prereq>
+	</UnitGroupingType>
+</UnitGroupingTypes>

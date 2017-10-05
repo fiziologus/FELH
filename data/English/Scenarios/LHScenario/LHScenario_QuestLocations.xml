@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<QuestLocations>
+    <DataChecksum NoParse="1">
+        <Ignore>DispName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <QuestLocationType InternalName="QuestLoc_Pool">
+        <Name>Scrying Pool</Name>
+        <Description>A scrying pool made of crumbling blocks.  Despite its age the water is still clear and blue.</Description>
+        <Unique>1</Unique>
+        <Rarity>-1</Rarity>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>K_Scrying_Pool_01</TileDesign>
+        <DrawnIcon>Quest_GreatArena.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Water_Elemental_Lair</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>G_Swamp_Fountain_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_FrogAltar">
+        <Name>Frog Altar</Name>
+        <Description>An altar worshiped in a less civilized time.</Description>
+        <Unique>1</Unique>
+        <Rarity>-1</Rarity>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_FrogAltar_01</TileDesign>
+        <DrawnIcon>Quest_GreatArena.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Arena</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_FrogAltar.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Pier">
+        <Name>Pier</Name>
+        <Description>A hastily constructed pier.</Description>
+        <Rarity>-1</Rarity>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>F_Pier_01</TileDesign>
+        <DrawnIcon>Improvement_Pier.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Arena</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Tech_Seafaring.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Well">
+        <Name>Ancient Well</Name>
+        <Description>An ancient wishing well from a time when magic flowed freely across Elemental.</Description>
+        <Unique>1</Unique>
+        <Rarity>-1</Rarity>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Well_01</TileDesign>
+        <DrawnIcon>Improvement_Well.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Arena</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Artifact_Well1.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Forge">
+        <Name>Forge of the Overlord</Name>
+        <Description>Though much credit is given to Ereog, it was Argynn who first concieved of the Forge, and to him that we owe the blame for all that it unleashed.</Description>
+        <Unique>1</Unique>
+        <Rarity>-1</Rarity>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>K_Forge_of_the_Overlord_01</TileDesign>
+        <DrawnIcon>Improvement_ForgeOfTheOverlord.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Arena</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_ForgeOfTheOverlord.png</All>
+        </Medallions>
+    </QuestLocationType>
+</QuestLocations>

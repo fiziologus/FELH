@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  - STRING PLACEHOLDERS -
+  
+  [S_FactionName] the name of the speaker's faction
+  [S_FactionShortName] the short name of the speaker's faction (Kraxis, Altar, etc)
+  [S_LeaderName] the name of the speaker
+  [S_LastResearchedTech] the most recently unlocked tech milestone of the speaker's faction
+  
+  [L_FactionName] listener's faction name
+  [L_FactionShortName] the short name of the listener's faction (Kraxis, Altar, etc)
+  [L_LeaderName] listener's sovereign name
+  [L_LastResearchedTech] the most recently unlocked tech milestone of the listener's faction
+  
+  [WorldName] the name of the world
+  
+  ____________________________________________
+  
+  - RULES (Mostly for use with Generic Race conversations) -
+  
+  - Race of Men -
+  0  - A Kingdom speaking
+  1  - A Kingdom speaking to another Kingdom
+  2  - A Kingdom speaking to a Fallen nation
+  
+  - Fallen Race -
+  10 - A Fallen race speaking
+  11 - A Fallen race speaking to another Fallen Race
+  12 - A Fallen Race speaking to a Kingdom nation
+  
+  - Military Might -
+  20 - Speaker has a MUCH STRONGER Military than the Listener
+  21 - Speaker has a Slightly STRONGER Military than the Listener
+  22 - Speaker has approximatly EQUAL Military Might as the Listener
+  23 - Speaker has a Slightly WEAKER Military than the Listener
+  24 - Speaker has a MUCH WEAKER Military than the Listeners
+  
+  - Diplomatic Skill -
+  30 - Speaker is MUCH MORE DIPLOMATIC than the Listener
+  31 - Speaker is SLIGHTLY MORE DIPLOMATIC than the Listener
+  31 - Speaker is EQUALLY DIPLOMATIC than the Listener
+  33 - Speaker is SLIGHTLY LESS DIPLOMATIC than the Listener
+  34 - Speaker is MUCH LESS DIPLOMATIC than the Listener
+  
+  <RevisitedTopicBarrier>
+  This is the number of times a topic is triggered by these two races before the given flavor text will be used.
+  
+  <RelationsMax>
+  <RelationsMin>
+  The span of relations that this text will be used for.
+  1- Permanent War
+  2- War
+  3- Hostile
+  4- Unfriendly
+  5- Cool
+  6- Neutral
+  7- Warm
+  8- Friendly
+  9- Close
+  10- Ally
+  11- Team
+  -->
+
+
+<FlavorTextEntries>
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName, ShortName, Capitol, Description, UnitSkinColor, UnitHairColor, UnitClothColor, BuildingPrimaryColor, BuildingSecondaryColor, BuildingRoofColor, BuildingStyle, UnitStyle, WorkerName</Ignore>
+    <Translate>DisplayName, ShortName, Capitol, Description, WorkerName</Translate>
+  </DataChecksum>
+
+
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Accepted_Receive_Tribute</Topic>
+    <Text>It is good to see [L_LeaderName] showing a little humility and respect. Your tribute demonstrates that [L_FactionShortName] may be worthy of continued existence. For now.</Text>
+  </FlavorText>
+  
+  
+  
+  
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Accepted_Receive_Tribute</Topic>
+    <Text>It is good to see [L_LeaderName] showing a little humility and respect. Your tribute demonstrates that [L_FactionShortName] may be worthy of continued existence. For now.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Rejected_Receive_Tribute</Topic>
+    <Text>Your newfound humility comes too late, [L_LeaderName]. We have already decided that you are unworthy of continued existence.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Rejected_Demand_Surrender</Topic>
+    <Text>You cannot be serious. Our armies will destroy you.</Text>
+    <Text>Is that a joke? We will crush you.</Text>
+    <Text>I will remember your demand when I see your head on a pike.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Rejected_Demand_Surrender_TooEarly</Topic>
+    <Text>We are not ready to surrender. We shall fight on.</Text>
+    <Text>You overestimate your chances. We have...secret weapons coming.</Text>
+    <Text>You think you have beaten me? You think you have won? You shall see. Oh yes. You shall see.</Text>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Rejected_Offer_Surrender</Topic>
+    <Text>You are not worthy to accept a surrender from.</Text>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Rejected_Demand_Tribute</Topic>
+    <Text>I did not know that [L_LeaderName] had such a sense of humor.</Text>
+  </FlavorText>
+  
+</FlavorTextEntries>

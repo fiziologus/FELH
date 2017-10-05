@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Quests>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName,Description,SuccessText,FailureText</Translate>
+	</DataChecksum>
+	<QuestDef InternalName="GameEvent_Champion_1">
+		<DisplayName>Champions Available</DisplayName>
+		<QuestClass>Minor</QuestClass>
+		<Repeatable>0</Repeatable>
+		<TriggerType>FactionResourceLevel</TriggerType>
+		<TriggerStringData>Fame</TriggerStringData>
+		<TriggerData>3</TriggerData>
+		<DoNotDisplayStartPopup>1</DoNotDisplayStartPopup>
+		<!--<Description>Your fame has grown far and wide, attracting Legendary Heroes to your cause.  But only one will join your service.</Description>-->
+		<!--<FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>-->
+		<Treasure>
+			<GameModifier InternalName="Reward1">
+				<ModType>Player</ModType>
+				<Attribute>RecruitFreeChampion</Attribute>
+				<Value>1</Value>
+			</GameModifier>
+		</Treasure>
+		<QuestObjectiveDef>
+			<ObjectiveID>0</ObjectiveID>
+			<QuestEnd>1</QuestEnd>
+		</QuestObjectiveDef>
+	</QuestDef>
+	<QuestDef InternalName="GameEvent_Champion_2">
+		<DisplayName>Champions Available</DisplayName>
+		<QuestClass>Minor</QuestClass>
+		<Repeatable>0</Repeatable>
+		<TriggerType>FactionResourceLevel</TriggerType>
+		<TriggerStringData>Fame</TriggerStringData>
+		<TriggerData>50</TriggerData>
+		<DoNotDisplayStartPopup>1</DoNotDisplayStartPopup>
+		<!--<Description>Your fame has grown far and wide, attracting Legendary Heroes to your cause.  But only one will join your service.</Description>-->
+		<!--<FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>-->
+		<Treasure>
+			<GameModifier InternalName="Reward1">
+				<ModType>Player</ModType>
+				<Attribute>RecruitFreeChampion</Attribute>
+				<Value>3</Value>
+			</GameModifier>
+		</Treasure>
+		<QuestObjectiveDef>
+			<ObjectiveID>0</ObjectiveID>
+			<QuestEnd>1</QuestEnd>
+		</QuestObjectiveDef>
+	</QuestDef>
+	<QuestDef InternalName="GameEvent_Champion_3">
+		<DisplayName>Champions Available</DisplayName>
+		<QuestClass>Minor</QuestClass>
+		<Repeatable>0</Repeatable>
+		<TriggerType>FactionResourceLevel</TriggerType>
+		<TriggerStringData>Fame</TriggerStringData>
+		<TriggerData>100</TriggerData>
+		<DoNotDisplayStartPopup>1</DoNotDisplayStartPopup>
+		<!--<Description>Your fame has grown far and wide, attracting Legendary Heroes to your cause.  But only one will join your service.</Description>-->
+		<!--<FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>-->
+		<Treasure>
+			<GameModifier InternalName="Reward1">
+				<ModType>Player</ModType>
+				<Attribute>RecruitFreeChampion</Attribute>
+				<Value>5</Value>
+			</GameModifier>
+		</Treasure>
+		<QuestObjectiveDef>
+			<ObjectiveID>0</ObjectiveID>
+			<QuestEnd>1</QuestEnd>
+		</QuestObjectiveDef>
+	</QuestDef>
+	<QuestDef InternalName="GameEvent_Champion_4">
+		<DisplayName>Champions Available</DisplayName>
+		<QuestClass>Minor</QuestClass>
+		<Repeatable>0</Repeatable>
+		<TriggerType>FactionResourceLevel</TriggerType>
+		<TriggerStringData>Fame</TriggerStringData>
+		<TriggerData>200</TriggerData>
+		<DoNotDisplayStartPopup>1</DoNotDisplayStartPopup>
+		<!--<Description>Your fame has grown far and wide, attracting Legendary Heroes to your cause.  But only one will join your service.</Description>-->
+		<!--<FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>-->
+		<Treasure>
+			<GameModifier InternalName="Reward1">
+				<ModType>Player</ModType>
+				<Attribute>RecruitFreeChampion</Attribute>
+				<Value>7</Value>
+			</GameModifier>
+		</Treasure>
+		<QuestObjectiveDef>
+			<ObjectiveID>0</ObjectiveID>
+			<QuestEnd>1</QuestEnd>
+		</QuestObjectiveDef>
+	</QuestDef>
+	<QuestDef InternalName="GameEvent_Champion_5">
+		<DisplayName>Champions Available</DisplayName>
+		<QuestClass>Minor</QuestClass>
+		<Repeatable>0</Repeatable>
+		<TriggerType>FactionResourceLevel</TriggerType>
+		<TriggerStringData>Fame</TriggerStringData>
+		<TriggerData>400</TriggerData>
+		<DoNotDisplayStartPopup>1</DoNotDisplayStartPopup>
+		<!--<Description>Your fame has grown far and wide, attracting Legendary Heroes to your cause.  But only one will join your service.</Description>-->
+		<!--<FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>-->
+		<Treasure>
+			<GameModifier InternalName="Reward1">
+				<ModType>Player</ModType>
+				<Attribute>RecruitFreeChampion</Attribute>
+				<Value>9</Value>
+			</GameModifier>
+		</Treasure>
+		<QuestObjectiveDef>
+			<ObjectiveID>0</ObjectiveID>
+			<QuestEnd>1</QuestEnd>
+		</QuestObjectiveDef>
+	</QuestDef>
+	<QuestDef InternalName="GameEvent_Champion_6">
+		<DisplayName>Champions Available</DisplayName>
+		<QuestClass>Minor</QuestClass>
+		<Repeatable>0</Repeatable>
+		<TriggerType>FactionResourceLevel</TriggerType>
+		<TriggerStringData>Fame</TriggerStringData>
+		<TriggerData>800</TriggerData>
+		<DoNotDisplayStartPopup>1</DoNotDisplayStartPopup>
+		<!--<Description>Your fame has grown far and wide, attracting Legendary Heroes to your cause.  But only one will join your service.</Description>-->
+		<!--<FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>-->
+		<Treasure>
+			<GameModifier InternalName="Reward1">
+				<ModType>Player</ModType>
+				<Attribute>RecruitFreeChampion</Attribute>
+				<Value>-1</Value>
+			</GameModifier>
+		</Treasure>
+		<QuestObjectiveDef>
+			<ObjectiveID>0</ObjectiveID>
+			<QuestEnd>1</QuestEnd>
+		</QuestObjectiveDef>
+	</QuestDef>
+	<QuestDef InternalName="GameEvent_Champion_7">
+		<DisplayName>Champions Available</DisplayName>
+		<QuestClass>Minor</QuestClass>
+		<Repeatable>0</Repeatable>
+		<TriggerType>FactionResourceLevel</TriggerType>
+		<TriggerStringData>Fame</TriggerStringData>
+		<TriggerData>1600</TriggerData>
+		<DoNotDisplayStartPopup>1</DoNotDisplayStartPopup>
+		<!--<Description>Your fame has grown far and wide, attracting Legendary Heroes to your cause.  But only one will join your service.</Description>-->
+		<!--<FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>-->
+		<Treasure>
+			<GameModifier InternalName="Reward1">
+				<ModType>Player</ModType>
+				<Attribute>RecruitFreeChampion</Attribute>
+				<Value>-1</Value>
+			</GameModifier>
+		</Treasure>
+		<QuestObjectiveDef>
+			<ObjectiveID>0</ObjectiveID>
+			<QuestEnd>1</QuestEnd>
+		</QuestObjectiveDef>
+	</QuestDef>
+	<QuestDef InternalName="GameEvent_Champion_8">
+		<DisplayName>Champions Available</DisplayName>
+		<QuestClass>Minor</QuestClass>
+		<Repeatable>0</Repeatable>
+		<TriggerType>FactionResourceLevel</TriggerType>
+		<TriggerStringData>Fame</TriggerStringData>
+		<TriggerData>3200</TriggerData>
+		<DoNotDisplayStartPopup>1</DoNotDisplayStartPopup>
+		<!--<Description>Your fame has grown far and wide, attracting Legendary Heroes to your cause.  But only one will join your service.</Description>-->
+		<!--<FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>-->
+		<Treasure>
+			<GameModifier InternalName="Reward1">
+				<ModType>Player</ModType>
+				<Attribute>RecruitFreeChampion</Attribute>
+				<Value>-1</Value>
+			</GameModifier>
+		</Treasure>
+		<QuestObjectiveDef>
+			<ObjectiveID>0</ObjectiveID>
+			<QuestEnd>1</QuestEnd>
+		</QuestObjectiveDef>
+	</QuestDef>
+	<QuestDef InternalName="GameEvent_Champion_9">
+		<DisplayName>Champions Available</DisplayName>
+		<QuestClass>Minor</QuestClass>
+		<Repeatable>0</Repeatable>
+		<TriggerType>FactionResourceLevel</TriggerType>
+		<TriggerStringData>Fame</TriggerStringData>
+		<TriggerData>6400</TriggerData>
+		<DoNotDisplayStartPopup>1</DoNotDisplayStartPopup>
+		<!--<Description>Your fame has grown far and wide, attracting Legendary Heroes to your cause.  But only one will join your service.</Description>-->
+		<!--<FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>-->
+		<Treasure>
+			<GameModifier InternalName="Reward1">
+				<ModType>Player</ModType>
+				<Attribute>RecruitFreeChampion</Attribute>
+				<Value>-1</Value>
+			</GameModifier>
+		</Treasure>
+		<QuestObjectiveDef>
+			<ObjectiveID>0</ObjectiveID>
+			<QuestEnd>1</QuestEnd>
+		</QuestObjectiveDef>
+	</QuestDef>
+</Quests>
