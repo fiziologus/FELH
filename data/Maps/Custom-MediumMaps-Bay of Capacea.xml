@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ElementalMap>
 	<DisplayName>Medium</DisplayName>
 	<MapVersion>1</MapVersion>
@@ -4565,42 +4565,42 @@
 	
 	<!--SHARDS-->
 	
-	<MapObjectData>20,11,0,Air Shard,AirShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>75,7,0,Air Shard,AirShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>5,31,0,Death Shard,DeathShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>25,42,0,Earth Shard,EarthShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>62,66,0,Water Shard,WaterShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>20,11,0,Осколок Воздуха,AirShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>75,7,0,Осколок Воздуха,AirShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>5,31,0,Осколок Смерти,DeathShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>25,42,0,Осколок Земли,EarthShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>62,66,0,Осколок Воды,WaterShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--RESOURCES-->
 	
-	<MapObjectData>26,49,3,Howling Chasm,HowlingChasm,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>86,50,3,Iru T'Alavar,IruTAlavar,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>61,15,3,Temple Ruins,TempleRuins,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>83,50,3,Temple Ruins,TempleRuins,7,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>5,50,3,Crystal Crag,Crystal,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>21,75,3,Crystal Crag,Crystal,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>8,24,3,Fruit Grove,Fruit,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>80,8,3,Gold Deposit,GoldDepositBonusType,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>40,11,3,Gold Deposit,GoldDepositBonusType,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>5,9,3,Gold Deposit,GoldDepositBonusType,5,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>43,56,3,Prestigious Location,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>29,38,3,Twilight Bees,BeeHive,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>79,22,3,Twilight Bees,BeeHive,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>86,37,3,Twilight Bees,BeeHive,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>62,59,3,Twilight Bees,BeeHive,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>17,41,3,Wild Grain,Grain,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>75,25,3,Wild Grain,Grain,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>84,47,3,Wild Grain,Grain,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>55,54,3,Wild Grain,Grain,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>32,56,3,Wild Grain,Grain,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>26,49,3,Воющий Разлом,HowlingChasm,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>86,50,3,Иру Т'Алавар,IruTAlavar,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>61,15,3,Развалины Храма,TempleRuins,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>83,50,3,Развалины Храма,TempleRuins,7,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>5,50,3,Кристальный Утёс,Crystal,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>21,75,3,Кристальный Утёс,Crystal,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>8,24,3,Фруктовая Роща,Fruit,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>80,8,3,Золотая Жила,GoldDepositBonusType,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>40,11,3,Золотая Жила,GoldDepositBonusType,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>5,9,3,Золотая Жила,GoldDepositBonusType,5,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>43,56,3,Престижная Локация,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>29,38,3,Сумеречные Пчёлы,BeeHive,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>79,22,3,Сумеречные Пчёлы,BeeHive,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>86,37,3,Сумеречные Пчёлы,BeeHive,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>62,59,3,Сумеречные Пчёлы,BeeHive,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>17,41,3,Дикие Злаки,Grain,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>75,25,3,Дикие Злаки,Grain,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>84,47,3,Дикие Злаки,Grain,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>55,54,3,Дикие Злаки,Grain,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>32,56,3,Дикие Злаки,Grain,4,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--GOODIES-->
 	
-	<MapObjectData>25,11,2,Skeleton,Treasure_DrakesBones,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>30,10,2,Equipment Cache,Treasure_EquipmentCache,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>43,10,2,Abandoned Caravan,Treasure_Caravan,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>46,13,2,Skeleton,Treasure_DrakesBones,3,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>40,21,2,Treasure Chest,Treasure_Chest,1,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>52,13,2,Shattered Statue,Treasure_CrumbledStatue,7,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>57,13,2,Treasure Chest,Treasure_Chest,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>25,11,2,Скелет,Treasure_DrakesBones,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>30,10,2,Тайник,Treasure_EquipmentCache,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>43,10,2,Брошенный Караван,Treasure_Caravan,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>46,13,2,Скелет,Treasure_DrakesBones,3,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>40,21,2,Сундук Сокровищ,Treasure_Chest,1,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>52,13,2,Разрушенная Статуя,Treasure_CrumbledStatue,7,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>57,13,2,Сундук Сокровищ,Treasure_Chest,0,0,-1,-1,1,1.000000,1</MapObjectData>
 </ElementalMap>

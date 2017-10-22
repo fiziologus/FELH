@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ElementalMap>
 	<DisplayName>Small</DisplayName>
 	<MapVersion>1</MapVersion>
@@ -2933,26 +2933,26 @@
 	
 	<!--RESOURCES-->
 	
-	<MapObjectData>31,24,3,Clay Pit,Clay,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>10,16,3,Crystal Crag,Crystal,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>28,54,3,Crystal Crag,Crystal,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>52,31,3,Fruit Grove,Fruit,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>45,33,3,Wild Horses,Horses,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>58,28,3,Wild Horses,Horses,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>34,37,3,Iron Ore,IronOre,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>35,15,3,Iron Ore,IronOre,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>50,22,3,Prestigious Location,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>42,49,3,Prestigious Location,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>44,19,3,Wild Wargs,Wargs,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>31,24,3,Глиняный Карьер,Clay,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>10,16,3,Кристальный Утёс,Crystal,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>28,54,3,Кристальный Утёс,Crystal,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>52,31,3,Фруктовая Роща,Fruit,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>45,33,3,Дикий Табун,Horses,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>58,28,3,Дикий Табун,Horses,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>34,37,3,Железная Руда,IronOre,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>35,15,3,Железная Руда,IronOre,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>50,22,3,Престижная Локация,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>42,49,3,Престижная Локация,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>44,19,3,Варги,Wargs,0,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--GOODIES-->
 	
-	<MapObjectData>8,21,2,Scroll Cache,Treasure_ScrollCache,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>9,29,2,Ancient Battlefield,GH_Quest_Battlefield,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>12,34,2,Treasure Chest,Treasure_Chest,3,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>17,41,2,Skeleton,Treasure_DrakesBones,3,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>20,47,2,Equipment Cache,Treasure_EquipmentCache,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>53,12,2,Treasure Chest,Treasure_Chest,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>61,13,2,Abandoned House,Treasure_RuinedHouse,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>65,14,2,Lost Library,Treasure_LostLibrary,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>8,21,2,Тайник со свитками,Treasure_ScrollCache,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>9,29,2,Древнее Поле Битвы,GH_Quest_Battlefield,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>12,34,2,Сундук Сокровищ,Treasure_Chest,3,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>17,41,2,Скелет,Treasure_DrakesBones,3,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>20,47,2,Тайник,Treasure_EquipmentCache,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>53,12,2,Сундук Сокровищ,Treasure_Chest,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>61,13,2,Заброшенный Дом,Treasure_RuinedHouse,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>65,14,2,Затерянная Библиотека,Treasure_LostLibrary,4,0,-1,-1,1,1.000000,1</MapObjectData>
 </ElementalMap>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ElementalMap>
 	<DisplayName>Medium</DisplayName>
 	<MapVersion>1</MapVersion>
@@ -4621,31 +4621,31 @@
 	
 	<!--SHARDS-->
 	
-	<MapObjectData>77,15,0,Air Shard,AirShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>47,75,0,Death Shard,DeathShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>18,15,0,Earth Shard,EarthShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>47,45,0,Fire Shard,FireShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>17,72,0,Life Shard,LifeShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>22,32,0,Life Shard,LifeShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>86,57,0,Water Shard,WaterShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>77,15,0,Осколок Воздуха,AirShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>47,75,0,Осколок Смерти,DeathShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>18,15,0,Осколок Земли,EarthShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>47,45,0,Осколок Огня,FireShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>17,72,0,Осколок Жизни,LifeShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>22,32,0,Осколок Жизни,LifeShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>86,57,0,Осколок Воды,WaterShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--RESOURCES-->
 	
-	<MapObjectData>73,70,3,Crystal Crag,Crystal,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>42,4,3,Prestigious Location,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>68,20,3,Prestigious Location,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>73,70,3,Кристальный Утёс,Crystal,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>42,4,3,Престижная Локация,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>68,20,3,Престижная Локация,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--GOODIES-->
 	
-	<MapObjectData>6,60,2,Lost Library,Treasure_LostLibrary,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>25,19,2,Scroll Cache,Treasure_ScrollCache,7,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>34,7,2,Lost Library,Treasure_LostLibrary,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>33,36,2,Lost Library,Treasure_LostLibrary,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>34,72,2,Lost Library,Treasure_LostLibrary,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>53,3,2,Scroll Cache,Treasure_ScrollCache,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>63,7,2,Lost Library,Treasure_LostLibrary,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>62,74,2,Lost Library,Treasure_LostLibrary,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>67,33,2,Scroll Cache,Treasure_ScrollCache,5,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>90,46,2,Lost Library,Treasure_LostLibrary,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>85,64,2,Scroll Cache,Treasure_ScrollCache,1,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>6,60,2,Затерянная Библиотека,Treasure_LostLibrary,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>25,19,2,Тайник со свитками,Treasure_ScrollCache,7,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>34,7,2,Затерянная Библиотека,Treasure_LostLibrary,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>33,36,2,Затерянная Библиотека,Treasure_LostLibrary,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>34,72,2,Затерянная Библиотека,Treasure_LostLibrary,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>53,3,2,Тайник со свитками,Treasure_ScrollCache,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>63,7,2,Затерянная Библиотека,Treasure_LostLibrary,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>62,74,2,Затерянная Библиотека,Treasure_LostLibrary,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>67,33,2,Тайник со свитками,Treasure_ScrollCache,5,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>90,46,2,Затерянная Библиотека,Treasure_LostLibrary,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>85,64,2,Затерянная Библиотека,Treasure_ScrollCache,1,0,-1,-1,1,1.000000,1</MapObjectData>
 </ElementalMap>

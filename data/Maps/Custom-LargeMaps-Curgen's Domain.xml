@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ElementalMap>
 	<DisplayName>Large</DisplayName>
 	<MapVersion>1</MapVersion>
@@ -5352,33 +5352,33 @@
 	
 	<!--SHARDS-->
 	
-	<MapObjectData>25,34,0,Air Shard,AirShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>12,18,0,Air Shard,AirShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>86,26,0,Fire Shard,FireShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>72,63,0,Water Shard,WaterShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>38,82,0,Water Shard,WaterShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>25,34,0,Осколок Воздуха,AirShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>12,18,0,Осколок Воздуха,AirShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>86,26,0,Осколок Огня,FireShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>72,63,0,Осколок Воды,WaterShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>38,82,0,Осколок Воды,WaterShard,0,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--RESOURCES-->
 	
-	<MapObjectData>35,27,3,Howling Chasm,HowlingChasm,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>43,62,3,Iru T'Alavar,IruTAlavar,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>73,29,3,Pillar of Mascrinthus,PillarOfMascrinthus,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>68,87,3,Puraudrah,Puraudrah,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>8,16,3,Temple of the Dragon,TempleOfTheDragon,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>30,10,3,Temple Ruins,TempleRuins,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>45,61,3,Temple Ruins,TempleRuins,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>73,71,3,Gold Deposit,GoldDepositBonusType,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>28,40,3,Gold Deposit,GoldDepositBonusType,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>9,63,3,Prestigious Location,ScenicViewBonusType,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>28,4,3,Prestigious Location,ScenicViewBonusType,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>64,76,3,Prestigious Location,ScenicViewBonusType,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>94,87,3,Prestigious Location,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>35,27,3,Воющий Разлом,HowlingChasm,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>43,62,3,Иру Т'Алавар,IruTAlavar,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>73,29,3,Столп Маскритуса,PillarOfMascrinthus,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>68,87,3,Пураудра,Puraudrah,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>8,16,3,Храм Дракона,TempleOfTheDragon,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>30,10,3,Развалины Храма,TempleRuins,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>45,61,3,Развалины Храма,TempleRuins,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>73,71,3,Золотая Жила,GoldDepositBonusType,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>28,40,3,Золотая Жила,GoldDepositBonusType,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>9,63,3,Престижная локация,ScenicViewBonusType,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>28,4,3,Престижная локация,ScenicViewBonusType,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>64,76,3,Престижная локация,ScenicViewBonusType,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>94,87,3,Престижная локация,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--MONSTER LAIRS-->
 	
-	<MapObjectData>25,72,5,Lair of the Snow Ogre,Lair_Garrote,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>36,76,5,Lair of the Snow Ogre,Lair_Garrote,5,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>67,81,5,Lair of the Snow Ogre,Lair_Garrote,5,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>64,90,5,Lair of the Snow Ogre,Lair_Garrote,7,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>77,90,5,Lair of the Snow Ogre,Lair_Garrote,1,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>25,72,5,Логово Снежного Огра,Lair_Garrote,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>36,76,5,Логово Снежного Огра,Lair_Garrote,5,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>67,81,5,Логово Снежного Огра,Lair_Garrote,5,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>64,90,5,Логово Снежного Огра,Lair_Garrote,7,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>77,90,5,Логово Снежного Огра,Lair_Garrote,1,0,-1,-1,1,1.000000,1</MapObjectData>
 </ElementalMap>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ElementalMap>
 	<DisplayName>Tiny</DisplayName>
 	<MapVersion>1</MapVersion>
@@ -1740,19 +1740,19 @@
 	
 	<!--RESOURCES-->
 	
-	<MapObjectData>44,28,3,Temple Ruins,TempleRuins,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>19,37,3,Crystal Crag,Crystal,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>45,17,3,Gold Deposit,GoldDepositBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>57,29,3,Gold Deposit,GoldDepositBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>9,32,3,Prestigious Location,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>44,28,3,Развалины Храма,TempleRuins,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>19,37,3,Кристальный Утёс,Crystal,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>45,17,3,Золотая Жила,GoldDepositBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>57,29,3,Золотая Жила,GoldDepositBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>9,32,3,Престижная Локация,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--GOODIES-->
 	
-	<MapObjectData>34,8,2,Scroll Cache,Treasure_ScrollCache,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>40,16,2,Lost Library,Treasure_LostLibrary,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>53,30,2,Lost Library,Treasure_LostLibrary,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>34,8,2,Тайник со Свитками,Treasure_ScrollCache,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>40,16,2,Затерянная Библиотека,Treasure_LostLibrary,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>53,30,2,Затерянная Библиотека,Treasure_LostLibrary,0,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--MONSTER LAIRS-->
 	
-	<MapObjectData>29,28,5,Den of the Silt Skath,Lair_SiltSkath,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>29,28,5,Берлога Илистого Ската,Lair_SiltSkath,6,0,-1,-1,1,1.000000,1</MapObjectData>
 </ElementalMap>
