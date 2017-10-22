@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ElementalMap>
 	<DisplayName>D_Small</DisplayName>
 	<MapVersion>1</MapVersion>
@@ -3089,32 +3089,32 @@
 	
 	<!--SHARDS-->
 	
-	<MapObjectData>38,16,0,Air Shard,AirShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>68,39,0,Air Shard,AirShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>5,18,0,Death Shard,DeathShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>30,36,0,Fire Shard,FireShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>58,17,0,Fire Shard,FireShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>5,23,0,Life Shard,LifeShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>73,7,0,Water Shard,WaterShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>64,49,0,Water Shard,WaterShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>89,7,0,Water Shard,WaterShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>38,16,0,Осколок Воздуха,AirShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>68,39,0,Осколок Воздуха,AirShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>5,18,0,Осколок Смерти,DeathShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>30,36,0,Осколок Огня,FireShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>58,17,0,Осколок Огня,FireShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>5,23,0,Осколок Жизни,LifeShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>73,7,0,Осколок Воды,WaterShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>64,49,0,Осколок Воды,WaterShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>89,7,0,Осколок Воды,WaterShard,6,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--RESOURCES-->
 	
-	<MapObjectData>37,27,3,Howling Chasm,HowlingChasm,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>51,46,3,Temple Ruins,TempleRuins,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>85,19,3,Prestigious Location,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>42,58,3,Prestigious Location,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>37,27,3,Воющий Разлом,HowlingChasm,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>51,46,3,Развалины Храма,TempleRuins,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>85,19,3,Престижная Локация,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>42,58,3,Престижная Локация,ScenicViewBonusType,0,0,-1,-1,1,1.000000,1</MapObjectData>
 	
 	<!--GOODIES-->
 	
-	<MapObjectData>18,22,2,Skeleton,Treasure_DrakesBones,6,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>41,25,2,Lost Library,Treasure_LostLibrary,4,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>32,40,2,Skeleton,Treasure_DrakesBones,1,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>37,55,2,Shattered Statue,Treasure_CrumbledStatue,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>40,57,2,Misplaced Wares,Treasure_LostCrates,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>42,57,2,Scroll Cache,Treasure_ScrollCache,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>48,27,2,Skeleton,Treasure_DrakesBones,0,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>60,41,2,Skeleton,Treasure_DrakesBones,2,0,-1,-1,1,1.000000,1</MapObjectData>
-	<MapObjectData>65,37,2,Scroll Cache,Treasure_ScrollCache,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>18,22,2,Скелет,Treasure_DrakesBones,6,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>41,25,2,Затерянная Библиотека,Treasure_LostLibrary,4,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>32,40,2,Скелет,Treasure_DrakesBones,1,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>37,55,2,Разрушенная Статуя,Treasure_CrumbledStatue,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>40,57,2,Потерянные Товары,Treasure_LostCrates,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>42,57,2,Тайник со свитками,Treasure_ScrollCache,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>48,27,2,Скелет,Treasure_DrakesBones,0,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>60,41,2,Скелет,Treasure_DrakesBones,2,0,-1,-1,1,1.000000,1</MapObjectData>
+	<MapObjectData>65,37,2,Тайник со свитками,Treasure_ScrollCache,2,0,-1,-1,1,1.000000,1</MapObjectData>
 </ElementalMap>
