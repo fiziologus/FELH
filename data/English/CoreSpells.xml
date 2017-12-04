@@ -13638,6 +13638,7 @@
         <SpellTargetType>EnemyTrainedUnit</SpellTargetType>
         <SpellTargetCreatureType>Men</SpellTargetCreatureType>
         <IsResistable>1</IsResistable>
+        <IsSpecialAbility>1</IsSpecialAbility>
         <Range>1</Range>
         <Prereq>
             <Type>AbilityBonusOption</Type>

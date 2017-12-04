@@ -578,9 +578,6 @@
             <DisplayName>Archers</DisplayName>
             <Description>Grants access to a unique set of bows that don't require metal and have a higher initiative and attack than the bows they replace.  Additionally, the Ram's Horn Longbow ignores 50% of the victim's defense.</Description>
             <Icon>Ability_Archers_Icon.png</Icon>
-            <GameModifier>
-                <Provides>Grants access to a unique set of bows that don't require metal and have a higher initiative and attack than the bows they replace.  Additionally, the Ram's Horn Longbow ignores 50% of the victim's defense.</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -759,9 +756,6 @@
             <DisplayName>Assassin's Tools</DisplayName>
             <Description>Unlocks the Poison Vial accessory (which adds poison damage to the wielder's attack) as well as the Skath Claw (a Broadsword with higher attack and initiative) and the Scimitar (a Longsword with the backswing ability).</Description>
             <Icon>Ability_Assassin_Icon.png</Icon>
-            <GameModifier>
-                <Provides>Unlocks the Poison Vial accessory (which adds poison damage to the wielder's attack) as well as the Skath Claw (a Broadsword with higher attack and initiative) and the Scimitar (a Longsword with the backswing ability).</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -959,9 +953,6 @@
             <DisplayName>Binding</DisplayName>
             <Description>This faction gains Burning Wraiths, Crow Demons, Mirror Elementals, Cyndrum Demons and Grave Elementals from shard shrines.</Description>
             <Icon>Ability_Binding_Icon.png</Icon>
-            <GameModifier>
-                <Provides>This faction gains Burning Wraiths, Crow Demons, Mirror Elementals, Cyndrum Demons and Grave Elementals from shard shrines.</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -1825,9 +1816,6 @@
             <DisplayName>Cult of a Hundred Eyes</DisplayName>
             <Description>This faction can train Widows, Harridans and Hoarder spiders in their cities</Description>
             <Icon>Ability_Webkin_Icon.png</Icon>
-            <GameModifier>
-                <Provides>This faction can train Widows, Harridans and Hoarder spiders in their cities</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -2180,9 +2168,6 @@
             <Description>Units defending cities get +10% per city level to Accuracy and Defense.  Unlocks the Bronze Shield and one handed spears.</Description>
             <Icon>Ability_Defensive_Icon.png</Icon>
             <GameModifier>
-                <Provides>Unlocks the Bronze Shield and one handed spears</Provides>
-            </GameModifier>
-            <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>AbilityBonus</Attribute>
                 <StrVal>A_Stationed_UnitStat_Accuracy</StrVal>
@@ -2466,9 +2451,6 @@
             <Icon>Ability_EarthApprentice_Icon.png</Icon>
             <PerkTreePosX>3</PerkTreePosX>
             <PerkTreePosY>1</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spells</Provides>
-            </GameModifier>
             <Cost>2</Cost>
             <SpellbookRank>1</SpellbookRank>
             <Type>Spell</Type>
@@ -2489,9 +2471,6 @@
             <Icon>Ability_EarthDisciple_Icon.png</Icon>
             <PerkTreePosX>4</PerkTreePosX>
             <PerkTreePosY>1</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spells</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <SpellbookRank>2</SpellbookRank>
             <Type>Spell</Type>
@@ -2516,9 +2495,6 @@
             <Icon>Ability_EarthMage_Icon.png</Icon>
             <PerkTreePosX>5</PerkTreePosX>
             <PerkTreePosY>1</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spells</Provides>
-            </GameModifier>
             <MinimumLevel>5</MinimumLevel>
             <Type>Spell</Type>
             <UpgradePathID>Earth</UpgradePathID>
@@ -2542,9 +2518,6 @@
             <Icon>Ability_EarthExpert_Icon.png</Icon>
             <PerkTreePosX>6</PerkTreePosX>
             <PerkTreePosY>1</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spells</Provides>
-            </GameModifier>
             <MinimumLevel>7</MinimumLevel>
             <Type>Spell</Type>
             <UpgradePathID>Earth</UpgradePathID>
@@ -2568,9 +2541,6 @@
             <Icon>Ability_EarthMaster_Icon.png</Icon>
             <PerkTreePosX>7</PerkTreePosX>
             <PerkTreePosY>1</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spells</Provides>
-            </GameModifier>
             <MinimumLevel>9</MinimumLevel>
             <Type>Spell</Type>
             <UpgradePathID>Earth</UpgradePathID>
@@ -2662,9 +2632,6 @@
             <DisplayName>Enchanters</DisplayName>
             <Description>Unlocks the Sindarian Staff, which gives additional Dodge, and the Leht Staff, which fires lightning.  It also unlocks the Scrying Pool improvement which gives the city an extra Essence.</Description>
             <Icon>Ability_Runemasters_Icon.png</Icon>
-            <GameModifier>
-                <Provides>Unlocks the Sindarian Staff, which gives additional Dodge, and the Leht Staff, which fires lightning</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -3944,9 +3911,6 @@
             <DisplayName>Axe Mastery</DisplayName>
             <Description>Unlocks dual wield version of all the axes.</Description>
             <Icon>Ability_GreatAxes_Icon.png</Icon>
-            <GameModifier>
-                <Provides>Unlocks dual wield version of all the axes</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -3960,9 +3924,6 @@
             <DisplayName>Great Hammers</DisplayName>
             <Description>Unlocks the War Club, which has a higher attack against Men and Fallen, the Battle Hammer, which has a higher attack than a Warhammer, and the Sledge, a Maul with higher attack.</Description>
             <Icon>Ability_GreatHammers_Icon.png</Icon>
-            <GameModifier>
-                <Provides>Unlocks the War Club, which has a higher attack against Men and Fallen, the Battle Hammer, which has a higher attack than a Warhammer, and the Sledge, a Maul with higher attack</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -5062,9 +5023,6 @@
             <Description>Caravans are immune to attack.  This also gives access to the Bazaar city improvement and the Warhorse, which boosts the riders attack.</Description>
             <Icon>Ability_RoadWarriors_Icon.png</Icon>
             <GameModifier>
-                <Provides>Unlocks the Bazaar city improvement and the Warhorse, which boosts the riders attack</Provides>
-            </GameModifier>
-            <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>UnitAttackImmunity</Attribute>
                 <StrVal>TraderTest</StrVal>
@@ -5374,9 +5332,6 @@
             <DisplayName>Light Plate</DisplayName>
             <Description>This faction crafts Light Plate Mail instead of Chainmail with the Armor technology.  Light Plate has better defense but is heavier than Chainmail.</Description>
             <Icon>Ability_LightPlate_Icon.png</Icon>
-            <GameModifier>
-                <Provides>This faction crafts Light Plate Mail instead of Chainmail with the Armor technology.  Light Plate has better defense but is heavier than Chainmail.</Provides>
-            </GameModifier>
             <Cost>0</Cost>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -5734,9 +5689,6 @@
             <DisplayName>Masterwork Chainmail</DisplayName>
             <Description>This faction crafts Masterwork Chainmail instead of Plate Mail armor at the Heavy Armor technology.  Masterwork Chainmail has a lower defense but is lighter and cheaper to craft than Plate Mail.</Description>
             <Icon>Ability_MasterworkChainmail_Icon.png</Icon>
-            <GameModifier>
-                <Provides>This faction crafts Masterwork Chainmail instead of Plate Mail armor at the Heavy Armor technology.  Masterwork Chainmail has a lower defense but is lighter and cheaper to craft than Plate Mail.</Provides>
-            </GameModifier>
             <Cost>0</Cost>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -8579,7 +8531,9 @@
             <PerkTreePosY>2</PerkTreePosY>
             <GameModifier>
                 <ModType>Unit</ModType>
-                <Provides>Unlocks the following spell</Provides>
+                <Attribute>UnlockCombatAbility</Attribute>
+                <StrVal>FirstAid</StrVal>
+                <Provides>Unlocks the following ability</Provides>
             </GameModifier>
             <IsCombatAbility>1</IsCombatAbility>
             <Type>Spell</Type>
@@ -9049,13 +9003,11 @@
         </AbilityBonusOption>
     </AbilityBonus>
     <AbilityBonus InternalName="Spell_ObsessionAbility">
+        <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
         <AbilityBonusOption InternalName="Spell_Obsession">
             <DisplayName>Obsession</DisplayName>
             <Description>Allows the unit to cast Obsession</Description>
             <Icon>S_EnchantedHammers_Icon.png</Icon>
-            <GameModifier>
-                <Provides>+3 Production per Essence and +1 Gildar in the enchanted city</Provides>
-            </GameModifier>
             <IsCombatAbility>1</IsCombatAbility>
             <AIData AIPersonality="AI_General">
                 <AIPriority>5</AIPriority>
@@ -9961,9 +9913,6 @@
             <DisplayName>Stealthy</DisplayName>
             <Description>Monsters less likely to attack</Description>
             <Icon>Ability_Stealthy_Icon.png</Icon>
-            <GameModifier>
-                <Provides>Monsters less likely to attack</Provides>
-            </GameModifier>
             <AdditionalTrainingTurns>8</AdditionalTrainingTurns>
             <Type>Defensive</Type>
             <AIData AIPersonality="AI_General">
@@ -10113,9 +10062,6 @@
             <Icon>Ability_SummonAirElemental_Icon.png</Icon>
             <PerkTreePosX>3</PerkTreePosX>
             <PerkTreePosY>3</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Type>Spell</Type>
             <Prereq>
                 <Type>AbilityBonusOption</Type>
@@ -10136,9 +10082,6 @@
             <Icon>Ability_SummonCragSpawn_Icon.png</Icon>
             <PerkTreePosX>5</PerkTreePosX>
             <PerkTreePosY>2</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Type>Spell</Type>
             <Prereq>
                 <Type>AbilityBonusOption</Type>
@@ -10177,9 +10120,6 @@
             <Icon>Ability_SummonEarthElemental_Icon.png</Icon>
             <PerkTreePosX>6</PerkTreePosX>
             <PerkTreePosY>2</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Type>Spell</Type>
             <Prereq>
                 <Type>AbilityBonusOption</Type>
@@ -10200,9 +10140,6 @@
             <Icon>Ability_SummonFireElemental_Icon.png</Icon>
             <PerkTreePosX>6</PerkTreePosX>
             <PerkTreePosY>4</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Type>Spell</Type>
             <Prereq>
                 <Type>AbilityBonusOption</Type>
@@ -10223,9 +10160,6 @@
             <Icon>Ability_SummonGraveElemental_Icon.png</Icon>
             <PerkTreePosX>7</PerkTreePosX>
             <PerkTreePosY>2</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <MinimumLevel>10</MinimumLevel>
             <Type>Spell</Type>
@@ -10248,9 +10182,6 @@
             <Icon>Ability_SummonIceElemental_Icon.png</Icon>
             <PerkTreePosX>1</PerkTreePosX>
             <PerkTreePosY>3</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <Type>Spell</Type>
             <Prereq>
@@ -10272,9 +10203,6 @@
             <Icon>Ability_SummonIgnys_Icon.png</Icon>
             <PerkTreePosX>5</PerkTreePosX>
             <PerkTreePosY>4</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <Type>Spell</Type>
             <Prereq>
@@ -10296,9 +10224,6 @@
             <Icon>Ability_SummonLightbringer_Icon.png</Icon>
             <PerkTreePosX>2</PerkTreePosX>
             <PerkTreePosY>4</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Type>Spell</Type>
             <Prereq>
                 <Type>Allegiance</Type>
@@ -10323,9 +10248,6 @@
             <Icon>Ability_SummonMastery_Icon.png</Icon>
             <PerkTreePosX>7</PerkTreePosX>
             <PerkTreePosY>4</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <MinimumLevel>15</MinimumLevel>
             <Type>Spell</Type>
@@ -10348,9 +10270,6 @@
             <Icon>Ability_SummonSentinel_Icon.png</Icon>
             <PerkTreePosX>5</PerkTreePosX>
             <PerkTreePosY>4</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Type>Spell</Type>
             <Prereq>
                 <Type>AbilityBonusOption</Type>
@@ -10371,9 +10290,6 @@
             <Icon>Ability_SummonWisp_Icon.png</Icon>
             <PerkTreePosX>1</PerkTreePosX>
             <PerkTreePosY>4</PerkTreePosY>
-            <GameModifier>
-                <Provides>Unlocks the following spell</Provides>
-            </GameModifier>
             <Type>Spell</Type>
             <Prereq>
                 <Type>Allegiance</Type>
@@ -10663,9 +10579,6 @@
             <Description>Unlocks Tomes which allow the reader to learn Air, Earth, Fire and Water magic, and the Arcane Monolith spell, which allows the player to place outposts with a spell</Description>
             <Icon>Ability_Enchanters_Icon.png</Icon>
             <GameModifier>
-                <Provides>Unlocks Tomes which allow the reader to learn Air, Earth, Fire and Water magic</Provides>
-            </GameModifier>
-            <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>UnlockSpell</Attribute>
                 <StrVal>ArcaneMonolith</StrVal>
@@ -10856,9 +10769,6 @@
             <DisplayName>Train Golems</DisplayName>
             <Description>This faction can train Iron Golems with the Blacksmithing technology.  Iron Golems are powerful defenders and able to withstand inhuman amounts of damage before being destroyed.</Description>
             <Icon>Ability_TrainIronGolem_Icon.png</Icon>
-            <GameModifier>
-                <Provides>This faction can train Iron Golems with the Blacksmithing technology.  Iron Golems are powerful defenders and able to withstand inhuman amounts of damage before being destroyed.</Provides>
-            </GameModifier>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
                 <AIPriority>5</AIPriority>
@@ -10870,9 +10780,6 @@
             <DisplayName>Train Henchmen</DisplayName>
             <Description>This faction can train Henchmen with the Heroes technology.  Henchmen level and can use equipment like champions.</Description>
             <Icon>Ability_TrainHenchmen_Icon.png</Icon>
-            <GameModifier>
-                <Provides>This faction can train Henchmen with the Heroes technology.  Henchmen level and can use equipment like champions.</Provides>
-            </GameModifier>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
                 <AIPriority>5</AIPriority>
@@ -10884,9 +10791,6 @@
             <DisplayName>Train Juggernauts</DisplayName>
             <Description>This faction can train Juggernauts with the Juggernaut technology.  Juggernauts are powerful attackers and inflict splash damage on surrounding allies and enemies.</Description>
             <Icon>Ability_TrainJuggernaut_Icon.png</Icon>
-            <GameModifier>
-                <Provides>This faction can train Juggernauts with the Juggernaut technology.  Juggernauts are powerful attackers and inflict splash damage on surrounding allies and enemies.</Provides>
-            </GameModifier>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
                 <AIPriority>5</AIPriority>
@@ -10898,9 +10802,6 @@
             <DisplayName>Train Slaves</DisplayName>
             <Description>This faction can train Slaves.  Slaves don't cost wages and cost less labor to produce but are weaker than normal units.</Description>
             <Icon>Ability_TrainSlaves_Icon.png</Icon>
-            <GameModifier>
-                <Provides>This faction can train Slaves.  Slaves don't cost wages and cost less labor to produce but are weaker than normal units.</Provides>
-            </GameModifier>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
                 <AIPriority>5</AIPriority>
@@ -11590,9 +11491,6 @@
             <DisplayName>Wanderlust</DisplayName>
             <Description>Unlocks Quest Maps, Athican Leather Armor, the Fending Blade and the Athican Longsword.</Description>
             <Icon>Ability_Wanderlust_Icon.png</Icon>
-            <GameModifier>
-                <Provides>Unlocks Quest Maps, Athican Leather Armor, the Fending Blade and the Athican Longsword.</Provides>
-            </GameModifier>
             <Cost>1</Cost>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -12164,9 +12062,6 @@
             <Description>Player starts with two Bandit units and has the ability to convert bandits</Description>
             <Icon>Ability_Thief_Icon.png</Icon>
             <GameModifier>
-                <Provides>Unlocks the Recruit Bandit spell</Provides>
-            </GameModifier>
-            <GameModifier>
                 <ModType>Map</ModType>
                 <Attribute>SummonUnit</Attribute>
                 <StrVal>Bandit</StrVal>
@@ -12193,7 +12088,10 @@
             <Description>Can take control of enemy beasts</Description>
             <Icon>Ability_Beastlord_Icon.png</Icon>
             <GameModifier>
-                <Provides>Can take control of enemy beasts</Provides>
+                <ModType>Unit</ModType>
+                <Attribute>UnlockCombatAbility</Attribute>
+                <StrVal>Tame</StrVal>
+                <Provides>Take control of the targeted Beast unless it resists</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <Type>Aggressive</Type>
@@ -12206,6 +12104,9 @@
             <Description>+30% value of trades and the Silver Tongue ability</Description>
             <Icon>Ability_Diplomatic_Icon.png</Icon>
             <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>UnlockCombatAbility</Attribute>
+                <StrVal>SilverTongue</StrVal>
                 <Provides>Unlocks the Silver Tongue ability which allows the unit to convert trained units</Provides>
             </GameModifier>
             <GameModifier>
